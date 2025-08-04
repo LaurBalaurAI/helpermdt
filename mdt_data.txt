@@ -1,7 +1,7 @@
 {
   "codPenal": [
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.1",
       "titlu": "Limitele de viteză (Sub dublul vitezei legale)",
       "definitie": "Orice cetățean care conduce un vehicul, are obligația de a conduce cu viteza maximă de:\nOraș - 100\nDrum Național - 150\nAutostradă - 250\n\nÎncălcarea limitelor de viteze se sancționează, în acest caz, pentru depășiri sub dublul vitezei legale.",
@@ -14,11 +14,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a fost înregistrat de aparatul radar al echipajului de poliție conducând {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul},  {nr_inmatriculare}, cu viteza de {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
-      "modelDescriere2": "În plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
-      "modelDescriere3": "Mai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost înregistrat de aparatul radar al echipajului de poliție conducând {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul},  {nr_inmatriculare}, cu viteza de {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere2": "În plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere3": "Mai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
@@ -39,7 +39,7 @@
       "id": "cap.1_1.1_limitele_de_viteza_sub_dublul_legal"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.1",
       "titlu": "Limitele de viteză (Peste dublul vitezei legale)",
       "definitie": "Orice cetățean care conduce un vehicul, are obligația de a conduce cu viteza maximă de:\nOraș - 100\nDrum Național - 150\nAutostradă - 250\n\nÎncălcarea limitelor de viteze se sancționează, în acest caz, pentru depășiri peste dublul vitezei legale.",
@@ -52,11 +52,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a fost înregistrat de aparatul radar al echipajului de poliție conducând {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul},  {nr_inmatriculare}, cu viteza de {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
-      "modelDescriere2": "În plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
-      "modelDescriere3": "Mai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost înregistrat de aparatul radar al echipajului de poliție conducând {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul},  {nr_inmatriculare}, cu viteza de {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere2": "În plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere3": "Mai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
@@ -77,7 +77,7 @@
       "id": "cap.1_1.1_limitele_de_viteza_peste_dublul_legal"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.2",
       "titlu": "Conducere imprudentă",
       "definitie": "Conducere imprudentă înseamnă operarea unui vehicul în mod agresiv, neasigurarea în trafic, conducerea cu viteză excesivă sau punerea în pericol a propriei vieți sau a altor persoane.",
@@ -90,11 +90,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, efectuând manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
-      "modelDescriere2": "În plus, efectua manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
-      "modelDescriere3": "Mai mult, efectua manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, efectuând manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere2": "În plus, efectua manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere3": "Mai mult, efectua manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
         "cap.3_3.12_jaf",
@@ -116,7 +116,7 @@
       "id": "cap.1_1.2_conducere_imprudenta"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.3",
       "titlu": "Nerespectarea marcajelor rutiere",
       "definitie": "Orice conducător de autovehicul care nu respectă marcajele rutiere (STOP, linia dublă continuă, etc), poate fi pedepsit cu sancțiunile menționate.",
@@ -129,11 +129,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
-      "modelDescriere2": "În plus, conducea încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
-      "modelDescriere3": "Mai mult, conducea încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere2": "În plus, conducea încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere3": "Mai mult, conducea încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
         "cap.3_3.12_jaf",
@@ -155,7 +155,7 @@
       "id": "cap.1_1.3_nerespectarea_marcajelor_rutiere"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.4",
       "titlu": "Neacordare de Prioritate",
       "definitie": "Orice conducător de autovehicul care nu acordă prioritate vehiculelor și pietonilor care traversează, poate fi pedepsit cu sancțiunile menționate.",
@@ -168,11 +168,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, neacordând prioritate de trecere a altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
-      "modelDescriere2": "În plus, nu a acordat prioritate de trecere altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
-      "modelDescriere3": "Mai mult, nu a acordat prioritate de trecere altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, neacordând prioritate de trecere a altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
+      "descriere2": "În plus, nu a acordat prioritate de trecere altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
+      "descriere3": "Mai mult, nu a acordat prioritate de trecere altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
         "cap.3_3.12_jaf",
@@ -194,7 +194,7 @@
       "id": "cap.1_1.4_neacordare_de_prioritate"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.5",
       "titlu": "Nerespectarea semnelor de circulatie ale Polițistului",
       "definitie": "Orice conducător de autovehicul care nu respectă semnele de circulație impuse de Polițist poate fi pedepsit cu sancțiunile menționate.",
@@ -207,11 +207,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) aflat într-{tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând semnalele/indicațiile date de {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "modelDescriere2": "În plus, nu s-a conformat indicațiilor clare date de agentul de poliție  {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "modelDescriere3": "Mai mult, nu s-a conformat indicațiilor clare date de agentul de poliție  {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) aflat într-{tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând semnalele/indicațiile date de {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere2": "În plus, nu s-a conformat indicațiilor clare date de agentul de poliție  {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere3": "Mai mult, nu s-a conformat indicațiilor clare date de agentul de poliție  {agent_op_grad_modal} {agent_op_nume_modal}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
         "cap.3_3.12_jaf",
@@ -233,7 +233,7 @@
       "id": "cap.1_1.5_nerespectarea_semnelor_politistului"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.6",
       "titlu": "Nerespectarea semnalelor luminoase și sonore",
       "definitie": "Orice șofer are obligația să oprească și să tragă cat mai aproape de bordura din dreapta dacă vede sau aude un vehicul al Poliției sau al Spitalului cu semnalele luminoase sau luminoase + sonore în funcțiune, având suficient spațiu. După ce acestea trec, șoferul poate relua deplasarea. Încălcarea acestei reguli reprezintă o contravenție și poate fi pedepsită cu sancțiunile menționate.",
@@ -246,11 +246,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
-      "modelDescriere2": "În plus, nu a respectat semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
-      "modelDescriere3": "Mai mult, nu a respectat semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
+      "descriere2": "În plus, nu a respectat semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
+      "descriere3": "Mai mult, nu a respectat semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -270,7 +270,7 @@
       "id": "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.7",
       "titlu": "Parcare ilegală",
       "definitie": "Este interzis să parcați pe bordură sau pe trotuar! Aveți dreptul lângă bordură doar dacă bordura nu este vopsită cu roșu! Bordura roșie reprezintă parcare interzisă! Parcarea ilegală reprezintă o contravenție și va fi sancționată cu sancțiunile menționate.",
@@ -283,11 +283,11 @@
       "anularePermis": false,
       "ridicareVehicul": true,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}), era parcat neregulamentar într-{tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, împiedicând circulația traficului rutier și pietonal în zonă.",
-      "modelDescriere2": "În plus, s-a constatat că vehiculul acestuia era parcat neregulamentar, împiedicând circulația traficului rutier și pietonal în zonă.",
-      "modelDescriere3": "Mai mult, s-a constatat că vehiculul acestuia era parcat neregulamentar, împiedicând circulația traficului rutier și pietonal în zonă.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}), era parcat neregulamentar într-{tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, împiedicând circulația traficului rutier și pietonal în zonă.",
+      "descriere2": "În plus, s-a constatat că vehiculul acestuia era parcat neregulamentar, împiedicând circulația traficului rutier și pietonal în zonă.",
+      "descriere3": "Mai mult, s-a constatat că vehiculul acestuia era parcat neregulamentar, împiedicând circulația traficului rutier și pietonal în zonă.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -304,7 +304,7 @@
       "id": "cap.1_1.7_parcare_ilegala"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.8",
       "titlu": "Traversarea interzisă",
       "definitie": "Orice persoană care traversează printr-un loc în care trecerea nu este permisă, punând în pericol viața unui cetățean sau propria viață poate fi sancționat cu sancțiunile menționate.",
@@ -317,11 +317,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) traversa strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
-      "modelDescriere2": "În plus, a traversat strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
-      "modelDescriere3": "Mai mult, a traversat strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) traversa strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
+      "descriere2": "În plus, a traversat strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
+      "descriere3": "Mai mult, a traversat strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.2_2.5_parasirea_locului_accidentului",
         "cap.2_2.6_conducere_autovehicul_neinmatriculat",
@@ -340,7 +340,7 @@
       "id": "cap.1_1.8_traversarea_interzisa"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.9",
       "titlu": "Acoperirea feței la volan",
       "definitie": "Orice conducător de autovehicul care poartă o mască/bandană sau orice alt obiect ce îi acoperă fața, reduce vizibilitatea și pune în pericol siguranța tuturor participanților la trafic, poate fi sancționat cu sancțiunile menționate.",
@@ -353,11 +353,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": true,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, purtând o mască/bandană sau alt obiect care îi acoperea fața la volan. Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
-      "modelDescriere2": "În plus, acesta purta o mască/bandană sau alt obiect care îi acoperea fața la volan. Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
-      "modelDescriere3": "Mai mult, acesta purta o mască/bandană sau alt obiect care îi acoperea fața la volan.  Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, purtând o mască/bandană sau alt obiect care îi acoperea fața la volan. Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
+      "descriere2": "În plus, acesta purta o mască/bandană sau alt obiect care îi acoperea fața la volan. Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
+      "descriere3": "Mai mult, acesta purta o mască/bandană sau alt obiect care îi acoperea fața la volan.  Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.1_acoperirea_fetei",
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -378,7 +378,7 @@
       "id": "cap.1_1.9_acoperirea_fetei_la_volan"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.10",
       "titlu": "Folosirea telefonului în timpul condusului",
       "definitie": "Este strict interzisă folosirea telefonului în timpul condusului. Încălcarea acestei reguli reprezintă o contravenție și va fi pedepsită cu sancțiunile menționate.",
@@ -391,11 +391,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, folosind telefonul mobil în timpul condusului.",
-      "modelDescriere2": "În plus, a utilizat telefonul mobil în timpul condusului.",
-      "modelDescriere3": "Mai mult, a utilizat telefonul mobil în timpul condusului.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, folosind telefonul mobil în timpul condusului.",
+      "descriere2": "În plus, a utilizat telefonul mobil în timpul condusului.",
+      "descriere3": "Mai mult, a utilizat telefonul mobil în timpul condusului.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -407,7 +407,7 @@
       "id": "cap.1_1.10_folosirea_telefonului_in_timpul_condusului"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.11",
       "titlu": "Claxonarea excesivă",
       "definitie": "Mijloacele de avertizare sonoră trebuie folosite de la o distanță de cel puțin 25 m față de cei cărora li se adresează, pe o durată de timp care să asigure perceperea semnalului și fără să îi determine pe aceștia la manevre ce pot pune în pericol siguranța circulației. Încălcarea acestei reguli reprezintă o contravenție și va fi pedepsită cu sancțiunile menționate.",
@@ -420,11 +420,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, folosind excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
-      "modelDescriere2": "În plus, a folosit excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
-      "modelDescriere3": "Mai mult, a folosit excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, folosind excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
+      "descriere2": "În plus, a folosit excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
+      "descriere3": "Mai mult, a folosit excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -436,7 +436,7 @@
       "id": "cap.1_1.11_claxonarea_excesiva"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.12",
       "titlu": "Geamuri fumurii",
       "definitie": "Orice persoană care deține geamuri fumurii la mașină care împiedică recunoașterea conducătorului de către un ofițer va fi sancționat cu sancțiunile menționate.",
@@ -449,11 +449,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
-      "modelDescriere2": "În plus, avea aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
-      "modelDescriere3": "Mai mult, avea aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
+      "descriere2": "În plus, avea aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
+      "descriere3": "Mai mult, avea aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -465,7 +465,7 @@
       "id": "cap.1_1.12_geamuri_fumurii"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.13",
       "titlu": "Neoane",
       "definitie": "Este strict interzisă montarea neoanelor sub autovehicul și se pedepsește cu sancțiunile menționate.",
@@ -478,11 +478,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montate neoane sub autovehicul.",
-      "modelDescriere2": "În plus, avea montate neoane sub autovehicul.",
-      "modelDescriere3": "Mai mult, avea montate neoane sub autovehicul. ",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montate neoane sub autovehicul.",
+      "descriere2": "În plus, avea montate neoane sub autovehicul.",
+      "descriere3": "Mai mult, avea montate neoane sub autovehicul. ",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -494,7 +494,7 @@
       "id": "cap.1_1.13_neoane"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.14",
       "titlu": "Claxon neomologat",
       "definitie": "Orice conducător de autovehicul care își montează un claxon diferit față de cel din fabrică va fi sancționat cu sancțiunile menționate.",
@@ -507,11 +507,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montat un claxon neomologat, diferit față de cel din fabrică.",
-      "modelDescriere2": "În plus, avea montat un claxon neomologat, diferit față de cel din fabrică.",
-      "modelDescriere3": "Mai mult, avea montat un claxon neomologat, diferit față de cel din fabrică.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montat un claxon neomologat, diferit față de cel din fabrică.",
+      "descriere2": "În plus, avea montat un claxon neomologat, diferit față de cel din fabrică.",
+      "descriere3": "Mai mult, avea montat un claxon neomologat, diferit față de cel din fabrică.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -523,7 +523,7 @@
       "id": "cap.1_1.14_claxon_neomologat"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.15",
       "titlu": "Xenoane",
       "definitie": "Orice persoană care are montate xenoane pe autovehicul sau instalații de iluminat diferite față de cele din fabrică va fi sancționat cu sancțiunile menționate.",
@@ -536,11 +536,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
-      "modelDescriere2": "În plus, avea montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
-      "modelDescriere3": "Mai mult, avea montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
+      "descriere2": "În plus, avea montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
+      "descriere3": "Mai mult, avea montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -552,7 +552,7 @@
       "id": "cap.1_1.15_xenoane"
     },
     {
-      "capitolText": "Cap. 1",
+      "capitol": "Cap. 1",
       "numarArticol": "1.16",
       "titlu": "Nerespectarea culorii a semaforului",
       "definitie": "Orice conducator / persoana care nu respecta culoarea semaforului de circulatie rutiera cat si traversare pietonala poate fi sanctionat cu sancțiunile menționate. Excepții: Vehiculele care efectuează virajul la dreapta vor beneficia de un semnal verde intermitent și vor avea obligația de a acorda prioritate vehiculelor și pietonilor care au drept de trecere. Program semnal verde intermitent: Acesta va fi activ între orele 00:00 - 12:00, permițând fluidizarea traficului în acest interval orar.",
@@ -565,11 +565,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând culoarea roșie a semaforului.",
-      "modelDescriere2": "În plus, a ignorat semnalul luminos de culoare roșie a semaforului.",
-      "modelDescriere3": "Mai mult, a ignorat semnalul luminos de culoare roșie a semaforului.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând culoarea roșie a semaforului.",
+      "descriere2": "În plus, a ignorat semnalul luminos de culoare roșie a semaforului.",
+      "descriere3": "Mai mult, a ignorat semnalul luminos de culoare roșie a semaforului.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -581,7 +581,7 @@
       "id": "cap.1_1.16_nerespectarea_culorii_semaforului"
     },
     {
-      "capitolText": "Cap. 2",
+      "capitol": "Cap. 2",
       "numarArticol": "2.1",
       "titlu": "Evadarea de un ofiţer cu un autovehicul",
       "definitie": "Orice persoană care folosește un vehicul pentru a evada de un ofițer înfăptuiește o infracțiune și poate fi pedepsit cu sancțiunile menționate.",
@@ -594,11 +594,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a folosit {tip_vehicul_procesator}, marca {model_vehicul_input},  {nr_inmatriculare}, pentru a încerca să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "modelDescriere2": "În plus, a încercat să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "modelDescriere3": "Mai mult, a încercat să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a folosit {tip_vehicul_procesator}, marca {model_vehicul_input},  {nr_inmatriculare}, pentru a încerca să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere2": "În plus, a încercat să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere3": "Mai mult, a încercat să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -610,7 +610,7 @@
       "id": "cap.2_2.1_evadarea_ofiter_autovehicul"
     },
     {
-      "capitolText": "Cap. 2",
+      "capitol": "Cap. 2",
       "numarArticol": "2.2",
       "titlu": "Condusul fără permis",
       "definitie": "Orice persoană care conduce un vehicul fără să aibă un permis de conducere valid înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
@@ -623,11 +623,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
-      "modelDescriere2": "În plus, conducea fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
-      "modelDescriere3": "Mai mult, conducea fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
+      "descriere2": "În plus, conducea fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
+      "descriere3": "Mai mult, conducea fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -639,7 +639,7 @@
       "id": "cap.2_2.2_condus_fara_permis"
     },
     {
-      "capitolText": "Cap. 2",
+      "capitol": "Cap. 2",
       "numarArticol": "2.3",
       "titlu": "Conducere sub influența drogurilor sau a alcoolului (infracțiune)",
       "definitie": "Orice persoană care este la volan și deține valoarea de 0.8% alcool în sânge sau este sub influența oricărui tip de narcotice și pune în pericol viața unui civil sau propria viață înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
@@ -652,11 +652,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
-      "modelDescriere2": "În plus, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
-      "modelDescriere3": "Mai mult, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
+      "descriere2": "În plus, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
+      "descriere3": "Mai mult, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -668,7 +668,7 @@
       "id": "cap.2_2.3_conducere_sub_influenta_infractiune"
     },
     {
-      "capitolText": "Cap. 2",
+      "capitol": "Cap. 2",
       "numarArticol": "2.3",
       "titlu": "Conducere sub influența drogurilor sau a alcoolului (contravenție)",
       "definitie": "Pentru o concentrație de alcool între 0,1% și 0,7%, se comite o contravenție care se pedepsește cu sancțiunile menționate.",
@@ -681,11 +681,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
-      "modelDescriere2": "În plus, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
-      "modelDescriere3": "Mai mult, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
+      "descriere2": "În plus, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
+      "descriere3": "Mai mult, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -697,7 +697,7 @@
       "id": "cap.2_2.3_conducere_sub_influenta_contraventie"
     },
     {
-      "capitolText": "Cap. 2",
+      "capitol": "Cap. 2",
       "numarArticol": "2.4",
       "titlu": "Curse ilegale",
       "definitie": "Orice persoană care face orice tip de cursă pe stradă și nu are permisiunea legală a poliției, punând în pericol viața civililor, înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
@@ -710,11 +710,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, fiind implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
-      "modelDescriere2": "În plus, era implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
-      "modelDescriere3": "Mai mult, era implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, fiind implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
+      "descriere2": "În plus, era implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
+      "descriere3": "Mai mult, era implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -726,7 +726,7 @@
       "id": "cap.2_2.4_curse_ilegale"
     },
     {
-      "capitolText": "Cap. 2",
+      "capitol": "Cap. 2",
       "numarArticol": "2.5",
       "titlu": "Părăsirea locului accidentului sau a unei scene",
       "definitie": "Orice persoană care fuge de la locul unui accident sau al unei crime, fără să se prezinte sau să sune la autorități, înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
@@ -739,11 +739,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
-      "modelDescriere2": "În plus, a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
-      "modelDescriere3": "Mai mult, a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
+      "descriere2": "În plus, a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
+      "descriere3": "Mai mult, a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.8_traversarea_interzisa",
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -764,7 +764,7 @@
       "id": "cap.2_2.5_parasirea_locului_accidentului"
     },
     {
-      "capitolText": "Cap. 2",
+      "capitol": "Cap. 2",
       "numarArticol": "2.6",
       "titlu": "Conducerea unui autovehicul neînmatriculat",
       "definitie": "Orice cetățean care conduce un autovehicul/motocicletă fără a avea o plăcuță de înmatriculat valabilă, înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
@@ -777,11 +777,11 @@
       "anularePermis": true,
       "ridicareVehicul": true,
       "perchezitie": true,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, fără a avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie}",
-      "modelDescriere2": "În plus, vehiculul nu avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
-      "modelDescriere3": "Mai mult, vehiculul nu avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, fără a avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie}",
+      "descriere2": "În plus, vehiculul nu avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
+      "descriere3": "Mai mult, vehiculul nu avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.8_traversarea_interzisa",
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -802,7 +802,7 @@
       "id": "cap.2_2.6_conducere_autovehicul_neinmatriculat"
     },
     {
-      "capitolText": "Cap. 2",
+      "capitol": "Cap. 2",
       "numarArticol": "2.7",
       "titlu": "Refuzul prelevării de probe biologice",
       "definitie": "Orice persoană care refuză prelevarea de mostre biologice constituie infractiune, ce se poate pedepsi cu sancțiunile menționate.",
@@ -815,11 +815,11 @@
       "anularePermis": true,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
-      "modelDescriere2": "În plus, a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
-      "modelDescriere3": "Mai mult, a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
+      "descriere2": "În plus, a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
+      "descriere3": "Mai mult, a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -839,7 +839,7 @@
       "id": "cap.2_2.7_refuz_prelevare_probe_biologice"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.1",
       "titlu": "Acoperirea feței",
       "definitie": "Orice persoană care își acoperă zona facială cu orice fel de obiect / tatuaj (mască, bandană, eșarfă, machiaje etc) în spațiile publice poate fi sancționată cu sancțiunile menționate.",
@@ -852,11 +852,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": true,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
-      "modelDescriere2": "În plus, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
-      "modelDescriere3": "Mai mult, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
+      "descriere2": "În plus, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
+      "descriere3": "Mai mult, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -869,7 +869,7 @@
       "id": "cap.3_3.1_acoperirea_fetei"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.2",
       "titlu": "Urmărirea unei persoane fără acord",
       "definitie": "Orice persoană care urmăreşte, cu bună ştiinţă, o altă persoană şi o hărţuieşte cu intenţia de a i se face frică pentru propria siguranţă sau pentru siguranţa familiei sale înfăptuiește o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -882,11 +882,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a urmărit și hărțuit cu bună știință cu intenţia de a provoca victimei {nume_reclamant} (CNP {cnp_reclamant}) frică pentru propria siguranţă sau pentru siguranţa familiei sale.",
-      "modelDescriere2": "În plus, a urmărit și hărțuit cu bună știință, cu intenţia de a provoca victimei {nume_reclamant} (CNP {cnp_reclamant}) frică pentru propria siguranţă sau pentru siguranţa familiei sale.",
-      "modelDescriere3": "Mai mult, a urmărit și hărțuit cu bună știință, cu intenţia de a provoca victimei {nume_reclamant} (CNP {cnp_reclamant}) frică pentru propria siguranţă sau pentru siguranţa familiei sale.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a urmărit și hărțuit cu bună știință cu intenţia de a provoca victimei {nume_reclamant} (CNP {cnp_reclamant}) frică pentru propria siguranţă sau pentru siguranţa familiei sale.",
+      "descriere2": "În plus, a urmărit și hărțuit cu bună știință, cu intenţia de a provoca victimei {nume_reclamant} (CNP {cnp_reclamant}) frică pentru propria siguranţă sau pentru siguranţa familiei sale.",
+      "descriere3": "Mai mult, a urmărit și hărțuit cu bună știință, cu intenţia de a provoca victimei {nume_reclamant} (CNP {cnp_reclamant}) frică pentru propria siguranţă sau pentru siguranţa familiei sale.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -898,7 +898,7 @@
       "id": "cap.3_3.2_urmarirea_persoane_fara_acord"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.3",
       "titlu": "Urmărirea unei autospeciale de poliție/medici fără acord",
       "definitie": "Orice persoană care urmăreşte, cu bună ştiinţă, o unitate de poliție/medici şi o hărţuieşte cu intenţia de a face persoana respectivă să-i fie frică pentru propria siguranţă se poate pedepsi cu sancțiunile menționate.",
@@ -911,11 +911,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) urmărea cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
-      "modelDescriere2": "În plus, urmărea, cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
-      "modelDescriere3": "Mai mult, urmărea, cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) urmărea cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
+      "descriere2": "În plus, urmărea, cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
+      "descriere3": "Mai mult, urmărea, cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -927,7 +927,7 @@
       "id": "cap.3_3.3_urmarirea_autospeciale_fara_acord"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.4",
       "titlu": "Expunere indecentă",
       "definitie": "Orice persoană care îşi expune organele genitale, cu bună ştiinţă, în public sau în orice spaţiu unde se află şi alte persoane, înfăptuiește o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -940,11 +940,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) își expunea organele genitale în public, cu bună știință.",
-      "modelDescriere2": "În plus, acesta și-a expus organele genitale în public, cu bună știință.",
-      "modelDescriere3": "Mai mult, acesta și-a expus organele genitale în public, cu bună știință.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) își expunea organele genitale în public, cu bună știință.",
+      "descriere2": "În plus, acesta și-a expus organele genitale în public, cu bună știință.",
+      "descriere3": "Mai mult, acesta și-a expus organele genitale în public, cu bună știință.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -956,7 +956,7 @@
       "id": "cap.3_3.4_expunere_indecenta"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.5",
       "titlu": "Prostituţie",
       "definitie": "Prostituţia constă în fapta unei persoane de a-şi procura principalele mijloace de existenţă practicând în acest scop raporturi sexuale cu diferite persoane. Această faptă reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate. De aceeași infracțiune vor fi acuzați și clienții acestor persoane, care fac uz de prostituție.",
@@ -969,11 +969,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) presta servicii sexuale contra cost.",
-      "modelDescriere2": "În plus, acesta presta servicii sexuale contra cost.",
-      "modelDescriere3": "Mai mult, acesta presta servicii sexuale contra cost.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) presta servicii sexuale contra cost.",
+      "descriere2": "În plus, acesta presta servicii sexuale contra cost.",
+      "descriere3": "Mai mult, acesta presta servicii sexuale contra cost.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -985,7 +985,7 @@
       "id": "cap.3_3.5_prostitutie"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.6",
       "titlu": "Viol",
       "definitie": "Violul constă în actul sexual, de orice natură, cu o persoană de sex diferit sau de acelaşi sex, prin constrângerea acesteia, sau profitând de imposibilitatea ei de a se apăra ori de a-şi exprima voinţa. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -998,11 +998,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a comis actul de viol asupra victimei {nume_reclamant} (CNP {cnp_reclamant}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
-      "modelDescriere2": "În plus, a comis actul de viol asupra victimei {nume_reclamant} (CNP {cnp_reclamant}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
-      "modelDescriere3": "Mai mult, a comis actul de viol asupra victimei {nume_reclamant} (CNP {cnp_reclamant}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis actul de viol asupra victimei {nume_reclamant} (CNP {cnp_reclamant}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
+      "descriere2": "În plus, a comis actul de viol asupra victimei {nume_reclamant} (CNP {cnp_reclamant}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
+      "descriere3": "Mai mult, a comis actul de viol asupra victimei {nume_reclamant} (CNP {cnp_reclamant}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1014,7 +1014,7 @@
       "id": "cap.3_3.6_viol"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.7",
       "titlu": "Încălcarea proprietății private",
       "definitie": "Pătrunderea fără drept, în orice mod, într-o locuință, încăpere sau loc privat, fără consimțământul persoanei care o deține, sau refuzul de a le părăsi la cererea acesteia, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1027,11 +1027,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a încălcat proprietatea privată a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}), pătrunzând fără drept și fără consimțământul acestuia.",
-      "modelDescriere2": "În plus, a încălcat proprietatea privată a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}), pătrunzând fără drept și fără consimțământul acestuia.",
-      "modelDescriere3": "Mai mult, a încălcat proprietatea privată a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}) pătrunzând fără drept și fără consimțământul acestuia.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a încălcat proprietatea privată a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}), pătrunzând fără drept și fără consimțământul acestuia.",
+      "descriere2": "În plus, a încălcat proprietatea privată a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}), pătrunzând fără drept și fără consimțământul acestuia.",
+      "descriere3": "Mai mult, a încălcat proprietatea privată a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}) pătrunzând fără drept și fără consimțământul acestuia.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1043,7 +1043,7 @@
       "id": "cap.3_3.7_incalcarea_proprietatii_private"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.8",
       "titlu": "Vandalism",
       "definitie": "Orice persoană care distruge sau deteriorează un bun sau o proprietate care nu îi aparţine, înfăptuiește o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1056,11 +1056,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
-      "modelDescriere2": "În plus, a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
-      "modelDescriere3": "Mai mult, a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
+      "descriere2": "În plus, a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
+      "descriere3": "Mai mult, a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1072,7 +1072,7 @@
       "id": "cap.3_3.8_vandalism"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.9",
       "titlu": "Şantaj",
       "definitie": "Şantajul reprezintă folosirea fricii sau a altor metode drept mecanism pentru a influenţa un individ să îndeplinească diferite activităţi sau servicii, și reprezintă o infracțiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1085,11 +1085,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) exercita presiuni și amenințări asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}) pentru a-l determina să îndeplinească diferite activităţi sau servicii împotriva voinței sale.",
-      "modelDescriere2": "În plus, a exercitat presiuni și amenințări asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}) pentru a-l determina să îndeplinească diferite activităţi sau servicii împotriva voinței sale.",
-      "modelDescriere3": "Mai mult, a exercitat presiuni și amenințări asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}) pentru a-l determina să îndeplinească diferite activităţi sau servicii împotriva voinței sale.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) exercita presiuni și amenințări asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}) pentru a-l determina să îndeplinească diferite activităţi sau servicii împotriva voinței sale.",
+      "descriere2": "În plus, a exercitat presiuni și amenințări asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}) pentru a-l determina să îndeplinească diferite activităţi sau servicii împotriva voinței sale.",
+      "descriere3": "Mai mult, a exercitat presiuni și amenințări asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}) pentru a-l determina să îndeplinească diferite activităţi sau servicii împotriva voinței sale.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1101,7 +1101,7 @@
       "id": "cap.3_3.9_santaj"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.10",
       "titlu": "Tâlhărie",
       "definitie": "Tâlhăria constă în fapta unei persoane de a lua un bun mobil din posesia altei persoane, fără consimţământul acesteia, în scopul de a şi-l însuşi pe nedrept. Această faptă reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1114,11 +1114,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a deposedat victima {nume_reclamant} (CNP {cnp_reclamant}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
-      "modelDescriere2": "În plus, a deposedat victima {nume_reclamant} (CNP {cnp_reclamant}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
-      "modelDescriere3": "Mai mult, a deposedat victima {nume_reclamant} (CNP {cnp_reclamant}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a deposedat victima {nume_reclamant} (CNP {cnp_reclamant}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
+      "descriere2": "În plus, a deposedat victima {nume_reclamant} (CNP {cnp_reclamant}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
+      "descriere3": "Mai mult, a deposedat victima {nume_reclamant} (CNP {cnp_reclamant}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1130,7 +1130,7 @@
       "id": "cap.3_3.10_talharie"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.11",
       "titlu": "Furt auto",
       "definitie": "Orice persoană care fură un autovehicul, nu contează valoarea acestuia, înfăptuiește o infracţiune care se poate pedepsi cu sancțiunile menționate. Această acuzație se aplică și pentru spargerea unui autovehicul, cu sau fără intenţia de a-l fura.",
@@ -1143,11 +1143,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere2": "În plus, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere3": "Mai mult, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere2": "În plus, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere3": "Mai mult, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1159,7 +1159,7 @@
       "id": "cap.3_3.11_furt_auto"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.11.1",
       "titlu": "Furt auto Politie/Spital",
       "definitie": "Orice persoană care fură un autovehicul care aparține Departamentului de Poliție sau al Spitalului înfăptuiește o infracţiune care se poate pedepsi cu sancțiunile menționate. Această acuzație se aplică și pentru spargerea unui autovehicul, cu sau fără intenţia de a-l fura.",
@@ -1172,11 +1172,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a sustras {autospeciala_select} și a încercat să fugă cu ea.",
-      "modelDescriere2": "În plus, a sustras {autospeciala_select} și a încercat să fugă cu ea.",
-      "modelDescriere3": "Mai mult, a sustras {autospeciala_select} și a încercat să fugă cu ea.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a sustras {autospeciala_select} și a încercat să fugă cu ea.",
+      "descriere2": "În plus, a sustras {autospeciala_select} și a încercat să fugă cu ea.",
+      "descriere3": "Mai mult, a sustras {autospeciala_select} și a încercat să fugă cu ea.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1188,7 +1188,7 @@
       "id": "cap.3_3.11.1_furt_auto_politie_spital"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.12",
       "titlu": "Jaf",
       "definitie": "Săvârșirea unui furt prin violență, amenințarea sau forțarea unei persoane, cu scopul de a obține bunuri sau bani. Această acțiune reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -1201,11 +1201,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a săvârșit infracțiunea de jaf asupra persoanei {nume_reclamant} (CNP {cnp_reclamant}), prin violență și amenințare, cu scopul de a obține bunuri.sau servicii împotriva voinței victimei.",
-      "modelDescriere2": "",
-      "modelDescriere3": "",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a săvârșit infracțiunea de jaf asupra persoanei {nume_reclamant} (CNP {cnp_reclamant}), prin violență și amenințare, cu scopul de a obține bunuri.sau servicii împotriva voinței victimei.",
+      "descriere2": "",
+      "descriere3": "",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.2_conducere_imprudenta",
@@ -1317,7 +1317,7 @@
       "id": "cap.3_3.12_jaf"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.12.1",
       "titlu": "Jaf Armat",
       "definitie": "Săvârșirea unui furt prin violență, amenințarea sau forțarea unei persoane cu ajutorul unei arme albe / de foc de calibru mic / de foc de calibru mare, cu scopul de a obține bunuri sau bani. reprezintă o infracțiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1330,11 +1330,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a săvârșit infracțiunea de furt prin violență, amenințare sau forțare, cu ajutorul a {perchezitie_buzunare}, cu scopul de a obține bunuri sau bani de la {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere2": "",
-      "modelDescriere3": "",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a săvârșit infracțiunea de furt prin violență, amenințare sau forțare, cu ajutorul a {perchezitie_buzunare}, cu scopul de a obține bunuri sau bani de la {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere2": "",
+      "descriere3": "",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.2_conducere_imprudenta",
@@ -1446,7 +1446,7 @@
       "id": "cap.3_3.12.1_jaf_armat"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.12.2",
       "titlu": "Jaf Imobile",
       "definitie": "Săvârșirea unui furt prin violență, amenințare sau forțare a accesului într-o clădire (ex: magazin, casă), cu scopul de a sustrage bunuri sau bani. Aceasta infractiune se pedepsește cu sancțiunile menționate.",
@@ -1459,11 +1459,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": true,
-      "modelDescriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, {buzunare}.",
-      "modelDescriere2": "",
-      "modelDescriere3": "",
+      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, {buzunare}.",
+      "descriere2": "",
+      "descriere3": "",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.2_conducere_imprudenta",
@@ -1575,7 +1575,7 @@
       "id": "cap.3_3.12.2_jaf_imobile"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.12.3",
       "titlu": "Jaf Bancar",
       "definitie": "Săvârșirea unui furt prin violență, amenințare sau forțare a accesului într-o bancă, cu scopul de a sustrage bunuri sau bani. Aceasta infractiune se pedepsește cu sancțiunile menționate.",
@@ -1588,11 +1588,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": true,
-      "modelDescriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, {buzunare}.",
-      "modelDescriere2": "",
-      "modelDescriere3": "",
+      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, {buzunare}.",
+      "descriere2": "",
+      "descriere3": "",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.2_conducere_imprudenta",
@@ -1704,7 +1704,7 @@
       "id": "cap.3_3.12.3_jaf_bancar"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.13",
       "titlu": "Deranjarea liniştii publice",
       "definitie": "Dacă cineva pune un aparat pe volumul maxim, vorbește prea tare, folosește cuvinte vulgare în public sau începe o ceartă care poate duce la bătaie, înfăptuiește o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1717,11 +1717,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deranja liniștea publică prin manifestări neadecvate.",
-      "modelDescriere2": "În plus, a deranjat liniștea publică prin manifestări neadecvate.",
-      "modelDescriere3": "Mai mult, a deranjat liniștea publică prin manifestări neadecvate.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deranja liniștea publică prin manifestări neadecvate.",
+      "descriere2": "În plus, a deranjat liniștea publică prin manifestări neadecvate.",
+      "descriere3": "Mai mult, a deranjat liniștea publică prin manifestări neadecvate.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1733,7 +1733,7 @@
       "id": "cap.3_3.13_deranjarea_linistii_publice"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.14",
       "titlu": "Eșecul de a părăsi un loc",
       "definitie": "Orice persoana care refuză să părăsească locul indicat de un ofițer al legii, săvârșește o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1746,11 +1746,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească zona indicată de {agent_op_grad_modal} {agent_op_nume_modal}, la solicitarea verbală a acestuia.",
-      "modelDescriere2": "În plus, nu a respectat dispoziția ofițerului {agent_op_grad_modal} {agent_op_nume_modal} de a părăsi zona indicată.",
-      "modelDescriere3": "Mai mult, nu a respectat dispoziția ofițerului {agent_op_grad_modal} {agent_op_nume_modal} de a părăsi zona indicată.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească zona indicată de {agent_op_grad_modal} {agent_op_nume_modal}, la solicitarea verbală a acestuia.",
+      "descriere2": "În plus, nu a respectat dispoziția ofițerului {agent_op_grad_modal} {agent_op_nume_modal} de a părăsi zona indicată.",
+      "descriere3": "Mai mult, nu a respectat dispoziția ofițerului {agent_op_grad_modal} {agent_op_nume_modal} de a părăsi zona indicată.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1762,7 +1762,7 @@
       "id": "cap.3_3.14_esecul_de_a_parasi_un_loc"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.15",
       "titlu": "Instigarea unei revolte",
       "definitie": "Atunci când unul sau mai mulți civili încearcă să creeze o revoltă cu tentativa de a distruge bunurile publice sau de a răni mai mulți oameni. Aceștia săvârșesc o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1775,11 +1775,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
-      "modelDescriere2": "În plus, instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
-      "modelDescriere3": "Mai mult, instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
+      "descriere2": "În plus, instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
+      "descriere3": "Mai mult, instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1791,7 +1791,7 @@
       "id": "cap.3_3.15_instigarea_unei_revolte"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.16",
       "titlu": "Calomnie",
       "definitie": "Acuzarea sau răspândirea unor minciuni în public despre o persoană, care, dacă ar fi adevărate, ar aduce acelei persoane sancțiuni penale sau ar face-o să fie disprețuită de ceilalți. Această faptă reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1804,11 +1804,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a acuzat public sau a răspândit minciuni despre cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
-      "modelDescriere2": "În plus, a acuzat public sau a răspândit minciuni despre cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
-      "modelDescriere3": "Mai mult, a acuzat public sau a răspândit minciuni despre cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a acuzat public sau a răspândit minciuni despre cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
+      "descriere2": "În plus, a acuzat public sau a răspândit minciuni despre cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
+      "descriere3": "Mai mult, a acuzat public sau a răspândit minciuni despre cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1820,7 +1820,7 @@
       "id": "cap.3_3.16_calomnie"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.17",
       "titlu": "Căutarea în gunoaiele din spațiul public",
       "definitie": "Este strict interzis ca civilii să caute, răscolească sau inspecteze gunoaiele din zonele publice, inclusiv containerele de gunoi sau coșurile de gunoi. Acest lucru reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1833,11 +1833,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) căuta și răscolea în containerele de gunoi din spațiul public.",
-      "modelDescriere2": "În plus, a fost surprins căutând și răscolind în containerele de gunoi din spațiul public.",
-      "modelDescriere3": "Mai mult, a fost surprins căutând și răscolind în containerele de gunoi din spațiul public.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) căuta și răscolea în containerele de gunoi din spațiul public.",
+      "descriere2": "În plus, a fost surprins căutând și răscolind în containerele de gunoi din spațiul public.",
+      "descriere3": "Mai mult, a fost surprins căutând și răscolind în containerele de gunoi din spațiul public.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1849,7 +1849,7 @@
       "id": "cap.3_3.17_cautarea_gunoaielor_spatiul_public"
     },
     {
-      "capitolText": "Cap. 3",
+      "capitol": "Cap. 3",
       "numarArticol": "3.18",
       "titlu": "Înșelăciune",
       "definitie": "Spunerea unor minciuni sau distorsionarea adevărului pentru a obține un folos necuvenit, dacă acest lucru cauzează pagube. Acest lucru reprezintă o infracțiune care se poate pedepsi cu sancțiunile menționate, inclusiv returnarea bunurilor sau contravaloarea acestora.",
@@ -1862,11 +1862,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a indus în eroare cetățeanul {nume_reclamant} (CNP {cnp_reclamant}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora.",
-      "modelDescriere2": "În plus, a indus în eroare cetățeanul {nume_reclamant} (CNP {cnp_reclamant}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora. ",
-      "modelDescriere3": "Mai mult, a indus în eroare cetățeanul {nume_reclamant} (CNP {cnp_reclamant}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora. ",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a indus în eroare cetățeanul {nume_reclamant} (CNP {cnp_reclamant}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora.",
+      "descriere2": "În plus, a indus în eroare cetățeanul {nume_reclamant} (CNP {cnp_reclamant}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora. ",
+      "descriere3": "Mai mult, a indus în eroare cetățeanul {nume_reclamant} (CNP {cnp_reclamant}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora. ",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1878,7 +1878,7 @@
       "id": "cap.3_3.18_inselaciune"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.1",
       "titlu": "Obstrucția unui ofiţer",
       "definitie": "Orice persoană care împiedică un ofițer să își îndeplinească atribuțiile sau pune în pericol siguranța ofițerului sau a altor cetățeni. Această faptă reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate. A nu se acorda împreună cu #4.4 Rezistență la Arest.",
@@ -1891,11 +1891,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}), l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța acestuia sau a altor cetățeni.",
-      "modelDescriere2": "În plus, l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța ofițerului sau a altor cetățeni.",
-      "modelDescriere3": "Mai mult, l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța ofițerului sau a altor cetățeni.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}), l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța acestuia sau a altor cetățeni.",
+      "descriere2": "În plus, l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța ofițerului sau a altor cetățeni.",
+      "descriere3": "Mai mult, l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța ofițerului sau a altor cetățeni.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1907,7 +1907,7 @@
       "id": "cap.4_4.1_obstructia_unui_ofiter"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.2",
       "titlu": "Eșecul de a părăsi o instituție a statului",
       "definitie": "Orice persoană care refuză să părăsească o instituție a statului (Secția de Poliție / Spital / Penitenciar etc) la cererea organului de poliție, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1920,11 +1920,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească instituția statului situată in acea zonă, la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "modelDescriere2": "În plus, a refuzat să părăsească instituția statului la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "modelDescriere3": "Mai mult, a refuzat să părăsească instituția statului la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească instituția statului situată in acea zonă, la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere2": "În plus, a refuzat să părăsească instituția statului la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere3": "Mai mult, a refuzat să părăsească instituția statului la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1936,7 +1936,7 @@
       "id": "cap.4_4.2_esecul_de_a_parasi_institutie_stat"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.3",
       "titlu": "Ultraj",
       "definitie": "Infracțiune care constă în insultă, injosire, calomnie, vandalism, amenințare ori alte acte de violență verbală cât și fizică împotriva unui agent de poliție. Această acțiune reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -1949,11 +1949,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a proferat insulte și amenințări la adresa {agent_op_grad_modal} {agent_op_nume_modal}  în timp ce acesta își exercita atribuțiile de serviciu.",
-      "modelDescriere2": "În plus, a proferat insulte și amenințări la adresa {agent_const_grad_modal} {agent_const_nume_modal}  în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
-      "modelDescriere3": "Mai mult, a proferat insulte și amenințări la adresa {agent_const_grad_modal} {agent_const_nume_modal}  în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a proferat insulte și amenințări la adresa {agent_op_grad_modal} {agent_op_nume_modal}  în timp ce acesta își exercita atribuțiile de serviciu.",
+      "descriere2": "În plus, a proferat insulte și amenințări la adresa {agent_const_grad_modal} {agent_const_nume_modal}  în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
+      "descriere3": "Mai mult, a proferat insulte și amenințări la adresa {agent_const_grad_modal} {agent_const_nume_modal}  în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1965,7 +1965,7 @@
       "id": "cap.4_4.3_ultraj"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.4",
       "titlu": "Evadarea din custodie",
       "definitie": "Orice persoană care a fost reţinută fizic de către un ofiţer de poliţie şi evadează din posesia acestora rezultă ca o percheziţie sau un mandat de arestare să fie create. În noul dosar penal, persoana va fi pedepsită cu sancțiunile menționate.",
@@ -1978,11 +1978,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}), aflat în custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, a evadat din posesia acestuia, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
-      "modelDescriere2": "În plus, a evadat din custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
-      "modelDescriere3": "Mai mult, a evadat din custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}), aflat în custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, a evadat din posesia acestuia, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
+      "descriere2": "În plus, a evadat din custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
+      "descriere3": "Mai mult, a evadat din custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -1994,7 +1994,7 @@
       "id": "cap.4_4.4_evadarea_din_custodie"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.5",
       "titlu": "Rezistență la Arest",
       "definitie": "Orice persoană care opune rezistență când trebuie să fie arestată sau reținută de către ofițerii din cadrul Poliției reprezintă o infractiune care se poate pedepsi cu sancțiunile menționate. Această acuzație înlocuiește acuzația #2.1 Evadarea de un ofiter cu un autovehicul și trebuie folosită când un suspect se folosește de fugă pentru a evita arestul.",
@@ -2007,11 +2007,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a opus rezistență activă arestării dispuse de ofițerii de poliție.",
-      "modelDescriere2": "În plus, a opus rezistență activă arestării dispuse de ofițerii de poliție.",
-      "modelDescriere3": "Mai mult, a opus rezistență activă arestării dispuse de ofițerii de poliție.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a opus rezistență activă arestării dispuse de ofițerii de poliție.",
+      "descriere2": "În plus, a opus rezistență activă arestării dispuse de ofițerii de poliție.",
+      "descriere3": "Mai mult, a opus rezistență activă arestării dispuse de ofițerii de poliție.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.2_2.1_evadarea_ofiter_autovehicul",
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2024,7 +2024,7 @@
       "id": "cap.4_4.5_rezistenta_la_arest"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.6",
       "titlu": "Eşecul identificarii",
       "definitie": "Orice persoană care refuză să se identifice unui ofițer cu un act legal sau cu numele său reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -2037,11 +2037,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
-      "modelDescriere2": "În plus, a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
-      "modelDescriere3": "Mai mult, a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
+      "descriere2": "În plus, a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
+      "descriere3": "Mai mult, a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2053,7 +2053,7 @@
       "id": "cap.4_4.6_esecul_identificarii"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.7",
       "titlu": "Dare de mită",
       "definitie": "Oricine dă bunuri personale pentru a schimba părerea unui angajat guvernamental sau pentru a-l influența în deciziile sale. reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -2066,11 +2066,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
-      "modelDescriere2": "În plus, a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
-      "modelDescriere3": "Mai mult, a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
+      "descriere2": "În plus, a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
+      "descriere3": "Mai mult, a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2082,7 +2082,7 @@
       "id": "cap.4_4.7_dare_de_mita"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.8",
       "titlu": "Codul Muncii",
       "definitie": "Prestarea de servicii fără a avea licență sau atestat într-un domeniu care cere acest lucru este considerată înșelarea statului și se pedepsește penal. Dacă o persoană este prinsă fără aceste documente, înseamnă că a încălcat Codul Muncii și comite o infracțiune care se poate pedepsi cu sancțiunile menționate. În acest moment urmatoarele licențe pot fi emise de către primăria orașului: De Pescuit, De Miner.",
@@ -2095,11 +2095,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) presta servicii fără să aibă {lipsa_licenta}.",
-      "modelDescriere2": "În plus, presta servicii fără să aibă {lipsa_licenta}.",
-      "modelDescriere3": "Mai mult, presta servicii fără să aibă {lipsa_licenta}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) presta servicii fără să aibă {lipsa_licenta}.",
+      "descriere2": "În plus, presta servicii fără să aibă {lipsa_licenta}.",
+      "descriere3": "Mai mult, presta servicii fără să aibă {lipsa_licenta}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2111,7 +2111,7 @@
       "id": "cap.4_4.8_codul_muncii"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.9",
       "titlu": "Descurajarea unui martor sau a unei victime",
       "definitie": "Orice persoană care împiedică sau descurajează orice martor sau victimă de la a da mărturie într-un proces, cu utilizarea mitei, amenințării sau a altor tactici, cu bună știință şi rea intenție, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -2124,11 +2124,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_reclamant} (CNP {cnp_reclamant} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
-      "modelDescriere2": "În plus, a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_reclamant} (CNP {cnp_reclamant} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
-      "modelDescriere3": "Mai mult, a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_reclamant} (CNP {cnp_reclamant} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_reclamant} (CNP {cnp_reclamant} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
+      "descriere2": "În plus, a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_reclamant} (CNP {cnp_reclamant} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
+      "descriere3": "Mai mult, a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_reclamant} (CNP {cnp_reclamant} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2140,7 +2140,7 @@
       "id": "cap.4_4.9_descurajarea_martor_victima"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.10",
       "titlu": "Limbaj vulgar",
       "definitie": "Orice persoană folosește cuvinte vulgare cu scopul de a jigni, intimida sau obține avantaj în fața altei persoane, înfăptuiește o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -2153,11 +2153,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_reclamant} (CNP {cnp_reclamant}.",
-      "modelDescriere2": "În plus, a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_reclamant} (CNP {cnp_reclamant}.",
-      "modelDescriere3": "Mai mult, a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_reclamant} (CNP {cnp_reclamant}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_reclamant} (CNP {cnp_reclamant}.",
+      "descriere2": "În plus, a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_reclamant} (CNP {cnp_reclamant}.",
+      "descriere3": "Mai mult, a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_reclamant} (CNP {cnp_reclamant}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2169,7 +2169,7 @@
       "id": "cap.4_4.10_limbaj_vulgar"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.11",
       "titlu": "Abuzul liniei de urgență",
       "definitie": "Orice persoană care apelează în mod abuziv linia de urgență 112 sau fără a avea o adevărată problemă reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -2182,11 +2182,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a apelat în mod abuziv linia de urgență 112.",
-      "modelDescriere2": "În plus, a apelat în mod abuziv linia de urgență 112.",
-      "modelDescriere3": "Mai mult, a apelat în mod abuziv linia de urgență 112.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a apelat în mod abuziv linia de urgență 112.",
+      "descriere2": "În plus, a apelat în mod abuziv linia de urgență 112.",
+      "descriere3": "Mai mult, a apelat în mod abuziv linia de urgență 112.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2198,7 +2198,7 @@
       "id": "cap.4_4.11_abuzul_liniei_de_urgenta"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.12",
       "titlu": "Braconajul",
       "definitie": "Orice persoană care vânează sau pescuiește în zonele care nu sunt stabilite prin lege ca locații de vânătoare/pescuit, comite delictul de braconaj şi se pedepseşte prin lege cu sancțiunile menționate. Informații: Animalul vânat ilegal într-o zonă nepermisă este considerat bun de contrabandă și confiscat. Persoanele surprinse în flagrant de braconaj sunt supuse percheziției corporale și a vehiculului (dacă este cazul). Braconajul include deținerea de carcase de animale obținute ilegal. Tentativa de braconaj este atunci când persoana este găsită echipată pentru vânătoare într-o zonă interzisă sau când intenționează să vâneze în astfel de zone. Lista peștilor protejați de lege: Baracuda, Caracatiță, Pisică de mare, orice specie de rechin, orice specie de balenă, Țestoasă măslinie, Țestoasa albastră, Țestoasă verde, Pește balon.",
@@ -2211,11 +2211,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": true,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor, {braconaj}.",
-      "modelDescriere2": "În plus,desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor, {braconaj}.",
-      "modelDescriere3": "Mai mult, desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor,{braconaj}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor, {braconaj}.",
+      "descriere2": "În plus,desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor, {braconaj}.",
+      "descriere3": "Mai mult, desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor,{braconaj}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2227,7 +2227,7 @@
       "id": "cap.4_4.12_braconajul"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.13",
       "titlu": "Fals/Uz de fals",
       "definitie": "Cine falsifică un act public, fie prin copierea semnăturii, fie prin modificarea unui act adevărat în orice fel, comite infracțiunea de fals în acte publice şi se pedepseşte cu sancțiunile menționate.",
@@ -2240,11 +2240,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) utiliza un act public falsificat.",
-      "modelDescriere2": "În plus, utiliza un act public falsificat.",
-      "modelDescriere3": "Mai mult, utiliza un act public falsificat.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) utiliza un act public falsificat.",
+      "descriere2": "În plus, utiliza un act public falsificat.",
+      "descriere3": "Mai mult, utiliza un act public falsificat.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2256,7 +2256,7 @@
       "id": "cap.4_4.13_fals_uz_de_fals"
     },
     {
-      "capitolText": "Cap. 4",
+      "capitol": "Cap. 4",
       "numarArticol": "4.14",
       "titlu": "Eşecul de plată al amenzilor",
       "definitie": "Toate amenzile acordate de către Inspectoratul Principal Judiciar Los Santos trebuie achitate în termen de 21 de zile. Eşecul de a efectua plata în acest termen poate fi sancționat cu sentința menționată.",
@@ -2269,11 +2269,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
-      "modelDescriere2": "În plus, a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
-      "modelDescriere3": "Mai mult, a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
+      "descriere2": "În plus, a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
+      "descriere3": "Mai mult, a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2285,7 +2285,7 @@
       "id": "cap.4_4.14_esecul_de_plata_amenzilor"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.1",
       "titlu": "Deţinerea sau producerea de substante ilegale",
       "definitie": "Producerea, deţinerea, precum şi orice operaţiune privind cultivarea în scop de prelucrare a plantelor care conţin astfel de substanţe se pedepsesc cu sancțiunile menționate. Se aplica doar pentru semintele si frunzele de plante care conțin astfel de substanțe. A nu se cumula cu #5.2 Prelucrarea sau deținerea țigărilor de contrabandă, #5.3 Prelucrarea sau deținerea de droguri de risc sau #5.4 Prelucrarea sau deținerea de droguri de mare risc.",
@@ -2298,11 +2298,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
-      "modelDescriere2": "În plus, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
-      "modelDescriere3": "Mai mult, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
+      "descriere2": "În plus, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
+      "descriere3": "Mai mult, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2314,7 +2314,7 @@
       "id": "cap.5_5.1_detinere_producere_substante_ilegale"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.2",
       "titlu": "Prelucrarea sau deținerea țigărilor de contrabandă (TIP I)",
       "definitie": "Orice persoană care transportă, confecționează sau deține țigări de contrabandă care sunt prevăzute de lege ca fiind ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de țigări pe care o deține. TIP I (1 - 10 țigări): sentință 10 - 20 de luni și amendă 10.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2327,10 +2327,10 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "NU SE SANCȚIONEAZĂ",
-      "modelDescriere2": "NU SE SANCȚIONEAZĂ",
-      "modelDescriere3": "NU SE SANCȚIONEAZĂ",
-      "incompatibilCu": [
+      "descriere1": "NU SE SANCȚIONEAZĂ",
+      "descriere2": "NU SE SANCȚIONEAZĂ",
+      "descriere3": "NU SE SANCȚIONEAZĂ",
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2342,7 +2342,7 @@
       "id": "cap.5_5.2_prelucrare_detinere_tigari_contrabanda_tip_i"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.2",
       "titlu": "Prelucrarea sau deținerea țigărilor de contrabandă (TIP II)",
       "definitie": "Orice persoană care transportă, confecționează sau deține țigări de contrabandă care sunt prevăzute de lege ca fiind ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de țigări pe care o deține. TIP II (10 - 50 țigări): sentință 20 - 30 de luni și amendă 15.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2355,10 +2355,10 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "",
-      "modelDescriere2": "",
-      "modelDescriere3": "",
-      "incompatibilCu": [
+      "descriere1": "",
+      "descriere2": "",
+      "descriere3": "",
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2370,7 +2370,7 @@
       "id": "cap.5_5.2_prelucrare_detinere_tigari_contrabanda_tip_ii"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.2",
       "titlu": "Prelucrarea sau deținerea țigărilor de contrabandă (TIP III)",
       "definitie": "Orice persoană care transportă, confecționează sau deține țigări de contrabandă care sunt prevăzute de lege ca fiind ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de țigări pe care o deține. TIP III (50 - 100 țigări): sentință 30 - 40 de luni și amendă 20.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2383,10 +2383,10 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere3": "Mai mult, deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
-      "incompatibilCu": [
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere3": "Mai mult, deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2398,7 +2398,7 @@
       "id": "cap.5_5.2_prelucrare_detinere_tigari_contrabanda_tip_iii"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.2",
       "titlu": "Prelucrarea sau deținerea țigărilor de contrabandă (TIP IV)",
       "definitie": "Orice persoană care transportă, confecționează sau deține țigări de contrabandă care sunt prevăzute de lege ca fiind ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de țigări pe care o deține. TIP IV (100 + țigări): sentință 40 - 60 de luni și amendă 25.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2411,10 +2411,10 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "",
-      "modelDescriere2": "",
-      "modelDescriere3": "",
-      "incompatibilCu": [
+      "descriere1": "",
+      "descriere2": "",
+      "descriere3": "",
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2426,7 +2426,7 @@
       "id": "cap.5_5.2_prelucrare_detinere_tigari_contrabanda_tip_iv"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.3",
       "titlu": "Prelucrarea sau deținerea de droguri de risc (TIP I)",
       "definitie": "Orice persoană care transportă, confecționează sau deține substanţe care sunt prevăzute de lege ca fiind ilegale, pe cale chimică sau naturală. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de droguri pe care o deține. TIP I (1 - 10 joint-uri): sentință 20 - 30 de luni și amendă 15.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2439,11 +2439,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2455,7 +2455,7 @@
       "id": "cap.5_5.3_prelucrare_detinere_droguri_risc_tip_i"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.3",
       "titlu": "Prelucrarea sau deținerea de droguri de risc (TIP II)",
       "definitie": "Orice persoană care transportă, confecționează sau deține substanţe care sunt prevăzute de lege ca fiind ilegale, pe cale chimică sau naturală. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de droguri pe care o deține. TIP II (10 - 50 joint-uri): sentință 30 - 40 de luni și amendă 20.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2468,11 +2468,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2484,7 +2484,7 @@
       "id": "cap.5_5.3_prelucrare_detinere_droguri_risc_tip_ii"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.3",
       "titlu": "Prelucrarea sau deținerea de droguri de risc (TIP III)",
       "definitie": "Orice persoană care transportă, confecționează sau deține substanţe care sunt prevăzute de lege ca fiind ilegale, pe cale chimică sau naturală. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de droguri pe care o deține. TIP III (50 - 100 joint-uri): sentință 40 - 50 de luni și amendă 25.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2497,11 +2497,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2513,7 +2513,7 @@
       "id": "cap.5_5.3_prelucrare_detinere_droguri_risc_tip_iii"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.3",
       "titlu": "Prelucrarea sau deținerea de droguri de risc (TIP IV)",
       "definitie": "Orice persoană care transportă, confecționează sau deține substanţe care sunt prevăzute de lege ca fiind ilegale, pe cale chimică sau naturală. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de droguri pe care o deține. TIP IV (100+ joint-uri): sentință 50 - 70 de luni și amendă 30.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2526,11 +2526,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2542,7 +2542,7 @@
       "id": "cap.5_5.3_prelucrare_detinere_droguri_risc_tip_iv"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.4",
       "titlu": "Prelucrarea sau deținerea de droguri de mare risc (TIP I)",
       "definitie": "Orice persoană care transportă, confecționează sau deține substanţe care sunt prevăzute de lege ca fiind ilegale, pe cale chimică sau naturală. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de droguri pe care o deține. TIP I (1 - 10 plicuri de cocaina): sentință 40 - 50 de luni și amendă 30.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2555,11 +2555,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2571,7 +2571,7 @@
       "id": "cap.5_5.4_prelucrare_detinere_droguri_mare_risc_tip_i"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.4",
       "titlu": "Prelucrarea sau deținerea de droguri de mare risc (TIP II)",
       "definitie": "Orice persoană care transportă, confecționează sau deține substanţe care sunt prevăzute de lege ca fiind ilegale, pe cale chimică sau naturală. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de droguri pe care o deține. TIP II (10 - 50 plicuri de cocaina): sentință 50 - 60 de luni și amendă 40.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2584,11 +2584,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2600,7 +2600,7 @@
       "id": "cap.5_5.4_prelucrare_detinere_droguri_mare_risc_tip_ii"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.4",
       "titlu": "Prelucrarea sau deținerea de droguri de mare risc (TIP III)",
       "definitie": "Orice persoană care transportă, confecționează sau deține substanţe care sunt prevăzute de lege ca fiind ilegale, pe cale chimică sau naturală. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de droguri pe care o deține. TIP III (50 - 100 plicuri de cocaina): sentință 60 - 70 de luni și amendă 50.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2613,11 +2613,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2629,7 +2629,7 @@
       "id": "cap.5_5.4_prelucrare_detinere_droguri_mare_risc_tip_iii"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.4",
       "titlu": "Prelucrarea sau deținerea de droguri de mare risc (TIP IV)",
       "definitie": "Orice persoană care transportă, confecționează sau deține substanţe care sunt prevăzute de lege ca fiind ilegale, pe cale chimică sau naturală. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de droguri pe care o deține. TIP IV (100+ plicuri de cocaina): sentință 70 - 100 de luni și amendă 60.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
@@ -2642,11 +2642,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2658,7 +2658,7 @@
       "id": "cap.5_5.4_prelucrare_detinere_droguri_mare_risc_tip_iv"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.5",
       "titlu": "Bani nemarcati (Blood Money) (TIP I)",
       "definitie": "Orice persoană deține bani nemarcati obtinuti prin diferite mijloace ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de bani nemarcați pe care o deține. TIP I (10.000 - 100.000 bancnote de bani nemarcati): sentință 20 - 30 de luni și amendă 20.000$.",
@@ -2671,11 +2671,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2687,7 +2687,7 @@
       "id": "cap.5_5.5_bani_nemarcati_tip_i"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.5",
       "titlu": "Bani nemarcati (Blood Money) (TIP II)",
       "definitie": "Orice persoană deține bani nemarcati obtinuti prin diferite mijloace ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de bani nemarcați pe care o deține. TIP II (100.000 - 1.000.000 bancnote de bani nemarcati): sentință 30 - 40 de luni și amendă 30.000$.",
@@ -2700,11 +2700,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2716,7 +2716,7 @@
       "id": "cap.5_5.5_bani_nemarcati_tip_ii"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.5",
       "titlu": "Bani nemarcati (Blood Money) (TIP III)",
       "definitie": "Orice persoană deține bani nemarcati obtinuti prin diferite mijloace ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de bani nemarcați pe care o deține. TIP III (1.000.000 - 100.000.000 bancnote de bani nemarcati): sentință 40 - 50 de luni și amendă 40.000$.",
@@ -2729,11 +2729,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2745,7 +2745,7 @@
       "id": "cap.5_5.5_bani_nemarcati_tip_iii"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.5",
       "titlu": "Bani nemarcati (Blood Money) (TIP IV)",
       "definitie": "Orice persoană deține bani nemarcati obtinuti prin diferite mijloace ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de bani nemarcați pe care o deține. TIP IV (10.000.000+ bancnote de bani nemarcati): sentință 50 - 60 de luni și amendă 50.000$.",
@@ -2758,11 +2758,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
-      "modelDescriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
-      "modelDescriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2774,7 +2774,7 @@
       "id": "cap.5_5.5_bani_nemarcati_tip_iv"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.6",
       "titlu": "Practicarea medicinei fără licenţă",
       "definitie": "Orice persoană care practică medicina fără un act legal primit de la instituțiile guvernamentale, fără să aibă pregătirea necesară. Se aplică doar la persoanele care încearcă să injecteze sau să practice intervenții chirurgicale. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -2787,11 +2787,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
-      "modelDescriere2": "În plus, practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
-      "modelDescriere3": "Mai mult, practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
+      "descriere2": "În plus, practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
+      "descriere3": "Mai mult, practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2803,7 +2803,7 @@
       "id": "cap.5_5.6_practicarea_medicinei_fara_licenta"
     },
     {
-      "capitolText": "Cap. 5",
+      "capitol": "Cap. 5",
       "numarArticol": "5.7",
       "titlu": "Obligaţia de identificare adecvată",
       "definitie": "Toate persoanele sunt obligate să deţină şi să prezinte o identificare corespunzătoare rolului şi activităţilor desfăşurate. În timp ce pietonii sunt sfătuiţi să poarte un act de identitate (recomandat), următoarele sunt obligatorii pentru exercitarea drepturilor şi beneficiilor aferente anumitor licenţe: Șofer: Obligatoriu să poarte permis de conducere valid. Miner: Obligatoriu să deţină licenţă de minerit valabilă. Șofer de camion: Obligatoriu să aibă licenţă de transport comercial. Pescar: Obligatoriu să deţină licenţă de pescuit. Operator de remorcare: Obligatoriu să aibă licenţă pentru remorcare. Pilot (avion): Obligatoriu să prezinte licenţă de pilot. Operator de ambarcaţiuni: Obligatoriu să deţină licenţă de navigaţie. Utilizator de arme: Obligatoriu să aibă licenţă de port-arme atunci când foloseşte arme. Nerespectarea obligaţiei de a prezenta identificarea cerută de autorităţi sau în cadrul activităţilor reglementate se poate pedepsi cu sancțiunile menționate.",
@@ -2816,11 +2816,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
-      "modelDescriere2": "În plus, la momentul controlului, nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
-      "modelDescriere3": "Mai mult, la momentul controlului, nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
+      "descriere2": "În plus, la momentul controlului, nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
+      "descriere3": "Mai mult, la momentul controlului, nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -2832,7 +2832,7 @@
       "id": "cap.5_5.7_obligatia_de_identificare_adecvata"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.1",
       "titlu": "Ameninţări criminale",
       "definitie": "Orice persoană care amenință intenţionat să comită o crimă care poate rezulta în uciderea sau vătămarea corporală gravă a altei persoane în scris, verbal sau prin orice mijloc de comunicare electronic, în timp ce contactul fizic nu este prezent. Aceste amenințări criminale reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -2845,11 +2845,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere2": "În plus, a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere3": "Mai mult, a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere2": "În plus, a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere3": "Mai mult, a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.2_conducere_imprudenta",
@@ -2939,7 +2939,7 @@
       "id": "cap.6_6.1_amenintari_criminale"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.2",
       "titlu": "Tentativă de omor",
       "definitie": "Orice persoană care încearcă să comită o crimă sau vătămări severe şi ireversibile înfăptuiește o infracțiune și poate fi pedepsită cu sancțiunile menționate.",
@@ -2952,11 +2952,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere2": "În plus, a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere3": "Mai mult, a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere2": "În plus, a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere3": "Mai mult, a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -2978,7 +2978,7 @@
       "id": "cap.6_6.2_tentativa_de_omor"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.3",
       "titlu": "Vătămare corporală",
       "definitie": "Orice persoană care răneşte altă persoană prin diferite mijloace unde nu apar răni severe, reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -2991,11 +2991,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
-      "modelDescriere2": "În plus, a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
-      "modelDescriere3": "Mai mult, a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
+      "descriere2": "În plus, a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
+      "descriere3": "Mai mult, a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -3016,7 +3016,7 @@
       "id": "cap.6_6.3_vatamare_corporala"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.4",
       "titlu": "Vătămare corporală gravă",
       "definitie": "Orice persoană care răneşte altă persoană prin utilizarea unei armei mortale sau vătămarea corporală unde apar răni severe, reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -3029,11 +3029,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp})  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
-      "modelDescriere2": "În plus, a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
-      "modelDescriere3": "Mai mult,  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp})  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
+      "descriere2": "În plus, a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
+      "descriere3": "Mai mult,  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -3054,7 +3054,7 @@
       "id": "cap.6_6.4_vatamare_corporala_grava"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.5",
       "titlu": "Asalt cu o armă mortală",
       "definitie": "Asaltul cu o armă mortală este un act de asalt în care suspectul este în posesia unui obiect sau a unei arme capabile de a răni și reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -3067,11 +3067,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
-      "modelDescriere2": "În plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
-      "modelDescriere3": "În plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
+      "descriere2": "În plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
+      "descriere3": "În plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
         "cap.2_2.6_conducere_autovehicul_neinmatriculat",
@@ -3091,7 +3091,7 @@
       "id": "cap.6_6.5_asalt_cu_arma_mortala"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.6",
       "titlu": "Omor din culpă",
       "definitie": "Omorul din culpă reprezintă uciderea fără intenţie a unui individ, cu sau fără o ceartă anterioară. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -3104,11 +3104,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}), a provocat, fără intenție, decesul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere2": "În plus, a provocat, fără intenție, decesul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere3": "Mai mult, a provocat, fără intenție, decesul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}), a provocat, fără intenție, decesul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere2": "În plus, a provocat, fără intenție, decesul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere3": "Mai mult, a provocat, fără intenție, decesul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
         "cap.2_2.6_conducere_autovehicul_neinmatriculat",
@@ -3128,7 +3128,7 @@
       "id": "cap.6_6.6_omor_din_culpa"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.7",
       "titlu": "Crimă (Omucidere)",
       "definitie": "Omuciderea este un delict ilegal de ucidere a unei fiinţe umane și reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -3141,11 +3141,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a comis omorul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere2": "În plus, a comis omorul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere3": "Mai mult, a comis omorul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis omorul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere2": "În plus, a comis omorul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere3": "Mai mult, a comis omorul victimei {nume_reclamant} (CNP {cnp_reclamant}).",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -3167,7 +3167,7 @@
       "id": "cap.6_6.7_crima_omucidere"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.8",
       "titlu": "Răpire",
       "definitie": "O persoană care fură, ţine, reţine sau arestează alt individ, cu forţa şi împotriva voinţei sale săvârșește o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -3180,11 +3180,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a răpit pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}) din zona {zona_input}, reținându-l cu forța și împotriva voinței sale.",
-      "modelDescriere2": "În plus, a răpit pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), reținându-l cu forța și împotriva voinței sale.",
-      "modelDescriere3": "Mai mult, a răpit pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), reținându-l cu forța și împotriva voinței sale.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a răpit pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}) din zona {zona_input}, reținându-l cu forța și împotriva voinței sale.",
+      "descriere2": "În plus, a răpit pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), reținându-l cu forța și împotriva voinței sale.",
+      "descriere3": "Mai mult, a răpit pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), reținându-l cu forța și împotriva voinței sale.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -3206,7 +3206,7 @@
       "id": "cap.6_6.8_rapire"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.9",
       "titlu": "Tortură",
       "definitie": "Orice persoană care, cu intenţia de a cauza dureri nemiloase şi suferinţe extreme cu scopul răzbunării, şantajului, convingerii sau pentru orice alt scop sadic, care are ca urmare o vătămare corporală extrem de gravă, poate fi acuzată de tortură care se poate pedepsi cu sancțiunile menționate. A nu se cumula cu acuzația de #6.2 Tentativă de omor. Totuşi, dacă tortura a rezultat în moartea unui individ, acuzația de tortură se va cumula cu acuzația de #6.7 Crimă (Omucidere).",
@@ -3219,11 +3219,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a cauzat dureri nemiloase și suferințe extreme victimei {nume_reclamant} (CNP {cnp_reclamant}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
-      "modelDescriere2": "În plus, a cauzat dureri nemiloase și suferințe extreme victimei {nume_reclamant} (CNP {cnp_reclamant}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
-      "modelDescriere3": "Mai mult, a cauzat dureri nemiloase și suferințe extreme victimei {nume_reclamant} (CNP {cnp_reclamant}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a cauzat dureri nemiloase și suferințe extreme victimei {nume_reclamant} (CNP {cnp_reclamant}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
+      "descriere2": "În plus, a cauzat dureri nemiloase și suferințe extreme victimei {nume_reclamant} (CNP {cnp_reclamant}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
+      "descriere3": "Mai mult, a cauzat dureri nemiloase și suferințe extreme victimei {nume_reclamant} (CNP {cnp_reclamant}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3235,7 +3235,7 @@
       "id": "cap.6_6.9_tortura"
     },
     {
-      "capitolText": "Cap. 6",
+      "capitol": "Cap. 6",
       "numarArticol": "6.10",
       "titlu": "Fraudarea Creditorilor",
       "definitie": "Oricine ascunde, vinde, distruge sau deteriorează bunuri din averea unui creditor, creează datorii false sau comite alte acte care îl pune în dificultate financiară, va fi sancționat cu sancțiunile menționate, inclusiv restituirea tuturor bunurilor sau contravaloarea acestora.",
@@ -3248,11 +3248,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a comis acte frauduloase menite să afecteze interesele creditorului său {nume_reclamant} (CNP {cnp_reclamant}) și astfel pundu-l în dificultate financiară.",
-      "modelDescriere2": "În plus, a comis acte frauduloase menite să afecteze interesele creditorului său {nume_reclamant} (CNP {cnp_reclamant}) și astfel pundu-l în dificultate financiară.",
-      "modelDescriere3": "Mai mult, a comis acte frauduloase menite să afecteze interesele creditorului său {nume_reclamant} (CNP {cnp_reclamant}) și astfel pundu-l în dificultate financiară.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis acte frauduloase menite să afecteze interesele creditorului său {nume_reclamant} (CNP {cnp_reclamant}) și astfel pundu-l în dificultate financiară.",
+      "descriere2": "În plus, a comis acte frauduloase menite să afecteze interesele creditorului său {nume_reclamant} (CNP {cnp_reclamant}) și astfel pundu-l în dificultate financiară.",
+      "descriere3": "Mai mult, a comis acte frauduloase menite să afecteze interesele creditorului său {nume_reclamant} (CNP {cnp_reclamant}) și astfel pundu-l în dificultate financiară.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -3274,7 +3274,7 @@
       "id": "cap.6_6.10_fraudarea_creditorilor"
     },
     {
-      "capitolText": "Cap. 7",
+      "capitol": "Cap. 7",
       "numarArticol": "7.1",
       "titlu": "Posesia unei arme albe",
       "definitie": "Orice persoană care poartă, fără drept, în locurile şi împrejurările în care s-ar putea primejdui viaţa sau integritatea corporală a persoanelor ori s-ar putea tulbură ordinea şi liniştea publică, a unui cuţit cu lama mai mare de 9 centimetri (excepție Switchblade), a unui pumnal, a unei bâte ori a altor asemenea obiecte fabricate sau confecţionate anume pentru tăiere, împingere sau lovire. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -3287,11 +3287,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
-      "modelDescriere2": "În plus, purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
-      "modelDescriere3": "Mai mult, purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
+      "descriere2": "În plus, purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
+      "descriere3": "Mai mult, purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3303,7 +3303,7 @@
       "id": "cap.7_7.1_posesia_arme_albe"
     },
     {
-      "capitolText": "Cap. 7",
+      "capitol": "Cap. 7",
       "numarArticol": "7.2",
       "titlu": "Posesia unei arme de foc de calibru mic fără permis PORT-ARMĂ",
       "definitie": "Orice persoană care deține asupra lui o armă de foc de calibru mic fără să aibă un permis port-armă legal eliberat de departamentul de poliţie. Arma poate fi considerată în posesia lui chiar dacă se află în casa individului, în vehiculul personal sau într-o proprietate ce-i aparține. Această faptă reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -3316,11 +3316,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
-      "modelDescriere2": "În plus, avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
-      "modelDescriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
+      "descriere2": "În plus, avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
+      "descriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3332,7 +3332,7 @@
       "id": "cap.7_7.2_posesia_arme_foc_mic_fara_permis"
     },
     {
-      "capitolText": "Cap. 7",
+      "capitol": "Cap. 7",
       "numarArticol": "7.3",
       "titlu": "Posesia unei arme de foc de calibru mare",
       "definitie": "Orice persoană care deține asupra lui o armă de foc de calibru mare precum: Navy Revolver, Heavy Revolver, Gadget Pistol. Această faptă reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -3345,11 +3345,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
-      "modelDescriere2": "În plus, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
-      "modelDescriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere2": "În plus, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3361,7 +3361,7 @@
       "id": "cap.7_7.3_posesia_arme_foc_mare"
     },
     {
-      "capitolText": "Cap. 7",
+      "capitol": "Cap. 7",
       "numarArticol": "7.4",
       "titlu": "Posesia unei arme de foc automată",
       "definitie": "Orice persoană care deține asupra lui o armă de foc automată, precum: AK47, SMG, TEC, SHOTGUN, M4, etc. sau derivate sau chiar gloanțe pentru aceste arme. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate. În cazul în care deține și o armă de calibru mic nu se cumulează cu #7.2 Posesia unei arme de foc de calibru mic fără permis PORT-ARMĂ sau #7.3 Posesia unei arme de foc de calibru mare.",
@@ -3374,11 +3374,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
-      "modelDescriere2": "În plus, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
-      "modelDescriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere2": "În plus, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3392,7 +3392,7 @@
       "id": "cap.7_7.4_posesia_arme_foc_automata"
     },
     {
-      "capitolText": "Cap. 7",
+      "capitol": "Cap. 7",
       "numarArticol": "7.5",
       "titlu": "Posesia de explozibil",
       "definitie": "Orice persoană care deține asupra lui explozibil, obiecte inflamabile sau cantități foarte mari de praf de pușcă ce pot duce la vătămarea corporală gravă a unui civil, distrugerea unor bunuri sau ale unor proprietăți private. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
@@ -3405,11 +3405,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care aa fost confiscate.",
-      "modelDescriere2": "În plus, avea în posesie {perchezitie_buzunare}, care a fost confiscat.",
-      "modelDescriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care a fost confiscat.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care aa fost confiscate.",
+      "descriere2": "În plus, avea în posesie {perchezitie_buzunare}, care a fost confiscat.",
+      "descriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care a fost confiscat.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3427,7 +3427,7 @@
       "id": "cap.7_7.5_posesia_explozibil"
     },
     {
-      "capitolText": "Cap. 7",
+      "capitol": "Cap. 7",
       "numarArticol": "7.6",
       "titlu": "Îndreptarea unei arme de foc",
       "definitie": "Orice persoană care deține asupra lui o armă de foc și o îndreaptă asupra unui obiect sau asupra unei persoane. Această faptă reprezintă o infracţiune care se poate pedepsi cu sentința menționată.",
@@ -3440,11 +3440,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a îndreptat o armă de foc asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere2": "În plus, a îndreptat o armă de foc asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
-      "modelDescriere3": "Mai mult, a îndreptat o armă de foc asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a îndreptat o armă de foc asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere2": "În plus, a îndreptat o armă de foc asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
+      "descriere3": "Mai mult, a îndreptat o armă de foc asupra cetățeanului {nume_reclamant} (CNP {cnp_reclamant}).",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12.3_jaf_bancar",
         "cap.3_3.12.2_jaf_imobile",
         "cap.3_3.12.1_jaf_armat",
@@ -3456,7 +3456,7 @@
       "id": "cap.7_7.6_indreptarea_arme_foc"
     },
     {
-      "capitolText": "Cap. 7",
+      "capitol": "Cap. 7",
       "numarArticol": "7.7",
       "titlu": "Descărcarea letală a unei arme de foc",
       "definitie": "Orice persoană care folosește o armă de foc, cu scopul de a vătăma corporal grav o altă persoană nefiind într-un scop de autoapărare. Această faptă reprezintă o crimă care se poate pedepsi cu sentința menționată.",
@@ -3469,11 +3469,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp})a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
-      "modelDescriere2": "În plus, a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
-      "modelDescriere3": "Mai mult, a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp})a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere2": "În plus, a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere3": "Mai mult, a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul {nume_reclamant} (CNP {cnp_reclamant}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3485,7 +3485,7 @@
       "id": "cap.7_7.7_descarcarea_letala_arme_foc"
     },
     {
-      "capitolText": "Cap. 7",
+      "capitol": "Cap. 7",
       "numarArticol": "7.8",
       "titlu": "Traficul de armament sau de munitie",
       "definitie": "Orice persoană care deține trei sau mai multe arme de foc şi/sau mai mult de 300 gloanțe fără a deține un permis pentru vânzarea acestora. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate. De asemenea, toate obiectele folosite pentru a fabrica gloanțe sau arme găsite în zona de fabricație vor fi confiscate. Aceasta faptă nu se cumulează cu alte acuzații din capitolul 7.",
@@ -3498,11 +3498,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora.",
-      "modelDescriere2": "În plus, acesta deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora. ",
-      "modelDescriere3": "Mai mult, acesta deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora. ",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora.",
+      "descriere2": "În plus, acesta deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora. ",
+      "descriere3": "Mai mult, acesta deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora. ",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3520,7 +3520,7 @@
       "id": "cap.7_7.8_traficul_de_armament_sau_munitie"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.1",
       "titlu": "Terorism",
       "definitie": "Organizarea sau participarea la acte de terorism, inclusiv atentate, atacuri asupra instituțiilor sau infrastructurii vitale. Un atentat poate duce la pierderi de vieți omenești, distrugerea infrastructurii esențiale sau periclitarea securității naționale. Această faptă reprezintă o crimă care se pedepsește cu reținerea suspectului pe viața.",
@@ -3533,11 +3533,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în organizarea și participarea la acte de terorism în zona {zona_input}, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
-      "modelDescriere2": "În plus, a fost implicat în organizarea și participarea la acte de terorism, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
-      "modelDescriere3": "Mai mult, a fost implicat în organizarea și participarea la acte de terorism, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în organizarea și participarea la acte de terorism în zona {zona_input}, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
+      "descriere2": "În plus, a fost implicat în organizarea și participarea la acte de terorism, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
+      "descriere3": "Mai mult, a fost implicat în organizarea și participarea la acte de terorism, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3548,7 +3548,7 @@
       "id": "cap.8_8.1_terorism"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.2",
       "titlu": "Încălcarea regimului de securitate al statului",
       "definitie": "Intrarea ilegală în zone sau clădiri protejate, cu scopul de a aduna informații sau de a desfășura activități dăunătoare, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -3561,11 +3561,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a pătruns ilegal în zona/clădirea protejată din apropiere, cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
-      "modelDescriere2": "În plus, a pătruns ilegal cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
-      "modelDescriere3": "Mai mult, a pătruns ilegal cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a pătruns ilegal în zona/clădirea protejată din apropiere, cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
+      "descriere2": "În plus, a pătruns ilegal cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
+      "descriere3": "Mai mult, a pătruns ilegal cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3576,7 +3576,7 @@
       "id": "cap.8_8.2_incalcarea_regimului_securitate_stat"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.3",
       "titlu": "Împiedicarea activităților guvernamentale",
       "definitie": "Orice act care interferează sau împiedică activitățile guvernului, agențiilor de securitate sau serviciilor publice, cum ar fi blocarea drumurilor sau atacarea oficialilor guvernamentali, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -3589,11 +3589,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) împiedica activitățile serviciilor publice.",
-      "modelDescriere2": "În plus, împiedica activitățile serviciilor publice.",
-      "modelDescriere3": "Mai mult, împiedica activitățile serviciilor publice.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) împiedica activitățile serviciilor publice.",
+      "descriere2": "În plus, împiedica activitățile serviciilor publice.",
+      "descriere3": "Mai mult, împiedica activitățile serviciilor publice.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3604,7 +3604,7 @@
       "id": "cap.8_8.3_impiedicarea_activitatilor_guvernamentale"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.4",
       "titlu": "Formarea unui grup paramilitar",
       "definitie": "Crearea sau apartenența la grupuri organizate care au scopuri de combatere a autorităților sau de destabilizare a statului, cu sau fără arme, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate. A nu se cumula cu #8.3 Împiedicarea activităților guvernamentale.",
@@ -3617,11 +3617,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
-      "modelDescriere2": "În plus,a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
-      "modelDescriere3": "Mai mult, a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
+      "descriere2": "În plus,a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
+      "descriere3": "Mai mult, a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3633,7 +3633,7 @@
       "id": "cap.8_8.4_formarea_grup_paramilitar"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.5",
       "titlu": "Acte de incitare la violență împotriva instituțiilor guvernamentale",
       "definitie": "Organizarea de mitinguri, proteste sau alte acțiuni care încurajează violența împotriva autorităților sau a instituțiilor guvernamentale, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -3646,11 +3646,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
-      "modelDescriere2": "În plus, a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
-      "modelDescriere3": "Mai mult, a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
+      "descriere2": "În plus, a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
+      "descriere3": "Mai mult, a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3661,7 +3661,7 @@
       "id": "cap.8_8.5_incitare_violenta_institutii_guvernamentale"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.6",
       "titlu": "Falsificarea documentelor guvernamentale",
       "definitie": "Crearea, modificarea sau utilizarea ilegală a documentelor oficiale pentru a accesa informații sau locații restricționate, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -3674,11 +3674,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a utilizat documente guvernamentale falsificate.",
-      "modelDescriere2": "În plus, a utilizat documente guvernamentale falsificate.",
-      "modelDescriere3": "Mai mult, a utilizat documente guvernamentale falsificate.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a utilizat documente guvernamentale falsificate.",
+      "descriere2": "În plus, a utilizat documente guvernamentale falsificate.",
+      "descriere3": "Mai mult, a utilizat documente guvernamentale falsificate.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12.3_jaf_bancar",
         "cap.3_3.12.2_jaf_imobile",
         "cap.3_3.12.1_jaf_armat",
@@ -3689,7 +3689,7 @@
       "id": "cap.8_8.6_falsificare_documente_guvernamentale"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.7",
       "titlu": "Spionaj",
       "definitie": "Obținerea sau transmiterea de informații secrete sau sensibile către entități externe, care ar putea periclita siguranța națională sau interesele unui stat, reprezintă o infracţiune care se poate pedepsi cu sancțiunile menționate.",
@@ -3702,11 +3702,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
-      "modelDescriere2": "În plus, a obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
-      "modelDescriere3": "Mai mult, a obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
+      "descriere2": "În plus, a obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
+      "descriere3": "Mai mult, a obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3717,7 +3717,7 @@
       "id": "cap.8_8.7_spionaj"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.8",
       "titlu": "Sabotaj",
       "definitie": "Sabotajul constă în distrugerea sau deteriorarea intenționată a infrastructurilor sau echipamentelor esențiale, cum ar fi vehicule, clădiri sau centrale, pentru a crea haos sau a periclita siguranța orașului. Infracţiunea este pedepsita cu sancțiunile menționate.",
@@ -3730,11 +3730,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
-      "modelDescriere2": "În plus, a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
-      "modelDescriere3": "Mai mult, a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
+      "descriere2": "În plus, a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
+      "descriere3": "Mai mult, a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
         "cap.3_3.12.2_jaf_imobile",
@@ -3745,7 +3745,7 @@
       "id": "cap.8_8.8_sabotaj"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.9",
       "titlu": "Constituirea unui grup infracţional organizat",
       "definitie": "Prin grup infracţional organizat se înţelege grupul structurat, format din trei sau mai multe persoane, constituit pentru o anumită perioadă de timp şi pentru a acţiona în mod coordonat în scopul comiterii uneia sau mai multor infracţiuni. Iniţierea sau constituirea unui grup infracţional organizat, aderarea sau sprijinirea, sub orice formă, a unui astfel de grup se poate pedepseşte cu sancțiunile menționate. Dacă persoana care a săvârşit una dintre faptele prevăzute mai sus, contribuie la aflarea adevărului şi tragerea la răspundere penală a unuia sau mai multor membri ai unui grup infracţional organizat, limitele speciale ale pedepsei se reduc la jumătate. Aceasta fapta nu se cumuleaza cu alte articole ale codului penal.",
@@ -3758,11 +3758,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a constituit un grup infracțional organizat, alături de alte persoane.",
-      "modelDescriere2": "În plus, a constituit un grup infracțional organizat, alături de alte persoane.",
-      "modelDescriere3": "Mai mult, a constituit un grup infracțional organizat, alături de alte persoane.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a constituit un grup infracțional organizat, alături de alte persoane.",
+      "descriere2": "În plus, a constituit un grup infracțional organizat, alături de alte persoane.",
+      "descriere3": "Mai mult, a constituit un grup infracțional organizat, alături de alte persoane.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.2_conducere_imprudenta",
@@ -3874,7 +3874,7 @@
       "id": "cap.8_8.9_constituire_grup_infractional_organizat"
     },
     {
-      "capitolText": "Cap. 8",
+      "capitol": "Cap. 8",
       "numarArticol": "8.10",
       "titlu": "Corupție",
       "definitie": "Prin corupție se înțelege abuzul de putere în scopul obținerii unor foloase materiale sau avantaje necuvenite, fie prin primirea de mită, favorizarea unor terți sau influențarea unor decizii administrative în detrimentul interesului public. Această faptă subminează integritatea instituțiilor și încrederea comunității, afectând echilibrul și justiția în cadrul serverului. Infracțiunea se pedepsește cu sancțiunile menționate. În situațiile în care persoana acuzată a colaborat la aflarea adevărului și la identificarea altor infractori, limitele speciale ale pedepsei se reduc la jumătate. Această faptă nu se cumulează cu alte articole ale codului penal.",
@@ -3887,11 +3887,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
-      "modelDescriere2": "În plus, a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
-      "modelDescriere3": "Mai mult, a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
+      "descriere2": "În plus, a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
+      "descriere3": "Mai mult, a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
       "isContraventie": true,
-      "incompatibilCu": [
+      "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.2_conducere_imprudenta",
