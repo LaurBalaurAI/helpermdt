@@ -1,1 +1,3 @@
-Salut! Acesta este un test de readme pentru instrucțiunile de utilizare
+Funcționalități aplicație:
+MDT Helper
+
