@@ -1,9 +1,9 @@
 Acest ghid te va ajuta să înțelegi și să folosești eficient toate funcționalitățile aplicației, de la configurarea inițială și generarea rapoartelor, până la personalizarea avansată a overlay-urilor și a aspectului.
 
 🚀 1. Inițializarea și Primii Pași
-Când pornești aplicația, aceasta va încărca datele folosind link-ul din Setări > Bază de Date. Vei vedea un status al sincronizării în partea de sus a ferestrei principale.
+Când pornești aplicația, aceasta va încărca datele folosind link-ul din Setări > Bază de Date. Vei vedea un status al sincronizării în partea de sus a ferestrei principale. Cu ce te ajută ? Vei ști mereu că lucrezi pe baza unui Cod Penal actualizat mereu la zi.
 Sincronizare Manuală: Dacă este necesar, mergi la Setări > Bază de Date și apasă butonul Sincronizează. 
-Încărcare Locală: Poți încărca o bază de date salvată local (un fișier .txt) folosind butonul Încarcă date manual. -Acest lucru este pentru dezvoltator)
+Încărcare Locală: Poți încărca o bază de date salvată local (un fișier .txt) folosind butonul Încarcă date manual (asta presupunând că nu ai net să se actualizeze automat, dar de ce ai folosi Helperul fără net ?)
 
 🖥️ 2. Prezentarea Interfeței
 Aplicația este organizată pe tab-uri, fiecare cu un scop precis.
@@ -52,19 +52,22 @@ Apasă butonul mare Generează.
 Titlul și descrierea completă a cazului vor apărea în căsuțele de text de mai jos.
 Folosește butoanele Copiază Titlu și Copiază Descriere pentru a le prelua rapid.
 
-🎯 4. Overlay-uri (Țintă și Radio)
-Aplicația poate afișa informații direct peste joc.
+🎯 4. Overlay-uri (, MDT Helper, Țintă și Radio)
+Aplicația poate afișa informații direct peste joc:
 
-Țintă Custom
+MDT Helper:
+Afișează peste joc (cu scurtătura setată în Hotkeys) interfața MDT Helper nefiind nevoie să mai dai Alt+Tab. Când ai terminat, o ascunzi cu aceeași scurtătură.
+
+Țintă Custom:
 Mergi la tab-ul Țintă custom.
 Selectează imaginea dorită din galerie.
 Ajustează dimensiunea și poziția verticală folosind sliderele.
-Activează/dezactivează afișarea ei cu butonul <i class="fa-solid fa-crosshairs"></i> din antet sau cu scurtătura setată.
+Activează/dezactivează afișarea ei cu butonul <i class="fa-solid fa-crosshairs"></i> din antet sau cu scurtătura setată în Hotkeys.
 
 Coduri Radio
 Mergi la tab-ul Coduri Radio.
 Personalizează denumirile codurilor, fontul, mărimea, culoarea, conturul și poziția pe ecran.
-Activează/dezactivează afișarea cu butonul <i class="fa-solid fa-walkie-talkie"></i> din antet sau cu scurtătura setată.
+Activează/dezactivează afișarea cu butonul <i class="fa-solid fa-walkie-talkie"></i> din antet sau cu scurtătura setată în Hotkeys.
 
 ⚙️ 5. Setări și Personalizare Avansată
 În tab-ul Setări, poți modifica aproape orice aspect al aplicației.
