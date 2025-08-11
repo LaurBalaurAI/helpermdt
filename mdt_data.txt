@@ -6502,18 +6502,28 @@
     }
   ],
   "aiLogic": {
-    "intro_standard": "În data de {data_procesare}, în jurul orei {ora_procesare}, în zona {zona_input}, ",
-    "intro_apel_112": "În urma unui apel la linia de urgență 112, efectuat de către cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), în data de {data_procesare}, la ora {ora_procesare}, echipajul de poliție constituit din {patrola}, a intervenit în zona {zona_input}, unde ",
-    "intro_autoconstatare": "În data de {data_procesare}, în jurul orei {ora_procesare}, în timp ce patrula în zona {zona_input}, echipajul de poliție compus din {patrola_text} a constatat că ",
-    "sanctions": "\n\n\nConform Codului Penal în vigoare, cetățeanul {nume}, CNP {cnp} a fost sancționat cu:\n{sanctiuni_lista}"
+    "intro_apel_112": "În urma unui apel la linia de urgență 112, efectuat de către cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), în data de {data_procesare}, la ora {ora_procesare}, echipajul de poliție constituit din {patrola}, a intervenit în zona {zona_input}, unde",
+    "intro_autoconstatare": "În data de {data_procesare}, în jurul orei {ora_procesare}, în timp ce patrula în zona {zona_input}, echipajul de poliție compus din {patrola_text} a constatat că",
+    "intro_sri": "În urma alertelor sistemelor de supraveghere S.R.I. primite de autorități în data de {data_procesare} la ora {ora_procesare} cu privire la focuri de armă în zona {zona_input}, echipajul constituit din {patrola}, a intervenit și a neutralizat și imobilizat persoanele implicate. Printre acestea,",
+    "intro_jaf": "În data de {data_procesare}, la ora {ora_procesare}, alarma de securitate a {obiectiv_jaf} de pe {locatie_jaf} a fost declanșată. Aflați în apropiere, {patrola} au intrevenit și au neutralizat făptașii. Printre aceștia,",
+    "intro_mineriada": "În data de {data_procesare}, în jurul orei {ora_procesare} a avut loc o acțiune de tip „Mineriadă” a echipajelor de poliție. În urma controalelor,",
+    "intro_rutiera": "În urma unui filtru de control rutier organizat de autorități pentru prevenirea și combaterea neconformităților participanților la traficul rutier și asigurarea siguranței rutiere conform reglementărilor în vigoare din Codul Penal, în data de {data_procesare}, la ora {ora_procesare}, {patrola} a constatat că",
+    "intro_razie_sas": "În urma unei razii S.A.S. ce a avut loc pe {zona_input} în data de {data_procesare}, la ora {ora_procesare}, au fost arestați mai mulți suspecți. Printre aceștia,",
+    "sanctions": "Conform Codului Penal în vigoare, cetățeanul {nume}, CNP {cnp} a fost sancționat cu:\n{sanctiuni_lista}"
   },
   "aiSettings": {
-    "titleSeparator": "; ",
-    "titleFormat": "{titluri_infractiuni} ({capitol_principal})",
-    "compositeHeader": ""
+    "titleSeparator": ", ",
+    "titleFormat": "{titluri_infractiuni} | {capitol_principal}",
+    "compositeHeader": "",
+    "headerTemplate": "",
+    "correctionPrompt": "Folosește un limbaj formal, specific Poliției Române. Verifică acordul gramatical între subiect și predicat și adaptează substantivele și adjectivele la genul persoanelor implicate. Asigură-te că punctuația este corectă, cu spațiu după virgulă și punct."
   },
   "compositePlaceholders": {
-    "nr_inmatriculare_filled": "cu numerele de înmatriculare [VALOARE]",
+    "nr_inmatriculare_filled": {
+      "target": "agent_ad1_call_sign",
+      "filled": "",
+      "empty": ""
+    },
     "nr_inmatriculare_empty": "fără numere de înmatriculare",
     "partea_vatamata_text_filled": "Partea vătămată: [NUME_RECLAMANT] (CNP: [CNP_RECLAMANT])",
     "partea_vatamata_text_empty": "Partea vătămată: Statul Român",
@@ -6527,7 +6537,7 @@
     "sanctiuni_ridicare_vehicul": "- Ridicarea autovehiculului",
     "sanctiuni_dosar_penal": "- Constituire dosar penal",
     "sanctiuni_perchezitie_masura": "- Percheziție corporală și a vehiculului.",
-    "sanctiuni_lista_empty": "(Acest placeholder este omis complet dacă nu se aplică sancțiuni)",
+    "sanctiuni_lista_empty": " Nu poți întocmi un dosar fără sancțiuni.",
     "perchezitie_buzunare_filled": "în buzunare s-a găsit [VALOARE]",
     "perchezitie_buzunare_empty": "",
     "perchezitie_torpedo_filled": "în torpedo s-a găsit [VALOARE]",
@@ -6541,112 +6551,26 @@
     "_special_perchezitie_torpedo_filled": "în torpedo avea {perchezitie_torpedo_continut}",
     "_special_perchezitie_torpedo_empty": "în torpedo nu avea nimic ilegal.",
     "_special_perchezitie_portbagaj_filled": "în portbagaj avea {perchezitie_portbagaj_continut}",
-    "_special_perchezitie_portbagaj_empty": "în portbagaj nu avea nimic ilegal."
-  },
-  "masterTemplate": "{header}\n\n{intro}\n\n{infraction_1_desc}\n{mentiuni_1}\n\n{infraction_2_desc}\n{mentiuni_2}\n\n{infraction_3_desc}\n{mentiuni_3}\n\n{sanctions_block}",
-  "radioSettings": {
-    "codes": [
-      {
-        "code": "10-0",
-        "name": "suspect pierdut"
-      },
-      {
-        "code": "10-1",
-        "name": "schimbare frecvență"
-      },
-      {
-        "code": "10-2",
-        "name": "permisiune depășire"
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      },
-      {
-        "code": "",
-        "name": ""
-      }
-    ],
-    "font": "Roboto Mono",
-    "size": "14",
-    "color": "#ffffff",
-    "position": {
-      "x": "0",
-      "y": "551"
+    "_special_perchezitie_portbagaj_empty": "în portbagaj nu avea nimic ilegal.",
+    "sanctions_block": {
+      "target": "",
+      "filled": "",
+      "empty": ""
     },
-    "layout": "vertical",
-    "outline": {
-      "enabled": false,
-      "color": "#000000",
-      "thickness": "1"
-    },
-    "shadow": {
-      "enabled": false,
-      "color": "#000000",
-      "x": "1",
-      "y": "1",
-      "blur": "1"
+    "nr_inmatriculare": {
+      "target": "nr_inmatriculare",
+      "filled": "cu numerele de înmatriculare {valoare}",
+      "empty": "fără numere de înmatriculare"
     }
   },
+  "masterTemplate": "{header}\n{intro} {infraction_1_desc}. {mentiuni_1}\n{infraction_2_desc}. {mentiuni_2}\n{infraction_3_desc}. {mentiuni_3}\n\n{sanctions_block}",
   "policeOverlaySettings": {
     "enabled": true,
-    "text": "ACUM!",
-    "font": "Impact",
-    "color": "#00ff00",
-    "size": "30",
-    "duration": "1",
+    "text": "Ai înregistrat acest moment (ora) în descriere. Succes!",
+    "font": "Black Ops One",
+    "color": "#006eff",
+    "size": "24",
+    "duration": "10",
     "position": {
       "x": "50",
       "y": 50
@@ -6654,7 +6578,7 @@
     "outline": {
       "enabled": true,
       "color": "#000000",
-      "thickness": "2"
+      "thickness": "1"
     }
   }
 }
