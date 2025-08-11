@@ -15,7 +15,7 @@
       "ridicareVehicul": false,
       "perchezitie": false,
       "dosarPenal": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost înregistrat de aparatul radar al echipajului de poliție conducând {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul},  {nr_inmatriculare}, cu viteza de {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost înregistrat de aparatul radar al echipajului de poliție conducând {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, cu viteza de {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
       "descriere2": "În plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
       "descriere3": "Mai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
       "isContraventie": true,
