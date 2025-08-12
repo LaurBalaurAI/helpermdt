@@ -6600,12 +6600,8 @@
         "name": "Afirmativ/Recepționat"
       },
       {
-        "code": "10-6",
-        "name": "Cod 6"
-      },
-      {
         "code": "10-8",
-        "name": "PAtrulă"
+        "name": "Patrulă"
       },
       {
         "code": "10-9",
@@ -6625,7 +6621,7 @@
       },
       {
         "code": "10-23",
-        "name": "Ajuns la destinație"
+        "name": "Destinație"
       },
       {
         "code": "10-28",
@@ -6657,15 +6653,19 @@
       },
       {
         "code": "10-78",
-        "name": "întăriri"
+        "name": "Întăriri"
       },
       {
         "code": "10-80",
         "name": "Urmărire"
-      }
-{
+      },
+      {
         "code": "10-95",
         "name": "Suspect"
+      },
+      {
+        "code": "",
+        "name": ""
       }
     ],
     "font": "Teko",
