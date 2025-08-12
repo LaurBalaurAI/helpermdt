@@ -18,11 +18,11 @@ Setări: Personalizare avansată a aplicației.
 Info: Afișează ghidul de utilizare.
 Controale Globale (Dreapta-sus):
 
-: Activează/Dezactivează overlay-ul cu coduri radio.
-<i class="fa-solid fa-crosshairs"></i>: Activează/Dezactivează overlay-ul cu ținta.
-<i class="fa-solid fa-layer-group"></i>: Ascunde/Afișează interfața deasupra jocului pentru o integrare perfectă cu acesta (jocul trebuie să ruleze în Windowed Borderless pentru a avea efect).
-<i class="fa-solid fa-window-minimize"></i>: Minimizează aplicația.
-<i class="fa-solid fa-power-off"></i>: Închide aplicația.
+ Activează/Dezactivează overlay-ul cu coduri radio.
+ Activează/Dezactivează overlay-ul cu ținta.
+ Ascunde/Afișează interfața deasupra jocului pentru o integrare perfectă cu acesta (jocul trebuie să ruleze în Windowed Borderless pentru a avea efect).
+ Minimizează aplicația.
+ Închide aplicația.
 
 📝 3. Cum să Creezi un Raport (MDT Helper)
 Aceasta este funcționalitatea de bază. Urmează pașii de mai jos pentru a genera un raport complet.
