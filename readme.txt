@@ -18,7 +18,7 @@ Setări: Personalizare avansată a aplicației.
 Info: Afișează ghidul de utilizare.
 Controale Globale (Dreapta-sus):
 
-<i class="fa-solid fa-walkie-talkie"></i>: Activează/Dezactivează overlay-ul cu coduri radio.
+: Activează/Dezactivează overlay-ul cu coduri radio.
 <i class="fa-solid fa-crosshairs"></i>: Activează/Dezactivează overlay-ul cu ținta.
 <i class="fa-solid fa-layer-group"></i>: Ascunde/Afișează interfața deasupra jocului pentru o integrare perfectă cu acesta (jocul trebuie să ruleze în Windowed Borderless pentru a avea efect).
 <i class="fa-solid fa-window-minimize"></i>: Minimizează aplicația.
