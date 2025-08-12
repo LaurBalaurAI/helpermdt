@@ -6663,10 +6663,6 @@
         "code": "10-95",
         "name": "Suspect"
       },
-      {
-        "code": "",
-        "name": ""
-      }
     ],
     "font": "Teko",
     "size": "17",
