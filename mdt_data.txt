@@ -6580,5 +6580,113 @@
       "color": "#000000",
       "thickness": "1"
     }
+  },
+  "radioSettings": {
+    "codes": [
+      {
+        "code": "10-0",
+        "name": "suspect pierdut"
+      },
+      {
+        "code": "10-1",
+        "name": "schimbare frecvență"
+      },
+      {
+        "code": "10-2",
+        "name": "permisiune depășire"
+      },
+      {
+        "code": "10-4",
+        "name": "Afirmativ/Recepționat"
+      },
+      {
+        "code": "10-6",
+        "name": "Cod 6"
+      },
+      {
+        "code": "10-8",
+        "name": "PAtrulă"
+      },
+      {
+        "code": "10-9",
+        "name": "Repetă"
+      },
+      {
+        "code": "10-11",
+        "name": "Focuri de armă"
+      },
+      {
+        "code": "10-16",
+        "name": "Fără numere de înmatriculare"
+      },
+      {
+        "code": "10-20",
+        "name": "Locație"
+      },
+      {
+        "code": "10-23",
+        "name": "Ajuns la destinație"
+      },
+      {
+        "code": "10-28",
+        "name": "Numere de înmatriculare"
+      },
+      {
+        "code": "10-38",
+        "name": "Traffic Stop"
+      },
+      {
+        "code": "10-41",
+        "name": "On Duty"
+      },
+      {
+        "code": "10-42",
+        "name": "Off Duty"
+      },
+      {
+        "code": "10-50",
+        "name": "Accident"
+      },
+      {
+        "code": "10-60",
+        "name": "Livrare"
+      },
+      {
+        "code": "10-76",
+        "name": "În drum spre"
+      },
+      {
+        "code": "10-78",
+        "name": "întăriri"
+      },
+      {
+        "code": "10-80",
+        "name": "Urmărire"
+      }
+{
+        "code": "10-95",
+        "name": "Suspect"
+      }
+    ],
+    "font": "Teko",
+    "size": "17",
+    "color": "#ffffff",
+    "position": {
+      "x": "0",
+      "y": "475"
+    },
+    "layout": "vertical",
+    "outline": {
+      "enabled": true,
+      "color": "#000000",
+      "thickness": "2"
+    },
+    "shadow": {
+      "enabled": true,
+      "color": "#000000",
+      "x": "1",
+      "y": "1",
+      "blur": "4"
+    }
   }
 }
