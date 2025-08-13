@@ -1,84 +1,45 @@
-Acest ghid te va ajuta să înțelegi și să folosești eficient toate funcționalitățile aplicației, de la configurarea inițială și generarea rapoartelor, până la personalizarea avansată a overlay-urilor și a aspectului.
+MDT Helper - Los Santos Police Department
+==========================================
 
-🚀 1. Inițializarea și Primii Pași
-Când pornești aplicația, aceasta va încărca datele folosind link-ul din Setări > Bază de Date. Vei vedea un status al sincronizării în partea de sus a ferestrei principale. Cu ce te ajută ? Vei ști mereu că lucrezi pe baza unui Cod Penal actualizat mereu la zi.
-Sincronizare Manuală: Dacă este necesar, mergi la Setări > Bază de Date și apasă butonul Sincronizează. 
-Încărcare Locală: Poți încărca o bază de date salvată local (un fișier .txt) folosind butonul Încarcă date manual (asta presupunând că nu ai net să se actualizeze automat, dar de ce ai folosi Helperul fără net ?)
+Asistent Inteligent pentru Generarea Descrierilor de Infracțiuni
 
-🖥️ 2. Prezentarea Interfeței
-Aplicația este organizată pe tab-uri, fiecare cu un scop precis.
-Antetul Superior: Conține informații despre patrula setată și ceasul. Poți trage de această zonă pentru a muta fereastra aplicației.
+DESCRIERE:
+----------
+MDT Helper este o aplicație avansată dezvoltată pentru Los Santos Police Department, care automatizează și simplifică procesul de generare a descrierilor pentru infracțiuni. Aplicația integrează inteligența artificială pentru a crea descrieri detaliate și profesionale bazate pe Codul Penal.
 
-Bara de Tab-uri:
-MDT Helper: Instrumentul principal pentru crearea rapoartelor.
-Țintă custom: Personalizează și activează o țintă custom pentru joc.
-Coduri Radio: Personalizează și afișează o listă cu coduri radio.
-Hotkeys: Setează scurtături de la tastatură.
-Setări: Personalizare avansată a aplicației.
-Info: Afișează ghidul de utilizare.
-Controale Globale (Dreapta-sus):
+FUNCȚIONALITĂȚI PRINCIPALE:
+---------------------------
+• Generare automată a descrierilor de infracțiuni bazată pe un minim de input din partea ta!
 
- Activează/Dezactivează overlay-ul cu coduri radio.
- Activează/Dezactivează overlay-ul cu ținta.
- Ascunde/Afișează interfața deasupra jocului pentru o integrare perfectă cu acesta (jocul trebuie să ruleze în Windowed Borderless pentru a avea efect).
- Minimizează aplicația.
- Închide aplicația.
+• Calcul automat al sancțiunilor (amenzi, închisoare, puncte permis)
 
-📝 3. Cum să Creezi un Raport (MDT Helper)
-Aceasta este funcționalitatea de bază. Urmează pașii de mai jos pentru a genera un raport complet.
+• Căutare rapidă Infracțiune în Codul Penal
 
-Pasul 1: Setează Patrula
-Apasă butonul Setează Patrulă.
-În fereastra deschisă, completează datele tale la Agent Operator.
-Bifează și completează datele partenerilor, dacă este cazul.
-Apasă Salvează. Datele patrulei vor fi folosite automat în rapoarte.
+• Gestionare avansată a patrulei (grade, nume, call signs)
 
-Pasul 2: Completează Formularul
-Verificare Rapidă: Caută rapid un articol în câmpul de sus pentru a-i vedea detaliile.
-Părți Implicate: Completează datele inculpatului, victimei și adaugă martori cu butonul Adaugă Martor.
-Locație și Timp: Selectează strada (limita de viteză se completează automat) și ajustează ora/data dacă e necesar cu butonul ACUM.
-Tip Acțiune: Alege tipul acțiunii (ex: Autoconstatare, Apel 112). Acest lucru va influența textul generat.
-Detalii Vehicul & Constatări: Adaugă informații despre vehicul și bifează constatările suplimentare (Substanțe, Percheziție etc.) pentru a deschide noi câmpuri de detaliu.
+• Overlay-uri pentru acces rapid (MDT, Radio Codes, Crosshair)
 
-Pasul 3: Alege Infracțiunile
-În secțiunea Încadrare Fapte, poți selecta până la 3 infracțiuni.
-Pe măsură ce scrii, aplicația îți va oferi sugestii, sau un simplu click pentru a alege din listă.
-Sub fiecare infracțiune vei vedea sancțiunile specifice (amendă, arest, puncte) și o previzualizare a textului ce va fi generat.
-Atenție: Un banner roșu te va avertiza dacă selectezi infracțiuni incompatibile sau duplicate.
+• Hotkeys personalizabile pentru eficiență maximă
 
-Pasul 4: Generează și Copiază
-Verifică secțiunea Sancțiuni Aplicate pentru a vedea totalul calculat automat.
-Apasă butonul mare Generează.
-Titlul și descrierea completă a cazului vor apărea în căsuțele de text de mai jos.
-Folosește butoanele Copiază Titlu și Copiază Descriere pentru a le prelua rapid.
+• Interfață intuitivă și modernă
 
-🎯 4. Overlay-uri (, MDT Helper, Țintă și Radio)
-Aplicația poate afișa informații direct peste joc:
+SFATURI DE UTILIZARE:
+=====================
 
-MDT Helper:
-Afișează peste joc (cu scurtătura setată în Hotkeys) interfața MDT Helper nefiind nevoie să mai dai Alt+Tab. Când ai terminat, o ascunzi cu aceeași scurtătură.
+• Configurează patrula când pleci în patrulă.
 
-Țintă Custom:
-Mergi la tab-ul Țintă custom.
-Selectează imaginea dorită din galerie.
-Ajustează dimensiunea și poziția verticală folosind sliderele.
-Activează/dezactivează afișarea ei cu butonul <i class="fa-solid fa-crosshairs"></i> din antet sau cu scurtătura setată în Hotkeys.
+• Folosește click pe câmpurile de infracțiuni pentru a vedea toate opțiunile disponibile sau tastează și lista se va filtra pentru ce completezi (exemplu scrie „viteza” pentru a vedea titlurile care conțin acest cuvânt)
 
-Coduri Radio
-Mergi la tab-ul Coduri Radio.
-Personalizează denumirile codurilor, fontul, mărimea, culoarea, conturul și poziția pe ecran.
-Activează/dezactivează afișarea cu butonul <i class="fa-solid fa-walkie-talkie"></i> din antet sau cu scurtătura setată în Hotkeys.
+• Personalizează șabloanele pentru a se potrivi cu stilul tău de scriere 
+  Fiecare termen ce va fi înlocuit se numește placeholder și se notează între acolade {}. 
+  Fiecare placeholder poate avea mai multe „stări” - când e completat, când e necompletat sau când e compus din alți placeholderi care vor fi la rândul lor înlocuiți de informații.
 
-⚙️ 5. Setări și Personalizare Avansată
-În tab-ul Setări, poți modifica aproape orice aspect al aplicației.
-Placeholders: Vezi toate variabilele disponibile (ex: {nume}). Aici poți edita și "Placeholders Compusi" - șabloane cu logică avansată (ex: textul diferă dacă un câmp este gol sau completat).
-Bază de Date: Adaugă, editează sau șterge articole din Codul Penal, modele de vehicule și limite de viteză.
-Aspect: Schimbă complet schema de culori a aplicației.
-Șabloane & Avansat: Modifică textele de bază folosite la generarea rapoartelor (introduceri, format titlu etc.).
-Altele: Configurează overlay-ul "atenționare notare oră în formular" care apare la apăsarea Hotkey-ului ACUM.
+• Folosește mențiunile pentru detalii specifice cazului 
+  Apasă butonul pentru a afișa un câmp unde vei scrie mai multe detalii despre infracțiunea selectată.
+  Ce scrii în mențiuni va fi completat în descriere în continuarea textului implicit generat.
+• Configurează overlay-urile pentru afișare peste fereastra jocului. Pentru a funcționa, ai nevoie să setezi Windowed Borderless cu aceeași rezoliție ca cea a desktop-ului tău, pentru fullscreen, sau cu o rezoluție mai mică decât cea a desktop-ului pentru a rula jocul într-o fereastră
+  Salvează hotkey-urile pentru a afișa/ascunde aceste overlay-uri (cele implicite sunt deja funcționale și poți vedea care sunt și chiar schimba după bunul tău plac în tabul Hotkeys). Nu recomand folosirea tastelor Shift sau Ctrl, fiind activabile din joc, de ex dacă dai Ctrl+Shift+M caracterul tău va face „crouch”. Hotkey-urile implicite nu intereferează cu nimic.
 
-Sper că m-am ridicat la înălțimea așteptărilor având în vedere de cât timp v-am tot amăgit pe toți cu acest Helper. 
-Vă salut cu respect și vă doresc un roleplay cât mai plăcut cu durate de timp cât mai mici pentru procesări și vă rog mult, ÎNCUIAȚI UȘILE ALE NAIBII DE UȘI! 
-Hai, ne vedem „pe oraș” :)
-
-08.08.2025 - Inspector Laur Balaur IPJ Los Santos
+DEZVOLTAT PENTRU COMUNITATEA LSPD
+=================================
+Los Santos Police Helper by Laur Balaur
