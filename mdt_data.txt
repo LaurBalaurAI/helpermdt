@@ -6520,7 +6520,7 @@
     "correctionPrompt": "Folosește un limbaj formal, specific Poliției Române. Verifică acordul gramatical între subiect și predicat și adaptează substantivele și adjectivele la genul persoanelor implicate. Asigură-te că punctuația este corectă, cu spațiu după virgulă și punct."
   },
   "compositePlaceholders": {
-    "nr_inmatriculare_filled": "cu numerele {valoare},"
+    "nr_inmatriculare_filled": "cu numerele {valoare}",
     "nr_inmatriculare_empty": "fără numere de înmatriculare",
     "partea_vatamata_text_filled": "Partea vătămată: [NUME_RECLAMANT] (CNP: [CNP_RECLAMANT])",
     "partea_vatamata_text_empty": "Partea vătămată: Statul Român",
