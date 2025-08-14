@@ -1,4 +1,4 @@
-2025-08-14 18:22:55
+2025-08-14 18:27:55
 {
   "codPenal": [
     {
@@ -6527,7 +6527,7 @@
     "martori_text_filled_single": "Martor: [NUME_MARTOR], CNP: [CNP_MARTOR]",
     "martori_text_empty": "(Acest placeholder este omis complet dacă nu există martori)",
     "patrola_text_filled_members": "[MEMBERS]",
-    "patrola_text_empty": "(Acest placeholder este omis complet dacă nu este setată patrula)",
+    "patrola_text_empty": "SETEAZĂ PATRULA MAI ÎNTÂI!",
     "sanctiuni_amenda": "- Amendă contravențională în valoare de [VALOARE]$",
     "sanctiuni_arest": "- Reținere în custodie pentru [DURATA] luni, în [LOCATIE]",
     "sanctiuni_anulare_permis": "- Anularea permisului de conducere",
@@ -6535,12 +6535,6 @@
     "sanctiuni_dosar_penal": "- Constituire dosar penal",
     "sanctiuni_perchezitie_masura": "- Percheziție corporală și a vehiculului.",
     "sanctiuni_lista_empty": " Nu poți întocmi un dosar fără sancțiuni.",
-    "perchezitie_buzunare_filled": "în buzunare s-a găsit [VALOARE]",
-    "perchezitie_buzunare_empty": "",
-    "perchezitie_torpedo_filled": "în torpedo s-a găsit [VALOARE]",
-    "perchezitie_torpedo_empty": "",
-    "perchezitie_portbagaj_filled": "în portbagaj s-a găsit [VALOARE]",
-    "perchezitie_portbagaj_empty": "",
     "_special_licente_single": "{lipsa_licenta_1}, document necesar pentru desfășurarea activității în cauză.",
     "_special_licente_double": "{lipsa_licenta_1} și nici {lipsa_licenta_2}, ambele documente fiind necesare pentru desfășurarea activităților în cauză.",
     "_special_perchezitie_buzunare_filled": "asupra sa avea {perchezitie_buzunare_continut}",
