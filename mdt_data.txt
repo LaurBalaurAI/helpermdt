@@ -6544,9 +6544,9 @@
     "_special_perchezitie_portbagaj_filled": "în portbagaj avea {perchezitie_portbagaj_continut}",
     "_special_perchezitie_portbagaj_empty": "în portbagaj nu avea nimic ilegal.",
     "sanctions_block": {
-      "target": ""
-      "filled": ""
-      "empty": ""
+      "target": "",
+      "filled": "",
+      "empty": "",
 },
     "nr_inmatriculare": {
       "target": "nr_inmatriculare",
