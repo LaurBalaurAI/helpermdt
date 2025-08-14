@@ -6551,7 +6551,7 @@
     "nr_inmatriculare": {
       "target": "nr_inmatriculare",
       "filled": "cu numerele de înmatriculare {valoare}",
-      "empty": "fără numere de înmatriculare"
+      "empty": "fără numere de înmatriculare",
     },
     "_special_aprobare_detentie": ""
   },
