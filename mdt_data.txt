@@ -4007,7 +4007,8 @@
                          "id":  "cap.8_8.9_constituirea_unui_grup_infractional_organizat"
                      }
                  ]
-}
+    }
+  ],
   "vehicule": [
     {
       "id": "annis_roxanne_autoturism",
