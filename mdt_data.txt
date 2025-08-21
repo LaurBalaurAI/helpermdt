@@ -8571,7 +8571,7 @@
     "intro_mineriada": "În data de {data_procesare}, în jurul orei {ora_procesare} a avut loc o acțiune de tip „Mineriadă” a echipajelor de poliție. În urma controalelor, s-a descoperit că ",
     "intro_rutiera": "În urma unui filtru de control rutier organizat de autorități pentru prevenirea și combaterea neconformităților participanților la traficul rutier și asigurarea siguranței rutiere conform reglementărilor în vigoare din Codul Penal, în data de {data_procesare}, la ora {ora_procesare}, în zona {zona_input}, {patrola} a constatat că ",
     "intro_razie_sas": "În urma unei razii S.A.S. ce a avut loc pe {zona_input} în data de {data_procesare}, la ora {ora_procesare}, au fost arestați mai mulți suspecți. Printre aceștia, ",
-    "sanctions": "\nConform Codului Penal în vigoare, cetățeanul {nume}, CNP {cnp} a fost sancționat cu:\n{sanctiuni_lista}"
+    "sanctions": "\nConform Codului Penal în vigoare, cetățeanul {nume}, CNP {cnp} a fost sancționat cu:\n{sanctiuni_descriere}"
   },
   "aiSettings": {
     "titleSeparator": ", ",
@@ -8623,7 +8623,7 @@
     "_special_agent_ad1_template": "{agent_ad1_grad} {agent_ad1_nume}",
     "_special_agent_ad2_template": "{agent_ad2_grad} {agent_ad2_nume}"
   },
-  "masterTemplate": "{header}\n{intro} {infraction_1_desc}. {mentiuni_1}\n{infraction_2_desc}. {mentiuni_2}\n{infraction_3_desc}. {mentiuni_3}\n{sanctions_block}",
+  "masterTemplate": "{header} {intro} {infraction_1_desc} {mentiuni_1}\n{infraction_2_desc} {mentiuni_2}\n{infraction_3_desc} {mentiuni_3}\n{sanctions_block}",
   "radioSettings": {
     "codes": [
       {
