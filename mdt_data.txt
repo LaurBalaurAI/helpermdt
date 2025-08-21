@@ -8623,7 +8623,7 @@
     "_special_agent_ad1_template": "{agent_ad1_grad} {agent_ad1_nume}",
     "_special_agent_ad2_template": "{agent_ad2_grad} {agent_ad2_nume}"
   },
-  "masterTemplate": "{header}\n{intro} {infraction_1_desc}. {mentiuni_1}\n{infraction_2_desc}. {mentiuni_2}\n{infraction_3_desc}. {mentiuni_3}\n{sanctiuni_descriere}",
+  "masterTemplate": "{header} {intro} {infraction_1_desc} {mentiuni_1}\n{infraction_2_desc} {mentiuni_2}\n{infraction_3_desc} {mentiuni_3}\n{sanctiuni_descriere}",
   "radioSettings": {
     "codes": [
       {
