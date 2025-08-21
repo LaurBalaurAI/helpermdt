@@ -4008,7 +4008,6 @@
                      }
                  ]
 }
-  ],
   "vehicule": [
     {
       "id": "annis_roxanne_autoturism",
