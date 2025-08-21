@@ -1315,9 +1315,9 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": true,
-      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
-      "modelDescriere2": "În plus, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
-      "modelDescriere3": "Mai mult, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {buzunare}.",
+      "modelDescriere1": "cetățeanul {nume} (CNP {cnp}) avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {perchezitie_text}.",
+      "modelDescriere2": "În plus, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {perchezitie_text}.",
+      "modelDescriere3": "Mai mult, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, {perchezitie_text}.",
       "isContraventie": true,
       "incompatibilCu": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
