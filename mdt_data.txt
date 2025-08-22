@@ -2192,8 +2192,8 @@
         "cap.6_6.1_amenintari_criminale",
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
-      ]
-      "id": "cap.4_4.6_eecul_identificarii"
+      ],
+      "id": "cap.4_4.6_esecul_identificarii"
     },
     {
       "cap": "Cap. 4",
