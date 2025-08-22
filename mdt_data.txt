@@ -6192,8 +6192,13 @@
     "sanctions": "\nConform Codului Penal în vigoare, cetățeanul {nume}, CNP {cnp} a fost sancționat cu:\n{sanctiuni_descriere}"
   },
   "aiSettings": {
-    "correctionPrompt": "Folosește un limbaj formal, specific Poliției Române. Verifică acordul gramatical între subiect și predicat și adaptează verbele și adjectivele la genul persoanelor implicate. Asigură-te că punctuația este corectă, cu spațiu după virgulă și punct."
+    "titleSeparator": ", ",
+    "titleFormat": "{titluri_infractiuni} | {capitol_principal}",
+    "compositeHeader": "",
+    "correctionPrompt": "Folosește un limbaj formal, specific Poliției Române. Verifică acordul gramatical între subiect și predicat și adaptează verbele și adjectivele la genul persoanelor implicate. Asigură-te că punctuația este corectă, cu spațiu după virgulă și punct.",
+    "headerTemplate": ""
   },
+
   "compositePlaceholders": {
     "nr_inmatriculare_filled": "cu numerele de înmatriculare [VALOARE]",
     "nr_inmatriculare_empty": "fără numere de înmatriculare",
