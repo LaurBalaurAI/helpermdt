@@ -1,45 +1,41 @@
-MDT Helper - Los Santos Police Department
+Police Helper - Los Santos Police Department
 ==========================================
 
 Asistent Inteligent pentru Generarea Descrierilor de Infracțiuni
 
 DESCRIERE:
 ----------
-MDT Helper este o aplicație avansată dezvoltată pentru Los Santos Police Department, care automatizează și simplifică procesul de generare a descrierilor pentru infracțiuni. Aplicația integrează inteligența artificială pentru a crea descrieri detaliate și profesionale bazate pe Codul Penal.
+Police Helper este o aplicație avansată dezvoltată pentru Departamentul de Poliție Los Santos, al orașului B-Zone, care automatizează și simplifică procesul de generare a descrierilor pentru infracțiuni. Aplicația integrează inteligența artificială pentru a crea descrieri detaliate și profesionale bazate pe Codul Penal.
 
 FUNCȚIONALITĂȚI PRINCIPALE:
 ---------------------------
-• Generare automată a descrierilor de infracțiuni bazată pe un minim de input din partea ta!
+• Generează automat o descriere de infracțiuni bazată pe un minim de input din partea ta!
 
-• Calcul automat al sancțiunilor (amenzi, închisoare, puncte permis)
+• Calculează automat sancțiunile  (amenzi, închisoare, puncte permis, etc.)
 
-• Căutare rapidă Infracțiune în Codul Penal
+• Căutare rapidă Infracțiune în Codul Penal (verifici rapid Codul Penal fără să mai ai browserul deschis pentru asta)
 
-• Gestionare avansată a patrulei (grade, nume, call signs)
+• Gestionare avansată a patrulei (grade, nume, call signs) pentru o evidență amănunțită a membrilor patrulei care au participat la acțiune - momentan aceasta este dezactivată (pe viitor se va putea activa de la distanță)
 
-• Overlay-uri pentru acces rapid (MDT, Radio Codes, Crosshair)
+• Overlay deasupra jocului pentru acces rapid cu hotkey - integrare inteligentă a interfeței cu jocul pentru a facilita intocmirea descrierii fără să mai apeși Alt+Tab (afișezi Helperul cu hotkey (poți alege tu ce combinație de taste vrei), lucrezi în el și în joc, simultan, făcând trecerea direct cu mouse-ul Când este jocul fereastra activă, helperul rămâne deasupra. Ai terminat treaba ? Ascunde cu același hotkey).
 
-• Hotkeys personalizabile pentru eficiență maximă
+• Hotkeys personalizabile pentru eficiență maximă (Afișezi/ascunzi rapid ținta și codurile pe ecran, notezi facil ora comiterii infracțiunii la „Moment Zero” după care poți uita de aceasta, când vei completa datele vei avea deja data și ora corect completată)
 
-• Interfață intuitivă și modernă
+• Interfață intuitivă și modernă, poți customiza culori și transparența overlay-ului.
 
 SFATURI DE UTILIZARE:
 =====================
 
-• Configurează patrula când pleci în patrulă.
+• Configurează patrula când pleci în patrulă (aplicația te va obliga să completezi cs, grad și nume ale tale dar nu le va folosi mai departe, deocamdată).
+• Completează câmpurile cu datele esențiale, verifică datele introduse și asigură-te că ai toate câmpurile verzi, atât în interfață cât și în previzualizarea pentru infracțiunea selectată. Datele rezultate nu trebuie să conțină acolade {} în previzualizare sau în descrierea generată. Dacă vezi cuvinte între aceste acolade, verifică datele introduse.
+• Recomand evitarea combinațiilor de taste care corespund bindurilor din joc. 
+• Poți customiza poziția pe ecran a țintei, codurilor, momentului zero, poți schimba dimensiunea, culoarea, fonturile, etc, după bunul plac. 
+• Pentru bug-uri te rog să-mi trimiți un screenshot și să-mi explici care este comportamentul și dacă se poate reproduce, cum se face. Mailul meu este mai jos.
+• 
 
-• Folosește click pe câmpurile de infracțiuni pentru a vedea toate opțiunile disponibile sau tastează și lista se va filtra pentru ce completezi (exemplu scrie „viteza” pentru a vedea titlurile care conțin acest cuvânt)
-
-• Personalizează șabloanele pentru a se potrivi cu stilul tău de scriere 
-  Fiecare termen ce va fi înlocuit se numește placeholder și se notează între acolade {}. 
-  Fiecare placeholder poate avea mai multe „stări” - când e completat, când e necompletat sau când e compus din alți placeholderi care vor fi la rândul lor înlocuiți de informații.
-
-• Folosește mențiunile pentru detalii specifice cazului 
-  Apasă butonul pentru a afișa un câmp unde vei scrie mai multe detalii despre infracțiunea selectată.
-  Ce scrii în mențiuni va fi completat în descriere în continuarea textului implicit generat.
-• Configurează overlay-urile pentru afișare peste fereastra jocului. Pentru a funcționa, ai nevoie să setezi Windowed Borderless cu aceeași rezoliție ca cea a desktop-ului tău, pentru fullscreen, sau cu o rezoluție mai mică decât cea a desktop-ului pentru a rula jocul într-o fereastră
-  Salvează hotkey-urile pentru a afișa/ascunde aceste overlay-uri (cele implicite sunt deja funcționale și poți vedea care sunt și chiar schimba după bunul tău plac în tabul Hotkeys). Nu recomand folosirea tastelor Shift sau Ctrl, fiind activabile din joc, de ex dacă dai Ctrl+Shift+M caracterul tău va face „crouch”. Hotkey-urile implicite nu intereferează cu nimic.
 
 DEZVOLTAT PENTRU COMUNITATEA LSPD
 =================================
-Los Santos Police Helper by Laur Balaur
+Police Helper v.1.0
+by Laur Balaur 
+(laurentiu.vecerdea@icloud.com)
