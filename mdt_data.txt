@@ -16,8 +16,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost înregistrat de aparatul radar al echipajului de poliție conducând {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, cu viteza de {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
-      "descriere2": "În plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
-      "descriere3": "Mai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere2": "\nÎn plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere3": "\nMai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
         "cap.1_1.7_parcare_ilegala",
@@ -36,7 +36,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.1_limitele_de_vitez_sub_dublul_vitezei_legale"
+      "id": "cap.1_1.1_limitele_de_viteza_sub_dublul_vitezei_legale"
     },
     {
       "cap": "Cap. 1",
@@ -54,8 +54,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost înregistrat de aparatul radar al echipajului de poliție conducând {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul},  {nr_inmatriculare}, cu viteza de {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
-      "descriere2": "În plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
-      "descriere3": "Mai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere2": "\nÎn plus, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
+      "descriere3": "\nMai mult, viteza cu care conducea a fost {viteza_inregistrata} km/h, unde în zona respectivă limita de viteză este de {limita_viteza_zona} km/h.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.7_parcare_ilegala",
@@ -74,7 +74,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.1_limitele_de_vitez_peste_dublul_vitezei_legale"
+      "id": "cap.1_1.1_limitele_de_viteza_peste_dublul_vitezei_legale"
     },
     {
       "cap": "Cap. 1",
@@ -92,8 +92,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, folosind telefonul mobil în timpul condusului.",
-      "descriere2": "În plus, a utilizat telefonul mobil în timpul condusului.",
-      "descriere3": "Mai mult, a utilizat telefonul mobil în timpul condusului.",
+      "descriere2": "\nÎn plus, a utilizat telefonul mobil în timpul condusului.",
+      "descriere3": "\nMai mult, a utilizat telefonul mobil în timpul condusului.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -103,7 +103,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.10_folosirea_telefonului_n_timpul_condusului"
+      "id": "cap.1_1.10_folosirea_telefonului_in_timpul_condusului"
     },
     {
       "cap": "Cap. 1",
@@ -121,8 +121,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, folosind excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
-      "descriere2": "În plus, a folosit excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
-      "descriere3": "Mai mult, a folosit excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
+      "descriere2": "\nÎn plus, a folosit excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
+      "descriere3": "\nMai mult, a folosit excesiv mijloacele de avertizare sonoră, provocând panică și confuzie printre cetățeni.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -132,7 +132,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.11_claxonarea_excesiv"
+      "id": "cap.1_1.11_claxonarea_excesiva"
     },
     {
       "cap": "Cap. 1",
@@ -150,8 +150,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
-      "descriere2": "În plus, avea aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
-      "descriere3": "Mai mult, avea aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
+      "descriere2": "\nÎn plus, avea aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
+      "descriere3": "\nMai mult, avea aplicate folii pe geamuri, ce împiedicau recunoașterea conducătorului de către ofițerul de poliție.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -161,7 +161,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.12_geamuri_fumurii"
+      "id": "cap.1_1.12_geamuri_fumurii"
     },
     {
       "cap": "Cap. 1",
@@ -179,8 +179,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montate neoane sub autovehicul.",
-      "descriere2": "În plus, avea montate neoane sub autovehicul.",
-      "descriere3": "Mai mult, avea montate neoane sub autovehicul. ",
+      "descriere2": "\nÎn plus, avea montate neoane sub autovehicul.",
+      "descriere3": "\nMai mult, avea montate neoane sub autovehicul. ",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -190,7 +190,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.13_neoane"
+      "id": "cap.1_1.13_neoane"
     },
     {
       "cap": "Cap. 1",
@@ -208,8 +208,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montat un claxon neomologat, diferit față de cel din fabrică.",
-      "descriere2": "În plus, avea montat un claxon neomologat, diferit față de cel din fabrică.",
-      "descriere3": "Mai mult, avea montat un claxon neomologat, diferit față de cel din fabrică.",
+      "descriere2": "\nÎn plus, avea montat un claxon neomologat, diferit față de cel din fabrică.",
+      "descriere3": "\nMai mult, avea montat un claxon neomologat, diferit față de cel din fabrică.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -219,7 +219,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.14_claxon_neomologat"
+      "id": "cap.1_1.14_claxon_neomologat"
     },
     {
       "cap": "Cap. 1",
@@ -237,8 +237,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, având montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
-      "descriere2": "În plus, avea montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
-      "descriere3": "Mai mult, avea montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
+      "descriere2": "\nÎn plus, avea montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
+      "descriere3": "\nMai mult, avea montate instalații de iluminat diferite față de cele din fabrică (xenoane).",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -248,7 +248,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.15_xenoane"
+      "id": "cap.1_1.15_xenoane"
     },
     {
       "cap": "Cap. 1",
@@ -266,8 +266,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând culoarea roșie a semaforului.",
-      "descriere2": "În plus, a ignorat semnalul luminos de culoare roșie a semaforului.",
-      "descriere3": "Mai mult, a ignorat semnalul luminos de culoare roșie a semaforului.",
+      "descriere2": "\nÎn plus, a ignorat semnalul luminos de culoare roșie a semaforului.",
+      "descriere3": "\nMai mult, a ignorat semnalul luminos de culoare roșie a semaforului.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -277,7 +277,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.16_nerespectarea_culorii_a_semaforului"
+      "id": "cap.1_1.16_nerespectarea_culorii_a_semaforului"
     },
     {
       "cap": "Cap. 1",
@@ -295,8 +295,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, efectuând manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
-      "descriere2": "În plus, efectua manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
-      "descriere3": "Mai mult, efectua manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere2": "\nÎn plus, efectua manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere3": "\nMai mult, efectua manevre periculoase și nerespectând regulile de circulație, punând în pericol siguranța celorlalți participanți la trafic.",
       "incompatibilitati": [
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
@@ -316,7 +316,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.2_conducere_imprudent"
+      "id": "cap.1_1.2_conducere_imprudenta"
     },
     {
       "cap": "Cap. 1",
@@ -334,8 +334,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
-      "descriere2": "În plus, conducea încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
-      "descriere3": "Mai mult, conducea încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere2": "\nÎn plus, conducea încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
+      "descriere3": "\nMai mult, conducea încălcând marcajele rutiere (depășire peste linie continuă, circulație pe contrasens, nerespectare STOP, etc.), punând în pericol siguranța celorlalți participanți la trafic.",
       "incompatibilitati": [
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
@@ -355,7 +355,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.3_nerespectarea_marcajelor_rutiere"
+      "id": "cap.1_1.3_nerespectarea_marcajelor_rutiere"
     },
     {
       "cap": "Cap. 1",
@@ -373,8 +373,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, neacordând prioritate de trecere a altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
-      "descriere2": "În plus, nu a acordat prioritate de trecere altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
-      "descriere3": "Mai mult, nu a acordat prioritate de trecere altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
+      "descriere2": "\nÎn plus, nu a acordat prioritate de trecere altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
+      "descriere3": "\nMai mult, nu a acordat prioritate de trecere altui vehicul sau pieton, încălcând astfel regulile de circulație și punând în pericol siguranța proprie dar și a celorlalți participanți la trafic.",
       "incompatibilitati": [
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
@@ -394,7 +394,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.4_neacordare_de_prioritate"
+      "id": "cap.1_1.4_neacordare_de_prioritate"
     },
     {
       "cap": "Cap. 1",
@@ -411,9 +411,9 @@
       "perchezitie": false,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) aflat într-{tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând semnalele/indicațiile date de {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "descriere2": "În plus, nu s-a conformat indicațiilor clare date de agentul de poliție  {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "descriere3": "Mai mult, nu s-a conformat indicațiilor clare date de agentul de poliție  {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) aflat într-{tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând semnalele/indicațiile date de agentul de poliție.",
+      "descriere2": "\nÎn plus, nu s-a conformat indicațiilor clare date de agentul de poliție.",
+      "descriere3": "\nMai mult, nu s-a conformat indicațiilor clare date de agentul de poliție.",
       "incompatibilitati": [
         "cap.1_1.7_parcare_ilegala",
         "cap.1_1.8_traversarea_interzisa",
@@ -433,7 +433,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.5_nerespectarea_semnelor_de_circulatie_ale_poliistului"
+      "id": "cap.1_1.5_nerespectarea_semnelor_de_circulatie_ale_politistului"
     },
     {
       "cap": "Cap. 1",
@@ -451,8 +451,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, nerespectând semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
-      "descriere2": "În plus, nu a respectat semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
-      "descriere3": "Mai mult, nu a respectat semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
+      "descriere2": "\nÎn plus, nu a respectat semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
+      "descriere3": "\nMai mult, nu a respectat semnalele luminoase și sonore ale {autospeciala_select} care se deplasa în regim prioritar, punând astfel în pericol echipajul autospecialei și propria persoană.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -470,7 +470,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..1_1.6_nerespectarea_semnalelor_luminoase_i_sonore"
+      "id": "cap.1_1.6_nerespectarea_semnalelor_luminoase_si_sonore"
     },
     {
       "cap": "Cap. 1",
@@ -488,8 +488,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}), era parcat neregulamentar într-{tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, împiedicând circulația traficului rutier și pietonal în zonă.",
-      "descriere2": "În plus, s-a constatat că vehiculul acestuia era parcat neregulamentar, împiedicând circulația traficului rutier și pietonal în zonă.",
-      "descriere3": "Mai mult, s-a constatat că vehiculul acestuia era parcat neregulamentar, împiedicând circulația traficului rutier și pietonal în zonă.",
+      "descriere2": "\nÎn plus, s-a constatat că vehiculul acestuia era parcat neregulamentar, împiedicând circulația traficului rutier și pietonal în zonă.",
+      "descriere3": "\nMai mult, s-a constatat că vehiculul acestuia era parcat neregulamentar, împiedicând circulația traficului rutier și pietonal în zonă.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.3_3.12_jaf",
@@ -504,7 +504,7 @@
         "cap.1_1.4_neacordare_de_prioritate",
         "cap.1_1.5_nerespectarea_semnelor_politistului"
       ],
-      "id": "cap..1_1.7_parcare_ilegal"
+      "id": "cap.1_1.7_parcare_ilegala"
     },
     {
       "cap": "Cap. 1",
@@ -522,8 +522,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) traversa strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
-      "descriere2": "În plus, a traversat strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
-      "descriere3": "Mai mult, a traversat strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
+      "descriere2": "\nÎn plus, a traversat strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
+      "descriere3": "\nMai mult, a traversat strada într-un loc în care trecerea pietonilor este interzisă, punând în pericol siguranța proprie și a celorlalți participanți la trafic.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -540,7 +540,7 @@
         "cap.1_1.4_neacordare_de_prioritate",
         "cap.1_1.5_nerespectarea_semnelor_politistului"
       ],
-      "id": "cap..1_1.8_traversarea_interzis"
+      "id": "cap.1_1.8_traversarea_interzisa"
     },
     {
       "cap": "Cap. 1",
@@ -558,8 +558,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, purtând o mască/bandană sau alt obiect care îi acoperea fața la volan. Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a constatat că {perchezitie_text}.",
-      "descriere2": "În plus, acesta purta o mască/bandană sau alt obiect care îi acoperea fața la volan. Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a constatat că {perchezitie_text}.",
-      "descriere3": "Mai mult, acesta purta o mască/bandană sau alt obiect care îi acoperea fața la volan.  Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a constatat că {perchezitie_text}.",
+      "descriere2": "\nÎn plus, acesta purta o mască/bandană sau alt obiect care îi acoperea fața la volan. Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a constatat că {perchezitie_text}.",
+      "descriere3": "\nMai mult, acesta purta o mască/bandană sau alt obiect care îi acoperea fața la volan.  Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a constatat că {perchezitie_text}.",
       "incompatibilitati": [
         "cap.3_3.1_acoperirea_fetei",
         "cap.6_6.1_amenintari_criminale",
@@ -578,7 +578,7 @@
         "cap.6_6.3_vatamare_corporala",
         "cap.6_6.4_vatamare_corporala_grava"
       ],
-      "id": "cap..1_1.9_acoperirea_feei_la_volan"
+      "id": "cap.1_1.9_acoperirea_fetei_la_volan"
     },
     {
       "cap": "Cap. 2",
@@ -595,9 +595,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a folosit {tip_vehicul_procesator}, marca {model_vehicul_input},  {nr_inmatriculare}, pentru a încerca să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "descriere2": "În plus, a încercat să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "descriere3": "Mai mult, a încercat să evadeze de {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a folosit {tip_vehicul_procesator}, marca {model_vehicul_input},  {nr_inmatriculare}, pentru a încerca să evadeze de oeganele de poliție.",
+      "descriere2": "\nÎn plus, a încercat să evadeze de organele de poliție.",
+      "descriere3": "\nMai mult, a încercat să evadeze de organele de poliție.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -607,7 +607,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..2_2.1_evadarea_de_un_ofier_cu_un_autovehicul"
+      "id": "cap.2_2.1_evadarea_de_un_ofiter_cu_un_autovehicul"
     },
     {
       "cap": "Cap. 2",
@@ -625,8 +625,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
-      "descriere2": "În plus, conducea fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
-      "descriere3": "Mai mult, conducea fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
+      "descriere2": "\nÎn plus, conducea fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
+      "descriere3": "\nMai mult, conducea fără a deține un permis de conducere valabil. La verificarea efectuată de poliție, s-a constatat lipsa oricărui act care să îi permită participarea la trafic în calitate de șofer, încălcând astfel legislația rutieră.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -636,12 +636,12 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..2_2.2_condusul_fr_permis"
+      "id": "cap.2_2.2_condusul_fara_permis"
     },
     {
       "cap": "Cap. 2",
       "numarArticol": "2.3",
-      "titlu": "Conducere sub influența drogurilor sau a alcoolului (infracțiune)",
+      "titlu": "Conducere sub influența drogurilor sau a alcoolului (pozitiv sau >0.8%)",
       "definitie": "Orice persoană care este la volan și deține valoarea de 0.8% alcool în sânge sau este sub influența oricărui tip de narcotice și pune în pericol viața unui civil sau propria viață înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 6000,
       "amendaMax": 6000,
@@ -653,9 +653,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
-      "descriere2": "În plus, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
-      "descriere3": "Mai mult, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a dovedit rezultatul {cantitate_substanta} pentru {tip_substanta}.",
+      "descriere2": "\nÎn plus, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a dovedit rezultatul {cantitate_substanta} pentru {tip_substanta}.",
+      "descriere3": "\nMai mult, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a dovedit rezultatul {cantitate_substanta} pentru {tip_substanta}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -665,12 +665,12 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..2_2.3_conducere_sub_influena_drogurilor_sau_a_alcoolului_infraciune"
+      "id": "cap.2_2.3_conducere_sub_influenta_drogurilor_sau_a_alcoolului_infraciune"
     },
     {
       "cap": "Cap. 2",
       "numarArticol": "2.3",
-      "titlu": "Conducere sub influența drogurilor sau a alcoolului (contravenție)",
+      "titlu": "Conducere sub influența drogurilor sau a alcoolului (<0.8%)",
       "definitie": "Pentru o concentrație de alcool între 0,1% și 0,7%, se comite o contravenție care se pedepsește cu sancțiunile menționate.",
       "amendaMin": 5000,
       "amendaMax": 5000,
@@ -682,9 +682,9 @@
       "perchezitie": false,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
-      "descriere2": "În plus, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
-      "descriere3": "Mai mult, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a constatat concentrația de {concentratia} de {substanta_influenta}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a dovedit rezultatul {cantitate_substanta} pentru {tip_substanta}.",
+      "descriere2": "\nÎn plus, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a dovedit rezultatul {cantitate_substanta} pentru {tip_substanta}.",
+      "descriere3": "\nMai mult, conducea prezentând semne clare de influență a substanțelor psihoactive. La o analiză amănunțită cu aparatul de testare din dotare, s-a dovedit rezultatul {cantitate_substanta} pentru {tip_substanta}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -694,7 +694,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..2_2.3_conducere_sub_influena_drogurilor_sau_a_alcoolului_contravenie"
+      "id": "cap.2_2.3_conducere_sub_influenta_drogurilor_sau_a_alcoolului_contraventie"
     },
     {
       "cap": "Cap. 2",
@@ -712,8 +712,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, fiind implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
-      "descriere2": "În plus, era implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
-      "descriere3": "Mai mult, era implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
+      "descriere2": "\nÎn plus, era implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
+      "descriere3": "\nMai mult, era implicat într-o cursă ilegală pe stradă, fără a deține permisiunea legală din partea autorităților, punând astfel în pericol viața civililor și siguranța publică.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -723,7 +723,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..2_2.4_curse_ilegale"
+      "id": "cap.2_2.4_curse_ilegale"
     },
     {
       "cap": "Cap. 2",
@@ -741,8 +741,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
-      "descriere2": "În plus, a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
-      "descriere3": "Mai mult, a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
+      "descriere2": "\nÎn plus, a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
+      "descriere3": "\nMai mult, a părăsit locul unui accident/incident fără să sesizeze autoritățile.",
       "incompatibilitati": [
         "cap.1_1.8_traversarea_interzisa",
         "cap.3_3.12_jaf",
@@ -761,7 +761,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..2_2.5_prsirea_locului_accidentului_sau_a_unei_scene"
+      "id": "cap.2_2.5_parasirea_locului_accidentului_sau_a_unei_scene"
     },
     {
       "cap": "Cap. 2",
@@ -778,9 +778,9 @@
       "perchezitie": true,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, fără a avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie_text}",
-      "descriere2": "În plus, vehiculul nu avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie_text}.",
-      "descriere3": "Mai mult, vehiculul nu avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, {perchezitie_text}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, fără a avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a dovedit că {perchezitie_text}",
+      "descriere2": "\nÎn plus, vehiculul nu avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a dovedit că {perchezitie_text}.",
+      "descriere3": "\nMai mult, vehiculul nu avea montate plăcuțe de înmatriculare.  Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a dovedit că {perchezitie_text}.",
       "incompatibilitati": [
         "cap.1_1.8_traversarea_interzisa",
         "cap.3_3.12_jaf",
@@ -799,7 +799,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..2_2.6_conducerea_unui_autovehicul_nenmatriculat"
+      "id": "cap.2_2.6_conducerea_unui_autovehicul_neinmatriculat"
     },
     {
       "cap": "Cap. 2",
@@ -817,8 +817,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
-      "descriere2": "În plus, a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
-      "descriere3": "Mai mult, a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
+      "descriere2": "\nÎn plus, a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
+      "descriere3": "\nMai mult, a refuzat în mod nejustificat prelevarea de mostre biologice, solicitată de organele de poliție.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -836,7 +836,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..2_2.7_refuzul_prelevrii_de_probe_biologice"
+      "id": "cap.2_2.7_refuzul_prelevarii_de_probe_biologice"
     },
     {
       "cap": "Cap. 3",
@@ -853,9 +853,9 @@
       "perchezitie": true,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a constatat că {perchezitie_text}.",
-      "descriere2": "În plus, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a constatat că {perchezitie_text}.",
-      "descriere3": "Mai mult, avea zona facială acoperită, fapt ce contravine normelor legale.  Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a constatat că {perchezitie_text}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea zona facială acoperită, fapt ce contravine normelor legale. Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a dovedit că {perchezitie_text}.",
+      "descriere2": "\nÎn plus, avea zona facială acoperită, fapt ce contravine normelor legale. Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a dovedit că {perchezitie_text}.",
+      "descriere3": "\nMai mult, avea zona facială acoperită, fapt ce contravine normelor legale. Întrucât acest fapt atrage după sine percheziția, în urma acesteia s-a dovedit că {perchezitie_text}.",
       "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.6_6.1_amenintari_criminale",
@@ -866,13 +866,13 @@
         "cap.3_3.12.3_jaf_bancar",
         "cap.3_3.12.2_jaf_imobile"
       ],
-      "id": "cap..3_3.1_acoperirea_feei"
+      "id": "cap.3_3.1_acoperirea_fetei"
     },
     {
       "cap": "Cap. 3",
       "numarArticol": "3.10",
       "titlu": "Tâlhărie",
-      "definitie": "Tâlhăria constă în fapta unei persoane de a lua un bun mobil din posesia altei persoane, fără consimțământul acesteia, în scopul de a ÅŸi-l însuÅŸi pe nedrept. Această faptă reprezintă o infracțiune care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Tâlhăria constă în fapta unei persoane de a lua un bun mobil din posesia altei persoane, fără consimțământul acesteia, în scopul de a și-l însuși pe nedrept. Această faptă reprezintă o infracțiune care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 15000,
       "amendaMax": 15000,
       "arestMin": 50,
@@ -884,8 +884,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a deposedat victima { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
-      "descriere2": "În plus, a deposedat victima { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
-      "descriere3": "Mai mult, a deposedat victima { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
+      "descriere2": "\nÎn plus, a deposedat victima {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
+      "descriere3": "\nMai mult, a deposedat victima {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) de un bun mobil prin întrebuințarea de violențe sau amenințări.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -895,7 +895,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.10_tlhrie"
+      "id": "cap.3_3.10_talharie"
     },
     {
       "cap": "Cap. 3",
@@ -912,9 +912,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere2": "În plus, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere3": "Mai mult, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere2": "\nÎn plus, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere3": "\nMai mult, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -924,7 +924,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.11_furt_auto"
+      "id": "cap.3_3.11_furt_auto"
     },
     {
       "cap": "Cap. 3",
@@ -941,9 +941,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a sustras {autospeciala_select} și a încercat să fugă cu ea.",
-      "descriere2": "În plus, a sustras {autospeciala_select} și a încercat să fugă cu ea.",
-      "descriere3": "Mai mult, a sustras {autospeciala_select} și a încercat să fugă cu ea.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a încercat sustragerea {autospeciala_select} pentru a fugi cu ea.",
+      "descriere2": "\nÎn plus, a încercat sustragerea {autospeciala_select} pentru a fugi cu ea.",
+      "descriere3": "\nMai mult, a încercat sustragerea {autospeciala_select} pentru a fugi cu ea.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -953,7 +953,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.11.1_furt_auto_politiespital"
+      "id": "cap.3_3.11.1_furt_auto_politiespital"
     },
     {
       "cap": "Cap. 3",
@@ -970,7 +970,7 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a săvârșit infracțiunea de jaf asupra persoanei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), prin violență și amenințare, cu scopul de a obține bunuri.sau servicii împotriva voinței victimei.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a săvârșit infracțiunea de jaf asupra persoanei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), prin violență și amenințare, cu scopul de a obține bunuri.sau servicii împotriva voinței victimei.",
       "descriere2": "",
       "descriere3": "",
       "incompatibilitati": [
@@ -1022,7 +1022,6 @@
         "cap.3_3.18_inselaciune",
         "cap.4_4.1_obstructia_unui_ofiter",
         "cap.4_4.2_esecul_de_a_parasi_institutie_stat",
-        "cap.4_4.3_ultraj",
         "cap.4_4.4_evadarea_din_custodie",
         "cap.4_4.5_rezistenta_la_arest",
         "cap.4_4.6_esecul_identificarii",
@@ -1082,7 +1081,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.12_jaf"
+      "id": "cap.3_3.12_jaf"
     },
     {
       "cap": "Cap. 3",
@@ -1099,7 +1098,7 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a săvârșit infracțiunea de furt prin violență, amenințare sau forțare, cu ajutorul a {perchezitie_buzunare}, cu scopul de a obține bunuri sau bani de la { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a săvârșit infracțiunea de furt prin violență, amenințare sau forțare, cu ajutorul a {perchezitie_buzunare_continut}, cu scopul de a obține bunuri sau bani de la { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
       "descriere2": "",
       "descriere3": "",
       "incompatibilitati": [
@@ -1151,7 +1150,6 @@
         "cap.3_3.18_inselaciune",
         "cap.4_4.1_obstructia_unui_ofiter",
         "cap.4_4.2_esecul_de_a_parasi_institutie_stat",
-        "cap.4_4.3_ultraj",
         "cap.4_4.4_evadarea_din_custodie",
         "cap.4_4.5_rezistenta_la_arest",
         "cap.4_4.6_esecul_identificarii",
@@ -1211,7 +1209,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.12.1_jaf_armat"
+      "id": "cap.3_3.12.1_jaf_armat"
     },
     {
       "cap": "Cap. 3",
@@ -1228,7 +1226,7 @@
       "perchezitie": true,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, {buzunare}.",
+      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, s-a dovedit că {perchezitie_text}.",
       "descriere2": "",
       "descriere3": "",
       "incompatibilitati": [
@@ -1340,7 +1338,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.12.2_jaf_imobile"
+      "id": "cap.3_3.12.2_jaf_imobile"
     },
     {
       "cap": "Cap. 3",
@@ -1357,7 +1355,7 @@
       "perchezitie": true,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, {buzunare}.",
+      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, s-a dovedit că {perchezitie_text}.",
       "descriere2": "",
       "descriere3": "",
       "incompatibilitati": [
@@ -1469,12 +1467,12 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.12.3_jaf_bancar"
+      "id": "cap.3_3.12.3_jaf_bancar"
     },
     {
       "cap": "Cap. 3",
       "numarArticol": "3.13",
-      "titlu": "Deranjarea liniÅŸtii publice",
+      "titlu": "Deranjarea liniștii publice",
       "definitie": "Dacă cineva pune un aparat pe volumul maxim, vorbește prea tare, folosește cuvinte vulgare în public sau începe o ceartă care poate duce la bătaie, înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 5000,
       "amendaMax": 5000,
@@ -1487,8 +1485,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) deranja liniștea publică prin manifestări neadecvate.",
-      "descriere2": "În plus, a deranjat liniștea publică prin manifestări neadecvate.",
-      "descriere3": "Mai mult, a deranjat liniștea publică prin manifestări neadecvate.",
+      "descriere2": "\nÎn plus, a deranjat liniștea publică prin manifestări neadecvate.",
+      "descriere3": "\nMai mult, a deranjat liniștea publică prin manifestări neadecvate.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1498,7 +1496,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.13_deranjarea_linitii_publice"
+      "id": "cap.3_3.13_deranjarea_linistii_publice"
     },
     {
       "cap": "Cap. 3",
@@ -1515,9 +1513,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească zona indicată de {agent_op_grad_modal} {agent_op_nume_modal}, la solicitarea verbală a acestuia.",
-      "descriere2": "În plus, nu a respectat dispoziția ofițerului {agent_op_grad_modal} {agent_op_nume_modal} de a părăsi zona indicată.",
-      "descriere3": "Mai mult, nu a respectat dispoziția ofițerului {agent_op_grad_modal} {agent_op_nume_modal} de a părăsi zona indicată.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească zona indicată de {agent_op_grad} {agent_op_nume}, la solicitarea verbală a acestuia.",
+      "descriere2": "\nÎn plus, nu a respectat dispoziția dată de {agent_op_grad} {agent_op_nume_modal} de a părăsi zona indicată.",
+      "descriere3": "\nMai mult, nu a respectat dispoziția dată de {agent_op_grad} {agent_op_nume} de a părăsi zona indicată.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1527,7 +1525,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.14_eecul_de_a_prsi_un_loc"
+      "id": "cap.3_3.14_esecul_de_a_parasi_un_loc"
     },
     {
       "cap": "Cap. 3",
@@ -1545,8 +1543,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
-      "descriere2": "În plus, instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
-      "descriere3": "Mai mult, instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
+      "descriere2": "\nÎn plus, instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
+      "descriere3": "\nMai mult, instiga o revoltă cu intenția de a distruge bunuri publice sau de a răni persoane.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1556,7 +1554,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.15_instigarea_unei_revolte"
+      "id": "cap.3_3.15_instigarea_unei_revolte"
     },
     {
       "cap": "Cap. 3",
@@ -1573,9 +1571,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a acuzat public sau a răspândit minciuni despre cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
-      "descriere2": "În plus, a acuzat public sau a răspândit minciuni despre cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
-      "descriere3": "Mai mult, a acuzat public sau a răspândit minciuni despre cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a acuzat public sau a răspândit minciuni despre cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
+      "descriere2": "\nÎn plus, a acuzat public sau a răspândit minciuni despre cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
+      "descriere3": "\nMai mult, a acuzat public sau a răspândit minciuni despre cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), fapte care, dacă ar fi fost adevărate, ar fi putut atrage sancțiuni penale sau ar fi generat disprețul public.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1585,7 +1583,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.16_calomnie"
+      "id": "cap.3_3.16_calomnie"
     },
     {
       "cap": "Cap. 3",
@@ -1603,8 +1601,8 @@
       "dosarPenal": false,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) căuta și răscolea în containerele de gunoi din spațiul public.",
-      "descriere2": "În plus, a fost surprins căutând și răscolind în containerele de gunoi din spațiul public.",
-      "descriere3": "Mai mult, a fost surprins căutând și răscolind în containerele de gunoi din spațiul public.",
+      "descriere2": "\nÎn plus, a fost surprins căutând și răscolind în containerele de gunoi din spațiul public.",
+      "descriere3": "\nMai mult, a fost surprins căutând și răscolind în containerele de gunoi din spațiul public.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1614,7 +1612,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.17_cutarea_n_gunoaiele_din_spaiul_public"
+      "id": "cap.3_3.17_cautarea_in_gunoaiele_din_spatiul_public"
     },
     {
       "cap": "Cap. 3",
@@ -1631,9 +1629,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a indus în eroare cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora.",
-      "descriere2": "În plus, a indus în eroare cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora. ",
-      "descriere3": "Mai mult, a indus în eroare cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora. ",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a indus în eroare cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora.",
+      "descriere2": "\nÎn plus, a indus în eroare cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora. ",
+      "descriere3": "\nMai mult, a indus în eroare cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}, prin prezentarea ca adevărată a unei fapte mincinoase sau ca mincinoasă a unei fapte adevărate, în scopul de a obține pentru sine sau pentru altul un folos material injust, acțiune ce a produs un prejudiciu patrimonial victimei, fiind necesară reținerea în custodie, sancționarea și obligarea la returnarea bunurilor sau contravaloarea acestora. ",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1643,13 +1641,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.18_nelciune"
+      "id": "cap.3_3.18_inselaciune"
     },
     {
       "cap": "Cap. 3",
       "numarArticol": "3.2",
       "titlu": "Urmărirea unei persoane fără acord",
-      "definitie": "Orice persoană care urmăreÅŸte, cu bună ÅŸtiință, o altă persoană ÅŸi o hărțuieÅŸte cu intenția de a i se face frică pentru propria siguranță sau pentru siguranța familiei sale înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Orice persoană care urmărește, cu bună știință, o altă persoană și o hărțuiește cu intenția de a i se face frică pentru propria siguranță sau pentru siguranța familiei sale înfăptuiește o infracțiune care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 7000,
       "amendaMax": 7000,
       "arestMin": 20,
@@ -1660,9 +1658,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a urmărit și hărțuit cu bună știință cu intenția de a provoca victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) frică pentru propria siguranță sau pentru siguranța familiei sale.",
-      "descriere2": "În plus, a urmărit și hărțuit cu bună știință, cu intenția de a provoca victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) frică pentru propria siguranță sau pentru siguranța familiei sale.",
-      "descriere3": "Mai mult, a urmărit și hărțuit cu bună știință, cu intenția de a provoca victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) frică pentru propria siguranță sau pentru siguranța familiei sale.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a urmărit și hărțuit cu bună știință cu intenția de a provoca victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) frică pentru propria siguranță sau pentru siguranța familiei sale.",
+      "descriere2": "\nÎn plus, a urmărit și hărțuit cu bună știință, cu intenția de a provoca victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) frică pentru propria siguranță sau pentru siguranța familiei sale.",
+      "descriere3": "\nMai mult, a urmărit și hărțuit cu bună știință, cu intenția de a provoca victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) frică pentru propria siguranță sau pentru siguranța familiei sale.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1672,7 +1670,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.2_urmrirea_unei_persoane_fr_acord"
+      "id": "cap.3_3.2_urmrirea_unei_persoane_fara_acord"
     },
     {
       "cap": "Cap. 3",
@@ -1689,9 +1687,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) urmărea cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
-      "descriere2": "În plus, urmărea, cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
-      "descriere3": "Mai mult, urmărea, cu bună știință, o autospecială {autospeciala_select}, cu intenția de a induce frică echipajului.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost surprins în urmărirea {autospeciala_select}, cu scopul de a induce frică echipajului.",
+      "descriere2": "\nÎn plus, era angajat cu bună știință și intenție în urmărirea {autospeciala_select}, cu scopul de a induce frică echipajului.",
+      "descriere3": "\nMai mult, era angajat cu bună știință și intenție în urmărirea {autospeciala_select}, cu scopul de a induce frică echipajului.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1701,7 +1699,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.3_urmrirea_unei_autospeciale_de_poliiemedici_fr_acord"
+      "id": "cap.3_3.3_urmrirea_unei_autospeciale_de_politiemedici_fara_acord"
     },
     {
       "cap": "Cap. 3",
@@ -1719,8 +1717,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) își expunea organele genitale în public, cu bună știință.",
-      "descriere2": "În plus, acesta și-a expus organele genitale în public, cu bună știință.",
-      "descriere3": "Mai mult, acesta și-a expus organele genitale în public, cu bună știință.",
+      "descriere2": "\nÎn plus, acesta și-a expus organele genitale în public, cu bună știință.",
+      "descriere3": "\nMai mult, acesta și-a expus organele genitale în public, cu bună știință.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1730,7 +1728,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.4_expunere_indecent"
+      "id": "cap.3_3.4_expunere_indecenta"
     },
     {
       "cap": "Cap. 3",
@@ -1748,8 +1746,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) presta servicii sexuale contra cost.",
-      "descriere2": "În plus, acesta presta servicii sexuale contra cost.",
-      "descriere3": "Mai mult, acesta presta servicii sexuale contra cost.",
+      "descriere2": "\nÎn plus, acesta presta servicii sexuale contra cost.",
+      "descriere3": "\nMai mult, acesta presta servicii sexuale contra cost.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1759,13 +1757,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.5_prostituie"
+      "id": "cap.3_3.5_prostitutie"
     },
     {
       "cap": "Cap. 3",
       "numarArticol": "3.6",
       "titlu": "Viol",
-      "definitie": "Violul constă în actul sexual, de orice natură, cu o persoană de sex diferit sau de acelaÅŸi sex, prin constrângerea acesteia, sau profitând de imposibilitatea ei de a se apăra ori de a-ÅŸi exprima voința. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Violul constă în actul sexual, de orice natură, cu o persoană de sex diferit sau de același sex, prin constrângerea acesteia, sau profitând de imposibilitatea ei de a se apăra ori de a-și exprima voința. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 25000,
       "amendaMax": 25000,
       "arestMin": 50,
@@ -1776,9 +1774,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis actul de viol asupra victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
-      "descriere2": "În plus, a comis actul de viol asupra victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
-      "descriere3": "Mai mult, a comis actul de viol asupra victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis actul de viol asupra victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
+      "descriere2": "\nÎn plus, a comis actul de viol asupra victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
+      "descriere3": "\nMai mult, a comis actul de viol asupra victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), profitând de imposibilitatea acesteia de a se apăra sau de a-și exprima voința.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1788,7 +1786,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.6_viol"
+      "id": "cap.3_3.6_viol"
     },
     {
       "cap": "Cap. 3",
@@ -1805,9 +1803,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a încălcat proprietatea privată a cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), pătrunzând fără drept și fără consimțământul acestuia.",
-      "descriere2": "În plus, a încălcat proprietatea privată a cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), pătrunzând fără drept și fără consimțământul acestuia.",
-      "descriere3": "Mai mult, a încălcat proprietatea privată a cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) pătrunzând fără drept și fără consimțământul acestuia.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a încălcat proprietatea privată a cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), pătrunzând fără drept și fără consimțământul acestuia.",
+      "descriere2": "\nÎn plus, a încălcat proprietatea privată a cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), pătrunzând fără drept și fără consimțământul acestuia.",
+      "descriere3": "\nMai mult, a încălcat proprietatea privată a cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) pătrunzând fără drept și fără consimțământul acestuia.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1817,7 +1815,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.7_nclcarea_proprietii_private"
+      "id": "cap.3_3.7_incalcarea_proprietii_private"
     },
     {
       "cap": "Cap. 3",
@@ -1835,8 +1833,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
-      "descriere2": "În plus, a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
-      "descriere3": "Mai mult, a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
+      "descriere2": "\nÎn plus, a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
+      "descriere3": "\nMai mult, a deteriorat sau distrus un bun sau o proprietate care nu îi aparține.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1846,13 +1844,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.8_vandalism"
+      "id": "cap.3_3.8_vandalism"
     },
     {
       "cap": "Cap. 3",
       "numarArticol": "3.9",
       "titlu": "Åžantaj",
-      "definitie": "Åžantajul reprezintă folosirea fricii sau a altor metode drept mecanism pentru a influența un individ să îndeplinească diferite activități sau servicii, și reprezintă o infracțiune care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Șantajul reprezintă folosirea fricii sau a altor metode drept mecanism pentru a influența un individ să îndeplinească diferite activități sau servicii, și reprezintă o infracțiune care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 6000,
       "amendaMax": 6000,
       "arestMin": 35,
@@ -1863,9 +1861,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) exercita presiuni și amenințări asupra cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) pentru a-l determina să îndeplinească diferite activități sau servicii împotriva voinței sale.",
-      "descriere2": "În plus, a exercitat presiuni și amenințări asupra cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) pentru a-l determina să îndeplinească diferite activități sau servicii împotriva voinței sale.",
-      "descriere3": "Mai mult, a exercitat presiuni și amenințări asupra cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) pentru a-l determina să îndeplinească diferite activități sau servicii împotriva voinței sale.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) exercita presiuni și amenințări asupra cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) pentru a-l determina să îndeplinească diferite activități sau servicii împotriva voinței sale.",
+      "descriere2": "\nÎn plus, a exercitat presiuni și amenințări asupra cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) pentru a-l determina să îndeplinească diferite activități sau servicii împotriva voinței sale.",
+      "descriere3": "\nMai mult, a exercitat presiuni și amenințări asupra cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) pentru a-l determina să îndeplinească diferite activități sau servicii împotriva voinței sale.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1875,7 +1873,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..3_3.9_antaj"
+      "id": "cap.3_3.9_santaj"
     },
     {
       "cap": "Cap. 4",
@@ -1892,9 +1890,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}), l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța acestuia sau a altor cetățeni.",
-      "descriere2": "În plus, l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța ofițerului sau a altor cetățeni.",
-      "descriere3": "Mai mult, l-a împiedicat pe {agent_op_grad_modal} {agent_op_nume_modal} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța ofițerului sau a altor cetățeni.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}), l-a împiedicat pe {agent_op_grad} {agent_op_nume} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța acestuia sau a altor cetățeni.",
+      "descriere2": "\nÎn plus, l-a împiedicat pe {agent_op_grad} {agent_op_nume} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța ofițerului sau a altor cetățeni.",
+      "descriere3": "\nMai mult, l-a împiedicat pe {agent_op_grad} {agent_op_nume} în îndeplinirea atribuțiilor de serviciu, punând în pericol siguranța ofițerului sau a altor cetățeni.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1904,7 +1902,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.1_obstrucia_unui_ofier"
+      "id": "cap.4_4.1_obstructia_unui_ofiter"
     },
     {
       "cap": "Cap. 4",
@@ -1921,9 +1919,9 @@
       "perchezitie": false,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}.",
-      "descriere2": "În plus, a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}.",
-      "descriere3": "Mai mult, a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}.",
+      "descriere2": "\nÎn plus, a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}.",
+      "descriere3": "\nMai mult, a utilizat limbaj vulgar de față cu alți cetățeni, la adresa cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1933,7 +1931,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.10_limbaj_vulgar"
+      "id": "cap.4_4.10_limbaj_vulgar"
     },
     {
       "cap": "Cap. 4",
@@ -1951,8 +1949,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a apelat în mod abuziv linia de urgență 112.",
-      "descriere2": "În plus, a apelat în mod abuziv linia de urgență 112.",
-      "descriere3": "Mai mult, a apelat în mod abuziv linia de urgență 112.",
+      "descriere2": "\nÎn plus, a apelat în mod abuziv linia de urgență 112.",
+      "descriere3": "\nMai mult, a apelat în mod abuziv linia de urgență 112.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1962,13 +1960,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.11_abuzul_liniei_de_urgen"
+      "id": "cap.4_4.11_abuzul_liniei_de_urgenta"
     },
     {
       "cap": "Cap. 4",
       "numarArticol": "4.12",
       "titlu": "Braconajul",
-      "definitie": "Orice persoană care vânează sau pescuiește în zonele care nu sunt stabilite prin lege ca locații de vânătoare/pescuit, comite delictul de braconaj ÅŸi se pedepseÅŸte prin lege cu sancțiunile menționate. Informații: Animalul vânat ilegal într-o zonă nepermisă este considerat bun de contrabandă și confiscat. Persoanele surprinse în flagrant de braconaj sunt supuse percheziției corporale și a vehiculului (dacă este cazul). Braconajul include deținerea de carcase de animale obținute ilegal. Tentativa de braconaj este atunci când persoana este găsită echipată pentru vânătoare într-o zonă interzisă sau când intenționează să vâneze în astfel de zone. Lista peștilor protejați de lege: Baracuda, Caracatiță, Pisică de mare, orice specie de rechin, orice specie de balenă, Èšestoasă măslinie, Èšestoasa albastră, Èšestoasă verde, Pește balon.",
+      "definitie": "Orice persoană care vânează sau pescuiește în zonele care nu sunt stabilite prin lege ca locații de vânătoare/pescuit, comite delictul de braconaj și se pedepseÅŸte prin lege cu sancțiunile menționate. Informații: Animalul vânat ilegal într-o zonă nepermisă este considerat bun de contrabandă și confiscat. Persoanele surprinse în flagrant de braconaj sunt supuse percheziției corporale și a vehiculului (dacă este cazul). Braconajul include deținerea de carcase de animale obținute ilegal. Tentativa de braconaj este atunci când persoana este găsită echipată pentru vânătoare într-o zonă interzisă sau când intenționează să vâneze în astfel de zone. Lista peștilor protejați de lege: Baracuda, Caracatiță, Pisică de mare, orice specie de rechin, orice specie de balenă, țestoasă măslinie, țestoasa albastră, țestoasă verde, Pește balon.",
       "amendaMin": 30000,
       "amendaMax": 30000,
       "arestMin": 20,
@@ -1979,9 +1977,9 @@
       "perchezitie": true,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor, {braconaj}.",
-      "descriere2": "În plus,desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor, {braconaj}.",
-      "descriere3": "Mai mult, desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor,{braconaj}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor, {perchezitie_text}.",
+      "descriere2": "\nÎn plus,desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor, {perchezitie_text}.",
+      "descriere3": "\nMai mult, desfășura activități specifice braconajului, în acea zonă nefiind permisă vânătoarea sau pescuitul. În urma perchezițiilor,{perchezitie_text}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -1991,7 +1989,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.12_braconajul"
+      "id": "cap.4_4.12_braconajul"
     },
     {
       "cap": "Cap. 4",
@@ -2009,8 +2007,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) utiliza un act public falsificat.",
-      "descriere2": "În plus, utiliza un act public falsificat.",
-      "descriere3": "Mai mult, utiliza un act public falsificat.",
+      "descriere2": "\nÎn plus, utiliza un act public falsificat.",
+      "descriere3": "\nMai mult, utiliza un act public falsificat.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2020,7 +2018,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.13_falsuz_de_fals"
+      "id": "cap.4_4.13_falsuz_de_fals"
     },
     {
       "cap": "Cap. 4",
@@ -2038,8 +2036,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
-      "descriere2": "În plus, a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
-      "descriere3": "Mai mult, a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
+      "descriere2": "\nÎn plus, a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
+      "descriere3": "\nMai mult, a fost identificat ca nerezolvând sancțiunile contravenționale (amenzi) aplicate de către Inspectoratul Principal Judiciar Los Santos în termenul legal de 21 de zile, fapt ce atrage după sine reținerea în custodie a înculpatului.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2049,7 +2047,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.14_eecul_de_plat_al_amenzilor"
+      "id": "cap.4_4.14_esecul_de_plata_al_amenzilor"
     },
     {
       "cap": "Cap. 4",
@@ -2066,9 +2064,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească instituția statului situată in acea zonă, la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "descriere2": "În plus, a refuzat să părăsească instituția statului la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
-      "descriere3": "Mai mult, a refuzat să părăsească instituția statului la cererea {agent_op_grad_modal} {agent_op_nume_modal}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească instituția statului situată in acea zonă, la cererea {agent_op_grad_modal} {agent_op_nume}.",
+      "descriere2": "\nÎn plus, a refuzat să părăsească instituția statului la cererea {agent_op_grad} {agent_op_nume}.",
+      "descriere3": "\nMai mult, a refuzat să părăsească instituția statului la cererea {agent_op_grad} {agent_op_nume}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2078,7 +2076,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.2_eecul_de_a_prsi_o_instituie_a_statului"
+      "id": "cap.4_4.2_esecul_de_a_parasi_o_instituie_a_statului"
     },
     {
       "cap": "Cap. 4",
@@ -2095,9 +2093,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a proferat insulte și amenințări la adresa {agent_op_grad_modal} {agent_op_nume_modal}  în timp ce acesta își exercita atribuțiile de serviciu.",
-      "descriere2": "În plus, a proferat insulte și amenințări la adresa {agent_const_grad_modal} {agent_const_nume_modal}  în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
-      "descriere3": "Mai mult, a proferat insulte și amenințări la adresa {agent_const_grad_modal} {agent_const_nume_modal}  în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a proferat insulte și amenințări la adresa agentului de poliție în timp ce acesta își exercita atribuțiile de serviciu.",
+      "descriere2": "\nÎn plus, a proferat insulte și amenințări la adresa agentului de poliție în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
+      "descriere3": "\nMai mult, a proferat insulte și amenințări la adresa agentului de poliție în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2107,13 +2105,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.3_ultraj"
+      "id": "cap.4_4.3_ultraj"
     },
     {
       "cap": "Cap. 4",
       "numarArticol": "4.4",
       "titlu": "Evadarea din custodie",
-      "definitie": "Orice persoană care a fost reținută fizic de către un ofițer de poliție ÅŸi evadează din posesia acestora rezultă ca o percheziție sau un mandat de arestare să fie create. În noul dosar penal, persoana va fi pedepsită cu sancțiunile menționate.",
+      "definitie": "Orice persoană care a fost reținută fizic de către un ofițer de poliție și evadează din posesia acestora rezultă ca o percheziție sau un mandat de arestare să fie create. În noul dosar penal, persoana va fi pedepsită cu sancțiunile menționate.",
       "amendaMin": 10000,
       "amendaMax": 10000,
       "arestMin": 80,
@@ -2124,9 +2122,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}), aflat în custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, a evadat din posesia acestuia, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
-      "descriere2": "În plus, a evadat din custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
-      "descriere3": "Mai mult, a evadat din custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, dar a fost ulterior prins și reținut în custodie sub atenta supraveghere a {agent_const_grad_modal} {agent_const_nume_modal}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}), aflat în custodia agentului de poliție , a evadat din posesia acestuia, dar a fost ulterior prins și reținut.",
+      "descriere2": "\nÎn plus, a evadat din custodia agentului de poliție , dar a fost ulterior prins și reținut.",
+      "descriere3": "\nMai mult, a evadat din custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, dar a fost ulterior prins și reținut .",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2136,7 +2134,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.4_evadarea_din_custodie"
+      "id": "cap.4_4.4_evadarea_din_custodie"
     },
     {
       "cap": "Cap. 4",
@@ -2154,8 +2152,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a opus rezistență activă arestării dispuse de ofițerii de poliție.",
-      "descriere2": "În plus, a opus rezistență activă arestării dispuse de ofițerii de poliție.",
-      "descriere3": "Mai mult, a opus rezistență activă arestării dispuse de ofițerii de poliție.",
+      "descriere2": "\nÎn plus, a opus rezistență activă arestării dispuse de ofițerii de poliție.",
+      "descriere3": "\nMai mult, a opus rezistență activă arestării dispuse de ofițerii de poliție.",
       "incompatibilitati": [
         "cap.2_2.1_evadarea_ofiter_autovehicul",
         "cap.3_3.12_jaf",
@@ -2166,7 +2164,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.5_rezisten_la_arest"
+      "id": "cap.4_4.5_rezistenta_la_arest"
     },
     {
       "cap": "Cap. 4",
@@ -2184,8 +2182,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
-      "descriere2": "În plus, a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
-      "descriere3": "Mai mult, a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
+      "descriere2": "\nÎn plus, a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
+      "descriere3": "\nMai mult, a refuzat să se legitimeze la solicitarea ofițerilor de poliție.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2194,8 +2192,8 @@
         "cap.6_6.1_amenintari_criminale",
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
-      ],
-      "id": "cap..4_4.6_eecul_identificarii"
+      ]
+      "id": "cap.4_4.6_eecul_identificarii"
     },
     {
       "cap": "Cap. 4",
@@ -2213,8 +2211,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
-      "descriere2": "În plus, a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
-      "descriere3": "Mai mult, a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
+      "descriere2": "\nÎn plus, a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
+      "descriere3": "\nMai mult, a oferit bunuri personale sau o sumă de bani unui angajat guvernamental în scopul de a-i influența deciziile sau opinia în exercitarea atribuțiilor de serviciu.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2224,7 +2222,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.7_dare_de_mit"
+      "id": "cap.4_4.7_dare_de_mita"
     },
     {
       "cap": "Cap. 4",
@@ -2241,9 +2239,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) presta servicii fără să aibă {lipsa_licenta}.",
-      "descriere2": "În plus, presta servicii fără să aibă {lipsa_licenta}.",
-      "descriere3": "Mai mult, presta servicii fără să aibă {lipsa_licenta}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) presta servicii fără să aibă {lipsa_licenta1}.",
+      "descriere2": "\nÎn plus, presta servicii fără să aibă {lipsa_licenta1}.",
+      "descriere3": "\nMai mult, presta servicii fără să aibă {lipsa_licenta1}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2253,7 +2251,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.8_codul_muncii"
+      "id": "cap.4_4.8_codul_muncii"
     },
     {
       "cap": "Cap. 4",
@@ -2270,9 +2268,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a încercat în mod ilegal să împiedice sau să descurajeze pe { nume_parte_vatamata} (CNP { cnp_parte_vatamata} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
-      "descriere2": "În plus, a încercat în mod ilegal să împiedice sau să descurajeze pe { nume_parte_vatamata} (CNP { cnp_parte_vatamata} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
-      "descriere3": "Mai mult, a încercat în mod ilegal să împiedice sau să descurajeze pe { nume_parte_vatamata} (CNP { cnp_parte_vatamata} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_parte_vatamata} (CNP {cnp_parte_vatamata} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
+      "descriere2": "\nÎn plus, a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_parte_vatamata} (CNP {cnp_parte_vatamata} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
+      "descriere3": "\nMai mult, a încercat în mod ilegal să împiedice sau să descurajeze pe {nume_parte_vatamata} (CNP {cnp_parte_vatamata} de la a depune mărturie într-un proces, utilizând mijloace nelegale precum mita, amenințarea sau alte tactici.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2282,13 +2280,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..4_4.9_descurajarea_unui_martor_sau_a_unei_victime"
+      "id": "cap.4_4.9_descurajarea_unui_martor_sau_a_unei_victime"
     },
     {
       "cap": "Cap. 5",
       "numarArticol": "5.1",
       "titlu": "Deținerea sau producerea de substante ilegale",
-      "definitie": "Producerea, deținerea, precum ÅŸi orice operațiune privind cultivarea în scop de prelucrare a plantelor care conțin astfel de substanțe se pedepsesc cu sancțiunile menționate. Se aplica doar pentru semintele si frunzele de plante care conțin astfel de substanțe. A nu se cumula cu #5.2 Prelucrarea sau deținerea țigărilor de contrabandă, #5.3 Prelucrarea sau deținerea de droguri de risc sau #5.4 Prelucrarea sau deținerea de droguri de mare risc.",
+      "definitie": "Producerea, deținerea, precum și orice operațiune privind cultivarea în scop de prelucrare a plantelor care conțin astfel de substanțe se pedepsesc cu sancțiunile menționate. Se aplica doar pentru semintele si frunzele de plante care conțin astfel de substanțe. A nu se cumula cu #5.2 Prelucrarea sau deținerea țigărilor de contrabandă, #5.3 Prelucrarea sau deținerea de droguri de risc sau #5.4 Prelucrarea sau deținerea de droguri de mare risc.",
       "amendaMin": 10000,
       "amendaMax": 10000,
       "arestMin": 15,
@@ -2300,8 +2298,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
-      "descriere2": "În plus, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
-      "descriere3": "Mai mult, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
+      "descriere2": "\nÎn plus, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
+      "descriere3": "\nMai mult, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2311,7 +2309,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.1_deinerea_sau_producerea_de_substante_ilegale"
+      "id": "cap.5_5.1_detinerea_sau_producerea_de_substante_ilegale"
     },
     {
       "cap": "Cap. 5",
@@ -2328,9 +2326,9 @@
       "perchezitie": false,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "NU SE SANCÈšIONEAZÄ‚",
-      "descriere2": "NU SE SANCÈšIONEAZÄ‚",
-      "descriere3": "NU SE SANCÈšIONEAZÄ‚",
+      "descriere1": "NU SE SANCȚIONEAZÄ‚",
+      "descriere2": "NU SE SANCȚIONEAZÄ‚",
+      "descriere3": "NU SE SANCȚIONEAZÄ‚",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2340,7 +2338,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.2_prelucrarea_sau_deinerea_igrilor_de_contraband_tip_i"
+      "id": "cap.5_5.2_prelucrarea_sau_detinerea_igrilor_de_contraband_tip_i"
     },
     {
       "cap": "Cap. 5",
@@ -2357,9 +2355,9 @@
       "perchezitie": false,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "",
-      "descriere2": "",
-      "descriere3": "",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere3": "\nMai mult, deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2369,7 +2367,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.2_prelucrarea_sau_deinerea_igrilor_de_contraband_tip_ii"
+      "id": "cap.5_5.2_prelucrarea_sau_detinerea_igrilor_de_contraband_tip_ii"
     },
     {
       "cap": "Cap. 5",
@@ -2386,9 +2384,9 @@
       "perchezitie": false,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere3": "Mai mult, deținea {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere3": "\nMai mult, deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2398,7 +2396,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.2_prelucrarea_sau_deinerea_igrilor_de_contraband_tip_iii"
+      "id": "cap.5_5.2_prelucrarea_sau_detinerea_igrilor_de_contraband_tip_iii"
     },
     {
       "cap": "Cap. 5",
@@ -2415,9 +2413,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "",
-      "descriere2": "",
-      "descriere3": "",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere3": "\nMai mult, deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2427,7 +2425,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.2_prelucrarea_sau_deinerea_igrilor_de_contraband_tip_iv"
+      "id": "cap.5_5.2_prelucrarea_sau_deinerea_igrilor_de_contraband_tip_iv"
     },
     {
       "cap": "Cap. 5",
@@ -2444,9 +2442,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_droguri_risc} {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_risc} {droguri_risc}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_risc} {droguri_risc}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2456,7 +2454,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.3_prelucrarea_sau_deinerea_de_droguri_de_risc_tip_i"
+      "id": "cap.5_5.3_prelucrarea_sau_detinerea_de_droguri_de_risc_tip_i"
     },
     {
       "cap": "Cap. 5",
@@ -2473,9 +2471,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_droguri_risc} {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_risc} {droguri_risc}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_risc} {droguri_risc}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2485,7 +2483,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.3_prelucrarea_sau_deinerea_de_droguri_de_risc_tip_ii"
+      "id": "cap.5_5.3_prelucrarea_sau_detinerea_de_droguri_de_risc_tip_ii"
     },
     {
       "cap": "Cap. 5",
@@ -2502,9 +2500,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_droguri_risc} {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_risc} {droguri_risc}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_risc} {droguri_risc}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2514,7 +2512,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.3_prelucrarea_sau_deinerea_de_droguri_de_risc_tip_iii"
+      "id": "cap.5_5.3_prelucrarea_sau_detinerea_de_droguri_de_risc_tip_iii"
     },
     {
       "cap": "Cap. 5",
@@ -2531,9 +2529,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_droguri_risc} {droguri_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_risc} {droguri_risc}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_risc} {droguri_risc}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2543,7 +2541,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.3_prelucrarea_sau_deinerea_de_droguri_de_risc_tip_iv"
+      "id": "cap..5_5.3_prelucrarea_sau_detinerea_de_droguri_de_risc_tip_iv"
     },
     {
       "cap": "Cap. 5",
@@ -2560,9 +2558,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_droguri_mare_risc} {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_mare_risc} {droguri_mare_risc}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_mare_risc} {droguri_mare_risc}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2572,7 +2570,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.4_prelucrarea_sau_deinerea_de_droguri_de_mare_risc_tip_i"
+      "id": "cap.5_5.4_prelucrarea_sau_detinerea_de_droguri_de_mare_risc_tip_i"
     },
     {
       "cap": "Cap. 5",
@@ -2589,9 +2587,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_droguri_mare_risc} {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_mare_risc} {droguri_mare_risc}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_mare_risc} {droguri_mare_risc}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2601,7 +2599,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.4_prelucrarea_sau_deinerea_de_droguri_de_mare_risc_tip_ii"
+      "id": "cap.5_5.4_prelucrarea_sau_detinerea_de_droguri_de_mare_risc_tip_ii"
     },
     {
       "cap": "Cap. 5",
@@ -2618,9 +2616,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_droguri_mare_risc} {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_mare_risc} {droguri_mare_risc}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_mare_risc} {droguri_mare_risc}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2630,7 +2628,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.4_prelucrarea_sau_deinerea_de_droguri_de_mare_risc_tip_iii"
+      "id": "cap.5_5.4_prelucrarea_sau_detinerea_de_droguri_de_mare_risc_tip_iii"
     },
     {
       "cap": "Cap. 5",
@@ -2647,9 +2645,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {droguri_mare_risc}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_droguri_mare_risc} {droguri_mare_risc}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_mare_risc} {droguri_mare_risc}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_droguri_mare_risc} {droguri_mare_risc}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2659,7 +2657,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.4_prelucrarea_sau_deinerea_de_droguri_de_mare_risc_tip_iv"
+      "id": "cap.5_5.4_prelucrarea_sau_detinerea_de_droguri_de_mare_risc_tip_iv"
     },
     {
       "cap": "Cap. 5",
@@ -2676,9 +2674,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_bani} {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_bani} {bani_murdari}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_bani} {bani_murdari}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2705,9 +2703,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_bani} {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_bani} {bani_murdari}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_bani} {bani_murdari}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2717,7 +2715,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.5_bani_nemarcati_blood_money_tip_ii"
+      "id": "cap.5_5.5_bani_nemarcati_blood_money_tip_ii"
     },
     {
       "cap": "Cap. 5",
@@ -2734,9 +2732,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_bani} {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_bani} {bani_murdari}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_bani} {bani_murdari}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2746,7 +2744,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.5_bani_nemarcati_blood_money_tip_iii"
+      "id": "cap.5_5.5_bani_nemarcati_blood_money_tip_iii"
     },
     {
       "cap": "Cap. 5",
@@ -2763,9 +2761,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
-      "descriere2": "În plus, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
-      "descriere3": "Mai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {bani_murdari}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_bani} {bani_murdari}, faptă prevăzută de lege ca fiind ilegală.",
+      "descriere2": "\nÎn plus, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_bani} {bani_murdari}.",
+      "descriere3": "\nMai mult, în urma percheziției, asupra sa s-a găsit o cantitate de {cantitate_bani} {bani_murdari}.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2775,7 +2773,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.5_bani_nemarcati_blood_money_tip_iv"
+      "id": "cap.5_5.5_bani_nemarcati_blood_money_tip_iv"
     },
     {
       "cap": "Cap. 5",
@@ -2793,8 +2791,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
-      "descriere2": "În plus, practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
-      "descriere3": "Mai mult, practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
+      "descriere2": "\nÎn plus, practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
+      "descriere3": "\nMai mult, practica medicina fără un act legal primit de la instituțiile guvernamentale, fapt ce dovedește că nu are pregătirea necesară pentru astfel de practici.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2804,13 +2802,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.6_practicarea_medicinei_fr_licen"
+      "id": "cap.5_5.6_practicarea_medicinei_fara_licenta"
     },
     {
       "cap": "Cap. 5",
       "numarArticol": "5.7",
       "titlu": "Obligația de identificare adecvată",
-      "definitie": "Toate persoanele sunt obligate să dețină ÅŸi să prezinte o identificare corespunzătoare rolului ÅŸi activităților desfăÅŸurate. În timp ce pietonii sunt sfătuiți să poarte un act de identitate (recomandat), următoarele sunt obligatorii pentru exercitarea drepturilor ÅŸi beneficiilor aferente anumitor licențe: È˜ofer: Obligatoriu să poarte permis de conducere valid. Miner: Obligatoriu să dețină licență de minerit valabilă. È˜ofer de camion: Obligatoriu să aibă licență de transport comercial. Pescar: Obligatoriu să dețină licență de pescuit. Operator de remorcare: Obligatoriu să aibă licență pentru remorcare. Pilot (avion): Obligatoriu să prezinte licență de pilot. Operator de ambarcațiuni: Obligatoriu să dețină licență de navigație. Utilizator de arme: Obligatoriu să aibă licență de port-arme atunci când foloseÅŸte arme. Nerespectarea obligației de a prezenta identificarea cerută de autorități sau în cadrul activităților reglementate se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Toate persoanele sunt obligate să dețină ÅŸi să prezinte o identificare corespunzătoare rolului ÅŸi activităților desfăÅŸurate. În timp ce pietonii sunt sfătuiți să poarte un act de identitate (recomandat), următoarele sunt obligatorii pentru exercitarea drepturilor ÅŸi beneficiilor aferente anumitor licențe: Șofer: Obligatoriu să poarte permis de conducere valid. Miner: Obligatoriu să dețină licență de minerit valabilă. Șofer de camion: Obligatoriu să aibă licență de transport comercial. Pescar: Obligatoriu să dețină licență de pescuit. Operator de remorcare: Obligatoriu să aibă licență pentru remorcare. Pilot (avion): Obligatoriu să prezinte licență de pilot. Operator de ambarcațiuni: Obligatoriu să dețină licență de navigație. Utilizator de arme: Obligatoriu să aibă licență de port-arme atunci când foloseÅŸte arme. Nerespectarea obligației de a prezenta identificarea cerută de autorități sau în cadrul activităților reglementate se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 10000,
       "amendaMax": 10000,
       "arestMin": 0,
@@ -2821,9 +2819,9 @@
       "perchezitie": false,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
-      "descriere2": "În plus, la momentul controlului, nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
-      "descriere3": "Mai mult, la momentul controlului, nu deținea asupra sa {lipsa_licenta}, act necesar activității pe care acesta o desfășura la momentul constatării.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) nu deținea asupra sa {licente_text}",
+      "descriere2": "\nÎn plus, la momentul controlului, nu deținea asupra sa {licente_text}",
+      "descriere3": "\nMai mult, la momentul controlului, nu deținea asupra sa {licente_text}",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2833,7 +2831,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.7_obligaia_de_identificare_adecvat"
+      "id": "cap.5_5.7_obligatia_de_identificare_adecvata"
     },
     {
       "cap": "Cap. 6",
@@ -2850,9 +2848,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere2": "În plus, a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere3": "Mai mult, a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere2": "\nÎn plus, a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere3": "\nMai mult, a amenințat intenționat, vizând comiterea unei crime care să aibă ca rezultat uciderea sau vătămarea corporală gravă a cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
@@ -2940,7 +2938,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..6_6.1_ameninri_criminale"
+      "id": "cap.6_6.1_amenintari_criminale"
     },
     {
       "cap": "Cap. 6",
@@ -2957,9 +2955,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis acte frauduloase menite să afecteze interesele creditorului său { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) și astfel pundu-l în dificultate financiară.",
-      "descriere2": "În plus, a comis acte frauduloase menite să afecteze interesele creditorului său { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) și astfel pundu-l în dificultate financiară.",
-      "descriere3": "Mai mult, a comis acte frauduloase menite să afecteze interesele creditorului său { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) și astfel pundu-l în dificultate financiară.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis acte frauduloase menite să afecteze interesele creditorului său {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) și astfel pundu-l în dificultate financiară.",
+      "descriere2": "\nÎn plus, a comis acte frauduloase menite să afecteze interesele creditorului său {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) și astfel pundu-l în dificultate financiară.",
+      "descriere3": "\nMai mult, a comis acte frauduloase menite să afecteze interesele creditorului său {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) și astfel pundu-l în dificultate financiară.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
@@ -2979,7 +2977,7 @@
         "cap.1_1.5_nerespectarea_semnelor_politistului",
         "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
       ],
-      "id": "cap..6_6.10_fraudarea_creditorilor"
+      "id": "cap.6_6.10_fraudarea_creditorilor"
     },
     {
       "cap": "Cap. 6",
@@ -2996,9 +2994,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere2": "În plus, a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere3": "Mai mult, a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere2": "\nÎn plus, a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere3": "\nMai mult, a întreprins acțiuni deliberate cu intenția de a cauza moartea sau vătămări corporale grave și ireversibile cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
@@ -3018,13 +3016,13 @@
         "cap.1_1.5_nerespectarea_semnelor_politistului",
         "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
       ],
-      "id": "cap..6_6.2_tentativ_de_omor"
+      "id": "cap.6_6.2_tentativa_de_omor"
     },
     {
       "cap": "Cap. 6",
       "numarArticol": "6.3",
       "titlu": "Vătămare corporală",
-      "definitie": "Orice persoană care răneÅŸte altă persoană prin diferite mijloace unde nu apar răni severe, reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Orice persoană care rănește altă persoană prin diferite mijloace unde nu apar răni severe, reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 7500,
       "amendaMax": 7500,
       "arestMin": 20,
@@ -3036,8 +3034,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
-      "descriere2": "În plus, a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
-      "descriere3": "Mai mult, a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
+      "descriere2": "\nÎn plus, a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
+      "descriere3": "\nMai mult, a agresat fizic o altă persoană, provocându-i leziuni care nu necesită îngrijiri medicale de lungă durată.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
@@ -3056,13 +3054,13 @@
         "cap.1_1.5_nerespectarea_semnelor_politistului",
         "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
       ],
-      "id": "cap..6_6.3_vtmare_corporal"
+      "id": "cap.6_6.3_vatamare_corporala"
     },
     {
       "cap": "Cap. 6",
       "numarArticol": "6.4",
       "titlu": "Vătămare corporală gravă",
-      "definitie": "Orice persoană care răneÅŸte altă persoană prin utilizarea unei armei mortale sau vătămarea corporală unde apar răni severe, reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Orice persoană care rănește altă persoană prin utilizarea unei armei mortale sau vătămarea corporală unde apar răni severe, reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 11000,
       "amendaMax": 11000,
       "arestMin": 40,
@@ -3074,8 +3072,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp})  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
-      "descriere2": "În plus, a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
-      "descriere3": "Mai mult,  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
+      "descriere2": "\nÎn plus, a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
+      "descriere3": "\nMai mult,  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
@@ -3094,7 +3092,7 @@
         "cap.1_1.5_nerespectarea_semnelor_politistului",
         "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
       ],
-      "id": "cap..6_6.4_vtmare_corporal_grav"
+      "id": "cap.6_6.4_vatamare_corporala_grava"
     },
     {
       "cap": "Cap. 6",
@@ -3112,8 +3110,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
-      "descriere2": "În plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
-      "descriere3": "În plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
+      "descriere2": "\nÎn plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
+      "descriere3": "\nÎn plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
       "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -3131,7 +3129,7 @@
         "cap.1_1.5_nerespectarea_semnelor_politistului",
         "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
       ],
-      "id": "cap..6_6.5_asalt_cu_o_arm_mortal"
+      "id": "cap.6_6.5_asalt_cu_o_arma_mortala"
     },
     {
       "cap": "Cap. 6",
@@ -3148,9 +3146,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}), a provocat, fără intenție, decesul victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere2": "În plus, a provocat, fără intenție, decesul victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere3": "Mai mult, a provocat, fără intenție, decesul victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}), a provocat, fără intenție, decesul victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere2": "\nÎn plus, a provocat, fără intenție, decesul victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere3": "\nMai mult, a provocat, fără intenție, decesul victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -3168,7 +3166,7 @@
         "cap.1_1.5_nerespectarea_semnelor_politistului",
         "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
       ],
-      "id": "cap..6_6.6_omor_din_culp"
+      "id": "cap.6_6.6_omor_din_culpa"
     },
     {
       "cap": "Cap. 6",
@@ -3185,9 +3183,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis omorul victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere2": "În plus, a comis omorul victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere3": "Mai mult, a comis omorul victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis omorul victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere2": "\nÎn plus, a comis omorul victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere3": "\nMai mult, a comis omorul victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
@@ -3207,13 +3205,13 @@
         "cap.1_1.5_nerespectarea_semnelor_politistului",
         "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
       ],
-      "id": "cap..6_6.7_crim_omucidere"
+      "id": "cap.6_6.7_crima_omucidere"
     },
     {
       "cap": "Cap. 6",
       "numarArticol": "6.8",
       "titlu": "Răpire",
-      "definitie": "O persoană care fură, ține, reține sau arestează alt individ, cu forța ÅŸi împotriva voinței sale săvârșește o crimă care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "O persoană care fură, ține, reține sau arestează alt individ, cu forța și împotriva voinței sale săvârșește o crimă care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 11000,
       "amendaMax": 11000,
       "arestMin": 60,
@@ -3224,9 +3222,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a răpit pe cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) din zona {zona_input}, reținându-l cu forța și împotriva voinței sale.",
-      "descriere2": "În plus, a răpit pe cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), reținându-l cu forța și împotriva voinței sale.",
-      "descriere3": "Mai mult, a răpit pe cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}), reținându-l cu forța și împotriva voinței sale.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a răpit pe cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) din zona {zona_input}, reținându-l cu forța și împotriva voinței sale.",
+      "descriere2": "\nÎn plus, a răpit pe cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), reținându-l cu forța și împotriva voinței sale.",
+      "descriere3": "\nMai mult, a răpit pe cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), reținându-l cu forța și împotriva voinței sale.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
@@ -3246,13 +3244,13 @@
         "cap.1_1.5_nerespectarea_semnelor_politistului",
         "cap.1_1.6_nerespectarea_semnalelor_luminoase_sonore"
       ],
-      "id": "cap..6_6.8_rpire"
+      "id": "cap.6_6.8_rapire"
     },
     {
       "cap": "Cap. 6",
       "numarArticol": "6.9",
       "titlu": "Tortură",
-      "definitie": "Orice persoană care, cu intenția de a cauza dureri nemiloase ÅŸi suferințe extreme cu scopul răzbunării, ÅŸantajului, convingerii sau pentru orice alt scop sadic, care are ca urmare o vătămare corporală extrem de gravă, poate fi acuzată de tortură care se poate pedepsi cu sancțiunile menționate. A nu se cumula cu acuzația de #6.2 Tentativă de omor. TotuÅŸi, dacă tortura a rezultat în moartea unui individ, acuzația de tortură se va cumula cu acuzația de #6.7 Crimă (Omucidere).",
+      "definitie": "Orice persoană care, cu intenția de a cauza dureri nemiloase ÅŸi suferințe extreme cu scopul răzbunării, șantajului, convingerii sau pentru orice alt scop sadic, care are ca urmare o vătămare corporală extrem de gravă, poate fi acuzată de tortură care se poate pedepsi cu sancțiunile menționate. A nu se cumula cu acuzația de #6.2 Tentativă de omor. TotuÅŸi, dacă tortura a rezultat în moartea unui individ, acuzația de tortură se va cumula cu acuzația de #6.7 Crimă (Omucidere).",
       "amendaMin": 20000,
       "amendaMax": 20000,
       "arestMin": 70,
@@ -3263,9 +3261,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a cauzat dureri nemiloase și suferințe extreme victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
-      "descriere2": "În plus, a cauzat dureri nemiloase și suferințe extreme victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
-      "descriere3": "Mai mult, a cauzat dureri nemiloase și suferințe extreme victimei { nume_parte_vatamata} (CNP { cnp_parte_vatamata}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a cauzat dureri nemiloase și suferințe extreme victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
+      "descriere2": "\nÎn plus, a cauzat dureri nemiloase și suferințe extreme victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
+      "descriere3": "\nMai mult, a cauzat dureri nemiloase și suferințe extreme victimei {nume_parte_vatamata} (CNP {cnp_parte_vatamata}) cu intenția de a se răzbuna, a șantaja, convinge sau pentru un alt scop sadic, având ca urmare o vătămare corporală extrem de gravă.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3275,13 +3273,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..6_6.9_tortur"
+      "id": "cap.6_6.9_tortura"
     },
     {
       "cap": "Cap. 7",
       "numarArticol": "7.1",
       "titlu": "Posesia unei arme albe",
-      "definitie": "Orice persoană care poartă, fără drept, în locurile ÅŸi împrejurările în care s-ar putea primejdui viața sau integritatea corporală a persoanelor ori s-ar putea tulbură ordinea ÅŸi liniÅŸtea publică, a unui cuțit cu lama mai mare de 9 centimetri (excepție Switchblade), a unui pumnal, a unei bâte ori a altor asemenea obiecte fabricate sau confecționate anume pentru tăiere, împingere sau lovire. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Orice persoană care poartă, fără drept, în locurile ÅŸi împrejurările în care s-ar putea primejdui viața sau integritatea corporală a persoanelor ori s-ar putea tulbură ordinea și liniștea publică, a unui cuțit cu lama mai mare de 9 centimetri (excepție Switchblade), a unui pumnal, a unei bâte ori a altor asemenea obiecte fabricate sau confecționate anume pentru tăiere, împingere sau lovire. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 6500,
       "amendaMax": 6500,
       "arestMin": 25,
@@ -3292,9 +3290,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
-      "descriere2": "În plus, purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
-      "descriere3": "Mai mult, purta fără drept {perchezitie_buzunare} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) purta fără drept {perchezitie_buzunare_continut} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
+      "descriere2": "\nÎn plus, purta fără drept {perchezitie_buzunare_continut} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
+      "descriere3": "\nMai mult, purta fără drept {perchezitie_buzunare_continut} în circumstanțe în care ar putea pune în primejdie viața sau integritatea corporală a persoanelor ori tulbura ordinea și liniștea publică.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3304,7 +3302,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..7_7.1_posesia_unei_arme_albe"
+      "id": "cap.7_7.1_posesia_unei_arme_albe"
     },
     {
       "cap": "Cap. 7",
@@ -3321,9 +3319,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
-      "descriere2": "În plus, avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
-      "descriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, fără a deține permis port-armă legal eliberat.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare_continut}, fără a deține permis port-armă legal eliberat.",
+      "descriere2": "\nÎn plus, avea în posesie {perchezitie_buzunare_continut}, fără a deține permis port-armă legal eliberat.",
+      "descriere3": "\nMai mult, avea în posesie {perchezitie_buzunare_continut}, fără a deține permis port-armă legal eliberat.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3333,7 +3331,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..7_7.2_posesia_unei_arme_de_foc_de_calibru_mic_fr_permis_portarm"
+      "id": "cap.7_7.2_posesia_unei_arme_de_foc_de_calibru_mic_fara_permis_portarma"
     },
     {
       "cap": "Cap. 7",
@@ -3351,8 +3349,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
-      "descriere2": "În plus, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
-      "descriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere2": "\nÎn plus, avea în posesie {perchezitie_buzunare_continut}, care au fost confiscate.",
+      "descriere3": "\nMai mult, avea în posesie {perchezitie_buzunare_continut}, care au fost confiscate.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3362,7 +3360,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..7_7.3_posesia_unei_arme_de_foc_de_calibru_mare"
+      "id": "cap.7_7.3_posesia_unei_arme_de_foc_de_calibru_mare"
     },
     {
       "cap": "Cap. 7",
@@ -3379,9 +3377,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
-      "descriere2": "În plus, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
-      "descriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare_continut}, care au fost confiscate.",
+      "descriere2": "\nÎn plus, avea în posesie {perchezitie_buzunare_continut}, care au fost confiscate.",
+      "descriere3": "\nMai mult, avea în posesie {perchezitie_buzunare_continut}, care au fost confiscate.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3393,7 +3391,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..7_7.4_posesia_unei_arme_de_foc_automat"
+      "id": "cap.7_7.4_posesia_unei_arme_de_foc_automata"
     },
     {
       "cap": "Cap. 7",
@@ -3410,9 +3408,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care aa fost confiscate.",
-      "descriere2": "În plus, avea în posesie {perchezitie_buzunare}, care a fost confiscat.",
-      "descriere3": "Mai mult, avea în posesie {perchezitie_buzunare}, care a fost confiscat.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare_continut}, care aa fost confiscate.",
+      "descriere2": "\nÎn plus, avea în posesie {perchezitie_buzunare_continut}, care a fost confiscat.",
+      "descriere3": "\nMai mult, avea în posesie {perchezitie_buzunare_continut}, care a fost confiscat.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3428,7 +3426,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..7_7.5_posesia_de_explozibil"
+      "id": "cap.7_7.5_posesia_de_explozibil"
     },
     {
       "cap": "Cap. 7",
@@ -3445,9 +3443,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a îndreptat o armă de foc asupra cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere2": "În plus, a îndreptat o armă de foc asupra cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
-      "descriere3": "Mai mult, a îndreptat o armă de foc asupra cetățeanului { nume_parte_vatamata} (CNP { cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a îndreptat {perchezitie_buzunare_continut} asupra cetățeanului { nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere2": "\nÎn plus, a îndreptat {perchezitie_buzunare_continut} asupra cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere3": "\nMai mult, a îndreptat {perchezitie_buzunare_continut} asupra cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "incompatibilitati": [
         "cap.3_3.12.3_jaf_bancar",
         "cap.3_3.12.2_jaf_imobile",
@@ -3457,7 +3455,7 @@
         "cap.7_7.5_posesia_explozibil",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..7_7.6_ndreptarea_unei_arme_de_foc"
+      "id": "cap.7_7.6_indreptarea_unei_arme_de_foc"
     },
     {
       "cap": "Cap. 7",
@@ -3474,9 +3472,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp})a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
-      "descriere2": "În plus, a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
-      "descriere3": "Mai mult, a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}). Asupra sa avea {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp})a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul { nume_parte_vatamata} (CNP { cnp_parte_vatamata}). Asupra s-a avea {perchezitie_buzunare_continut}, care au fost confiscate.",
+      "descriere2": "\nÎn plus, a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}). Asupra s-a avea {perchezitie_buzunare_continut}, care au fost confiscate.",
+      "descriere3": "\nMai mult, a folosit o armă de foc cu scopul de a vătăma corporal grav pe cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}). Asupra s-a avea {perchezitie_buzunare_continut}, care au fost confiscate.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3486,13 +3484,13 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..7_7.7_descrcarea_letal_a_unei_arme_de_foc"
+      "id": "cap.7_7.7_descarcarea_letala_a_unei_arme_de_foc"
     },
     {
       "cap": "Cap. 7",
       "numarArticol": "7.8",
-      "titlu": "Traficul de armament sau de munitie",
-      "definitie": "Orice persoană care deține trei sau mai multe arme de foc ÅŸi/sau mai mult de 300 gloanțe fără a deține un permis pentru vânzarea acestora. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate. De asemenea, toate obiectele folosite pentru a fabrica gloanțe sau arme găsite în zona de fabricație vor fi confiscate. Aceasta faptă nu se cumulează cu alte acuzații din capitolul 7.",
+      "titlu": "Traficul de armament sau de muniție",
+      "definitie": "Orice persoană care deține trei sau mai multe arme de foc și/sau mai mult de 300 gloanțe fără a deține un permis pentru vânzarea acestora. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate. De asemenea, toate obiectele folosite pentru a fabrica gloanțe sau arme găsite în zona de fabricație vor fi confiscate. Aceasta faptă nu se cumulează cu alte acuzații din capitolul 7.",
       "amendaMin": 50000,
       "amendaMax": 50000,
       "arestMin": 80,
@@ -3503,9 +3501,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora.",
-      "descriere2": "În plus, acesta deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora. ",
-      "descriere3": "Mai mult, acesta deținea ilegal {perchezitie_buzunare}, fără a deține permis pentru vânzarea acestora. ",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea ilegal {perchezitie_buzunare_continut}, fără a deține permis pentru vânzarea acestora.",
+      "descriere2": "\nÎn plus, acesta deținea ilegal {perchezitie_buzunare_continut}, fără a deține permis pentru vânzarea acestora.",
+      "descriere3": "\nMai mult, acesta deținea ilegal {perchezitie_buzunare+continut}, fără a deține permis pentru vânzarea acestora.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3521,7 +3519,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..7_7.8_traficul_de_armament_sau_de_munitie"
+      "id": "cap.7_7.8_traficul_de_armament_sau_de_munitie"
     },
     {
       "cap": "Cap. 8",
@@ -3536,11 +3534,11 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "dosarPenal": false,
+      "dosarPenal": true,
       "arestPeViata": true,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în organizarea și participarea la acte de terorism în zona {zona_input}, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
-      "descriere2": "În plus, a fost implicat în organizarea și participarea la acte de terorism, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
-      "descriere3": "Mai mult, a fost implicat în organizarea și participarea la acte de terorism, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
+      "descriere2": "\nÎn plus, a fost implicat în organizarea și participarea la acte de terorism, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
+      "descriere3": "\nMai mult, a fost implicat în organizarea și participarea la acte de terorism, inclusiv atentate asupra infrastructurii vitale, faptă ce constituie o infracțiune gravă.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3549,7 +3547,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.1_terorism"
+      "id": "cap.8_8.1_terorism"
     },
     {
       "cap": "Cap. 8",
@@ -3567,8 +3565,8 @@
       "dosarPenal": true,
       "arestPeViata": true,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
-      "descriere2": "În plus, a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
-      "descriere3": "Mai mult, a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
+      "descriere2": "\nÎn plus, a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
+      "descriere3": "\nMai mult, a fost implicat în acte de corupție, abuzând de funcția sa publică pentru a obține foloase materiale necuvenite.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
@@ -3678,7 +3676,7 @@
         "cap.8_8.8_sabotaj",
         "cap.8_8.9_constituire_grup_infractional_organizat"
       ],
-      "id": "cap..8_8.10_corupie"
+      "id": "cap.8_8.10_coruptie"
     },
     {
       "cap": "Cap. 8",
@@ -3696,8 +3694,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a pătruns ilegal în zona/clădirea protejată din apropiere, cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
-      "descriere2": "În plus, a pătruns ilegal cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
-      "descriere3": "Mai mult, a pătruns ilegal cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
+      "descriere2": "\nÎn plus, a pătruns ilegal cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
+      "descriere3": "\nMai mult, a pătruns ilegal cu scopul de a aduna informații sau de a desfășura activități dăunătoare.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3706,7 +3704,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.2_nclcarea_regimului_de_securitate_al_statului"
+      "id": "cap.8_8.2_inclcarea_regimului_de_securitate_al_statului"
     },
     {
       "cap": "Cap. 8",
@@ -3724,8 +3722,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) împiedica activitățile serviciilor publice.",
-      "descriere2": "În plus, împiedica activitățile serviciilor publice.",
-      "descriere3": "Mai mult, împiedica activitățile serviciilor publice.",
+      "descriere2": "\nÎn plus, împiedica activitățile serviciilor publice.",
+      "descriere3": "\nMai mult, împiedica activitățile serviciilor publice.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3734,7 +3732,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.3_mpiedicarea_activitilor_guvernamentale"
+      "id": "cap.8_8.3_impiedicarea_activitatilor_guvernamentale"
     },
     {
       "cap": "Cap. 8",
@@ -3752,8 +3750,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
-      "descriere2": "În plus,a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
-      "descriere3": "Mai mult, a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
+      "descriere2": "\nÎn plus,a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
+      "descriere3": "\nMai mult, a fost implicat în formarea sau apartenența la un grup organizat cu scopul de a combate autoritățile sau de a destabiliza statul.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3763,7 +3761,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.4_formarea_unui_grup_paramilitar"
+      "id": "cap.8_8.4_formarea_unui_grup_paramilitar"
     },
     {
       "cap": "Cap. 8",
@@ -3781,8 +3779,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
-      "descriere2": "În plus, a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
-      "descriere3": "Mai mult, a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
+      "descriere2": "\nÎn plus, a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
+      "descriere3": "\nMai mult, a fost identificat ca organizator/participant la un eveniment public/acțiune care a vizat incitarea la violență împotriva instituțiilor guvernamentale.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3791,7 +3789,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.5_acte_de_incitare_la_violen_mpotriva_instituiilor_guvernamentale"
+      "id": "cap.8_8.5_acte_de_incitare_la_violenta_impotriva_institutiilor_guvernamentale"
     },
     {
       "cap": "Cap. 8",
@@ -3809,8 +3807,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a utilizat documente guvernamentale falsificate.",
-      "descriere2": "În plus, a utilizat documente guvernamentale falsificate.",
-      "descriere3": "Mai mult, a utilizat documente guvernamentale falsificate.",
+      "descriere2": "\nÎn plus, a utilizat documente guvernamentale falsificate.",
+      "descriere3": "\nMai mult, a utilizat documente guvernamentale falsificate.",
       "incompatibilitati": [
         "cap.3_3.12.3_jaf_bancar",
         "cap.3_3.12.2_jaf_imobile",
@@ -3819,7 +3817,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.6_falsificarea_documentelor_guvernamentale"
+      "id": "cap.8_8.6_falsificarea_documentelor_guvernamentale"
     },
     {
       "cap": "Cap. 8",
@@ -3837,8 +3835,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
-      "descriere2": "În plus, a obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
-      "descriere3": "Mai mult, a obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
+      "descriere2": "\nÎn plus, a obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
+      "descriere3": "\nMai mult, a obținut și transmis informații secrete către o entitate externă, fapt ce periclita siguranța națională.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3847,7 +3845,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.7_spionaj"
+      "id": "cap.8_8.7_spionaj"
     },
     {
       "cap": "Cap. 8",
@@ -3865,8 +3863,8 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
-      "descriere2": "În plus, a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
-      "descriere3": "Mai mult, a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
+      "descriere2": "\nÎn plus, a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
+      "descriere3": "\nMai mult, a distrus sau deteriorat intenționat {tip_vehicul_procesator} {model_vehicul_input} cu scopul de a crea haos sau a periclita siguranța orașului.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -3875,7 +3873,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.8_sabotaj"
+      "id": "cap.8_8.8_sabotaj"
     },
     {
       "cap": "Cap. 8",
@@ -3893,8 +3891,8 @@
       "dosarPenal": true,
       "arestPeViata": true,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a constituit un grup infracțional organizat, alături de alte persoane.",
-      "descriere2": "În plus, a constituit un grup infracțional organizat, alături de alte persoane.",
-      "descriere3": "Mai mult, a constituit un grup infracțional organizat, alături de alte persoane.",
+      "descriere2": "\nÎn plus, a constituit un grup infracțional organizat, alături de alte persoane.",
+      "descriere3": "\nMai mult, a constituit un grup infracțional organizat, alături de alte persoane.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.1_limitele_de_viteza_peste_dublul_legal",
@@ -4004,7 +4002,7 @@
         "cap.8_8.8_sabotaj",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..8_8.9_constituirea_unui_grup_infracional_organizat"
+      "id": "cap.8_8.9_constituirea_unui_grup_infractional_organizat"
     }
   ],
   "vehicule": [
@@ -6182,18 +6180,18 @@
     }
   ],
   "aiLogic": {
-    "intro_apel_112": "În urma unui apel la linia de urgență 112, efectuat de către cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), în data de {data_procesare}, la ora {ora_procesare}, echipajul de poliție constituit din {patrola}, a intervenit în zona {zona_input}, unde ",
-    "intro_autoconstatare": "În data de {data_procesare}, în jurul orei {ora_procesare}, în timp ce patrula în zona {zona_input}, echipajul de poliție compus din {patrola_text} a constatat că ",
-    "intro_sri": "În urma alertelor sistemelor de supraveghere S.R.I. primite de autorități în data de {data_procesare} la ora {ora_procesare} cu privire la focuri de armă în zona {zona_input}, echipajul constituit din {patrola}, a intervenit și a neutralizat și imobilizat persoanele implicate. Printre acestea, ",
-    "intro_jaf": "În data de {data_procesare}, la ora {ora_procesare}, alarma de securitate a {obiectiv_jaf} de pe {locatie_jaf} a fost declanșată. Aflați în patrulă, {patrola} au intrevenit și au neutralizat făptașii. Printre aceștia, ",
+    "intro_apel_112": "În urma unui apel la linia de urgență 112, efectuat de către cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), în data de {data_procesare}, la ora {ora_procesare}, echipajul de poliție a intervenit în zona {zona_input}, unde ",
+    "intro_autoconstatare": "În data de {data_procesare}, în jurul orei {ora_procesare}, în timp ce patrula în zona {zona_input}, echipajul de poliție a constatat că ",
+    "intro_sri": "În urma alertelor sistemelor de supraveghere S.R.I. primite de autorități în data de {data_procesare} la ora {ora_procesare} cu privire la focuri de armă în zona {zona_input}, echipajul constituit din {patrola_text_nume}, a intervenit și a neutralizat și imobilizat persoanele implicate. Printre acestea, ",
+    "intro_jaf": "În data de {data_procesare}, la ora {ora_procesare}, alarma de securitate a {obiectiv_jaf} de pe {zona_input} a fost declanșată. Aflate în patrulă în apropiere, organele de poliție au intrevenit și au neutralizat făptașii. Printre aceștia, ",
     "intro_mineriada": "În data de {data_procesare}, în jurul orei {ora_procesare} a avut loc o acțiune de tip „Mineriadă” a echipajelor de poliție. În urma controalelor, s-a descoperit că ",
-    "intro_rutiera": "În urma unui filtru de control rutier organizat de autorități pentru prevenirea și combaterea neconformităților participanților la traficul rutier și asigurarea siguranței rutiere conform reglementărilor în vigoare din Codul Penal, în data de {data_procesare}, la ora {ora_procesare}, în zona {zona_input}, {patrola} a constatat că ",
+    "intro_rutiera": "În urma unui filtru de control rutier organizat de autorități pentru prevenirea și combaterea neconformităților participanților la traficul rutier și asigurarea siguranței rutiere conform reglementărilor în vigoare din Codul Penal, în data de {data_procesare}, la ora {ora_procesare}, în zona {zona_input}, s-a constatat că ",
     "intro_razie_sas": "În urma unei razii S.A.S. ce a avut loc pe {zona_input} în data de {data_procesare}, la ora {ora_procesare}, au fost arestați mai mulți suspecți. Printre aceștia, ",
-    "sanctions": "\nConform Codului Penal în vigoare, cetățeanul {nume}, CNP {cnp} a fost sancționat cu:\n{sanctiuni_descriere}"
+    "sanctions": "\nConform Codului Penal în vigoare, cetățeanul {nume}, CNP {cnp} a fost sancționat cu:\n{sanctions_block}"
   },
   "aiSettings": {
     "correctionPrompt": "Folosește un limbaj formal, specific Poliției Române. Verifică acordul gramatical între subiect și predicat și adaptează verbele și adjectivele la genul persoanelor implicate. Asigură-te că punctuația este corectă, cu spațiu după virgulă și punct.",
-    "titleSeparator": ",",
+    "titleSeparator": ", ",
     "titleFormat": "{titluri_infractiuni} | {capitol_principal}",
     "headerTemplate": "IPJ Los Santos\n\n"
   },
@@ -6203,7 +6201,7 @@
     "partea_vatamata_text_filled": "Partea vătămată: [NUME_RECLAMANT] (CNP: [CNP_RECLAMANT])",
     "partea_vatamata_text_empty": "Partea vătămată: Statul Român",
     "martori_text_filled_single": "Martor: [NUME_MARTOR], CNP: [CNP_MARTOR]",
-    "martori_text_empty": "(Acest placeholder este omis complet dacă nu există martori)",
+    "martori_text_empty": "",
     "patrola_text_filled_members": "[MEMBERS]",
     "patrola_text_empty": "(Acest placeholder este omis complet dacă nu este setată patrula)",
     "sanctiuni_amenda": "- Amendă contravențională în valoare de [VALOARE]$",
@@ -6227,11 +6225,11 @@
     "_special_licente_single": "{lipsa_licenta_1}, document necesar pentru desfășurarea activității în cauză.",
     "_special_licente_double": "{lipsa_licenta_1} și nici {lipsa_licenta_2}, ambele documente fiind necesare pentru desfășurarea activităților în cauză.",
     "_special_perchezitie_buzunare_filled": "asupra sa avea {perchezitie_buzunare_continut}",
-    "_special_perchezitie_buzunare_empty": "asupra sa nu avea nimic ilegal.",
+    "_special_perchezitie_buzunare_empty": "asupra sa nu avea nimic ilegal",
     "_special_perchezitie_torpedo_filled": "în torpedo avea {perchezitie_torpedo_continut}",
-    "_special_perchezitie_torpedo_empty": "în torpedo nu avea nimic ilegal.",
+    "_special_perchezitie_torpedo_empty": "în torpedo nu avea nimic ilegal",
     "_special_perchezitie_portbagaj_filled": "în portbagaj avea {perchezitie_portbagaj_continut}",
-    "_special_perchezitie_portbagaj_empty": "în portbagaj nu avea nimic ilegal.",
+    "_special_perchezitie_portbagaj_empty": "în portbagaj nu avea nimic ilegal",
     "_special_patrola_text_nume": "{agent_op_nume}, {agent_const_nume}, {agent_ad1_nume}, {agent_ad2_nume}",
     "_special_patrola_text_complete": "{agent_op_grad} {agent_op_nume}, {agent_const_grad} {agent_const_nume}, {agent_ad1_grad} {agent_ad1_nume}, {agent_ad2_grad} {agent_ad2_nume}",
     "_special_patrola_text_callsigns": "{agent_op_call_sign}, {agent_const_call_sign}, {agent_ad1_call_sign}, {agent_ad2_call_sign}",
@@ -6240,15 +6238,15 @@
     "_special_agent_ad1_template": "{agent_ad1_grad} {agent_ad1_nume}",
     "_special_agent_ad2_template": "{agent_ad2_grad} {agent_ad2_nume}",
     "_special_sanctions_block_template": "{amenda_aplicata_line}\n{arest_aplicat_line}\n{puncte_permis_line}\n{dosar_penal_line}\n{anulare_permis_line}\n{ridicare_vehicul_line}\n{perchezitie_line}",
-    "_special_amenda_aplicata_line_template": "Amendă Contravențională în valoare de {amenda_manuala} $",
-    "_special_arest_aplicat_line_template": "Închisoare timp de {arest_manual} luni, în Penitenciarul de maximă securitate Sandy",
-    "_special_puncte_permis_line_template": "Puncte penalizare permis {puncte_permis}",
-    "_special_dosar_penal_line_template": "Dosar Penal",
-    "_special_anulare_permis_line_template": "Anulare Permis",
-    "_special_ridicare_vehicul_line_template": "Ridicare vehicul",
-    "_special_perchezitie_line_template": "Percheziție"
+    "_special_amenda_aplicata_line_template": "- Amendă Contravențională în valoare de {amenda_manuala}$",
+    "_special_arest_aplicat_line_template": "- Închisoare timp de {arest_manual} luni, în Penitenciarul de maximă securitate Sandy",
+    "_special_puncte_permis_line_template": "- {puncte_permis} puncte penalizare permis",
+    "_special_dosar_penal_line_template": "- Dosar Penal întocmit",
+    "_special_anulare_permis_line_template": "- Permis de conducere anulat",
+    "_special_ridicare_vehicul_line_template": "- Vehicul ridicat",
+    "_special_perchezitie_line_template": "- Percheziție efectuată"
   },
-  "masterTemplate": "{header} {intro} {infraction_1_desc} {mentiuni_1} {infraction_2_desc} {mentiuni_2} {infraction_3_desc} {mentiuni_3} {sanctions_block}",
+  "masterTemplate": "{header} {intro} {infraction_1_desc} {mentiuni_1} {infraction_2_desc} {mentiuni_2} {infraction_3_desc} {mentiuni_3} {sanctiuni_descriere}",
   "radioSettings": {
     "codes": [
       {
@@ -6356,10 +6354,10 @@
   "policeOverlaySettings": {
     "enabled": true,
     "text": "Ai notat acest moment în descriere. Succes!",
-    "font": "Impact",
+    "font": "Roboto Mono",
     "color": "#00ff00",
     "size": "30",
-    "duration": "1",
+    "duration": "5",
     "position": {
       "x": "50",
       "y": 50
@@ -6372,8 +6370,8 @@
   },
   "hotkeys": {
     "toggleOverlay": "Alt+H",
-    "activateButton": "Alt+L",
-    "toggleRadio": "Alt+K",
-    "toggleCrosshair": "Alt+J"
+    "activateButton": "Alt+G",
+    "toggleRadio": "Alt+B",
+    "toggleCrosshair": "Alt+T"
   }
 }
