@@ -6196,7 +6196,11 @@
     "headerTemplate": "IPJ Los Santos\n\n"
   },
   "compositePlaceholders": {
-    "nr_inmatriculare_filled": "cu numerele de înmatriculare [VALOARE]",
+    "nr_inmatriculare_filled": {
+      "target": "",
+      "filled": "",
+      "empty": ""
+    },
     "nr_inmatriculare_empty": "fără numere de înmatriculare",
     "partea_vatamata_text_filled": "Partea vătămată: [NUME_RECLAMANT] (CNP: [CNP_RECLAMANT])",
     "partea_vatamata_text_empty": "Partea vătămată: Statul Român",
@@ -6355,7 +6359,7 @@
     "enabled": true,
     "text": "Ai notat acest moment în descriere. Succes!",
     "font": "Roboto Mono",
-    "color": "#00ff00",
+    "color": "#006eff",
     "size": "30",
     "duration": "5",
     "position": {
@@ -6370,8 +6374,8 @@
   },
   "hotkeys": {
     "toggleOverlay": "Alt+H",
-    "activateButton": "Alt+G",
-    "toggleRadio": "Alt+B",
-    "toggleCrosshair": "Alt+T"
+    "activateButton": "Alt+L",
+    "toggleRadio": "Alt+K",
+    "toggleCrosshair": "Alt+J"
   }
 }
