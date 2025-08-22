@@ -595,7 +595,7 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a folosit {tip_vehicul_procesator}, marca {model_vehicul_input},  {nr_inmatriculare}, pentru a încerca să evadeze de oeganele de poliție.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a folosit {tip_vehicul_procesator}, marca {model_vehicul_input}, {nr_inmatriculare}, pentru a încerca să evadeze de oeganele de poliție.",
       "descriere2": "\nÎn plus, a încercat să evadeze de organele de poliție.",
       "descriere3": "\nMai mult, a încercat să evadeze de organele de poliție.",
       "incompatibilitati": [
@@ -1514,7 +1514,7 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească zona indicată de {agent_op_grad} {agent_op_nume}, la solicitarea verbală a acestuia.",
-      "descriere2": "\nÎn plus, nu a respectat dispoziția dată de {agent_op_grad} {agent_op_nume_modal} de a părăsi zona indicată.",
+      "descriere2": "\nÎn plus, nu a respectat dispoziția dată de {agent_op_grad} {agent_op_nume} de a părăsi zona indicată.",
       "descriere3": "\nMai mult, nu a respectat dispoziția dată de {agent_op_grad} {agent_op_nume} de a părăsi zona indicată.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
@@ -2064,7 +2064,7 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească instituția statului situată in acea zonă, la cererea {agent_op_grad_modal} {agent_op_nume}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a refuzat să părăsească instituția statului situată in acea zonă, la cererea {agent_op_grad} {agent_op_nume}.",
       "descriere2": "\nÎn plus, a refuzat să părăsească instituția statului la cererea {agent_op_grad} {agent_op_nume}.",
       "descriere3": "\nMai mult, a refuzat să părăsească instituția statului la cererea {agent_op_grad} {agent_op_nume}.",
       "incompatibilitati": [
@@ -2124,7 +2124,7 @@
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}), aflat în custodia agentului de poliție , a evadat din posesia acestuia, dar a fost ulterior prins și reținut.",
       "descriere2": "\nÎn plus, a evadat din custodia agentului de poliție , dar a fost ulterior prins și reținut.",
-      "descriere3": "\nMai mult, a evadat din custodia agentului de poliție {agent_op_grad_modal} {agent_op_nume_modal}, dar a fost ulterior prins și reținut .",
+      "descriere3": "\nMai mult, a evadat din custodia agentului de poliție {agent_op_grad} {agent_op_nume}, dar a fost ulterior prins și reținut .",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2315,7 +2315,7 @@
       "cap": "Cap. 5",
       "numarArticol": "5.2",
       "titlu": "Prelucrarea sau deținerea țigărilor de contrabandă (TIP I)",
-      "definitie": "Orice persoană care transportă, confecționează sau deține țigări de contrabandă care sunt prevăzute de lege ca fiind ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de țigări pe care o deține. TIP I (1 - 10 țigări): sentință 10 - 20 de luni și amendă 10.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
+      "definitie": "Orice persoană care transportă, confecționează sau deține țigări de contrabandă care sunt prevăzute de lege ca fiind ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de țigări pe care o deține. TIP I (1 - 20 țigări):  atât este legal să aveți asupra dumneavoastră fara licenta de producator.",
       "amendaMin": 0,
       "amendaMax": 0,
       "arestMin": 0,
@@ -2326,9 +2326,9 @@
       "perchezitie": false,
       "dosarPenal": false,
       "arestPeViata": false,
-      "descriere1": "NU SE SANCȚIONEAZÄ‚",
-      "descriere2": "NU SE SANCȚIONEAZÄ‚",
-      "descriere3": "NU SE SANCȚIONEAZÄ‚",
+      "descriere1": "NU SE SANCȚIONEAZÄ!",
+      "descriere2": "NU SE SANCȚIONEAZÄ!",
+      "descriere3": "NU SE SANCȚIONEAZÄ!",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
@@ -2344,7 +2344,7 @@
       "cap": "Cap. 5",
       "numarArticol": "5.2",
       "titlu": "Prelucrarea sau deținerea țigărilor de contrabandă (TIP II)",
-      "definitie": "Orice persoană care transportă, confecționează sau deține țigări de contrabandă care sunt prevăzute de lege ca fiind ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de țigări pe care o deține. TIP II (10 - 50 țigări): sentință 20 - 30 de luni și amendă 15.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
+      "definitie": "Orice persoană care transportă, confecționează sau deține țigări de contrabandă care sunt prevăzute de lege ca fiind ilegale. Această faptă reprezintă o crimă care se poate pedepsi cu reținerea suspectului și amendă, în funcție de cantitatea de țigări pe care o deține. TIP II (21 - 50 țigări): sentință 20 - 30 de luni și amendă 15.000$. În cazul în care este surprins ca produce / deține acest tip de obiecte ilegale, componentele necesare pentru producerea obiectelor o sa fie confiscate (semințe/frunze/hartie de rulat).",
       "amendaMin": 15000,
       "amendaMax": 15000,
       "arestMin": 0,
@@ -2353,7 +2353,7 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "dosarPenal": false,
+      "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
       "descriere2": "\nÎn plus, deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
@@ -2382,7 +2382,7 @@
       "anularePermis": false,
       "ridicareVehicul": false,
       "perchezitie": false,
-      "dosarPenal": false,
+      "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
       "descriere2": "\nÎn plus, deținea {cantitate_tigari} {tigari_contrabanda} țigări de contrabandă, faptă prevăzută de lege ca fiind ilegală.",
@@ -2541,7 +2541,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.3_prelucrarea_sau_detinerea_de_droguri_de_risc_tip_iv"
+      "id": "cap.5_5.3_prelucrarea_sau_detinerea_de_droguri_de_risc_tip_iv"
     },
     {
       "cap": "Cap. 5",
@@ -2686,7 +2686,7 @@
         "cap.8_8.9_constituire_grup_infractional_organizat",
         "cap.8_8.10_coruptie"
       ],
-      "id": "cap..5_5.5_bani_nemarcati_blood_money_tip_i"
+      "id": "cap.5_5.5_bani_nemarcati_blood_money_tip_i"
     },
     {
       "cap": "Cap. 5",
@@ -3073,7 +3073,7 @@
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp})  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
       "descriere2": "\nÎn plus, a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
-      "descriere3": "\nMai mult,  a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
+      "descriere3": "\nMai mult, a cauzat vătămări corporale grave unei alte persoane prin utilizarea unei arme.",
       "incompatibilitati": [
         "cap.1_1.1_limitele_de_viteza_sub_dublul_legal",
         "cap.1_1.9_acoperirea_fetei_la_volan",
@@ -3109,9 +3109,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
-      "descriere2": "\nÎn plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
-      "descriere3": "\nÎn plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare}",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare_continut}",
+      "descriere2": "\nÎn plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare_continut}",
+      "descriere3": "\nÎn plus, a comis un act de asalt, aflându-se în posesia a {perchezitie_buzunare_continut}",
       "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
@@ -3250,7 +3250,7 @@
       "cap": "Cap. 6",
       "numarArticol": "6.9",
       "titlu": "Tortură",
-      "definitie": "Orice persoană care, cu intenția de a cauza dureri nemiloase ÅŸi suferințe extreme cu scopul răzbunării, șantajului, convingerii sau pentru orice alt scop sadic, care are ca urmare o vătămare corporală extrem de gravă, poate fi acuzată de tortură care se poate pedepsi cu sancțiunile menționate. A nu se cumula cu acuzația de #6.2 Tentativă de omor. TotuÅŸi, dacă tortura a rezultat în moartea unui individ, acuzația de tortură se va cumula cu acuzația de #6.7 Crimă (Omucidere).",
+      "definitie": "Orice persoană care, cu intenția de a cauza dureri nemiloase ÅŸi suferințe extreme cu scopul răzbunării, șantajului, convingerii sau pentru orice alt scop sadic, care are ca urmare o vătămare corporală extrem de gravă, poate fi acuzată de tortură care se poate pedepsi cu sancțiunile menționate. A nu se cumula cu acuzația de #6.2 Tentativă de omor. Totuși, dacă tortura a rezultat în moartea unui individ, acuzația de tortură se va cumula cu acuzația de #6.7 Crimă (Omucidere).",
       "amendaMin": 20000,
       "amendaMax": 20000,
       "arestMin": 70,
@@ -3279,7 +3279,7 @@
       "cap": "Cap. 7",
       "numarArticol": "7.1",
       "titlu": "Posesia unei arme albe",
-      "definitie": "Orice persoană care poartă, fără drept, în locurile ÅŸi împrejurările în care s-ar putea primejdui viața sau integritatea corporală a persoanelor ori s-ar putea tulbură ordinea și liniștea publică, a unui cuțit cu lama mai mare de 9 centimetri (excepție Switchblade), a unui pumnal, a unei bâte ori a altor asemenea obiecte fabricate sau confecționate anume pentru tăiere, împingere sau lovire. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
+      "definitie": "Orice persoană care poartă, fără drept, în locurile și împrejurările în care s-ar putea primejdui viața sau integritatea corporală a persoanelor ori s-ar putea tulbură ordinea și liniștea publică, a unui cuțit cu lama mai mare de 9 centimetri (excepție Switchblade), a unui pumnal, a unei bâte ori a altor asemenea obiecte fabricate sau confecționate anume pentru tăiere, împingere sau lovire. Această faptă reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 6500,
       "amendaMax": 6500,
       "arestMin": 25,
@@ -3348,7 +3348,7 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare}, care au fost confiscate.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) avea în posesie {perchezitie_buzunare_continut}, care au fost confiscate.",
       "descriere2": "\nÎn plus, avea în posesie {perchezitie_buzunare_continut}, care au fost confiscate.",
       "descriere3": "\nMai mult, avea în posesie {perchezitie_buzunare_continut}, care au fost confiscate.",
       "incompatibilitati": [
@@ -3443,7 +3443,7 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a îndreptat {perchezitie_buzunare_continut} asupra cetățeanului { nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a îndreptat {perchezitie_buzunare_continut} asupra cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "descriere2": "\nÎn plus, a îndreptat {perchezitie_buzunare_continut} asupra cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "descriere3": "\nMai mult, a îndreptat {perchezitie_buzunare_continut} asupra cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
       "incompatibilitati": [
@@ -3503,7 +3503,7 @@
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea ilegal {perchezitie_buzunare_continut}, fără a deține permis pentru vânzarea acestora.",
       "descriere2": "\nÎn plus, acesta deținea ilegal {perchezitie_buzunare_continut}, fără a deține permis pentru vânzarea acestora.",
-      "descriere3": "\nMai mult, acesta deținea ilegal {perchezitie_buzunare+continut}, fără a deține permis pentru vânzarea acestora.",
+      "descriere3": "\nMai mult, acesta deținea ilegal {perchezitie_buzunare_continut}, fără a deține permis pentru vânzarea acestora.",
       "incompatibilitati": [
         "cap.3_3.12_jaf",
         "cap.3_3.12.1_jaf_armat",
