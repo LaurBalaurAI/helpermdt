@@ -6192,13 +6192,11 @@
     "sanctions": "\nConform Codului Penal în vigoare, cetățeanul {nume}, CNP {cnp} a fost sancționat cu:\n{sanctiuni_descriere}"
   },
   "aiSettings": {
-    "titleSeparator": ", ",
-    "titleFormat": "{titluri_infractiuni} | {capitol_principal}",
-    "compositeHeader": "",
     "correctionPrompt": "Folosește un limbaj formal, specific Poliției Române. Verifică acordul gramatical între subiect și predicat și adaptează verbele și adjectivele la genul persoanelor implicate. Asigură-te că punctuația este corectă, cu spațiu după virgulă și punct.",
-    "headerTemplate": ""
+    "titleSeparator": ",",
+    "titleFormat": "{titluri_infractiuni} | {capitol_principal}",
+    "headerTemplate": "IPJ Los Santos\n\n"
   },
-
   "compositePlaceholders": {
     "nr_inmatriculare_filled": "cu numerele de înmatriculare [VALOARE]",
     "nr_inmatriculare_empty": "fără numere de înmatriculare",
@@ -6240,7 +6238,15 @@
     "_special_agent_op_template": "{agent_op_grad} {agent_op_nume}",
     "_special_agent_const_template": "{agent_const_grad} {agent_const_nume}",
     "_special_agent_ad1_template": "{agent_ad1_grad} {agent_ad1_nume}",
-    "_special_agent_ad2_template": "{agent_ad2_grad} {agent_ad2_nume}"
+    "_special_agent_ad2_template": "{agent_ad2_grad} {agent_ad2_nume}",
+    "_special_sanctions_block_template": "{amenda_aplicata_line}\n{arest_aplicat_line}\n{puncte_permis_line}\n{dosar_penal_line}\n{anulare_permis_line}\n{ridicare_vehicul_line}\n{perchezitie_line}",
+    "_special_amenda_aplicata_line_template": "Amendă Contravențională în valoare de {amenda_manuala} $",
+    "_special_arest_aplicat_line_template": "Închisoare timp de {arest_manual} luni, în Penitenciarul de maximă securitate Sandy",
+    "_special_puncte_permis_line_template": "Puncte penalizare permis {puncte_permis}",
+    "_special_dosar_penal_line_template": "Dosar Penal",
+    "_special_anulare_permis_line_template": "Anulare Permis",
+    "_special_ridicare_vehicul_line_template": "Ridicare vehicul",
+    "_special_perchezitie_line_template": "Percheziție"
   },
   "masterTemplate": "{header} {intro} {infraction_1_desc} {mentiuni_1} {infraction_2_desc} {mentiuni_2} {infraction_3_desc} {mentiuni_3} {sanctions_block}",
   "radioSettings": {
