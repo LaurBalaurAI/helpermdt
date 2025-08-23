@@ -2169,7 +2169,7 @@
     {
       "cap": "Cap. 4",
       "numarArticol": "4.6",
-      "titlu": "EÅŸecul identificarii",
+      "titlu": "Eșecul identificarii",
       "definitie": "Orice persoană care refuză să se identifice unui ofițer cu un act legal sau cu numele său reprezintă o infracțiune care se poate pedepsi cu sancțiunile menționate.",
       "amendaMin": 15000,
       "amendaMax": 15000,
