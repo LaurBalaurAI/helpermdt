@@ -1,5 +1,8 @@
+
+
+
 ================================================================================ 
-POLICE HELPER v1.2.7 
+POLICE HELPER v1.3.1 
 ================================================================================
 
 Instrucțiuni complete pentru utilizarea aplicației Police Helper, 
@@ -27,8 +30,6 @@ INTERFAȚA PRINCIPALĂ
 HEADER (Bara de sus)
 -------------------------
 - Logo și titlu "POLICE HELPER" (stânga)
-- Ceas digital funcțional setat la ora României (format HH:MM:SS) în timp real 
-                                                     oriunde te-ai afla în lume
 - transparență „tricolor”, dacă nu ești chiar așa patriot
 - culoare custom pentru 
 - Butoane de control (dreapta):
@@ -36,6 +37,10 @@ HEADER (Bara de sus)
   * Toggle Radio Codes (icon: walkie-talkie)
   * Toggle Crosshair (icon: țintă)
   * Toggle Cronometru (icon: stopwatch)
+
+- Ceas digital funcțional setat la ora României (format HH:MM:SS) în timp real 
+  oriunde te-ai afla în lume
+
   * Minimize (minimizează fereastra)
   * Maximize/Restore (maximizează/restorează)
   * Close (închide fereastra principală în Tray)
@@ -162,10 +167,10 @@ CRONOMETRU
 ---------------
 - Fereastră separată, draggable
 - Format: minute:secunde:sutimi
-- Butoane Start/Stop și Reset (hotkey aferente pentru acționare mai facilă din 
-                                                                           joc)
+- Butoane Start/Stop și Reset 
+  (hotkey aferente pentru acționare mai facilă din joc)
 - Hotkey afișare/ascundere: Alt+I
-- Poziționare liberă pe ecran
+- Poziționare pe ecran cu mouse-ul
 - Always on top
 
 ================================================================================ 
@@ -230,33 +235,7 @@ TROUBLESHOOTING
 PROBLEME POSIBILE
 --------------------
 
-Overlay-urile nu se afișează la prima acțiune a butoanelor din fereastra 
-principală sau hotkey-uri: acționează din nou butonul sau hotkey-ul și apoi se 
-va afișa/ascunde
-- codurile nu se încarcă direct în poziția salvată: mută-l foarte puțin folosind 
-sliderele de poziție și poziția overlay-ului se va actualiza
-- dacă vreun overlay nu se afișează deloc: Repornește aplicația
-- overlay-ul MDT Helper nu va fi transparent la prima afișare după ce ai deschis 
-aplicația: pentru a activa transparența deschide overlay-ul, mergi la „Setări” 
-„overlay” în stânga 
-sus și mută sliderul de la valoarea dorită cu 1 unitate și apoi înapoi, iar
-transparența se va activa.
-
-Cronometrul nu apare
-- Verifică hotkey Alt+I
-- Verifică dacă fereastra principală este ascunsă
-- Repornește aplicația
-
-Sincronizarea eșuează
-- Verifică link-ul GitHub
-- Verifică conexiunea la internet
-- Verifică permisiunile fișierelor
-
-LOG-URI ȘI DEBUG
----------------------
-- Log-uri în consola dezvoltatorului
-- F12 pentru Developer Tools
-- Verifică erorile în terminal
+Tu să-mi spui dacă găsești.
 
 ================================================================================ 
 SCURTĂTURI TASTATURĂ 
@@ -270,14 +249,21 @@ NAVIGARE
 
 OVERLAY-URI
 ----------------
-- Alt+T: Țintă
-- Alt+R: Coduri Radio
-- Alt+Z: Moment Zero
-- Alt+I: Cronometru
-- Alt+O: MDT Overlay
+
+Hotkeys recomandate: 
+
+- Alt+H: Afișează/Ascunde MDT Overlay
+- Alt+J: Afișează/Ascunde Ținta
+- Alt+Y: Afișează/Ascunde Codurile Radio
+- Alt+E: Actualizează Ora în MDT Helper și afișează mesajul setat în Moment Zero
+- Alt+U: Afișează/Ascunde Cronometru 
+- Alt+P pornește/oprește cronometrul (se va afișa automat dacă nu este afișat)
+- Alt+O resetează cronometrul
 
 CRONOMETRU
 ---------------
+Dacă ai dat click pe el, poți folosi tastele:
+
 - Space: Start/Stop
 - R: Reset
 - Escape: Închidere
@@ -295,20 +281,18 @@ CONFIGURARE AVANSATĂ
 FIȘIERE DE CONFIGURARE
 ----------------------------
 - Configurații salvate în localStorage
-- Setări sincronizate cu GitHub
-- Backup automat în electron-store
+- Baza de date sincronizată cu GitHub
+- Actualizare Aplicație prin GitHub
 
 PERSONALIZARE
 -------------------
-- Template-uri personalizate
-- Hotkeys personalizate
-- Overlay-uri personalizate
+- Template-uri personalizbile
+- Hotkeys personalizabile
+- Overlay-uri personalizabile
 
 INTEGRARE
 ---------------
 - API GitHub pentru sincronizare
-- Export în formate multiple
-- Integrare cu sisteme externe
 
 ================================================================================ 
 SECURITATE 
@@ -329,25 +313,27 @@ PERMISIUNI
 
 CONFIDENȚIALITATE
 -----------------------
-- Nu se trimit date către servere externe (doar se primesc date de la GitHub)
-- Sincronizarea este opțională și modulară (poți sincroniza automat ce componente
-                                                        dorești din baza de date.
-- Backup local securizat (poți exporta baza de date și o poți încărca în/din PC
+- Nu se trimit date către servere externe 
+        (doar se primesc date de la GitHub)
+- Sincronizare opțională și modulară 
+        (poți sincroniza automat ce componente dorești din baza de date)
+- Backup local securizat 
+        (poți exporta baza de date și o poți încărca în/din PC)
 
 ================================================================================ 
 SUPPORT ȘI CONTACT 
 ================================================================================
 
-Pentru suport tehnic sau întrebări:
+Pentru suport tehnic, întrebări sau sugestii:
 
-- Contactează dezvoltatorul
+- Contactează dezvoltatorul: laurentiu.vecerdea@icloud.com
 
+================================================================================
+================================================================================
 Această aplicație este dezvoltată pentru uzul intern al poliției Los Santos de 
 pe serverul B-Zone.
 Developers: 
 Project Manager & coding: Laur Balaur
 Design: Victor Popescu
-
 ================================================================================
-pentru probleme, buguri sau sugestii: laurentiu.vecerdea@icloud.com
 ================================================================================
