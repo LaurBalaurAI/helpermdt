@@ -1,5 +1,5 @@
 ================================================================================ 
-POLICE HELPER v1.0 
+POLICE HELPER v1.2.5 
 ================================================================================
 
 Instrucțiuni complete pentru utilizarea aplicației Police Helper, 
@@ -10,12 +10,15 @@ INTRODUCERE
 ================================================================================
 
 Police Helper este o aplicație desktop care oferă:
-- Generator de dosare penale cu autocompletare
+- Generator descrieri pentru amenzi și dosare penale cu autocompletare
 - Overlay-uri pentru țintă custom, coduri radio și moment zero
 - Cronometru pentru teste contra-timp
-- Sistem de hotkeys pentru acces rapid
-- Sincronizare cu baza de date GitHub
+- Sistem de hotkeys pentru activare/dezactivare overlay-uri, 
+                                              pornire/oprire/resetare cronometru
+- Sincronizare automată a bazei de date la Codul Penal, Vehicule, Străzi și 
+                      Limite de viteză, Șabloane, Setări overlay-uri, hotkey-uri
 - Interfață intuitivă și modernă
+- Actualizare automată a aplicației la ultima versiune
 
 ================================================================================ 
 INTERFAȚA PRINCIPALĂ 
@@ -24,29 +27,30 @@ INTERFAȚA PRINCIPALĂ
 HEADER (Bara de sus)
 -------------------------
 - Logo și titlu "POLICE HELPER" (stânga)
-- Ceas digital în centru (format HH:MM:SS)
-- transparență „tricolor”
+- Ceas digital funcțional setat la ora României (format HH:MM:SS) în timp real 
+                                                     oriunde te-ai afla în lume
+- transparență „tricolor”, dacă nu ești chiar așa patriot
 - culoare custom pentru 
 - Butoane de control (dreapta):
-  * Toggle MDT Overlay (documente)
-  * Toggle Radio Codes (walkie-talkie)
-  * Toggle Crosshair (țintă)
-  * Toggle Cronometru (stopwatch)
+  * Toggle MDT Overlay (icon: documente)
+  * Toggle Radio Codes (icon: walkie-talkie)
+  * Toggle Crosshair (icon: țintă)
+  * Toggle Cronometru (icon: stopwatch)
   * Minimize (minimizează fereastra)
   * Maximize/Restore (maximizează/restorează)
-  * Close (închide fereastra)
-  * Quit (închide aplicația)
+  * Close (închide fereastra principală în Tray)
+  * Quit (închide aplicația complet)
 
 
 NAVIGARE
 -------------
 Butoane de navigare în partea de sus:
-- MDT Helper (generator dosare)
-- Țintă (setări țintă custom)
-- Coduri Radio (setări coduri radio)
-- Hotkeys (setări hotkeys)
-- Setări (configurații generale)
-- Info (informații și ghid)
+- MDT Helper 
+- Țintă
+- Coduri Radio 
+- Hotkeys 
+- Setări
+- Info 
 
 PAGINA INIȚIALĂ (Landing Page)
 -------------------------------------
@@ -73,7 +77,8 @@ MDT Helper - GENERATOR DE DOSARE PENALE
 
 Căutare Infracțiuni
 - Câmpul "Verifică infracțiune în Codul Penal"
-- Autocompletare cu diacritice (viteza → viteză)
+- Autocompletare cu diacritice (viteza → viteză) (dacă nu ai diacritice la 
+                    tastatură nu-ți face griji, căutările funcționează și fără)
 - Căutare după articol sau titlu
 - Rezultate afișate în timp real
 
@@ -157,8 +162,9 @@ CRONOMETRU
 ---------------
 - Fereastră separată, draggable
 - Format: minute:secunde:sutimi
-- Butoane Start/Stop și Reset
-- Hotkey: Alt+I
+- Butoane Start/Stop și Reset (hotkey aferente pentru acționare mai facilă din 
+                                                                           joc)
+- Hotkey afișare/ascundere: Alt+I
 - Poziționare liberă pe ecran
 - Always on top
 
@@ -166,17 +172,6 @@ CRONOMETRU
 HOTKEYS 
 ================================================================================
 
-HOTKEYS PREDEFINITE
-------------------------
-- Alt+T: Toggle Țintă
-- Alt+R: Toggle Coduri Radio
-- Alt+Z: Toggle Moment Zero
-- Alt+I: Toggle Cronometru
-- Alt+O: Toggle MDT Overlay
-
-CONFIGURARE HOTKEYS
-------------------------
-- Secțiunea "Hotkeys" din navigare
 - Editare hotkeys personalizate
 - Salvare configurații
 - Reset la valorile implicite
@@ -324,6 +319,7 @@ DATE PERSONALE
 - Datele sunt salvate local
 - Sincronizare opțională cu GitHub
 - Backup securizat
+- Actualizare automată a aplicației prin GitHub
 
 PERMISIUNI
 ----------------
@@ -333,37 +329,18 @@ PERMISIUNI
 
 CONFIDENȚIALITATE
 -----------------------
-- Nu se trimit date către servere externe
-- Sincronizarea este opțională
-- Backup local securizat
+- Nu se trimit date către servere externe (doar se primesc date de la GitHub)
+- Sincronizarea este opțională și modulară (poți sincroniza automat ce componente
+                                                        dorești din baza de date.
+- Backup local securizat (poți exporta baza de date și o poți încărca în/din PC
 
 ================================================================================ 
 SUPPORT ȘI CONTACT 
 ================================================================================
 
 Pentru suport tehnic sau întrebări:
-- Verifică secțiunea Info din aplicație
-- Consulte log-urile de eroare
+
 - Contactează dezvoltatorul
-
-Versiunea aplicației: 1.0
-Ultima actualizare: 2024
-
-================================================================================ 
-CHANGELOG
-================================================================================
-
-v1.0 - Versiunea inițială
-- Generator MDT Helper complet
-- Overlay-uri pentru țintă, coduri radio, moment zero
-- Cronometru standalone
-- Sistem de hotkeys
-- Sincronizare GitHub
-- Interfață modernă și intuitivă
-
-================================================================================ 
-LICENȚĂ 
-================================================================================
 
 Această aplicație este dezvoltată pentru uzul intern al poliției Los Santos de 
 pe serverul B-Zone.
