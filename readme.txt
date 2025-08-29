@@ -46,17 +46,6 @@ HEADER (Bara de sus)
   * Close (închide fereastra principală în Tray)
   * Quit (închide aplicația complet)
 
-
-NAVIGARE
--------------
-Butoane de navigare în partea de sus:
-- MDT Helper 
-- Țintă
-- Coduri Radio 
-- Hotkeys 
-- Setări
-- Info 
-
 PAGINA INIȚIALĂ (Landing Page)
 -------------------------------------
 - Secțiunea "Agent Operator" cu câmpuri pentru:
@@ -73,6 +62,17 @@ PAGINA INIȚIALĂ (Landing Page)
   * Setări
   * Info
 
+
+NAVIGARE
+-------------
+Butoane de navigare în partea de sus:
+- MDT Helper 
+- Țintă
+- Coduri Radio 
+- Hotkeys 
+- Setări
+- Info 
+
 ================================================================================ 
 MDT HELPER 
 ================================================================================
@@ -80,47 +80,15 @@ MDT HELPER
 MDT Helper - GENERATOR DE DOSARE PENALE
 -------------------------------
 
-Căutare Infracțiuni
-- Câmpul "Verifică infracțiune în Codul Penal"
-- Autocompletare cu diacritice (viteza → viteză) (dacă nu ai diacritice la 
-                    tastatură nu-ți face griji, căutările funcționează și fără)
-- Căutare după articol sau titlu
-- Rezultate afișate în timp real
+Rulează Jocul la rezoluția desktopului tău, în modul Windowed Borderless pentru
+a putea afișa deasupra jocului overlay-urile Helperului.
 
-Date Generale
-- Nume și CNP suspect
-- Adresa completă
-- Telefon
-- Câmpuri pentru victime și martori
-
-Descrierea Infracțiunii
-- Câmp text mare pentru descriere
-- Autocompletare pentru locații
-- Template-uri predefinite
-
-Sancțiuni
-- Amenda (RON)
-- Puncte permis
-- Arest (zile)
-- Câmpuri manuale editabile
-
-Generare Dosar
-- Buton "Generează Dosar"
-- Export în format text
-- Copiere automată în clipboard
-
-AUTOCONSTATARE
--------------------
-- Formular similar cu MDT Helper
-- Câmpuri specifice pentru autoconstatare
-- Generare document autoconstatare
-
-ȘABLOANE
--------------
-- Șabloane predefinite pentru diferite tipuri de introducere a descrierilor 
-pentru amenzi și dosare penale
-- Editor de șabloane personalizate
-- Placeholders customuzabili pentru date dinamice
+- Afișează MDT Helperul cu hotkey
+- apasă ` pentru a activa mouse-ul și poți interacționa cu Helperul și jocul
+  simultan
+- Poți lucra atât în overlay cât și în fereastra principală simultan
+- Autocompletare cu diacritice (viteza → viteză) - dacă nu ai diacritice la 
+tastatură nu-ți face griji, căutările funcționează și fără, pardon: „fara” :)
 
 ================================================================================ 
 OVERLAYS 
@@ -145,14 +113,13 @@ CODURI RADIO
   * Font și culoare
   * Dimensiune font (8-32px)
   * Poziție overlay (X, Y)
-  * Layout vertical/orizontal
+  * Aliniere la stânga sau la dreapta
   * Contur și umbră
-- Click-through
-- Hotkey: Alt+R
 
 MOMENT ZERO
 ----------------
-- Overlay cu text "ACUM!" personalizabil
+- Overlay cu text personalizabil 
+  („Ai notat acest moment în descriere. Succes!”)
 - Setări în secțiunea "Moment Zero":
   * Text afișat
   * Font și culoare
@@ -160,73 +127,19 @@ MOMENT ZERO
   * Durată afișare (1-10 secunde)
   * Poziție (X%, Y%)
   * Contur
-- Click-through
-- Hotkey: Alt+Z
+- La acționarea hotkey-ului se actualizează data și ora la momentul respectiv în 
+  MDT Helper
 
 CRONOMETRU
 ---------------
-- Fereastră separată, draggable
+- Fereastră separată, draggable cu mouse-ul
 - Format: minute:secunde:sutimi
 - Butoane Start/Stop și Reset 
   (hotkey aferente pentru acționare mai facilă din joc)
-- Hotkey afișare/ascundere: Alt+I
-- Poziționare pe ecran cu mouse-ul
+- Hotkey afișare/ascundere
 - Always on top
 
-================================================================================ 
-HOTKEYS 
-================================================================================
 
-- Editare hotkeys personalizate
-- Salvare configurații
-- Reset la valorile implicite
-
-================================================================================ 
-SETĂRI 
-================================================================================
-
-SINCRONIZARE
------------------
-- Link baza de date GitHub
-- Buton "Setări Sincronizare"
-- Modal pentru configurare:
-  * Selectare componente de sincronizat
-  * Autosincronizare (checkbox)
-  * Butoane Aplică/Anulează
-
-SETĂRI AI
---------------
-- Prompt-uri AI personalizate
-- Corectare gramaticală
-- Template-uri AI
-
-SETĂRI GENERAL
--------------------
-- Tema aplicației
-- Limba interfaței
-- Configurații de export
-
-================================================================================ 
-FUNCȚII AVANSATE 
-================================================================================
-
-SINCRONIZARE AUTOMATĂ
---------------------------
-- Sincronizare automată cu GitHub
-- Interval configurable
-- Notificări de actualizare
-
-EXPORT DATE
-----------------
-- Export dosare în format text
-- Backup configurații
-- Export template-uri
-
-BACKUP ȘI RESTAURARE
--------------------------
-- Backup automat al datelor
-- Restaurare din backup
-- Sincronizare între dispozitive
 
 ================================================================================ 
 TROUBLESHOOTING 
@@ -235,22 +148,22 @@ TROUBLESHOOTING
 PROBLEME POSIBILE
 --------------------
 
-Tu să-mi spui dacă găsești.
+Tu să-mi spui dacă găsești ceva
 
 ================================================================================ 
 SCURTĂTURI TASTATURĂ 
 ================================================================================
 
-NAVIGARE
+NAVIGARE în fereastra principală
 -------------
 - Tab: Navigare între câmpuri
 - Enter: Confirmare/Submit
 - Escape: Anulare/Închidere modal
 
-OVERLAY-URI
-----------------
 
-Hotkeys recomandate: 
+HOTKEYS care funcționează din joc
+----------------
+recomandate: 
 
 - Alt+H: Afișează/Ascunde MDT Overlay
 - Alt+J: Afișează/Ascunde Ținta
@@ -260,16 +173,21 @@ Hotkeys recomandate:
 - Alt+P pornește/oprește cronometrul (se va afișa automat dacă nu este afișat)
 - Alt+O resetează cronometrul
 
+
 CRONOMETRU
 ---------------
-Dacă ai dat click pe el, poți folosi tastele:
 
+Dacă ai dat click pe el, poți folosi tastele:
 - Space: Start/Stop
 - R: Reset
 - Escape: Închidere
+Dacă pornești cronometrul cu hotkey, acesta va fi afișat imediat pe ecran, dacă
+nu este deja afișat.
+
 
 FEREASTRA PRINCIPALĂ
 -------------------------
+
 - Alt+F4: Închidere aplicație
 - F11: Fullscreen
 - Ctrl+S: Salvare rapidă
@@ -278,21 +196,15 @@ FEREASTRA PRINCIPALĂ
 CONFIGURARE AVANSATĂ
 ================================================================================
 
-FIȘIERE DE CONFIGURARE
-----------------------------
 - Configurații salvate în localStorage
-- Baza de date sincronizată cu GitHub
-- Actualizare Aplicație prin GitHub
+- Baza de date mereu la zi
+- Actualizare Aplicație 
 
 PERSONALIZARE
 -------------------
-- Template-uri personalizbile
+- Aspect aplicație și overlay-uri (culori, transparențe, fonturi, dimensiuni,
+  poziționare pe ecran, etc.)
 - Hotkeys personalizabile
-- Overlay-uri personalizabile
-
-INTEGRARE
----------------
-- API GitHub pentru sincronizare
 
 ================================================================================ 
 SECURITATE 
@@ -301,8 +213,8 @@ SECURITATE
 DATE PERSONALE
 --------------------
 - Datele sunt salvate local
-- Sincronizare opțională cu GitHub
-- Backup securizat
+- Sincronizare opțională și modulară cu GitHub
+- Backup local
 - Actualizare automată a aplicației prin GitHub
 
 PERMISIUNI
@@ -314,10 +226,10 @@ PERMISIUNI
 CONFIDENȚIALITATE
 -----------------------
 - Nu se trimit date către servere externe 
-        (doar se primesc date de la GitHub)
+        (doar se primesc date de la GitHub - baza de date și actualizarea)
 - Sincronizare opțională și modulară 
         (poți sincroniza automat ce componente dorești din baza de date)
-- Backup local securizat 
+- Backup local
         (poți exporta baza de date și o poți încărca în/din PC)
 
 ================================================================================ 
