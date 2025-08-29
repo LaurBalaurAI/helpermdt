@@ -6461,6 +6461,7 @@
     "toggleRadio": "Alt+Y",
     "toggleCrosshair": "Alt+U",
     "toggleCronometru": "Alt+I",
-    "togglePoliceOverlay": "Alt+BracketRight"
+    "cronometruStartStop": "Alt+P",
+    "cronometruReset": "Alt+L"
   }
 }
