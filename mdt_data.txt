@@ -5692,13 +5692,13 @@
       "limit": "100"
     },
     {
-      "id": "insula_cayo",
-      "name": "Insula Cayo",
+      "id": "insulei_cayo",
+      "name": "Insulei Cayo",
       "limit": "0"
     },
     {
       "id": "ambele",
-      "name": "Insula Cayo și plantația Grapeseed",
+      "name": "Insulei Cayo și plantației Grapeseed",
       "limit": "0"
     },
     {
