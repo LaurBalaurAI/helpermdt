@@ -5173,37 +5173,37 @@
       "id": "bizon_e92_cabrio",
       "name": "Bizon E92 Cabrio",
       "type": "autoturism"
-    }
+    },
     {
       "id": "dinka_sugoi",
       "name": "Dinka Sugoi",
       "type": "autoturism"
-    }
+    },
     {
       "id": "bravado_gauntlet_hemi",
       "name": "Bravado Gauntlet Hemi",
       "type": "autoturism"
-    }
+    },
     {
       "id": "bf_club_8_r",
       "name": "BF Club 8 R",
       "type": "autoturism"
-    }
+    },
     {
       "id": "bizon_i7",
       "name": "Bizon i7",
       "type": "autoturism"
-    }
+    },
     {
       "id": "bizon_w5_g60",
       "name": "Bizon W5 G60",
       "type": "autoturism"
-    }
+    },
     {
       "id": "buddy_centomille",
       "name": "Buddy Centomille",
       "type": "autoturism"
-    }
+    },
     {
       "id": "voltage_type_s_autoturism",
       "name": "Voltage Type S",
