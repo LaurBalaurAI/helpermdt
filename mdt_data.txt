@@ -2242,9 +2242,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
-      "descriere2": "În plus, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
-      "descriere3": "Mai mult, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {substanta_influenta}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea semințe sau frunze de plante ce conțin substanțe ilegale: {perchezitie_buzunare_continut}.",
+      "descriere2": "În plus, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {perchezitie_buzunare_continut}.",
+      "descriere3": "Mai mult, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {perchezitie_buzunare_continut}.",
       "incompatibilitati": [
         "cap.6_6.1_amenintari_criminale",
         "cap.8_8.10_coruptie",
@@ -6060,7 +6060,7 @@
   },
   "compositePlaceholders": {
     "nr_inmatriculare_filled": {
-      "target": "",
+      "target": "actiune",
       "filled": "",
       "empty": ""
     },
@@ -6111,7 +6111,12 @@
     "_special_dosar_penal_line_template": " ",
     "_special_anulare_permis_line_template": "",
     "_special_ridicare_vehicul_line_template": "",
-    "_special_perchezitie_line_template": ", obiectele ilegale i-au fost confiscate"
+    "_special_perchezitie_line_template": ", obiectele ilegale i-au fost confiscate",
+    "substante_ilegale": {
+      "target": "",
+      "filled": "",
+      "empty": ""
+    }
   },
   "masterTemplate": "{header}{intro}{infraction_1_desc}{mentiuni_1}{infraction_2_desc}{mentiuni_2}{infraction_3_desc}{mentiuni_3}\n{sanctiuni_descriere}",
   "radioSettings": {
