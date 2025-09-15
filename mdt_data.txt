@@ -4954,37 +4954,37 @@
       "name": "Voltage Type S",
       "type": "autoturism"
     },
-{
+    {
       "id": "r1000_motocicleta",
       "name": "Bizon R1000",
       "type": "motocicletă"
     },
-{
+    {
       "id": "bf400_motocicleta",
       "name": "BF400",
       "type": "motocicletă"
     },
-{
+    {
       "id": "sanchez_motocicleta",
       "name": "Sanchez",
       "type": "motocicletă"
     },
-{
+    {
       "id": "manchez_motocicleta",
       "name": "Manchez",
       "type": "motocicletă"
     },
-{
+    {
       "id": "enduro_motocicleta",
       "name": "Enduro",
       "type": "motocicletă"
     },
-{
+    {
       "id": "verus_atv",
       "name": "Verus",
       "type": "ATV"
     },
-{
+    {
       "id": "flatbed_utilitara",
       "name": "Flatbed",
       "type": "utilitara de tractat"
