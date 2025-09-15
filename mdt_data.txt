@@ -4987,7 +4987,7 @@
     {
       "id": "flatbed_utilitara",
       "name": "Flatbed",
-      "type": "utilitara de tractat"
+      "type": "utilitară"
     }
   ],
   "limiteViteza": [
