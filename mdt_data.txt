@@ -3970,6 +3970,11 @@
       "type": "autoturism"
     },
     {
+      "id": "bf400_motocicleta",
+      "name": "BF400",
+      "type": "motocicletă"
+    },
+    {
       "id": "bf400_service_autospeciala_de_poliție",
       "name": "BF400 Service",
       "type": "autospeciala de poliție"
@@ -4138,6 +4143,11 @@
       "id": "bizon_r1000_autoturism",
       "name": "Bizon R1000",
       "type": "autoturism"
+    },
+    {
+      "id": "r1000_motocicleta",
+      "name": "Bizon R1000",
+      "type": "motocicletă"
     },
     {
       "id": "bizon_racheta_service_autospeciala_s.m.u.r.d.",
@@ -4415,6 +4425,11 @@
       "type": "autospeciala S.M.U.R.D."
     },
     {
+      "id": "enduro_motocicleta",
+      "name": "Enduro",
+      "type": "motocicletă"
+    },
+    {
       "id": "enus_jubilee_royal_autoturism",
       "name": "Enus Jubilee Royal",
       "type": "autoturism"
@@ -4440,9 +4455,9 @@
       "type": "autoturism"
     },
     {
-      "id": "grotti_rxx-s_autoturism",
-      "name": "Grotti RXX-S",
-      "type": "autoturism"
+      "id": "flatbed_utilitara",
+      "name": "Flatbed",
+      "type": "utilitară"
     },
     {
       "id": "frogger_ems_autospeciala_s.m.u.r.d.",
@@ -4453,6 +4468,11 @@
       "id": "frogger_hs_mai_autospeciala_de_poliție",
       "name": "Frogger HS MAI",
       "type": "autospeciala de poliție"
+    },
+    {
+      "id": "grotti_rxx-s_autoturism",
+      "name": "Grotti RXX-S",
+      "type": "autoturism"
     },
     {
       "id": "grotti_spider_autoturism",
@@ -4568,6 +4588,11 @@
       "id": "maidubizi_epsilon_9_autoturism",
       "name": "Maidubizi Epsilon 9",
       "type": "autoturism"
+    },
+    {
+      "id": "manchez_motocicleta",
+      "name": "Manchez",
+      "type": "motocicletă"
     },
     {
       "id": "marisati_ghilli_autospeciala_de_poliție",
@@ -4830,6 +4855,11 @@
       "type": "autoturism"
     },
     {
+      "id": "sanchez_motocicleta",
+      "name": "Sanchez",
+      "type": "motocicletă"
+    },
+    {
       "id": "saturn_lione_bs_autoturism",
       "name": "Saturn Lione BS",
       "type": "autoturism"
@@ -4945,6 +4975,11 @@
       "type": "autospeciala S.M.U.R.D."
     },
     {
+      "id": "verus_atv",
+      "name": "Verus",
+      "type": "ATV"
+    },
+    {
       "id": "volt_s_performance_autospeciala_de_poliție",
       "name": "Volt S Performance",
       "type": "autospeciala de poliție"
@@ -4953,41 +4988,6 @@
       "id": "voltage_type_s_autoturism",
       "name": "Voltage Type S",
       "type": "autoturism"
-    },
-    {
-      "id": "r1000_motocicleta",
-      "name": "Bizon R1000",
-      "type": "motocicletă"
-    },
-    {
-      "id": "bf400_motocicleta",
-      "name": "BF400",
-      "type": "motocicletă"
-    },
-    {
-      "id": "sanchez_motocicleta",
-      "name": "Sanchez",
-      "type": "motocicletă"
-    },
-    {
-      "id": "manchez_motocicleta",
-      "name": "Manchez",
-      "type": "motocicletă"
-    },
-    {
-      "id": "enduro_motocicleta",
-      "name": "Enduro",
-      "type": "motocicletă"
-    },
-    {
-      "id": "verus_atv",
-      "name": "Verus",
-      "type": "ATV"
-    },
-    {
-      "id": "flatbed_utilitara",
-      "name": "Flatbed",
-      "type": "utilitară"
     }
   ],
   "limiteViteza": [
@@ -6082,6 +6082,7 @@
     "intro_autoconstatare": "În data de {data_procesare}, în jurul orei {ora_procesare}, în timp ce patrula în zona {zona_input}, echipajul de poliție a constatat că ",
     "intro_sri": "În urma alertelor sistemelor de supraveghere S.R.I. primite de autorități în data de {data_procesare} la ora {ora_procesare} cu privire la focuri de armă în zona {zona_input}, echipajul constituit din {patrola_text_nume}, a intervenit și a neutralizat și imobilizat persoanele implicate. Printre acestea, ",
     "intro_jaf": "În data de {data_procesare}, la ora {ora_procesare}, alarma de securitate a {obiectiv_jaf} de pe {zona_input} a fost declanșată. Aflate în patrulă în apropiere, organele de poliție au intrevenit și au neutralizat făptașii. Printre aceștia, ",
+    "intro_furt_auto": "În data de {data_procesare}, la ora {ora_procesare}, a fost declanșată alarma unui vehicul în zona {zona_input}. Ajuns la fața locului, echipajul de poliție a constatat că ",
     "intro_mineriada": "În data de {data_procesare}, în jurul orei {ora_procesare} a avut loc o acțiune de tip „Mineriadă” a echipajelor de poliție. În urma controalelor, s-a descoperit că ",
     "intro_rutiera": "În urma unui filtru de control rutier organizat de autorități pentru prevenirea și combaterea neconformităților participanților la traficul rutier și asigurarea siguranței rutiere conform reglementărilor în vigoare din Codul Penal, în data de {data_procesare}, la ora {ora_procesare}, în zona {zona_input}, s-a constatat că ",
     "intro_razie_sas": "În urma unei razii S.A.S. ce a avut loc pe {zona_input} în data de {data_procesare}, la ora {ora_procesare}, au fost arestați mai mulți suspecți. Printre aceștia, ",
@@ -6277,12 +6278,13 @@
   },
   "hotkeys": {
     "toggleOverlay": "Alt+H",
-    "activateButton": "Alt+E",
-    "toggleRadio": "Alt+Y",
-    "toggleCrosshair": "Alt+U",
-    "toggleCronometru": "Alt+I",
+    "activateButton": "Alt+L",
+    "toggleRadio": "Alt+O",
+    "toggleCrosshair": "Alt+Y",
+    "toggleCronometru": "Alt+U",
     "togglePoliceOverlay": "Alt+E",
+    "toggleRfmap": "Alt+M",
     "cronometruStartStop": "Alt+P",
-    "cronometruReset": "Alt+L"
+    "cronometruReset": "Alt+BracketLeft"
   }
 }
