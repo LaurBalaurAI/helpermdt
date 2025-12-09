@@ -897,9 +897,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
-      "descriere2": "În plus, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
-      "descriere3": "Mai mult, a sustras autovehiculul marca {model_vehicul_input}, de culoare {culoare_vehicul}, {nr_inmatriculare}, aparținând cetățeanului {nume_parte_vatamata} (CNP {cnp_parte_vatamata}).",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) se afla în procesul de sustragere fără drept de proprietate a vehiculului cu numerele de înmatriculare {nr_inmatriculare}.",
+      "descriere2": "În plus, a sustras fără drept de proprietate a vehiculului cu numerele de înmatriculare {nr_inmatriculare}.",
+      "descriere3": "Mai mult, a sustras fără drept de proprietate a vehiculului cu numerele de înmatriculare {nr_inmatriculare}.",
       "incompatibilitati": [
         "cap.6_6.1_amenintari_criminale",
         "cap.8_8.10_coruptie",
