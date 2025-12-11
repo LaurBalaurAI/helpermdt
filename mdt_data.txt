@@ -3081,8 +3081,8 @@
     {
       "cap": "Cap. 6",
       "numarArticol": "6.5",
-      "titlu": "Asalt cu o armă mortală",
-      "definitie": "Asaltul cu o armă mortală este un act de asalt în care suspectul este în posesia unui obiect sau a unei arme capabile de a răni și reprezintă o crimă care se poate pedepsi cu sancțiunile menționate.",
+      "titlu": "Not Available",
+      "definitie": "Această sancțiune a fost scoasă din Codul Penal.",
       "amendaMin": 13000,
       "amendaMax": 13000,
       "arestMin": 50,
@@ -3093,9 +3093,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a comis un act de asalt, folosind {perchezitie_buzunare_continut}. ",
-      "descriere2": "\nÎn plus, a comis un act de asalt, folosind {perchezitie_torpedo_continut}. ",
-      "descriere3": "\nÎn plus, a comis un act de asalt, folosind {perchezitie_portbagaj_continut}. ",
+      "descriere1": "-",
+      "descriere2": "-",
+      "descriere3": "-",
       "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.2_2.5_parasirea_locului_accidentului",
