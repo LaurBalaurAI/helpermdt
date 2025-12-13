@@ -9,7 +9,7 @@
               {
                 "id": "confiscabile",
                 "title": "Obiecte Confiscabile",
-                "type": "danger",
+                "type": "success",
                 "icon": "fas fa-ban",
                 "categories": [
                   {
@@ -111,7 +111,7 @@
               {
                 "id": "neconfiscabile",
                 "title": "Obiecte care NU pot fi confiscate",
-                "type": "success",
+                "type": "danger",
                 "icon": "fas fa-check-circle",
                 "items": [
                   "Armura improvizata",
