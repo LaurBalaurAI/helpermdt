@@ -1,99 +1,127 @@
 {
-  "confiscabile": {
-    "arme_albe": {
-      "title": "Arme albe",
-      "items": [
-        "Pumnal",
-        "Dagger",
-        "Bata de Baseball",
-        "Machete",
-        "Switchblade (legal, dar se confisca la penitenciar)",
-        "Orice obiect ascutit care poate fi folosit la ranirea altor persoane"
-      ]
-    },
-    "arme_foc_calibru_mic": {
-      "title": "Arme de foc – calibru mic",
-      "items": [
-        "SNS Pistol (fara permis sau folosit in scopuri interzise)",
-        "Pistol 0.50",
-        "Pistol MK II",
-        "Vintage Pistol"
-      ]
-    },
-    "arme_foc_calibru_mare": {
-      "title": "Arme de foc – calibru mare",
-      "items": [
-        "Navy Revolver",
-        "Heavy Revolver",
-        "Double Action Revolver",
-        "Shotgun (orice tip)",
-        "Gadget Pistol",
-        "Heavy Pistol",
-        "Arme de tip Heavy",
-        "Assault Rifle (AR)",
-        "Carabine Rifle",
-        "Arme de tip Rifle"
-      ]
-    },
-    "arme_automate": {
-      "title": "Arme de foc automate",
-      "items": [
-        "Machine Pistol",
-        "Combat MG",
-        "Weapon MG",
-        "Combat Pistol",
-        "Arme de tip SMG"
-      ]
-    },
-    "materiale_explozibile": {
-      "title": "Materiale explozibile",
-      "items": [
-        "Materiale explozibile de orice fel"
-      ]
-    },
-    "substante_interzise": {
-      "title": "Substante interzise",
-      "items": [
-        "Orice tip de substanta interzisa"
-      ]
-    },
-    "munitie": {
-      "title": "Munitie",
-      "items": [
-        "Munitie de orice tip"
-      ]
-    },
-    "bani_murdari": {
-      "title": "Bani murdari",
-      "items": [
-        "Bani murdari"
-      ]
-    },
-    "diverse": {
-      "title": "Diverse obiecte",
-      "items": [
-        "Sfoara",
-        "Statie (legala, dar se confisca dupa procesare)",
-        "Cleste",
-        "Zip Tie",
-        "Tigari (peste 21+)",
-        "Parti de arme",
-        "Tableta de Hacking",
-        "Blueprint de Arme",
-        "Matrite de arme",
-        "Praf de pusca",
-        "Casinguri"
+  "sections": [
+    {
+      "id": "ghid_cadet_confiscabile",
+      "title": "Ghid Cadet - Obiecte Confiscabile",
+      "icon": "fas fa-gavel",
+      "collapsible": true,
+      "subsections": [
+        {
+          "id": "confiscabile",
+          "title": "Obiecte Confiscabile",
+          "type": "danger",
+          "icon": "fas fa-ban",
+          "categories": [
+            {
+              "title": "Arme albe",
+              "icon": "fas fa-khanda",
+              "items": [
+                "Pumnal",
+                "Dagger",
+                "Bata de Baseball",
+                "Machete",
+                "Switchblade (legal, dar se confisca la penitenciar)",
+                "Orice obiect ascutit care poate fi folosit la ranirea altor persoane"
+              ]
+            },
+            {
+              "title": "Arme de foc – calibru mic",
+              "icon": "fas fa-crosshairs",
+              "items": [
+                "SNS Pistol (fara permis de port arma sau folosit in scopuri interzise)",
+                "Pistol 0.50",
+                "Pistol MK II",
+                "Vintage Pistol"
+              ]
+            },
+            {
+              "title": "Arme de foc – calibru mare",
+              "icon": "fas fa-bullseye",
+              "items": [
+                "Navy Revolver",
+                "Heavy Revolver",
+                "Double Action Revolver",
+                "Shotgun (orice tip)",
+                "Gadget Pistol",
+                "Heavy Pistol",
+                "Orice arma de tip Heavy",
+                "Assault Rifle (AR)",
+                "Carabine Rifle",
+                "Orice arma de tip Rifle"
+              ]
+            },
+            {
+              "title": "Arme de foc automate",
+              "icon": "fas fa-burst",
+              "items": [
+                "Machine Pistol",
+                "Combat MG",
+                "Weapon MG",
+                "Combat Pistol",
+                "Orice arma de tip SMG"
+              ]
+            },
+            {
+              "title": "Materiale explozibile",
+              "icon": "fas fa-bomb",
+              "items": [
+                "Materiale explozibile de orice fel"
+              ]
+            },
+            {
+              "title": "Substante interzise",
+              "icon": "fas fa-skull-crossbones",
+              "items": [
+                "Substante interzise (nespecificate in lista initiala)"
+              ]
+            },
+            {
+              "title": "Munitie",
+              "icon": "fas fa-dot-circle",
+              "items": [
+                "Munitie (nespecificata in lista initiala)"
+              ]
+            },
+            {
+              "title": "Bani murdari",
+              "icon": "fas fa-money-bill-wave",
+              "items": [
+                "Bani murdari"
+              ]
+            },
+            {
+              "title": "Diverse obiecte",
+              "icon": "fas fa-toolbox",
+              "items": [
+                "Sfoara",
+                "Statie (legala, dar se confisca dupa procesare)",
+                "Cleste",
+                "Zip Tie",
+                "Tigari (peste 21+)",
+                "Parti de arme",
+                "Tableta de Hacking",
+                "Blueprint de Arme",
+                "Matrite de arme",
+                "Praf de pusca",
+                "Casinguri"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "neconfiscabile",
+          "title": "Obiecte care NU pot fi confiscate",
+          "type": "success",
+          "icon": "fas fa-check-circle",
+          "items": [
+            "Armura improvizata",
+            "Bandaje improvizate",
+            "Kit Medical improvizat",
+            "Blue Card Key",
+            "Red Card Key"
+          ]
+        }
       ]
     }
-  },
-  "neconfiscabile": {
-    "title": "Obiecte care NU pot fi confiscate",
-    "items": [
-      "Armura improvizata",
-      "Bandaje improvizate",
-      "Kit Medical improvizat",
-      "Blue Card Key",
-      "Red Card Key"
-    ]
-  }
+  ]
 }
