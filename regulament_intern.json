@@ -1,127 +1,537 @@
 {
-  "sections": [
-    {
-      "id": "ghid_cadet_confiscabile",
-      "title": "Ghid Cadet - Obiecte Confiscabile",
-      "icon": "fas fa-gavel",
-      "collapsible": true,
-      "subsections": [
+    "sections": [
         {
-          "id": "confiscabile",
-          "title": "Obiecte Confiscabile",
-          "type": "danger",
-          "icon": "fas fa-ban",
-          "categories": [
-            {
-              "title": "Arme albe",
-              "icon": "fas fa-khanda",
-              "items": [
-                "Pumnal",
-                "Dagger",
-                "Bata de Baseball",
-                "Machete",
-                "Switchblade (legal, dar se confisca la penitenciar)",
-                "Orice obiect ascutit care poate fi folosit la ranirea altor persoane"
-              ]
-            },
-            {
-              "title": "Arme de foc – calibru mic",
-              "icon": "fas fa-crosshairs",
-              "items": [
-                "SNS Pistol (fara permis de port arma sau folosit in scopuri interzise)",
-                "Pistol 0.50",
-                "Pistol MK II",
-                "Vintage Pistol"
-              ]
-            },
-            {
-              "title": "Arme de foc – calibru mare",
-              "icon": "fas fa-bullseye",
-              "items": [
-                "Navy Revolver",
-                "Heavy Revolver",
-                "Double Action Revolver",
-                "Shotgun (orice tip)",
-                "Gadget Pistol",
-                "Heavy Pistol",
-                "Orice arma de tip Heavy",
-                "Assault Rifle (AR)",
-                "Carabine Rifle",
-                "Orice arma de tip Rifle"
-              ]
-            },
-            {
-              "title": "Arme de foc automate",
-              "icon": "fas fa-burst",
-              "items": [
-                "Machine Pistol",
-                "Combat MG",
-                "Weapon MG",
-                "Combat Pistol",
-                "Orice arma de tip SMG"
-              ]
-            },
-            {
-              "title": "Materiale explozibile",
-              "icon": "fas fa-bomb",
-              "items": [
-                "Materiale explozibile de orice fel"
-              ]
-            },
-            {
-              "title": "Substante interzise",
-              "icon": "fas fa-skull-crossbones",
-              "items": [
-                "Substante interzise (nespecificate in lista initiala)"
-              ]
-            },
-            {
-              "title": "Munitie",
-              "icon": "fas fa-dot-circle",
-              "items": [
-                "Munitie (nespecificata in lista initiala)"
-              ]
-            },
-            {
-              "title": "Bani murdari",
-              "icon": "fas fa-money-bill-wave",
-              "items": [
-                "Bani murdari"
-              ]
-            },
-            {
-              "title": "Diverse obiecte",
-              "icon": "fas fa-toolbox",
-              "items": [
-                "Sfoara",
-                "Statie (legala, dar se confisca dupa procesare)",
-                "Cleste",
-                "Zip Tie",
-                "Tigari (peste 21+)",
-                "Parti de arme",
-                "Tableta de Hacking",
-                "Blueprint de Arme",
-                "Matrite de arme",
-                "Praf de pusca",
-                "Casinguri"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "neconfiscabile",
-          "title": "Obiecte care NU pot fi confiscate",
-          "type": "success",
-          "icon": "fas fa-check-circle",
-          "items": [
-            "Armura improvizata",
-            "Bandaje improvizate",
-            "Kit Medical improvizat",
-            "Blue Card Key",
-            "Red Card Key"
-          ]
-        }
-      ]
-    }
-  ]
-}
+            "id": "ghid_cadet_confiscabile",
+            "title": "Ghid Cadet - Obiecte Confiscabile",
+            "icon": "fas fa-gavel",
+            "collapsible": true,
+            "subsections": [
+              {
+                "id": "confiscabile",
+                "title": "Obiecte Confiscabile",
+                "type": "danger",
+                "icon": "fas fa-ban",
+                "categories": [
+                  {
+                    "title": "Arme albe",
+                    "icon": "fas fa-khanda",
+                    "items": [
+                      "Pumnal",
+                      "Dagger",
+                      "Bata de Baseball",
+                      "Machete",
+                      "Switchblade (legal, dar se confisca la penitenciar)",
+                      "Orice obiect ascutit care poate fi folosit la ranirea altor persoane"
+                    ]
+                  },
+                  {
+                    "title": "Arme de foc – calibru mic",
+                    "icon": "fas fa-crosshairs",
+                    "items": [
+                      "SNS Pistol (fara permis de port arma sau folosit in scopuri interzise)",
+                      "Pistol 0.50",
+                      "Pistol MK II",
+                      "Vintage Pistol"
+                    ]
+                  },
+                  {
+                    "title": "Arme de foc – calibru mare",
+                    "icon": "fas fa-bullseye",
+                    "items": [
+                      "Navy Revolver",
+                      "Heavy Revolver",
+                      "Double Action Revolver",
+                      "Shotgun (orice tip)",
+                      "Gadget Pistol",
+                      "Heavy Pistol",
+                      "Orice arma de tip Heavy",
+                      "Assault Rifle (AR)",
+                      "Carabine Rifle",
+                      "Orice arma de tip Rifle"
+                    ]
+                  },
+                  {
+                    "title": "Arme de foc automate",
+                    "icon": "fas fa-burst",
+                    "items": [
+                      "Machine Pistol",
+                      "Combat MG",
+                      "Weapon MG",
+                      "Combat Pistol",
+                      "Orice arma de tip SMG"
+                    ]
+                  },
+                  {
+                    "title": "Materiale explozibile",
+                    "icon": "fas fa-bomb",
+                    "items": [
+                      "Materiale explozibile de orice fel"
+                    ]
+                  },
+                  {
+                    "title": "Substante interzise",
+                    "icon": "fas fa-skull-crossbones",
+                    "items": [
+                      "Substante interzise (nespecificate in lista initiala)"
+                    ]
+                  },
+                  {
+                    "title": "Munitie",
+                    "icon": "fas fa-dot-circle",
+                    "items": [
+                      "Munitie (nespecificata in lista initiala)"
+                    ]
+                  },
+                  {
+                    "title": "Bani murdari",
+                    "icon": "fas fa-money-bill-wave",
+                    "items": [
+                      "Bani murdari"
+                    ]
+                  },
+                  {
+                    "title": "Diverse obiecte",
+                    "icon": "fas fa-toolbox",
+                    "items": [
+                      "Sfoara",
+                      "Statie (legala, dar se confisca dupa procesare)",
+                      "Cleste",
+                      "Zip Tie",
+                      "Tigari (peste 21+)",
+                      "Parti de arme",
+                      "Tableta de Hacking",
+                      "Blueprint de Arme",
+                      "Matrite de arme",
+                      "Praf de pusca",
+                      "Casinguri"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "neconfiscabile",
+                "title": "Obiecte care NU pot fi confiscate",
+                "type": "success",
+                "icon": "fas fa-check-circle",
+                "items": [
+                  "Armura improvizata",
+                  "Bandaje improvizate",
+                  "Kit Medical improvizat",
+                  "Blue Card Key",
+                  "Red Card Key"
+                ]
+              }
+            ]
+          },
+      {
+        "id": "regulament_ipj_dispozitii_generale",
+        "title": "Regulament IPJ - Dispozitii generale",
+        "icon": "fas fa-balance-scale",
+        "collapsible": true,
+        "subsections": [
+          {
+            "id": "rolul_politistului",
+            "title": "Rolul unui politist",
+            "type": "info",
+            "icon": "fas fa-shield-alt",
+            "items": [
+              "Rolul unui politist este de a mentine linistea si pacea in oras.",
+              "Nu se accepta aere de superioritate sau abuz de autoritate.",
+              "Respect pentru fiecare cetatean si ascultarea acestuia cand este nevoie.",
+              "Atitudine pozitiva si profesionalism constant.",
+              "Agentul este responsabil de bunastarea cetatenilor.",
+              "Legea se aplica indiferent de persoana; fara favorizari, fara mita.",
+              "Nu ocoliti apelurile primite de la dispecerat.",
+              "Nu abuzati de grad pentru perchezitii aiurea.",
+              "Nu arestati fara motive/dovezi.",
+              "Nu retineti/arestati fara justificare."
+            ]
+          },
+          {
+            "id": "obligatie_minima_departament",
+            "title": "Obligatie minima in departament",
+            "type": "warning",
+            "icon": "fas fa-hourglass-half",
+            "items": [
+              "Orice politist este obligat sa stea minim 14 zile in departament inainte de a-si putea da demisia."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "regulament_ipj_definitii_si_forta",
+        "title": "Regulament IPJ - Definitii si nivele de forta",
+        "icon": "fas fa-book",
+        "collapsible": true,
+        "subsections": [
+          {
+            "id": "definitii_generale",
+            "title": "Definitii generale",
+            "type": "info",
+            "icon": "fas fa-info-circle",
+            "categories": [
+              {
+                "title": "Retinerea",
+                "icon": "fas fa-user-clock",
+                "items": [
+                  "Indepartarea temporara a dreptului de libertate fara incatusare.",
+                  "Bazata pe suspiciune rezonabila, pentru investigatie la fata locului.",
+                  "Exemplu: Traffic Stop (soferul e retinut pentru verificari persoane + interior vehicul)."
+                ]
+              },
+              {
+                "title": "Arestul",
+                "icon": "fas fa-handcuffs",
+                "items": [
+                  "Luarea unei persoane in custodie si incatusarea acesteia.",
+                  "Transport la centrul de procesare (sectia de politie)."
+                ]
+              },
+              {
+                "title": "Suspiciunea rezonabila",
+                "icon": "fas fa-search",
+                "items": [
+                  "Presupunerea unui agent ca o crima a fost/este/urmeaza sa se intample.",
+                  "Bazata pe apel, mesaj, notificare, sunet etc. (ex: spargere masina/casa, jaf)."
+                ]
+              },
+              {
+                "title": "Cauza probabila",
+                "icon": "fas fa-gavel",
+                "items": [
+                  "Agentul are suficiente dovezi ca o incalcare a legii este/urmeaza sa fie comisa.",
+                  "Exemple: fortarea usii casei/vehiculului, deschiderea focului asupra altei persoane etc."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nivele_de_forta",
+            "title": "Nivele de forta",
+            "type": "warning",
+            "icon": "fas fa-exclamation-triangle",
+            "categories": [
+              {
+                "title": "Nivel 1 - Prezenta agentului",
+                "icon": "fas fa-user-shield",
+                "items": [
+                  "Prezenta poate opri o ilegalitate inainte sa se intample.",
+                  "Se aplica cand persoanele sunt calme, cooperative, neagresive."
+                ]
+              },
+              {
+                "title": "Nivel 2 - Vocalizarea",
+                "icon": "fas fa-bullhorn",
+                "items": [
+                  "Ridicarea tonalitatii vocii poate ajuta controlul situatiei.",
+                  "Se aplica cand un grup vorbeste peste tine si nu asculta.",
+                  "Nu se foloseste in toate situatiile, doar cand e necesar."
+                ]
+              },
+              {
+                "title": "Nivel 3 - Armele non-letale",
+                "icon": "fas fa-bolt",
+                "items": [
+                  "Non-letale: tazer, baston, mainile goale.",
+                  "Se folosesc cand persoanele devin agresive si trebuie imobilizate pentru a preveni escaladarea."
+                ]
+              },
+              {
+                "title": "Nivel 4 - Forta letala",
+                "icon": "fas fa-skull",
+                "items": [
+                  "Se foloseste in situatii de risc mare, cand viata agentului este in pericol iminent.",
+                  "Este interzisa escaladarea inutila a situatiei doar pentru a aplica forta letala."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "regulament_ipj_avansare",
+        "title": "Regulament IPJ - Avansare in grad",
+        "icon": "fas fa-level-up-alt",
+        "collapsible": true,
+        "subsections": [
+          {
+            "id": "criterii_promovare",
+            "title": "Criterii generale de promovare",
+            "type": "info",
+            "icon": "fas fa-check",
+            "items": [
+              "Obligatoriu: 2 certificate (RADIO si MDT).",
+              "Fara avertismente (FW) si fara amenzi neplatite.",
+              "Activitate buna: minim 10 ore/saptamana.",
+              "Activitate in factiune: amenzi, dosare penale, participare la activitati, rapoarte de la cetateni, apeluri de urgenta etc.",
+              "Nota: chiar daca ai perioada minima, fara activitate satisfacatoare nu vei fi promovat."
+            ]
+          },
+          {
+            "id": "perioade_minime_rank",
+            "title": "Perioade minime necesare pentru promovare",
+            "type": "warning",
+            "icon": "fas fa-calendar-alt",
+            "items": [
+              "CADET (1) -> AGENT (2): 3 zile de la ultima promovare",
+              "AGENT (2) -> AGENT PRINCIPAL (3): 7 zile de la ultima promovare",
+              "AGENT PRINCIPAL (3) -> AGENT SEF ADJUNCT (4): 14 zile de la ultima promovare",
+              "AGENT SEF ADJUNCT (4) -> AGENT SEF PRINCIPAL (5): 21 zile de la ultima promovare",
+              "AGENT SEF PRINCIPAL (5) -> INSPECTOR (6): X zile de la ultima promovare",
+              "Nota: de la rank 4+ exista obligatia de a supraveghea si ajuta agentii si de a va implica in actiuni (razie licenta, filtru RAR, antrenamente etc.)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "regulament_ipj_sanctiuni",
+        "title": "Regulament IPJ - Sanctiuni",
+        "icon": "fas fa-gavel",
+        "collapsible": true,
+        "subsections": [
+          {
+            "id": "principii_sanctiuni",
+            "title": "Principii",
+            "type": "info",
+            "icon": "fas fa-info",
+            "items": [
+              "Sanctiunile (amenzi financiare) mentin disciplina si ordinea.",
+              "In functie de caz, sanctiunile pot fi mai aspre sau mai permisibile.",
+              "Ne rezervam dreptul de a sanctiona in functie de situatie.",
+              "Un Faction Warn (FW) are valabilitate 30 zile inainte de a fi eliminat."
+            ]
+          },
+          {
+            "id": "lista_sanctiuni",
+            "title": "Lista sanctiuni",
+            "type": "danger",
+            "icon": "fas fa-exclamation-circle",
+            "categories": [
+              {
+                "title": "Abateri grave",
+                "icon": "fas fa-skull-crossbones",
+                "items": [
+                  "Abuz de functie (inspector+): 500.000$ + down/out",
+                  "Denigrarea imaginii politiei: 500.000$ + FW",
+                  "Comportament neadecvat cu civilii sau colegii: 350.000$ + FW",
+                  "Folosirea incorecta a armamentului din dotare: 500.000$ + FW sau down",
+                  "Fentare de pontaj: 500.000$ + FW sau Demitere (cu blacklist la abateri multiple)",
+                  "Perchezitie fara motiv: 175.000$ + despagubirea lucrurilor confiscate abuziv",
+                  "Orice foc de arma / tazer tras in sectie: 500.000$"
+                ]
+              },
+              {
+                "title": "Pontaj",
+                "icon": "fas fa-clock",
+                "items": [
+                  "Multiple pontaje pe rosu: 300.000$ / Demitere (in functie de caz)",
+                  "Pontaj pe rosu: prima saptamana avertisment; a doua saptamana 200.000$; a treia saptamana demitere"
+                ]
+              },
+              {
+                "title": "Comportament si disciplina",
+                "icon": "fas fa-users",
+                "items": [
+                  "Comportament superior/jignitor cu Medicii: 400.000$ + FW",
+                  "Vorbitul peste un superior / deranjarea regruparii: 150.000$",
+                  "Comentarii despre promovari/decizii superiori: 100.000$",
+                  "Ignorarea persoanelor care solicita ajutor la sectie: 100.000$",
+                  "Ignorarea persoanelor ranite/lesinate dupa accident: 100.000$",
+                  "Nerespectarea lantului de comanda: 350.000$"
+                ]
+              },
+              {
+                "title": "Proceduri si operatiuni",
+                "icon": "fas fa-clipboard-check",
+                "items": [
+                  "Nerespectarea uniformei in actiuni S.A.S: 150.000$",
+                  "Refuz de patrula fara motiv intemeiat: 150.000$",
+                  "Refuz de actiuni fara motiv intemeiat: 150.000$",
+                  "Muzica/sunete troll in patrula: 150.000$",
+                  "Refuz de a merge la coduri asistenta bk1: 350.000$",
+                  "Refuz de a merge la coduri asistenta bk3: 150.000$",
+                  "Refuzul legitimarii: 150.000$",
+                  "PITSTOP fara aprobare: 150.000$",
+                  "Cand un ofiter e aproape de un cod de transport si pleaca: 150.000$",
+                  "Nerespectarea procedurii corecte TRAFFIC-STOP: 150.000$",
+                  "Nerespectarea procedurii corecte FELONY: 150.000$",
+                  "Patrula singur fara coleg: 150.000$"
+                ]
+              },
+              {
+                "title": "Condus / urmariri",
+                "icon": "fas fa-car-crash",
+                "items": [
+                  "Paralizie pe condus (intri in colegi/civili, nu te asiguri, viteza nejustificata): 100.000$ + interdictie X zile (depinde de caz)"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "regulament_ipj_reguli_interne",
+        "title": "Regulament IPJ - Reguli interne si proceduri",
+        "icon": "fas fa-clipboard-list",
+        "collapsible": true,
+        "subsections": [
+          {
+            "id": "coruptie",
+            "title": "Coruptia",
+            "type": "danger",
+            "icon": "fas fa-ban",
+            "items": [
+              "Coruptia este total interzisa.",
+              "Orice cadru prins corupt va fi sanctionat conform codului penal pana la inchisoare pe viata."
+            ]
+          },
+          {
+            "id": "traffic_stop_regula",
+            "title": "Traffic Stop - reguli",
+            "type": "warning",
+            "icon": "fas fa-hand-paper",
+            "items": [
+              "Este interzis sa efectuati traffic stop asupra unei persoane care circula regulamentar.",
+              "In traffic stop sau cand i se solicita, politistul are obligatia sa se prezinte cu o legitimatie."
+            ]
+          },
+          {
+            "id": "patrulare_minim_2",
+            "title": "Patrulare",
+            "type": "warning",
+            "icon": "fas fa-car-side",
+            "items": [
+              "Interzis categoric patrula singur cu masina; minim 2 politisti per echipaj.",
+              "Exceptii: Moto, Heli, High Speed (HS).",
+              "Interzisa patrula cadet-cadet; cadetul patruleaza mereu cu grad superior."
+            ]
+          },
+          {
+            "id": "aspect_si_afk",
+            "title": "Aspect, AFK si verificari licente",
+            "type": "info",
+            "icon": "fas fa-user",
+            "items": [
+              "Interzis categoric tatuaje faciale sau frizuri nonconformiste.",
+              "AFK ON-DUTY permis 5-10 minute doar daca anunti pe /d [Dispecer].",
+              "Interzis sa verificati licentele de pescuit/minat fara aprobarea unui Rank 4+.",
+              "Permis sa verificati atestatul taximetristilor/soferilor de tir doar daca au fost opriti pentru incalcarea codului rutier.",
+              "Verificarea licentei NU este permisa prin perchezitionarea persoanei; astepti sa ofere licenta pentru verificare."
+            ]
+          },
+          {
+            "id": "uniforma_echipament",
+            "title": "Uniforma si echipament",
+            "type": "info",
+            "icon": "fas fa-vest",
+            "items": [
+              "In serviciu: uniforma obligatorie, echipament din dotare (pistol, baston, electrosoc etc.).",
+              "Folositi doar vehiculele apartinand Politiei Los Santos.",
+              "Conectare obligatorie la frecventa de comunicare a politiei.",
+              "Interzis sa purtati casca 39 / alte casti anti-glont in timpul serviciului.",
+              "Casca permisa de la inspector+ cu motive bine intemeiate (bk1, 10-11, jaf magazin/banca) si la trupele S.A.S."
+            ]
+          },
+          {
+            "id": "vehicule_speciale_certificari",
+            "title": "Vehicule speciale si certificari",
+            "type": "warning",
+            "icon": "fas fa-helicopter",
+            "items": [
+              "Interzis sa folositi Heli / HS / Moto fara certificatul necesar.",
+              "Politistii cu grade inferioare pot conduce vehiculele superiorilor doar cand acestia sunt pe locul din dreapta (exceptie: masini de conducere, Heli, Moto, HS)."
+            ]
+          },
+          {
+            "id": "amenzi_plata",
+            "title": "Amenzi - plata",
+            "type": "warning",
+            "icon": "fas fa-money-check-alt",
+            "items": [
+              "Plata unei amenzi trebuie facuta in termen de 14 zile.",
+              "Daca o amenda nu este platita, se transforma in Faction Warn.",
+              "Daca iti pui demisia cu amenda activa, vei fi dat afara pe Coruptie."
+            ]
+          },
+          {
+            "id": "procesarea_suspectilor",
+            "title": "Procesarea suspectilor",
+            "type": "info",
+            "icon": "fas fa-user-cog",
+            "items": [
+              "Esti responsabil de suspectul adus in sectie.",
+              "Obligatia de a te asigura ca suspectii sunt procesati si dusi la penitenciar.",
+              "Doar un Agent Sef Principal+ poate desemna persoane sa proceseze.",
+              "Nu ai voie sa modifici sentinta fara acord Inspector+ sau daca suspectul a petrecut >10 minute in sectie."
+            ]
+          },
+          {
+            "id": "urmariri",
+            "title": "Urmariri",
+            "type": "danger",
+            "icon": "fas fa-road",
+            "items": [
+              "Interzis sa intri direct in vehiculul suspectului.",
+              "Pentru manevra laterala in spatele vehiculului (PITSTOP) ai nevoie de permisiunea unui Inspector+.",
+              "Interzis sa tragi in roti fara aprobarea unui rank 6+.",
+              "Exceptie: se poate trage la roti daca persoana urmarita are cod 1 (inarmat si periculos).",
+              "Primele 3 unitati raman la urmarire; restul creeaza blocaje sau isi continua patrula."
+            ]
+          },
+          {
+            "id": "truse_medicale",
+            "title": "Truse medicale",
+            "type": "info",
+            "icon": "fas fa-first-aid",
+            "items": [
+              "Trusele medicale se folosesc strict pe: Agentii / Coordonatori S.A.S si persoane cu grad de SubComisar (conform exemplelor din regulament).",
+              "Scenariile se aplica doar cand sunteti imbracati in uniforma S.A.S.",
+              "Daca la actiune esti imbracat ca agent simplu / frontiera / alt departament, iti este interzis sa oferi truse."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "regulament_ipj_zone",
+        "title": "Regulament IPJ - Zone rau famate / rosii / maro",
+        "icon": "fas fa-map-marked-alt",
+        "collapsible": true,
+        "subsections": [
+          {
+            "id": "zone_rau_famate",
+            "title": "Zone rau famate",
+            "type": "warning",
+            "icon": "fas fa-exclamation-triangle",
+            "items": [
+              "Definitie: zone periculoase unde se pot intampla ilegalitati (nu in apropierea unor business-uri).",
+              "Nu se patruleaza in zone rau famate decat daca un Inspector+ initiaza patrula rau famata.",
+              "In patrula rau famata: opriti cetatenii surprinsi incalcand codul penal si raportati opririle in trafic conform indicatiilor Inspectorului.",
+              "Raportati activitatea suspicioasa pe statie sau la dispecer."
+            ]
+          },
+          {
+            "id": "zone_rosii",
+            "title": "Zone rosii",
+            "type": "danger",
+            "icon": "fas fa-radiation",
+            "items": [
+              "Definitie: zone unde se planteaza/confectioneaza obiecte ilegale; spital ilegal si proximitatea magazinelor jefuite.",
+              "Unitatile de politie nu intervin la focuri de arma sau solicitari in zone rosii (exceptie: jafuri).",
+              "Interventia in zone rosii este facuta de S.A.S.",
+              "Unitatile pot veni doar cu aprobare si doar pentru preluare suspecti de la fata locului."
+            ]
+          },
+          {
+            "id": "zone_maro",
+            "title": "Zone maro",
+            "type": "info",
+            "icon": "fas fa-tree",
+            "items": [
+              "Zone maro: zone nepopulate unde, daca dispeceratul trimite alerte, nu se intervine (poate fi eroare de sistem)."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
