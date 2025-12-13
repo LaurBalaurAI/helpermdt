@@ -1,70 +1,99 @@
-
-
-Obiecte ilegale pe care le puteti confisca:
-
- Arme albe:
-Pumnal
-Dagger
-Bata de Baseball
-Machete
-Switchblade ( Este legal dar daca merge la penitenciar trebuie confiscat )
-Orice obiect ascutit care poate fi folosit la ranirea altor persoane
-
-2. Arme de foc de calibru mic
-SNS Pistol ( Daca nu detine un permis de port arma sau il foloseste in scopuri interzise )
-Pistol 0.50
-Pistol MK II
-Vintage Pistol
-
-
-3. Arme de foc de calibru mare
-- Navy Revolver
-- Heavy Revolver
-- Double Action Revolver
-- Orice tip de Shotgun
--  Gadget Pistol
-- Heavy Pistol
-- Orice arma de tip Heavy
-- Assault Rifle ( AR )
-- Carabine Rifle 
-- Orice arma de tip Rifle 
-
-4. Arme de foc automate
-Machine Pistol
-Combat MG
-Weapon MG
-Combat Pistol
-Orice arma de tip SMG
-
-
-5. Materiale explozibile
-Materiale explozibile de orice fel
-
-6. Substante interzise
-
-7. Munitie
-
-8. Bani murdari
-
-9. Diverse obiecte
-
-Sfoara
- Statie ( e legala dar in urma procesarii se confisca )
-Cleste
-Zip Tie
-Tigari ( Peste 21+)
-Parti de arme
-Tableta de Hacking
-Blueprint de Arme
-Matrite de arme
-Praf de pusca
-Casinguri
-
-
-II. Obiecte pe care NU le puteti confisca
-
-Armura improvizata
-Bandaje improvizate
-Kit Medical improvizat
-Blue Card Key
-Red Card Key
+{
+  "confiscabile": {
+    "arme_albe": {
+      "title": "Arme albe",
+      "items": [
+        "Pumnal",
+        "Dagger",
+        "Bata de Baseball",
+        "Machete",
+        "Switchblade (legal, dar se confisca la penitenciar)",
+        "Orice obiect ascutit care poate fi folosit la ranirea altor persoane"
+      ]
+    },
+    "arme_foc_calibru_mic": {
+      "title": "Arme de foc – calibru mic",
+      "items": [
+        "SNS Pistol (fara permis sau folosit in scopuri interzise)",
+        "Pistol 0.50",
+        "Pistol MK II",
+        "Vintage Pistol"
+      ]
+    },
+    "arme_foc_calibru_mare": {
+      "title": "Arme de foc – calibru mare",
+      "items": [
+        "Navy Revolver",
+        "Heavy Revolver",
+        "Double Action Revolver",
+        "Shotgun (orice tip)",
+        "Gadget Pistol",
+        "Heavy Pistol",
+        "Arme de tip Heavy",
+        "Assault Rifle (AR)",
+        "Carabine Rifle",
+        "Arme de tip Rifle"
+      ]
+    },
+    "arme_automate": {
+      "title": "Arme de foc automate",
+      "items": [
+        "Machine Pistol",
+        "Combat MG",
+        "Weapon MG",
+        "Combat Pistol",
+        "Arme de tip SMG"
+      ]
+    },
+    "materiale_explozibile": {
+      "title": "Materiale explozibile",
+      "items": [
+        "Materiale explozibile de orice fel"
+      ]
+    },
+    "substante_interzise": {
+      "title": "Substante interzise",
+      "items": [
+        "Orice tip de substanta interzisa"
+      ]
+    },
+    "munitie": {
+      "title": "Munitie",
+      "items": [
+        "Munitie de orice tip"
+      ]
+    },
+    "bani_murdari": {
+      "title": "Bani murdari",
+      "items": [
+        "Bani murdari"
+      ]
+    },
+    "diverse": {
+      "title": "Diverse obiecte",
+      "items": [
+        "Sfoara",
+        "Statie (legala, dar se confisca dupa procesare)",
+        "Cleste",
+        "Zip Tie",
+        "Tigari (peste 21+)",
+        "Parti de arme",
+        "Tableta de Hacking",
+        "Blueprint de Arme",
+        "Matrite de arme",
+        "Praf de pusca",
+        "Casinguri"
+      ]
+    }
+  },
+  "neconfiscabile": {
+    "title": "Obiecte care NU pot fi confiscate",
+    "items": [
+      "Armura improvizata",
+      "Bandaje improvizate",
+      "Kit Medical improvizat",
+      "Blue Card Key",
+      "Red Card Key"
+    ]
+  }
+}
