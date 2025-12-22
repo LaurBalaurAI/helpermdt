@@ -2,7 +2,7 @@
 
 
 ================================================================================ 
-POLICE HELPER v1.3.1 
+POLICE HELPER
 ================================================================================
 
 Instrucțiuni complete pentru utilizarea aplicației Police Helper, 
