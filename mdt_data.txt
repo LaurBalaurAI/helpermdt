@@ -6080,7 +6080,7 @@
   "aiLogic": {
     "intro_apel_112": "În urma unui apel la linia de urgență 112, efectuat de către cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), în data de {data_procesare}, la ora {ora_procesare}, echipajul de poliție a intervenit în zona {zona_input}, unde ",
     "intro_autoconstatare": "În data de {data_procesare}, în jurul orei {ora_procesare}, în timp ce patrula în zona {zona_input}, echipajul de poliție a constatat că ",
-    "intro_sri": "În urma alertelor sistemelor de supraveghere S.R.I. primite de autorități în data de {data_procesare} la ora {ora_procesare} cu privire la focuri de armă în zona {zona_input}, echipajul constituit din {patrola_text_nume}, a intervenit și a neutralizat și imobilizat persoanele implicate. Printre acestea, ",
+    "intro_sri": "În urma alertelor sistemelor de supraveghere S.R.I. primite de autorități în data de {data_procesare} la ora {ora_procesare} cu privire la focuri de armă în zona {zona_input}, echipajele de poliție au intervenit și au neutralizat și imobilizat persoanele implicate. Printre acestea, ",
     "intro_jaf": "În data de {data_procesare}, la ora {ora_procesare}, alarma de securitate a {obiectiv_jaf} de pe {zona_input} a fost declanșată. Aflate în patrulă în apropiere, organele de poliție au intrevenit și au neutralizat făptașii. Printre aceștia, ",
     "intro_furt_auto": "În data de {data_procesare}, la ora {ora_procesare}, a fost declanșată alarma unui vehicul în zona {zona_input}. Ajuns la fața locului, echipajul de poliție a constatat că ",
     "intro_mineriada": "În data de {data_procesare}, în jurul orei {ora_procesare} a avut loc o acțiune de tip „Mineriadă” a echipajelor de poliție. În urma controalelor, s-a descoperit că ",
