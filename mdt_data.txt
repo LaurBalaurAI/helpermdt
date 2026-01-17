@@ -6285,6 +6285,6 @@
     "togglePoliceOverlay": "Alt+E",
     "toggleRfmap": "Alt+M",
     "cronometruStartStop": "Alt+P",
-    "cronometruReset": "Alt+BracketLeft"
+    "cronometruReset": "Alt+N"
   }
 }
