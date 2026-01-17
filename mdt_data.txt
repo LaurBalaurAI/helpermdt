@@ -6078,7 +6078,7 @@
     }
   ],
   "aiLogic": {
-    "intro_apel_112": "În urma unui apel la linia de urgență 112, efectuat de către cetățeanul {nume_reclamant} (CNP {cnp_reclamant}), în data de {data_procesare}, la ora {ora_procesare}, echipajul de poliție a intervenit în zona {zona_input}, unde ",
+    "intro_apel_112": "În urma unui apel la linia de urgență 112, efectuat de către cetățeanul {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), în data de {data_procesare}, la ora {ora_procesare}, echipajul de poliție a intervenit în zona {zona_input}, unde ",
     "intro_autoconstatare": "În data de {data_procesare}, în jurul orei {ora_procesare}, în timp ce patrula în zona {zona_input}, echipajul de poliție a constatat că ",
     "intro_sri": "În urma alertelor sistemelor de supraveghere S.R.I. primite de autorități în data de {data_procesare} la ora {ora_procesare} cu privire la focuri de armă în zona {zona_input}, echipajele de poliție au intervenit și au neutralizat și imobilizat persoanele implicate. Printre acestea, ",
     "intro_jaf": "În data de {data_procesare}, la ora {ora_procesare}, alarma de securitate a {obiectiv_jaf} de pe {zona_input} a fost declanșată. Aflate în patrulă în apropiere, organele de poliție au intrevenit și au neutralizat făptașii. Printre aceștia, ",
@@ -6101,7 +6101,7 @@
       "empty": ""
     },
     "nr_inmatriculare_empty": "fără numere de înmatriculare",
-    "partea_vatamata_text_filled": "Partea vătămată: [NUME_RECLAMANT] (CNP: [CNP_RECLAMANT])",
+    "partea_vatamata_text_filled": "Partea vătămată: [nume_parte_vatamata] (CNP: [cnp_parte_vatamata])",
     "partea_vatamata_text_empty": "Partea vătămată: Statul Român",
     "martori_text_filled_single": "Martor: [NUME_MARTOR], CNP: [CNP_MARTOR]",
     "martori_text_empty": "",
