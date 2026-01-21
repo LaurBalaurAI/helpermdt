@@ -3830,48 +3830,23 @@
   ],
   "vehicule": [
     {
-      "id": "annis_roxanne_autoturism",
-      "name": "Annis Roxanne",
+      "id": "enus_jubilee_ghost_autoturism",
+      "name": "Enus Jubilee Ghost",
       "type": "autoturism"
     },
     {
-      "id": "apollo_intensa_emozione_autoturism",
-      "name": "Apollo Intensa Emozione",
+      "id": "obey_rs7_autoturism",
+      "name": "Obey RS7",
       "type": "autoturism"
     },
     {
-      "id": "apollo_merlin_vanguard_autoturism",
-      "name": "Apollo Merlin Vanguard",
+      "id": "bizan_350_autoturism",
+      "name": "Bizan 350",
       "type": "autoturism"
     },
     {
-      "id": "atv_ems_autospeciala_s.m.u.r.d.",
-      "name": "ATV EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "balkan_fazan_b6_autoturism",
-      "name": "Balkan Fazan B6",
-      "type": "autoturism"
-    },
-    {
-      "id": "balkan_galactic_5_autoturism",
-      "name": "Balkan Galactic 5",
-      "type": "autoturism"
-    },
-    {
-      "id": "balkan_terra_autoturism",
-      "name": "Balkan Terra",
-      "type": "autoturism"
-    },
-    {
-      "id": "baza_bx-5_miza_autoturism",
-      "name": "Baza BX-5 Miza",
-      "type": "autoturism"
-    },
-    {
-      "id": "baza_rxb-7_autoturism",
-      "name": "Baza RXB-7",
+      "id": "mercies_600_autoturism",
+      "name": "Mercies 600",
       "type": "autoturism"
     },
     {
@@ -3880,68 +3855,43 @@
       "type": "autoturism"
     },
     {
-      "id": "beloren_b1_mai_autospeciala_de_poliție",
-      "name": "Beloren B1 MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "benefactor_63c_ems_autospeciala_s.m.u.r.d.",
-      "name": "Benefactor 63C EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "benefactor_batiz_autoturism",
-      "name": "Benefactor Batiz",
+      "id": "ubermacht_760_autoturism",
+      "name": "Ubermacht 760",
       "type": "autoturism"
     },
     {
-      "id": "benefactor_club_r7_autoturism",
-      "name": "Benefactor Club R7",
+      "id": "decebal_1310_sport_autoturism",
+      "name": "Decebal 1310 Sport",
       "type": "autoturism"
     },
     {
-      "id": "benefactor_duo_ems_autospeciala_s.m.u.r.d.",
-      "name": "Benefactor Duo EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "benefactor_grande_autoturism",
-      "name": "Benefactor Grande",
+      "id": "overflod_argon_rs_autoturism",
+      "name": "Overflod Argon RS",
       "type": "autoturism"
     },
     {
-      "id": "benefactor_grande_ems_autospeciala_s.m.u.r.d.",
-      "name": "Benefactor Grande EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "benefactor_imperial_autoturism",
-      "name": "Benefactor Imperial",
+      "id": "benefactor_mgtr_autoturism",
+      "name": "Benefactor M-GTR",
       "type": "autoturism"
     },
     {
-      "id": "benefactor_schlagen_ar_autoturism",
-      "name": "Benefactor Schlagen AR",
+      "id": "apollo_merlin_vanguard_autoturism",
+      "name": "Apollo Merlin Vanguard",
       "type": "autoturism"
     },
     {
-      "id": "benefactor_speedo_xl_autoturism",
-      "name": "Benefactor Speedo XL",
+      "id": "obey_q7_autoturism",
+      "name": "Obey Q7",
       "type": "autoturism"
     },
     {
-      "id": "benefactor_sprinter_ems_autospeciala_s.m.u.r.d.",
-      "name": "Benefactor Sprinter EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "benefactor_transit_autoturism",
-      "name": "Benefactor Transit",
+      "id": "balkan_fazan_b6_autoturism",
+      "name": "Balkan Fazan B6",
       "type": "autoturism"
     },
     {
-      "id": "betty_bayonette_autoturism",
-      "name": "Betty Bayonette",
+      "id": "enus_huntley_bayga_autoturism",
+      "name": "Enus Huntley Bayga",
       "type": "autoturism"
     },
     {
@@ -3950,318 +3900,23 @@
       "type": "autoturism"
     },
     {
-      "id": "beyoza_prime_autoturism",
-      "name": "Beyoza Prime",
+      "id": "mercies_bzg_ls_63_autoturism",
+      "name": "Mercies BZG LS 63",
       "type": "autoturism"
     },
     {
-      "id": "beyoza_super_v4_autoturism",
-      "name": "Beyoza Super v4",
-      "type": "autoturism"
-    },
-    {
-      "id": "beyoza_trail_pro_autoturism",
-      "name": "Beyoza Trail Pro",
-      "type": "autoturism"
-    },
-    {
-      "id": "bf_club_8_r",
-      "name": "BF Club 8 R",
-      "type": "autoturism"
-    },
-    {
-      "id": "bf400_motocicleta",
-      "name": "BF400",
-      "type": "motocicletă"
-    },
-    {
-      "id": "bf400_service_autospeciala_de_poliție",
-      "name": "BF400 Service",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "bison_command_ems_autospeciala_s.m.u.r.d.",
-      "name": "Bison Command EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "bizan_350_autoturism",
-      "name": "Bizan 350",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizan_horizon_bms_rx-34_autoturism",
-      "name": "Bizan Horizon BMS RX-34",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizan_saitamo_r-34_autoturism",
-      "name": "Bizan Saitamo R-34",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizan_tau_fighter_autoturism",
-      "name": "Bizan Tau Fighter",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_6x_autoturism",
-      "name": "Bizon 6X",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_6xw_autoturism",
-      "name": "Bizon 6XW",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_745_autoturism",
-      "name": "Bizon 745",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_7x_unmarked_autospeciala_de_poliție",
-      "name": "Bizon 7X Unmarked",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "bizon_7x-w_sandstorm_autoturism",
-      "name": "Bizon 7X-W Sandstorm",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_7xw_i6_autoturism",
-      "name": "Bizon 7XW i6",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_b8_autoturism",
-      "name": "Bizon B8",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_bx-3_autoturism",
-      "name": "Bizon BX-3",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_bx-3_mai_autospeciala_de_poliție",
-      "name": "Bizon BX-3 MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "bizon_bx-6_autoturism",
-      "name": "Bizon BX-6",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_cs5_i330_autoturism",
-      "name": "Bizon CS5 i330",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_e92_cabrio",
-      "name": "Bizon E92 Cabrio",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_ex-36_autoturism",
-      "name": "Bizon EX-36",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_ex-38_autoturism",
+      "id": "bizon_ex38_autoturism",
       "name": "Bizon EX-38",
       "type": "autoturism"
     },
     {
-      "id": "bizon_f10_autoturism",
-      "name": "Bizon F10",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_fx-90_autoturism",
-      "name": "Bizon FX-90",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_g60_ems_autospeciala_s.m.u.r.d.",
-      "name": "Bizon G60 EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "bizon_i320_ems_autospeciala_s.m.u.r.d.",
-      "name": "Bizon i320 EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "bizon_i7",
-      "name": "Bizon i7",
+      "id": "ubermacht_f90_autoturism",
+      "name": "Ubermacht F-90",
       "type": "autoturism"
     },
     {
       "id": "bizon_m8_autoturism",
       "name": "Bizon M8",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_mx-2_coupe_autoturism",
-      "name": "Bizon MX-2 Coupe",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_mx-4_cabrio_autoturism",
-      "name": "Bizon MX-4 Cabrio",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_mx-4_contest_autoturism",
-      "name": "Bizon MX-4 Contest",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_mx-5_ex-60_autoturism",
-      "name": "Bizon MX-5 EX-60",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_mx-5_mai_autospeciala_de_poliție",
-      "name": "Bizon MX-5 MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "bizon_mx-52_mai_autospeciala_de_poliție",
-      "name": "Bizon MX-52 MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "bizon_mx-6_autoturism",
-      "name": "Bizon MX-6",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_r1000_autoturism",
-      "name": "Bizon R1000",
-      "type": "autoturism"
-    },
-    {
-      "id": "r1000_motocicleta",
-      "name": "Bizon R1000",
-      "type": "motocicletă"
-    },
-    {
-      "id": "bizon_racheta_service_autospeciala_s.m.u.r.d.",
-      "name": "Bizon Racheta Service",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "bizon_w3_46e_autoturism",
-      "name": "Bizon W3 46E",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_w36_autoturism",
-      "name": "Bizon W36",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_w4_competition_autospeciala_de_poliție",
-      "name": "Bizon W4 Competition",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "bizon_w5_competition_f90_autoturism",
-      "name": "Bizon W5 Competition F90",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_w5_f10_autoturism",
-      "name": "Bizon W5 F10",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_w5_g60",
-      "name": "Bizon W5 G60",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_w5_performance_autoturism",
-      "name": "Bizon W5 Performance",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_xm_autoturism",
-      "name": "Bizon XM",
-      "type": "autoturism"
-    },
-    {
-      "id": "bizon_zt4_autoturism",
-      "name": "Bizon ZT4",
-      "type": "autoturism"
-    },
-    {
-      "id": "bondar_brs_650_autoturism",
-      "name": "Bondar BRS 650",
-      "type": "autoturism"
-    },
-    {
-      "id": "bondar_kr-1200_autoturism",
-      "name": "Bondar KR-1200",
-      "type": "autoturism"
-    },
-    {
-      "id": "bondar_r2000_autoturism",
-      "name": "Bondar R2000",
-      "type": "autoturism"
-    },
-    {
-      "id": "boop_angle_service_autospeciala_s.m.u.r.d.",
-      "name": "Boop Angle Service",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "boop_spartan_autoturism",
-      "name": "Boop Spartan",
-      "type": "autoturism"
-    },
-    {
-      "id": "boop_spartan_ems_autospeciala_s.m.u.r.d.",
-      "name": "Boop Spartan EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "bravado_cx-9_autoturism",
-      "name": "Bravado CX-9",
-      "type": "autoturism"
-    },
-    {
-      "id": "bravado_gauntlet_hemi",
-      "name": "Bravado Gauntlet Hemi",
-      "type": "autoturism"
-    },
-    {
-      "id": "buddy_black_autoturism",
-      "name": "Buddy Black",
-      "type": "autoturism"
-    },
-    {
-      "id": "buddy_centomille",
-      "name": "Buddy Centomille",
-      "type": "autoturism"
-    },
-    {
-      "id": "buddy_diamond_autoturism",
-      "name": "Buddy Diamond",
-      "type": "autoturism"
-    },
-    {
-      "id": "buddy_diva_autoturism",
-      "name": "Buddy Diva",
-      "type": "autoturism"
-    },
-    {
-      "id": "buddy_spyder_autoturism",
-      "name": "Buddy Spyder",
       "type": "autoturism"
     },
     {
@@ -4275,548 +3930,8 @@
       "type": "autoturism"
     },
     {
-      "id": "buddy_zion_autoturism",
-      "name": "Buddy Zion",
-      "type": "autoturism"
-    },
-    {
-      "id": "buddy_zion_mai_autospeciala_de_poliție",
-      "name": "Buddy Zion MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "budi_8r_coupe_autoturism",
-      "name": "Budi 8R Coupe",
-      "type": "autoturism"
-    },
-    {
-      "id": "budi_bs_thunder_bms_autoturism",
-      "name": "Budi BS Thunder BMS",
-      "type": "autoturism"
-    },
-    {
-      "id": "budi_bs-3_sedan_autoturism",
-      "name": "Budi BS-3 Sedan",
-      "type": "autoturism"
-    },
-    {
-      "id": "budi_bs-5_autoturism",
-      "name": "Budi BS-5",
-      "type": "autoturism"
-    },
-    {
-      "id": "budi_bs-6_autoturism",
-      "name": "Budi BS-6",
-      "type": "autoturism"
-    },
-    {
-      "id": "budi_bs-6_mai_autospeciala_de_poliție",
-      "name": "Budi BS-6 MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "budi_bs-7_autoturism",
-      "name": "Budi BS-7",
-      "type": "autoturism"
-    },
-    {
-      "id": "budi_bs-7_mai_autospeciala_de_poliție",
-      "name": "Budi BS-7 MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "budi_bs-w8_mai_autospeciala_de_poliție",
-      "name": "Budi BS-W8 MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "budi_electron_mai_autospeciala_de_poliție",
-      "name": "Budi Electron MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "budi_qx-7_autoturism",
-      "name": "Budi QX-7",
-      "type": "autoturism"
-    },
-    {
-      "id": "budi_sr3_ems_autospeciala_s.m.u.r.d.",
-      "name": "Budi SR3 EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "budi_sx-8_1998_autoturism",
-      "name": "Budi SX-8 1998",
-      "type": "autoturism"
-    },
-    {
-      "id": "bullet_eater_raven_mai_autospeciala_blindată_s.a.s.",
-      "name": "Bullet Eater Raven MAI",
-      "type": "autospeciala blindată S.A.S."
-    },
-    {
-      "id": "c.n.a.i.r_winter_autoturism",
-      "name": "C.N.A.I.R Winter",
-      "type": "autoturism"
-    },
-    {
-      "id": "coil_savanna_autoturism",
-      "name": "Coil Savanna",
-      "type": "autoturism"
-    },
-    {
-      "id": "coniseac_alpha_bs_autoturism",
-      "name": "Coniseac Alpha BS",
-      "type": "autoturism"
-    },
-    {
-      "id": "coniseac_alpha_mai_autospeciala_de_poliție",
-      "name": "Coniseac Alpha MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "corvus_charlotte_zx-6_autoturism",
-      "name": "Corvus Charlotte ZX-6",
-      "type": "autoturism"
-    },
-    {
-      "id": "dagger_canion_autoturism",
-      "name": "Dagger Canion",
-      "type": "autoturism"
-    },
-    {
-      "id": "dagger_fire_autoturism",
-      "name": "Dagger Fire",
-      "type": "autoturism"
-    },
-    {
-      "id": "decebal_1310_sport_autoturism",
-      "name": "Decebal 1310 Sport",
-      "type": "autoturism"
-    },
-    {
-      "id": "decebal_dragster_mai_autospeciala_de_poliție",
-      "name": "Decebal Dragster MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "decebal_sandal_autoturism",
-      "name": "Decebal Sandal",
-      "type": "autoturism"
-    },
-    {
-      "id": "declasse_granger_ems_autospeciala_s.m.u.r.d.",
-      "name": "Declasse Granger EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "dinka_nexus_autoturism",
-      "name": "Dinka Nexus",
-      "type": "autoturism"
-    },
-    {
-      "id": "dinka_sugoi",
-      "name": "Dinka Sugoi",
-      "type": "autoturism"
-    },
-    {
-      "id": "dundreary_landroamer_ems_autospeciala_s.m.u.r.d.",
-      "name": "Dundreary Landroamer EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "enduro_motocicleta",
-      "name": "Enduro",
-      "type": "motocicletă"
-    },
-    {
-      "id": "enus_jubilee_royal_autoturism",
-      "name": "Enus Jubilee Royal",
-      "type": "autoturism"
-    },
-    {
-      "id": "ferentari_dracula_autoturism",
-      "name": "Ferentari Dracula",
-      "type": "autoturism"
-    },
-    {
-      "id": "ferentari_echo_autoturism",
-      "name": "Ferentari Echo",
-      "type": "autoturism"
-    },
-    {
-      "id": "ferentari_fs-90_mai_autospeciala_de_poliție",
-      "name": "Ferentari FS-90 MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "ferentari_portenzo_autoturism",
-      "name": "Ferentari Portenzo",
-      "type": "autoturism"
-    },
-    {
-      "id": "flatbed_utilitara",
-      "name": "Flatbed",
-      "type": "utilitară"
-    },
-    {
-      "id": "frogger_ems_autospeciala_s.m.u.r.d.",
-      "name": "Frogger EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "frogger_hs_mai_autospeciala_de_poliție",
-      "name": "Frogger HS MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "grotti_rxx-s_autoturism",
-      "name": "Grotti RXX-S",
-      "type": "autoturism"
-    },
-    {
-      "id": "grotti_spider_autoturism",
-      "name": "Grotti Spider",
-      "type": "autoturism"
-    },
-    {
-      "id": "grotti_spider_r_autoturism",
-      "name": "Grotti Spider R",
-      "type": "autoturism"
-    },
-    {
-      "id": "gtr_autoturism",
-      "name": "GTR",
-      "type": "autoturism"
-    },
-    {
-      "id": "gtr_mai_autospeciala_de_poliție",
-      "name": "GTR MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "hakuchou_motocicletă",
-      "name": "Hakuchou",
-      "type": "motocicletă"
-    },
-    {
-      "id": "hakuchou_drag_motocicletă",
-      "name": "Hakuchou Drag",
-      "type": "motocicletă"
-    },
-    {
-      "id": "hakuchou_service_autospeciala_de_poliție",
-      "name": "Hakuchou Service",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "hyante_zenafey_autospeciala_de_poliție",
-      "name": "Hyante Zenafey",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "koenigsberg_jeska_autoturism",
-      "name": "Koenigsberg Jeska",
-      "type": "autoturism"
-    },
-    {
-      "id": "koenigsberg_mera_autoturism",
-      "name": "Koenigsberg Mera",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_avantero_svj_autoturism",
-      "name": "Lambada Avantero SVJ",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_black_autoturism",
-      "name": "Lambada Black",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_rovente_autoturism",
-      "name": "Lambada Rovente",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_san_autoturism",
-      "name": "Lambada SAN",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_spark_autoturism",
-      "name": "Lambada Spark",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_tornada_autospeciala_de_poliție",
-      "name": "Lambada Tornada",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "lambada_tornado_autoturism",
-      "name": "Lambada Tornado",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_ultimate_autoturism",
-      "name": "Lambada Ultimate",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_uraganu_autoturism",
-      "name": "Lambada Uraganu",
-      "type": "autoturism"
-    },
-    {
-      "id": "lambada_urs_autoturism",
-      "name": "Lambada Urs",
-      "type": "autoturism"
-    },
-    {
-      "id": "lampadati_gta_autoturism",
-      "name": "Lampadati GTA",
-      "type": "autoturism"
-    },
-    {
-      "id": "maibatsu_penumbra_retro_autoturism",
-      "name": "Maibatsu Penumbra Retro",
-      "type": "autoturism"
-    },
-    {
-      "id": "maidubizi_epsilon_9_autoturism",
-      "name": "Maidubizi Epsilon 9",
-      "type": "autoturism"
-    },
-    {
-      "id": "manchez_motocicleta",
-      "name": "Manchez",
-      "type": "motocicletă"
-    },
-    {
-      "id": "marisati_ghilli_autospeciala_de_poliție",
-      "name": "Marisati Ghilli",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "marley_david_sunset_autoturism",
-      "name": "Marley David Sunset",
-      "type": "autoturism"
-    },
-    {
-      "id": "masagia_giuseppe_service_autospeciala_s.m.u.r.d.",
-      "name": "Masagia Giuseppe Service",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "maverick_service_autospeciala_s.m.u.r.d.",
-      "name": "Maverick Service",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "mercies_600_autoturism",
-      "name": "Mercies 600",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_63-s_mai_autospeciala_de_poliție",
-      "name": "Mercies 63-S MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "mercies_bls_500_autoturism",
-      "name": "Mercies BLS 500",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_bls_63_autoturism",
-      "name": "Mercies BLS 63",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_brutus_racheta_autoturism",
-      "name": "Mercies Brutus Racheta",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_bzg_55_autoturism",
-      "name": "Mercies BZG 55",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_bzg_bls_autoturism",
-      "name": "Mercies BZG BLS",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_bzg_bms_autoturism",
-      "name": "Mercies BZG BMS",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_bzg_bms-63_coupe_autoturism",
-      "name": "Mercies BZG BMS-63 Coupe",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_bzg_cx-63_sedan_autoturism",
+      "id": "mercies_bzg_cx63_sedan_autoturism",
       "name": "Mercies BZG CX-63 Sedan",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_bzg_ls_63_autoturism",
-      "name": "Mercies BZG LS 63",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_bzg_sx-63_coupe_autoturism",
-      "name": "Mercies BZG SX-63 Coupe",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_gx-65_autoturism",
-      "name": "Mercies GX-65",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_mag_autoturism",
-      "name": "Mercies MAG",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_monarch_r650_autoturism",
-      "name": "Mercies Monarch R650",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_ms_bms_autoturism",
-      "name": "Mercies MS BMS",
-      "type": "autoturism"
-    },
-    {
-      "id": "mercies_rush_ems_autospeciala_s.m.u.r.d.",
-      "name": "Mercies Rush EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "mercies_xtreme_6x6_autoturism",
-      "name": "Mercies Xtreme 6x6",
-      "type": "autoturism"
-    },
-    {
-      "id": "mtl_hazmat_ems_autospeciala_s.m.u.r.d.",
-      "name": "MTL Hazmat EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "mule_ems_autospeciala_s.m.u.r.d.",
-      "name": "Mule EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "mushtar_cobra_autoturism",
-      "name": "Mushtar Cobra",
-      "type": "autoturism"
-    },
-    {
-      "id": "nagasaki_ems_autospeciala_s.m.u.r.d.",
-      "name": "Nagasaki EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "nagasaki_fyz_motocicletă",
-      "name": "Nagasaki FYZ",
-      "type": "motocicletă"
-    },
-    {
-      "id": "nagasaki_rvs_motocicletă",
-      "name": "Nagasaki RVS",
-      "type": "motocicletă"
-    },
-    {
-      "id": "nagasaki_samurai_motocicletă",
-      "name": "Nagasaki Samurai",
-      "type": "motocicletă"
-    },
-    {
-      "id": "nagasaki_ultra_motocicletă",
-      "name": "Nagasaki Ultra",
-      "type": "motocicletă"
-    },
-    {
-      "id": "nightfury_rr_autoturism",
-      "name": "NightFury RR",
-      "type": "autoturism"
-    },
-    {
-      "id": "nightshark_ems_autospeciala_s.m.u.r.d.",
-      "name": "Nightshark EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "overflod_toatara_autoturism",
-      "name": "Overflod Toatara",
-      "type": "autoturism"
-    },
-    {
-      "id": "paradise_911_gt-3sr_autoturism",
-      "name": "Paradise 911 GT-3SR",
-      "type": "autoturism"
-    },
-    {
-      "id": "paradise_911_s_autoturism",
-      "name": "Paradise 911 S",
-      "type": "autoturism"
-    },
-    {
-      "id": "paradise_991_s_turbo_autoturism",
-      "name": "Paradise 991 S Turbo",
-      "type": "autoturism"
-    },
-    {
-      "id": "paradise_991_s_turbo_cabrio_autoturism",
-      "name": "Paradise 991 S Turbo Cabrio",
-      "type": "autoturism"
-    },
-    {
-      "id": "paradise_991_s_turbo_mai_autospeciala_de_poliție",
-      "name": "Paradise 991 S Turbo MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "paradise_panama_autoturism",
-      "name": "Paradise Panama",
-      "type": "autoturism"
-    },
-    {
-      "id": "paradise_pursuit_autoturism",
-      "name": "Paradise Pursuit",
-      "type": "autoturism"
-    },
-    {
-      "id": "paradise_snowflake_autoturism",
-      "name": "Paradise Snowflake",
-      "type": "autoturism"
-    },
-    {
-      "id": "patriot_mil-spec_mai_autospeciala_s.m.u.r.d.",
-      "name": "Patriot Mil-Spec MAI",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "pegassi_batti_901_r_motocicletă",
-      "name": "Pegassi Batti 901 R",
-      "type": "motocicletă"
-    },
-    {
-      "id": "pejos_508_bms_autoturism",
-      "name": "Pejos 508 BMS",
-      "type": "autoturism"
-    },
-    {
-      "id": "pelicia_haira_autoturism",
-      "name": "Pelicia Haira",
       "type": "autoturism"
     },
     {
@@ -4825,83 +3940,38 @@
       "type": "autoturism"
     },
     {
-      "id": "police_maverick_autospeciala_de_poliție",
-      "name": "Police Maverick",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "prison_bus2_autospeciala_de_poliție",
-      "name": "Prison Bus2",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "raven_gt_autoturism",
-      "name": "Raven GT",
+      "id": "paradise_pursuit_autoturism",
+      "name": "Paradise Pursuit",
       "type": "autoturism"
     },
     {
-      "id": "regal-revolve_specter_autoturism",
-      "name": "Regal-Revolve Specter",
+      "id": "bondar_brs_650_autoturism",
+      "name": "Bondar BRS 650",
       "type": "autoturism"
     },
     {
-      "id": "rocco_mai_autospeciala_de_poliție",
-      "name": "Rocco MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "sakura_festival_autoturism",
-      "name": "Sakura Festival",
+      "id": "buddy_zion_autoturism",
+      "name": "Buddy Zion",
       "type": "autoturism"
     },
     {
-      "id": "sanchez_motocicleta",
-      "name": "Sanchez",
-      "type": "motocicletă"
-    },
-    {
-      "id": "saturn_lione_bs_autoturism",
-      "name": "Saturn Lione BS",
+      "id": "mercies_bls_63_autoturism",
+      "name": "Mercies BLS 63",
       "type": "autoturism"
     },
     {
-      "id": "soda_octavian_iii_autoturism",
-      "name": "Soda Octavian III",
+      "id": "benefactor_c_500_autoturism",
+      "name": "Benefactor C 500",
       "type": "autoturism"
     },
     {
-      "id": "sunby_impact_autoturism",
-      "name": "Sunby Impact",
+      "id": "benefactor_e_55_autoturism",
+      "name": "Benefactor E 55",
       "type": "autoturism"
     },
     {
-      "id": "super_range_evotra_autoturism",
-      "name": "Super Range Evotra",
-      "type": "autoturism"
-    },
-    {
-      "id": "super_range_rsv_autospeciala_de_poliție",
-      "name": "Super Range RSV",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "super_range_vrs_ems_autospeciala_s.m.u.r.d.",
-      "name": "Super Range VRS EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "syan_ss_autoturism",
-      "name": "Syan SS",
-      "type": "autoturism"
-    },
-    {
-      "id": "syan_ss_hypersport_autoturism",
-      "name": "Syan SS Hypersport",
-      "type": "autoturism"
-    },
-    {
-      "id": "taurus_bms_autoturism",
-      "name": "Taurus BMS",
+      "id": "maidubizi_epsilon_9_autoturism",
+      "name": "Maidubizi Epsilon 9",
       "type": "autoturism"
     },
     {
@@ -4910,9 +3980,84 @@
       "type": "autoturism"
     },
     {
-      "id": "taurus_gt_mai_autospeciala_de_poliție",
-      "name": "Taurus GT MAI",
-      "type": "autospeciala de poliție"
+      "id": "grotti_rxxs_autoturism",
+      "name": "Grotti RXX-S",
+      "type": "autoturism"
+    },
+    {
+      "id": "mercies_gx63_autoturism",
+      "name": "Mercies GX-63",
+      "type": "autoturism"
+    },
+    {
+      "id": "pejos_508_bms_autoturism",
+      "name": "Pejos 508 BMS",
+      "type": "autoturism"
+    },
+    {
+      "id": "dagger_canion_autoturism",
+      "name": "Dagger Canion",
+      "type": "autoturism"
+    },
+    {
+      "id": "budi_bs3_sedan_autoturism",
+      "name": "Budi BS-3 Sedan",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_bx3_autoturism",
+      "name": "Bizon BX-3",
+      "type": "autoturism"
+    },
+    {
+      "id": "corvus_charlotte_zx6_autoturism",
+      "name": "Corvus Charlotte ZX-6",
+      "type": "autoturism"
+    },
+    {
+      "id": "mercies_bzg_bls_autoturism",
+      "name": "Mercies BZG BLS",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_b8_autoturism",
+      "name": "Bizon B8",
+      "type": "autoturism"
+    },
+    {
+      "id": "dinka_nexus_autoturism",
+      "name": "Dinka Nexus",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_mx6_autoturism",
+      "name": "Bizon MX-6",
+      "type": "autoturism"
+    },
+    {
+      "id": "lambada_uraganu_autoturism",
+      "name": "Lambada Uraganu",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_ex36_autoturism",
+      "name": "Bizon EX-36",
+      "type": "autoturism"
+    },
+    {
+      "id": "ubermacht_w4_cabrio_autoturism",
+      "name": "Ubermacht W4 Cabrio",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_mx4_contest_autoturism",
+      "name": "Bizon MX-4 Contest",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_mx5_ex60_autoturism",
+      "name": "Bizon MX-5 EX-60",
+      "type": "autoturism"
     },
     {
       "id": "taurus_mushtar_bms_autoturism",
@@ -4920,24 +4065,404 @@
       "type": "autoturism"
     },
     {
-      "id": "taurus_ruptor_mai_autospeciala_de_poliție",
-      "name": "Taurus Ruptor MAI",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "taurus_t150_hunter_autoturism",
-      "name": "Taurus T150 Hunter",
+      "id": "benefactor_w164_autoturism",
+      "name": "Benefactor W164",
       "type": "autoturism"
     },
     {
-      "id": "vapid_avalanche_autospeciala_s.m.u.r.d.",
-      "name": "Vapid Avalanche",
-      "type": "autospeciala S.M.U.R.D."
+      "id": "baza_bx5_miza_autoturism",
+      "name": "Baza BX-5 Miza",
+      "type": "autoturism"
     },
     {
-      "id": "vapid_pulaski_ems_autospeciala_s.m.u.r.d.",
-      "name": "Vapid Pulaski EMS",
-      "type": "autospeciala S.M.U.R.D."
+      "id": "annis_roxanne_autoturism",
+      "name": "Annis Roxanne",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizan_tau_fighter_autoturism",
+      "name": "Bizan Tau Fighter",
+      "type": "autoturism"
+    },
+    {
+      "id": "marley_david_sunset_autoturism",
+      "name": "Marley David Sunset",
+      "type": "autoturism"
+    },
+    {
+      "id": "vapid_speedo_express_autoturism",
+      "name": "Vapid Speedo Express",
+      "type": "autoturism"
+    },
+    {
+      "id": "paradise_panama_autoturism",
+      "name": "Paradise Panama",
+      "type": "autoturism"
+    },
+    {
+      "id": "maibatsu_penumbra_retro_autoturism",
+      "name": "Maibatsu Penumbra Retro",
+      "type": "autoturism"
+    },
+    {
+      "id": "ferentari_portenzo_autoturism",
+      "name": "Ferentari Portenzo",
+      "type": "autoturism"
+    },
+    {
+      "id": "balkan_terra_autoturism",
+      "name": "Balkan Terra",
+      "type": "autoturism"
+    },
+    {
+      "id": "mercies_bzg_bms63_coupe_autoturism",
+      "name": "Mercies BZG BMS-63 Coupe",
+      "type": "autoturism"
+    },
+    {
+      "id": "gallivanter_gladiator_autoturism",
+      "name": "Gallivanter Gladiator",
+      "type": "autoturism"
+    },
+    {
+      "id": "lambada_tornado_autoturism",
+      "name": "Lambada Tornado",
+      "type": "autoturism"
+    },
+    {
+      "id": "pelicia_haira_autoturism",
+      "name": "Pelicia Haira",
+      "type": "autoturism"
+    },
+    {
+      "id": "obey_rs5_autoturism",
+      "name": "Obey RS5",
+      "type": "autoturism"
+    },
+    {
+      "id": "obey_itron_gt_autoturism",
+      "name": "Obey I-tron GT",
+      "type": "autoturism"
+    },
+    {
+      "id": "baza_rxb7_autoturism",
+      "name": "Baza RXB-7",
+      "type": "autoturism"
+    },
+    {
+      "id": "budi_sx8_1998_autoturism",
+      "name": "Budi SX-8 1998",
+      "type": "autoturism"
+    },
+    {
+      "id": "mercies_bzg_sx63_coupe_autoturism",
+      "name": "Mercies BZG SX-63 Coupe",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_r1000_autoturism",
+      "name": "Bizon R1000",
+      "type": "autoturism"
+    },
+    {
+      "id": "dinka_lione_autoturism",
+      "name": "Dinka Lione",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizan_horizon_bms_rx34_autoturism",
+      "name": "Bizan Horizon BMS RX-34",
+      "type": "autoturism"
+    },
+    {
+      "id": "coil_savanna_autoturism",
+      "name": "Coil Savanna",
+      "type": "autoturism"
+    },
+    {
+      "id": "beyoza_super_v4_autoturism",
+      "name": "Beyoza Super v4",
+      "type": "autoturism"
+    },
+    {
+      "id": "vapid_sandstorm_autoturism",
+      "name": "Vapid Sandstorm",
+      "type": "autoturism"
+    },
+    {
+      "id": "beyoza_prime_autoturism",
+      "name": "Beyoza Prime",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_bx6_autoturism",
+      "name": "Bizon BX-6",
+      "type": "autoturism"
+    },
+    {
+      "id": "buddy_diva_autoturism",
+      "name": "Buddy Diva",
+      "type": "autoturism"
+    },
+    {
+      "id": "beyoza_trail_pro_autoturism",
+      "name": "Beyoza Trail Pro",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_schlagen_ar_autoturism",
+      "name": "Benefactor Schlagen AR",
+      "type": "autoturism"
+    },
+    {
+      "id": "pfister_911_autoturism",
+      "name": "Pfister 911",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_mx2_coupe_autoturism",
+      "name": "Bizon MX-2 Coupe",
+      "type": "autoturism"
+    },
+    {
+      "id": "budi_8r_coupe_autoturism",
+      "name": "Budi 8R Coupe",
+      "type": "autoturism"
+    },
+    {
+      "id": "soda_octavian_iii_autoturism",
+      "name": "Soda Octavian III",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_6xw_autoturism",
+      "name": "Bizon 6XW",
+      "type": "autoturism"
+    },
+    {
+      "id": "ubermacht_x5_autoturism",
+      "name": "Ubermacht X5",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_cs5_i330_autoturism",
+      "name": "Bizon CS5 i330",
+      "type": "autoturism"
+    },
+    {
+      "id": "lambada_san_autoturism",
+      "name": "Lambada SAN",
+      "type": "autoturism"
+    },
+    {
+      "id": "buddy_black_autoturism",
+      "name": "Buddy Black",
+      "type": "autoturism"
+    },
+    {
+      "id": "mercies_brutus_racheta_autoturism",
+      "name": "Mercies Brutus Racheta",
+      "type": "autoturism"
+    },
+    {
+      "id": "lambada_ultimate_autoturism",
+      "name": "Lambada Ultimate",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_w3_46e_autoturism",
+      "name": "Bizon W3 46E",
+      "type": "autoturism"
+    },
+    {
+      "id": "cnair_winter_autoturism",
+      "name": "C.N.A.I.R Winter",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_w5_competition_f90_autospeciala_de_poliție",
+      "name": "Bizon W5 Competition F90",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "bizon_7xw_sandstorm_autoturism",
+      "name": "Bizon 7X-W Sandstorm",
+      "type": "autoturism"
+    },
+    {
+      "id": "lambada_avantero_svj_autoturism",
+      "name": "Lambada Avantero SVJ",
+      "type": "autoturism"
+    },
+    {
+      "id": "paradise_991_s_turbo_autoturism",
+      "name": "Paradise 991 S Turbo",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_w5_performance_autoturism",
+      "name": "Bizon W5 Performance",
+      "type": "autoturism"
+    },
+    {
+      "id": "pegassi_rovente_autoturism",
+      "name": "Pegassi Rovente",
+      "type": "autoturism"
+    },
+    {
+      "id": "buddy_spyder_autoturism",
+      "name": "Buddy Spyder",
+      "type": "autoturism"
+    },
+    {
+      "id": "koenigsberg_mera_autoturism",
+      "name": "Koenigsberg Mera",
+      "type": "autoturism"
+    },
+    {
+      "id": "mercies_mag_autoturism",
+      "name": "Mercies MAG",
+      "type": "autoturism"
+    },
+    {
+      "id": "lampadati_gta_autoturism",
+      "name": "Lampadati GTA",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_zt4_autoturism",
+      "name": "Bizon ZT4",
+      "type": "autoturism"
+    },
+    {
+      "id": "buddy_diamond_autoturism",
+      "name": "Buddy Diamond",
+      "type": "autoturism"
+    },
+    {
+      "id": "super_range_evotra_autoturism",
+      "name": "Super Range Evotra",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_xm_autoturism",
+      "name": "Bizon XM",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_f10_autoturism",
+      "name": "Bizon F10",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_speedo_xl_autoturism",
+      "name": "Benefactor Speedo XL",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_transit_autoturism",
+      "name": "Benefactor Transit",
+      "type": "autoturism"
+    },
+    {
+      "id": "dagger_fire_autoturism",
+      "name": "Dagger Fire",
+      "type": "autoturism"
+    },
+    {
+      "id": "syan_ss_autoturism",
+      "name": "Syan SS",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_imperial_autoturism",
+      "name": "Benefactor Imperial",
+      "type": "autoturism"
+    },
+    {
+      "id": "grotti_spider_r_autoturism",
+      "name": "Grotti Spider R",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizan_saitamo_r34_autoturism",
+      "name": "Bizan Saitamo R-34",
+      "type": "autoturism"
+    },
+    {
+      "id": "paradise_991_s_turbo_cabrio_autoturism",
+      "name": "Paradise 991 S Turbo Cabrio",
+      "type": "autoturism"
+    },
+    {
+      "id": "white_dragon_gtr_autoturism",
+      "name": "White Dragon GTR",
+      "type": "autoturism"
+    },
+    {
+      "id": "buddy_bolid_autoturism",
+      "name": "Buddy Bolid",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_e92_cabrio_autoturism",
+      "name": "Bizon E92 Cabrio",
+      "type": "autoturism"
+    },
+    {
+      "id": "dinka_sugoi_autoturism",
+      "name": "Dinka Sugoi",
+      "type": "autoturism"
+    },
+    {
+      "id": "bravado_gauntlet_hemi_autoturism",
+      "name": "Bravado Gauntlet Hemi",
+      "type": "autoturism"
+    },
+    {
+      "id": "bf_club_8_r_autoturism",
+      "name": "BF Club 8 R",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_i7_autoturism",
+      "name": "Bizon i7",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_w5_g60_autoturism",
+      "name": "Bizon W5 G60",
+      "type": "autoturism"
+    },
+    {
+      "id": "buddy_centomille_autoturism",
+      "name": "Buddy Centomille",
+      "type": "autoturism"
+    },
+    {
+      "id": "lambada_urs_autoturism",
+      "name": "Lambada Urs",
+      "type": "autoturism"
+    },
+    {
+      "id": "progen_ayrton_autoturism",
+      "name": "Progen Ayrton",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_batiz_autoturism",
+      "name": "Benefactor Batiz",
+      "type": "autoturism"
+    },
+    {
+      "id": "bravado_cx9_autoturism",
+      "name": "Bravado CX-9",
+      "type": "autoturism"
+    },
+    {
+      "id": "grotti_spider_autoturism",
+      "name": "Grotti Spider",
+      "type": "autoturism"
     },
     {
       "id": "vapid_riata_autoturism",
@@ -4950,44 +4475,524 @@
       "type": "autoturism"
     },
     {
-      "id": "vapid_sandstorm_autoturism",
-      "name": "Vapid Sandstorm",
+      "id": "benefactor_grande_autoturism",
+      "name": "Benefactor Grande",
       "type": "autoturism"
     },
     {
-      "id": "vapid_speedo_2_ems_autospeciala_s.m.u.r.d.",
-      "name": "Vapid Speedo 2 EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "vapid_speedo_ems_autospeciala_s.m.u.r.d.",
-      "name": "Vapid Speedo EMS",
-      "type": "autospeciala S.M.U.R.D."
-    },
-    {
-      "id": "vapid_speedo_express_autoturism",
-      "name": "Vapid Speedo Express",
+      "id": "bizon_w36_autoturism",
+      "name": "Bizon W36",
       "type": "autoturism"
     },
     {
-      "id": "vapid_transporter_ems_autospeciala_s.m.u.r.d.",
+      "id": "lambada_spark_autoturism",
+      "name": "Lambada Spark",
+      "type": "autoturism"
+    },
+    {
+      "id": "overflod_toatara_autoturism",
+      "name": "Overflod Toatara",
+      "type": "autoturism"
+    },
+    {
+      "id": "mercies_xtreme_6x6_autoturism",
+      "name": "Mercies Xtreme 6x6",
+      "type": "autoturism"
+    },
+    {
+      "id": "enus_spectrum_autoturism",
+      "name": "Enus Spectrum",
+      "type": "autoturism"
+    },
+    {
+      "id": "enus_jubilee_royal_autoturism",
+      "name": "Enus Jubilee Royal",
+      "type": "autoturism"
+    },
+    {
+      "id": "mushtar_cobra_autoturism",
+      "name": "Mushtar Cobra",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_club_r7_autoturism",
+      "name": "Benefactor Club R7",
+      "type": "autoturism"
+    },
+    {
+      "id": "lambada_black_autoturism",
+      "name": "Lambada Black",
+      "type": "autoturism"
+    },
+    {
+      "id": "paradise_snowflake_autoturism",
+      "name": "Paradise Snowflake",
+      "type": "autoturism"
+    },
+    {
+      "id": "ubermacht_m5_autoturism",
+      "name": "Ubermacht M5",
+      "type": "autoturism"
+    },
+    {
+      "id": "apollo_intensa_emozione_autoturism",
+      "name": "Apollo Intensa Emozione",
+      "type": "autoturism"
+    },
+    {
+      "id": "ferentari_dracula_autoturism",
+      "name": "Ferentari Dracula",
+      "type": "autoturism"
+    },
+    {
+      "id": "paradise_911_gt3sr_autoturism",
+      "name": "Paradise 911 GT-3SR",
+      "type": "autoturism"
+    },
+    {
+      "id": "bondar_kr1200_autoturism",
+      "name": "Bondar KR-1200",
+      "type": "autoturism"
+    },
+    {
+      "id": "koenigsberg_jeska_autoturism",
+      "name": "Koenigsberg Jeska",
+      "type": "autoturism"
+    },
+    {
+      "id": "nightfury_rr_autoturism",
+      "name": "NightFury RR",
+      "type": "autoturism"
+    },
+    {
+      "id": "syan_ss_hypersport_autoturism",
+      "name": "Syan SS Hypersport",
+      "type": "autoturism"
+    },
+    {
+      "id": "sakura_festival_autoturism",
+      "name": "Sakura Festival",
+      "type": "autoturism"
+    },
+    {
+      "id": "balkan_galactic_5_autoturism",
+      "name": "Balkan Galactic 5",
+      "type": "autoturism"
+    },
+    {
+      "id": "bullet_eater_raven_mai_autospeciala_de_poliție",
+      "name": "Bullet Eater Raven MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "bizon_mx52_mai_autospeciala_de_poliție",
+      "name": "Bizon MX-52 MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "rocco_mai_autospeciala_de_poliție",
+      "name": "Rocco MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "buddy_zion_mai_autospeciala_de_poliție",
+      "name": "Buddy Zion MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "decebal_dragster_mai_autospeciala_de_poliție",
+      "name": "Decebal Dragster MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "budi_electron_mai_autospeciala_de_poliție",
+      "name": "Budi Electron MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "taurus_gt_mai_autospeciala_de_poliție",
+      "name": "Taurus GT MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "frogger_hs_mai_autospeciala_de_poliție",
+      "name": "Frogger HS MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "gtr_mai_autospeciala_de_poliție",
+      "name": "GTR MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "coniseac_alpha_mai_autospeciala_de_poliție",
+      "name": "Coniseac Alpha MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "mercies_63s_mai_autospeciala_de_poliție",
+      "name": "Mercies 63-S MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "beloren_b1_mai_autospeciala_de_poliție",
+      "name": "Beloren B1 MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "taurus_ruptor_mai_autospeciala_de_poliție",
+      "name": "Taurus Ruptor MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "budi_bs6_mai_autospeciala_de_poliție",
+      "name": "Budi BS-6 MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "budi_bs7_mai_autospeciala_de_poliție",
+      "name": "Budi BS-7 MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "ferentari_fs90_mai_autospeciala_de_poliție",
+      "name": "Ferentari FS-90 MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "budi_bsw8_mai_autospeciala_de_poliție",
+      "name": "Budi BS-W8 MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "paradise_991_s_turbo_mai_autospeciala_de_poliție",
+      "name": "Paradise 991 S Turbo MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "police_maverick_autospeciala_de_poliție",
+      "name": "Police Maverick",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "hakuchou_service_autospeciala_de_poliție",
+      "name": "Hakuchou Service",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "bf400_service_autospeciala_de_poliție",
+      "name": "BF400 Service",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "volt_s_performance_autoturism",
+      "name": "Volt S Performance",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_mx5_mai_autospeciala_de_poliție",
+      "name": "Bizon MX-5 MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "bizon_bx3_mai_autospeciala_de_poliție",
+      "name": "Bizon BX-3 MAI",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "prison_bus2_autoturism",
+      "name": "Prison Bus2",
+      "type": "autoturism"
+    },
+    {
+      "id": "marisati_ghilli_autoturism",
+      "name": "Marisati Ghilli",
+      "type": "autoturism"
+    },
+    {
+      "id": "hyante_zenafey_autoturism",
+      "name": "Hyante Zenafey",
+      "type": "autoturism"
+    },
+    {
+      "id": "bizon_w4_competition_autospeciala_de_poliție",
+      "name": "Bizon W4 Competition",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "bizon_7x_unmarked_autospeciala_de_poliție",
+      "name": "Bizon 7X Unmarked",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "lambada_tornada_autospeciala_de_poliție",
+      "name": "Lambada Tornada",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "super_range_rsv_autoturism",
+      "name": "Super Range RSV",
+      "type": "autoturism"
+    },
+    {
+      "id": "atv_ems_autospeciala_smurd",
+      "name": "ATV EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "maverick_service_autospeciala_de_poliție",
+      "name": "Maverick Service",
+      "type": "autospeciala de poliție"
+    },
+    {
+      "id": "vapid_transporter_ems_autospeciala_smurd",
       "name": "Vapid Transporter EMS",
       "type": "autospeciala S.M.U.R.D."
     },
     {
-      "id": "verus_atv",
-      "name": "Verus",
-      "type": "ATV"
+      "id": "bizon_i320_ems_autospeciala_smurd",
+      "name": "Bizon i320 EMS",
+      "type": "autospeciala S.M.U.R.D."
     },
     {
-      "id": "volt_s_performance_autospeciala_de_poliție",
-      "name": "Volt S Performance",
-      "type": "autospeciala de poliție"
-    },
-    {
-      "id": "voltage_type_s_autoturism",
-      "name": "Voltage Type S",
+      "id": "vapid_avalanche_autoturism",
+      "name": "Vapid Avalanche",
       "type": "autoturism"
+    },
+    {
+      "id": "benefactor_63c_ems_autospeciala_smurd",
+      "name": "Benefactor 63C EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "benefactor_sprinter_ems_autospeciala_smurd",
+      "name": "Benefactor Sprinter EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "bizon_g60_ems_autospeciala_smurd",
+      "name": "Bizon G60 EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "super_range_vrs_ems_autospeciala_smurd",
+      "name": "Super Range VRS EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "nagasaki_ems_autospeciala_smurd",
+      "name": "Nagasaki EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "nightshark_ems_autospeciala_smurd",
+      "name": "Nightshark EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "mule_ems_autospeciala_smurd",
+      "name": "Mule EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "budi_sr3_ems_autospeciala_smurd",
+      "name": "Budi SR3 EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "benefactor_grande_ems_autospeciala_smurd",
+      "name": "Benefactor Grande EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "benefactor_duo_ems_autospeciala_smurd",
+      "name": "Benefactor Duo EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "boop_spartan_ems_autospeciala_smurd",
+      "name": "Boop Spartan EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "frogger_ems_autospeciala_smurd",
+      "name": "Frogger EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "raven_gt_autoturism",
+      "name": "Raven GT",
+      "type": "autoturism"
+    },
+    {
+      "id": "albany_cavalvade_iii_autoturism",
+      "name": "Albany Cavalvade III",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_visione_autoturism",
+      "name": "Benefactor Visione",
+      "type": "autoturism"
+    },
+    {
+      "id": "maibatsu_evolution_autoturism",
+      "name": "Maibatsu Evolution",
+      "type": "autoturism"
+    },
+    {
+      "id": "enus_expert_gt_autoturism",
+      "name": "Enus Expert GT",
+      "type": "autoturism"
+    },
+    {
+      "id": "grotti_la_grotti_autoturism",
+      "name": "Grotti La Grotti",
+      "type": "autoturism"
+    },
+    {
+      "id": "bf_club_4_autoturism",
+      "name": "BF Club 4",
+      "type": "autoturism"
+    },
+    {
+      "id": "annis_elegy_gtr_autoturism",
+      "name": "Annis Elegy GTR",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_opulent_autoturism",
+      "name": "Benefactor Opulent",
+      "type": "autoturism"
+    },
+    {
+      "id": "coil_type_s_autoturism",
+      "name": "Coil Type S",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_opulent_limo_autoturism",
+      "name": "Benefactor Opulent Limo",
+      "type": "autoturism"
+    },
+    {
+      "id": "grotti_sangue_autoturism",
+      "name": "Grotti Sangue",
+      "type": "autoturism"
+    },
+    {
+      "id": "bravado_colossus_autoturism",
+      "name": "Bravado Colossus",
+      "type": "autoturism"
+    },
+    {
+      "id": "coil_velocity_autoturism",
+      "name": "Coil Velocity",
+      "type": "autoturism"
+    },
+    {
+      "id": "ubermacht_strasse_6x_autoturism",
+      "name": "Ubermacht Strasse 6X",
+      "type": "autoturism"
+    },
+    {
+      "id": "truffade_transform_autoturism",
+      "name": "Truffade Transform",
+      "type": "autoturism"
+    },
+    {
+      "id": "pegassi_veleno_autoturism",
+      "name": "Pegassi Veleno",
+      "type": "autoturism"
+    },
+    {
+      "id": "truffade_astral_autoturism",
+      "name": "Truffade Astral",
+      "type": "autoturism"
+    },
+    {
+      "id": "grotti_spada_autoturism",
+      "name": "Grotti Spada",
+      "type": "autoturism"
+    },
+    {
+      "id": "vapid_steed_autoturism",
+      "name": "Vapid Steed",
+      "type": "autoturism"
+    },
+    {
+      "id": "truffade_zion_halloween_autoturism",
+      "name": "Truffade Zion Halloween",
+      "type": "autoturism"
+    },
+    {
+      "id": "sentinel_gts_autoturism",
+      "name": "Sentinel GTS",
+      "type": "autoturism"
+    },
+    {
+      "id": "zentorno_autoturism",
+      "name": "Zentorno",
+      "type": "autoturism"
+    },
+    {
+      "id": "thrax_autoturism",
+      "name": "Thrax",
+      "type": "autoturism"
+    },
+    {
+      "id": "x80_proto_autoturism",
+      "name": "X80 Proto",
+      "type": "autoturism"
+    },
+    {
+      "id": "virtue_autoturism",
+      "name": "Virtue",
+      "type": "autoturism"
+    },
+    {
+      "id": "obey_tts_autoturism",
+      "name": "Obey TTs",
+      "type": "autoturism"
+    },
+    {
+      "id": "ubermacht_e30_autoturism",
+      "name": "Ubermacht e30",
+      "type": "autoturism"
+    },
+    {
+      "id": "karin_kuruma_drift_autoturism",
+      "name": "Karin Kuruma Drift",
+      "type": "autoturism"
+    },
+    {
+      "id": "bravado_hellfire_autoturism",
+      "name": "Bravado Hellfire",
+      "type": "autoturism"
+    },
+    {
+      "id": "dinka_jester_ss_autoturism",
+      "name": "Dinka Jester SS",
+      "type": "autoturism"
+    },
+    {
+      "id": "decebal_1310_xmas_autoturism",
+      "name": "Decebal 1310 Xmas",
+      "type": "autoturism"
+    },
+    {
+      "id": "progen_p1_xmas_autoturism",
+      "name": "Progen P1 Xmas",
+      "type": "autoturism"
+    },
+    {
+      "id": "benefactor_dubsta_ems_autospeciala_smurd",
+      "name": "Benefactor Dubsta EMS",
+      "type": "autospeciala S.M.U.R.D."
+    },
+    {
+      "id": "mtl_fire_ems_autospeciala_smurd",
+      "name": "MTL Fire EMS",
+      "type": "autospeciala S.M.U.R.D."
     }
   ],
   "limiteViteza": [
