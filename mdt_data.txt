@@ -4990,6 +4990,11 @@
       "type": "autospeciala S.M.U.R.D."
     },
     {
+      "id": "123",
+      "name": "Mave de mafioți",
+      "type": "elicopter"
+    },
+    {
       "id": "mtl_fire_ems_autospeciala_smurd",
       "name": "MTL Fire EMS",
       "type": "autospeciala S.M.U.R.D."
