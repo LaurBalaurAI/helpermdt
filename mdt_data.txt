@@ -6086,13 +6086,12 @@
     "intro_mineriada": "În data de {data_procesare}, în jurul orei {ora_procesare} a avut loc o acțiune de tip „Mineriadă” a echipajelor de poliție. În urma controalelor, s-a descoperit că ",
     "intro_rutiera": "În urma unui filtru de control rutier organizat de autorități pentru prevenirea și combaterea neconformităților participanților la traficul rutier și asigurarea siguranței rutiere conform reglementărilor în vigoare din Codul Penal, în data de {data_procesare}, la ora {ora_procesare}, în zona {zona_input}, s-a constatat că ",
     "intro_razie_sas": "În urma unei razii S.A.S. ce a avut loc pe {zona_input} în data de {data_procesare}, la ora {ora_procesare}, au fost arestați mai mulți suspecți. Printre aceștia, ",
-    "sanctions": "{sanctions_block}",
-    "masterTemplate": "{header}{intro}{infraction_1_desc}{mentiuni_1}{infraction_2_desc}{mentiuni_2}{infraction_3_desc}{mentiuni_3}\n{sanctiuni_descriere}"
-  },
+    "sanctions": "{sanctions_block}"
+     },
   "aiSettings": {
     "titleSeparator": ", ",
     "titleFormat": "{titluri_infractiuni} | {capitol_principal}",
-    "headerTemplate": "  "
+     "masterTemplate": "{header}{intro}{infraction_1_desc}{mentiuni_1}{infraction_2_desc}{mentiuni_2}{infraction_3_desc}{mentiuni_3}\n{sanctiuni_descriere}"
   },
   "compositePlaceholders": {
     "nr_inmatriculare_filled": {
