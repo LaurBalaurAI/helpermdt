@@ -1,6 +1,6 @@
 {
   "name": "police-helper-enhanced",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Police Helper - Advanced MDT Generator and RAGEMP Assistant",
   "main": "src/main/main.js",
   "homepage": "./",
