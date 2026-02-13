@@ -1,0 +1,150 @@
+{
+  "name": "police-helper-enhanced",
+  "version": "0.0.3",
+  "description": "Police Helper - Advanced MDT Generator and RAGEMP Assistant",
+  "main": "src/main/main.js",
+  "homepage": "./",
+  "author": {
+    "name": "Laur Balaur",
+    "email": "laurentiu.vecerdea@icloud.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "concurrently \"npm run dev-react\" \"wait-on http://localhost:3000 && cross-env NODE_ENV=development electron .\"",
+    "dev-react": "react-app-rewired start",
+    "build": "npm run build-react && npm run build-electron && npm run build-updater",
+    "build-react": "react-app-rewired build",
+    "build-electron": "electron-builder",
+    "build-updater": "node src/updater/build-launcher.js",
+    "publish": "node smart-publish.js",
+    "publish-manual": "node publish-manual.js",
+    "publish-version": "node -e \"const version = process.argv[2] || '0.0.3'; const SmartPublisher = require('./smart-publish.js'); const publisher = new SmartPublisher(); publisher.runAuto(version).catch(console.error);\"",
+    "publish-auto": "electron-builder --publish=always",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "@babel/types": "^7.29.0",
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.1",
+    "assert": "^2.1.0",
+    "axios": "^1.3.4",
+    "browserify-zlib": "^0.2.0",
+    "constants-browserify": "^1.0.0",
+    "crypto-js": "^4.1.1",
+    "electron-is-dev": "^2.0.0",
+    "electron-log": "^4.4.8",
+    "electron-store": "^8.1.0",
+    "electron-updater": "^6.7.3",
+    "https-browserify": "^1.0.0",
+    "lodash": "^4.17.21",
+    "os-browserify": "^0.3.0",
+    "querystring-es3": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "stream-http": "^3.2.0",
+    "styled-components": "^5.3.9",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0",
+    "yauzl": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/uuid": "^9.0.1",
+    "buffer": "^6.0.3",
+    "concurrently": "^7.6.0",
+    "cross-env": "^10.1.0",
+    "crypto-browserify": "^3.12.1",
+    "electron": "^40.4.0",
+    "electron-builder": "^23.6.0",
+    "javascript-obfuscator": "^5.3.0",
+    "path-browserify": "^1.0.1",
+    "pkg": "^5.8.1",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "wait-on": "^7.0.1",
+    "webpack-obfuscator": "^3.6.0"
+  },
+  "build": {
+    "appId": "com.police-helper.v2",
+    "productName": "Police Helper Enhanced",
+    "icon": "resources/politia_icon.ico",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "build/**/*",
+      "src/main/**/*",
+      "src/shared/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources",
+        "to": "resources"
+      }
+    ],
+    "win": {
+      "icon": "resources/politia_icon.ico",
+      "publisherName": "Police Helper Enhanced",
+      "verifyUpdateCodeSignature": false,
+      "requestedExecutionLevel": "asInvoker",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "defaultArch": "x64"
+    },
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": false,
+      "allowElevation": true,
+      "installerIcon": "resources/politia_icon.ico",
+      "uninstallerIcon": "resources/politia_icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Police Helper Enhanced",
+      "deleteAppDataOnUninstall": true,
+      "runAfterFinish": true,
+      "menuCategory": false,
+      "perMachine": true,
+      "displayLanguageSelector": false
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "LaurBalaurAI",
+      "repo": "helpermdt"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

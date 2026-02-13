@@ -1,0 +1,159 @@
+.title-bar {
+  -webkit-app-region: drag;
+  height: 60px;
+  background-color: #1a1a2e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  user-select: none;
+}
+
+.title-bar-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.title-bar-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-app-region: drag;
+  padding-right: 15px;
+  min-width: 150px;
+}
+
+.logo-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 0;
+  transition: all 0.3s ease;
+  -webkit-app-region: no-drag;
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-toggle:hover .title-logo {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.9));
+}
+
+.logo-toggle:hover {
+  transform: scale(1.05);
+}
+
+.title-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  padding: 3px;
+}
+
+.title-bar-drag {
+  display: flex;
+  align-items: center;
+  -webkit-app-region: drag;
+  flex: 1;
+  height: 100%;
+}
+
+.title-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.romania-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  -webkit-app-region: no-drag;
+  cursor: default;
+  transition: all 0.3s ease;
+  min-height: 32px;
+}
+
+.romania-clock:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.02);
+}
+
+.clock-time {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+}
+
+.title-bar-controls {
+  display: flex;
+  -webkit-app-region: no-drag;
+}
+
+.control-btn {
+  width: 34px; /* 75% din 45px */
+  height: 34px; /* 75% din 45px */
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 15px; /* 75% din 20px */
+  margin: 0 2px;
+}
+
+.control-btn:hover {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.control-btn svg {
+  width: 14px;
+  height: 14px;
+  transition: all 0.2s ease;
+}
+
+.control-btn:hover svg {
+  transform: scale(1.1);
+}
+
+.minimize-btn:hover {
+  background-color: rgba(255, 193, 7, 0.15);
+  border-color: rgba(255, 193, 7, 0.3);
+}
+
+.maximize-btn:hover {
+  background-color: rgba(40, 167, 69, 0.15);
+  border-color: rgba(40, 167, 69, 0.3);
+}
+
+.close-btn:hover {
+  background-color: rgba(220, 53, 69, 0.15);
+  border-color: rgba(220, 53, 69, 0.3);
+}
+
+.quit-btn:hover {
+  background-color: rgba(108, 117, 125, 0.15);
+  border-color: rgba(108, 117, 125, 0.3);
+}

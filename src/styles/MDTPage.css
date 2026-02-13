@@ -1,0 +1,2944 @@
+.mdt-page {
+  padding: 2rem;
+  height: 100%;
+  overflow-y: auto;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: fadeIn 0.5s ease-out 0.1s both;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.page-header p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.mdt-content {
+  width: 100%;
+  margin: 0;
+}
+
+.mdt-section {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.5s ease-out 0.2s both;
+  transition: all 0.3s ease;
+}
+
+.mdt-section:hover {
+  transform: scale(1.03);
+  background: rgba(233, 69, 96, 0.2);
+  border-color: rgba(233, 69, 96, 0.4);
+}
+
+.mdt-section h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.mdt-section:hover h2 {
+  color: #e94560;
+}
+
+.mdt-section h2::before {
+  content: '';
+  width: 4px;
+  height: 24px;
+  background: #e94560;
+  margin-right: 1rem;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.mdt-section:hover h2::before {
+  background: #fff;
+}
+
+.search-form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-form input:focus {
+  outline: none;
+  border-color: #e94560;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.report-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.report-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.report-card:hover {
+  transform: scale(1.03);
+  background: rgba(233, 69, 96, 0.2);
+  border-color: rgba(233, 69, 96, 0.4);
+}
+
+.report-card h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.report-card:hover h3 {
+  color: #e94560;
+}
+
+.report-card p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.report-card:hover p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-primary {
+  background: #e94560;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin: 8px 0;
+}
+
+.btn-primary:hover {
+  transform: scale(1.03);
+  background: rgba(102, 126, 234, 0.8);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  margin: 8px 0;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.03);
+  background: rgba(102, 126, 234, 0.8);
+  border-color: rgba(102, 126, 234, 0.8);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Card special pentru căutare cu dimensiune fixă */
+.search-section {
+  min-height: 80px; /* Doar câmpul text */
+  height: auto;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  width: 50%; /* Jumătate din lățimea paginii */
+  max-width: 600px; /* Lățime maximă pentru ecrane mari */
+  margin-left: 0; /* Aliniat la stânga */
+  margin-right: auto;
+}
+
+/* Override pentru cardul floating */
+.floating-card {
+  min-height: 80px !important;
+  height: auto !important;
+  max-height: none !important;
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              top 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s ease,
+              border-color 0.3s ease,
+              transform 0.2s ease,
+              min-height 0.3s ease,
+              height 0.3s ease;
+  resize: none; /* Dezactivăm resize-ul CSS default */
+}
+
+/* Card mic când conținutul este ascuns */
+.floating-card.content-hidden {
+  min-height: 50px !important;
+  height: 50px !important;
+  max-height: 50px !important;
+}
+
+.floating-card {
+  width: 300px !important; /* Lățime inițială fixă */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevenim overflow-ul care afectează resize */
+  padding: 0; /* Eliminăm padding-ul default */
+}
+
+/* Eliminăm pseudo-elementul pentru drag în cardul extins */
+.floating-card::before {
+  display: none; /* Ascundem pseudo-elementul default */
+}
+
+/* Forțăm dimensiuni fixe pentru cardul floating */
+.floating-card .search-results-scrollable {
+  flex: 1;
+  overflow-y: auto;
+  max-height: none !important; /* Eliminăm max-height-ul fix */
+}
+
+/* Eliminăm regulile care modifică automat înălțimea */
+.floating-card.search-section:has(.search-results-scrollable) {
+  height: auto !important;
+  max-height: none !important;
+}
+
+/* Card floating și draggable */
+.floating-card {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(52, 152, 219, 0.3);
+  backdrop-filter: blur(10px);
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+              top 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s ease,
+              border-color 0.3s ease,
+              transform 0.2s ease;
+  resize: none; /* Dezactivăm resize-ul CSS default */
+}
+
+.floating-card:hover {
+  box-shadow: 0 12px 48px rgba(52, 152, 219, 0.6);
+  background: rgba(52, 152, 219, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: none;
+}
+
+.floating-card.dragging {
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.8);
+  border-color: rgba(52, 152, 219, 0.8);
+  transform: scale(1.02);
+  opacity: 0.95;
+  transition: none; /* Fără tranziție la drag */
+}
+
+.floating-card.resizing {
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.9);
+  border-color: rgba(46, 204, 113, 0.8);
+}
+
+/* Header draggable pentru card */
+.floating-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.2), rgba(52, 152, 219, 0.1));
+  border-radius: 8px 8px 0 0;
+  cursor: grab;
+  z-index: 1;
+}
+
+.floating-card.dragging::before {
+  cursor: grabbing;
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.4), rgba(52, 152, 219, 0.2));
+}
+.floating-card.resizing::before {
+  background: linear-gradient(135deg, rgba(46, 204, 113, 0.4), rgba(46, 204, 113, 0.2));
+}
+
+/* Resize handles - complet invizibile */
+.resize-handle {
+  position: absolute;
+  background: transparent;
+  z-index: 1000;
+  transition: none;
+  border: none;
+}
+
+.resize-handle:hover {
+  background: transparent;
+}
+
+.resize-right {
+  top: 0;
+  right: -8px;
+  width: 16px;
+  height: 100%;
+  cursor: ew-resize;
+}
+
+.resize-bottom {
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 16px;
+  cursor: ns-resize;
+}
+
+.resize-corner {
+  bottom: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  cursor: nwse-resize;
+  background: transparent;
+}
+
+.resize-corner:hover {
+  background: transparent;
+}
+
+/* Buton de căutare floating */
+.search-button.floating-button {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.9), rgba(52, 152, 219, 0.7));
+  border: 2px solid rgba(52, 152, 219, 0.5);
+  border-radius: 25px;
+  padding: 12px 24px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  transition: none; /* Eliminăm toate tranzițiile */
+  user-select: none;
+  white-space: nowrap;
+}
+
+.search-button.floating-button:hover {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 1), rgba(52, 152, 219, 0.8));
+}
+
+.search-button.floating-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Header pentru colapsare card */
+.card-header {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.3), rgba(52, 152, 219, 0.1));
+  border-radius: 8px 8px 0 0;
+  padding: 10px 16px;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid rgba(52, 152, 219, 0.2);
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: none; /* Eliminăm tranziția de hover */
+  flex-shrink: 0; /* Prevenim comprimarea */
+}
+
+.card-header:hover {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.4), rgba(52, 152, 219, 0.2));
+}
+
+/* Facem bara colorată transparentă și centram textul */
+.card-header {
+  background: transparent !important;
+  border-bottom: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Eliminăm hover glow-ul deoarece pointer-ul se schimbă oricum */
+.card-header:hover {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Glow la click pentru tot cardul */
+.floating-card:active {
+  box-shadow: 0 0 30px rgba(52, 152, 219, 0.9), 
+              0 0 60px rgba(52, 152, 219, 0.6),
+              inset 0 0 15px rgba(52, 152, 219, 0.3) !important;
+}
+
+/* Clasă reutilizabilă pentru glow la click pe toate butoanele */
+.glow-button:active {
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.8), 
+              0 0 40px rgba(52, 152, 219, 0.5),
+              inset 0 0 10px rgba(52, 152, 219, 0.3) !important;
+  transform: scale(0.98) !important;
+  transition: box-shadow 0.2s ease, transform 0.1s ease !important;
+}
+
+.glow-button {
+  transition: box-shadow 0.2s ease, transform 0.1s ease !important;
+}
+
+/* Clasă generală pentru hover glow pe toate elementele interactive */
+.glow-hover:hover {
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.6), 
+              0 0 30px rgba(52, 152, 219, 0.3),
+              inset 0 0 8px rgba(52, 152, 219, 0.15) !important;
+  transition: box-shadow 0.2s ease !important;
+}
+
+/* Eliminăm transformările și mișcările la hover pentru cardul floating */
+.floating-card:hover {
+  box-shadow: 0 12px 48px rgba(52, 152, 219, 0.6) !important;
+  background: rgba(52, 152, 219, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  transform: none !important;
+}
+
+.card-header .search-label {
+  flex: 1;
+  text-align: center;
+  font-size: 1.25em; /* Mărim textul cu 25% */
+  pointer-events: none; /* Facem textul non-interactive */
+}
+
+.card-header::after {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '▼';
+  font-size: 12px;
+  opacity: 0.7;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Carduri Detalii */
+.details-cards-section {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 5px !important;
+}
+
+/* Override GlassTheme.css */
+.mdt-page .details-cards-section,
+.main-content .details-cards-section {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.details-cards-container {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  row-gap: 5px !important;
+  column-gap: 10px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Coloane fixe pentru layout */
+.details-column {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 5px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* Setăm z-index pentru toate cardurile */
+.glass-section {
+  position: relative !important;
+  z-index: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 15px !important;
+  overflow: visible !important; /* Schimbat din hidden în visible pentru a permite dropdown să iasă */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(15px) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
+}
+
+/* Z-index dinamic - cardurile cu autocomplete au z-index mai mare */
+/* Cardurile cu autocomplete primesc z-index mai mare */
+.glass-section:has(.autocomplete-input-wrapper),
+.glass-section:has(.location-autocomplete),
+.glass-section:has(.vehicle-type-autocomplete),
+.glass-section:has(.vehicle-model-autocomplete) {
+  z-index: 10 !important;
+}
+
+/* Cardurile care sunt sub cardurile cu autocomplete primesc z-index mai mare */
+.details-cards-section .details-column.left:has(.glass-section:has(.autocomplete-input-wrapper)) > .glass-section:not(:has(.autocomplete-input-wrapper)) {
+  z-index: 11 !important;
+}
+.details-cards-section .details-column.middle:has(.glass-section:has(.autocomplete-input-wrapper)) > .glass-section:not(:has(.autocomplete-input-wrapper)) {
+  z-index: 11 !important;
+}
+.details-cards-section .details-column.right:has(.glass-section:has(.autocomplete-input-wrapper)) > .glass-section:not(:has(.autocomplete-input-wrapper)) {
+  z-index: 11 !important;
+}
+
+/* Cardurile fără autocomplete păstrează la z-index specificat */
+.details-cards-section .details-column.left > .glass-section:not(:has(.autocomplete-input-wrapper)) {
+  z-index: 1 !important;
+}
+.details-cards-section .details-column.middle > .glass-section:not(:has(.autocomplete-input-wrapper)) {
+  z-index: 2 !important;
+}
+.details-cards-section .details-column.right > .glass-section:not(:has(.autocomplete-input-wrapper)) {
+  z-index: 3 !important;
+}
+
+/* Sancțiuni & Descriere Caz - z-index 1 (fără autocomplete) */
+.sanciuni-descriere-full-width > .glass-section:not(:has(.autocomplete-input-wrapper)) {
+  z-index: 1 !important;
+}
+
+/* Încadrare fapte - z-index 1 */
+.glass-section:has(.infractiune-autocomplete) {
+  z-index: 1 !important;
+}
+
+/* Substanțe - z-index 1 */
+.glass-section:has([placeholder*="Substanța"]) {
+  z-index: 1 !important;
+}
+
+/* Carduri cu dropdown - z-index 2 */
+.glass-section:has(.autocomplete-input-wrapper) {
+  z-index: 2 !important;
+}
+
+/* Carduri care au dropdown activ - z-index 3 */
+.glass-section:has(.autocomplete-dropdown) {
+  z-index: 3 !important;
+}
+
+/* Toate meniurile dropdown - z-index 4 */
+.autocomplete-dropdown,
+.location-dropdown,
+.vehicle-type-dropdown,
+.vehicle-model-dropdown,
+.document-dropdown {
+  z-index: 4 !important;
+}
+
+/* Crimă Organizată - z-index 1 (fără autocomplete) */
+.details-cards-section .details-column.right > .glass-section:nth-child(3):not(:has(.autocomplete-input-wrapper)) {
+  z-index: 1 !important;
+}
+
+/* Autocomplete pentru toate - z-index 5 (cel mai mare) */
+.location-dropdown,
+.vehicle-type-dropdown,
+.vehicle-model-dropdown,
+.autocomplete-dropdown {
+  z-index: 5 !important;
+}
+
+.details-column.left {
+  grid-column: 1;
+}
+
+.details-column.middle {
+  grid-column: 2;
+}
+
+.details-column.right {
+  grid-column: 3;
+}
+
+/* Layout pentru diferite numere de carduri */
+.details-cards-section.no-cards .details-cards-container,
+.details-cards-section .details-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Când doar un card este deschis, îl plasăm în coloana mijlocie */
+.details-cards-section.one-card .details-cards-container {
+  grid-template-columns: 1fr;
+}
+
+.details-cards-section.one-card .details-column {
+  grid-column: 2;
+}
+
+/* Când două carduri sunt deschise */
+.details-cards-section.two-cards .details-cards-container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.details-cards-section.two-cards .details-column.left {
+  grid-column: 1;
+}
+
+.details-cards-section.two-cards .details-column.middle {
+  grid-column: 3;
+}
+
+.details-cards-section.two-cards .details-column.right {
+  display: none;
+}
+
+/* Când trei carduri sunt deschise */
+.details-cards-section.three-cards .details-cards-container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Stil pentru section-header în cardurile MDT */
+.details-cards-container .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.details-cards-container .section-header h3 {
+  margin: 0;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.details-cards-container .section-header .close-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: all 0.2s ease;
+  min-width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-cards-container .section-header .close-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+/* Stil pentru glass-section-content în cardurile MDT */
+.details-cards-container .glass-section-content {
+  padding: 15px;
+  margin: 0;
+}
+
+.detail-row {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.detail-field {
+  flex: 1;
+}
+
+.detail-field.full-width {
+  flex: 1 1 100%;
+}
+
+.detail-field label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 14px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+/* Câmpuri goale - contur roșu */
+.detail-input.empty {
+  border-color: #ff4444;
+  box-shadow: 0 0 0 1px rgba(255, 68, 68, 0.3);
+}
+
+/* Câmpuri completate - contur verde */
+.detail-input.filled {
+  border-color: #44ff44;
+  box-shadow: 0 0 0 1px rgba(68, 255, 68, 0.3);
+}
+
+.detail-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb), 0.3);
+}
+
+.detail-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Stiluri pentru butoane tip checkbox */
+.checkbox-button-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: var(--border-radius-global, 8px);
+  padding: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+.checkbox-button:hover .checkbox-text {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.checkbox-button.active {
+  background: var(--active-color, var(--primary-color));
+  border-color: var(--active-color, var(--primary-color));
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 0 10px var(--active-color, rgba(255, 255, 255, 0.2));
+}
+
+/* Efect de shimmer eliminat pentru butoane bifate */
+
+/* Efect de shimmer pentru butoane radio */
+.radio-button.active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 40%, rgba(255, 255, 255, 0.1) 50%, transparent 60%);
+  animation: shimmer 2s infinite;
+}
+
+/* Stiluri pentru input cu buton alăturat */
+.input-with-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.input-with-button .detail-input {
+  flex: 0 0 auto;
+}
+
+/* Asigurăm că ora nu se micșorează prea mult */
+.input-with-button .detail-input[type="text"] {
+  width: auto;
+  min-width: 80px;
+  flex: 0 0 auto;
+}
+
+/* Permite datei să fie mai flexibilă */
+.input-with-button .detail-input[type="date"] {
+  width: auto;
+  flex: 0 0 auto;
+}
+
+/* Asigurăm că butonul de refresh este mereu vizibil */
+.refresh-datetime-button {
+  min-width: 36px;
+  height: 36px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.refresh-datetime-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.refresh-datetime-button:active {
+  transform: scale(0.95);
+}
+
+/* Stiluri pentru câmpurile CNP cu checkbox buttons */
+.cnp-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cnp-input {
+  max-width: 120px;
+  flex-shrink: 0;
+}
+
+/* Stil pentru câmpul checkbox - fără label, doar butonul */
+.checkbox-field {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 8px; /* Pentru a alinia cu inputurile */
+  flex: 1; /* Ocupă spațiul rămas */
+  justify-content: flex-end; /* Aliniere la dreapta */
+}
+
+.checkbox-group {
+  display: flex;
+  justify-content: flex-end; /* Aliniere la dreapta */
+  width: auto; /* Lățime automată */
+}
+
+.checkbox-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.checkbox-button input[type="checkbox"] {
+  display: none; /* Ascundem checkbox-ul default */
+}
+
+.checkbox-text {
+  padding: 4px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px; /* Mini-card style */
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+  backdrop-filter: blur(10px);
+}
+
+/* Butoane pentru sancțiuni */
+.checkbox-button.active {
+  background: var(--active-color, var(--primary-color));
+  border-color: var(--active-color, var(--primary-color));
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 0 10px var(--active-color, rgba(255, 255, 255, 0.2));
+}
+
+.checkbox-button.active:hover {
+  background: var(--active-color, var(--primary-color));
+  opacity: 0.9;
+}
+
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 2px 8px rgba(var(--primary-color-rgb), 0.3);
+}
+
+/* Checkbox-uri speciale pentru sancțiuni */
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text.anulare-permis {
+  background: #DC143C;
+  border-color: #DC143C;
+  color: white;
+}
+
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text.dosar-penal {
+  background: #FF0000;
+  border-color: #FF0000;
+  color: white;
+}
+
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text.perchezitie {
+  background: #008080;
+  border-color: #008080;
+  color: white;
+}
+
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text.ridicare-vehicul {
+  background: #FFA500;
+  border-color: #FFA500;
+  color: white;
+}
+
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text.complice {
+  background: #44ff44;
+  border-color: #44ff44;
+  color: white;
+}
+
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text.politie {
+  background: #4444ff;
+  border-color: #4444ff;
+  color: white;
+}
+
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text.complice-victim {
+  background: #44ff44;
+  border-color: #44ff44;
+  color: white;
+}
+
+.checkbox-button input[type="checkbox"]:checked + .checkbox-text.politie-victim {
+  background: #4444ff;
+  border-color: #4444ff;
+  color: white;
+}
+
+/* Eliminat complet hover pentru toate checkbox-urile */
+
+/* Extindem câmpurile nume să umple spațiul rămas - doar pentru Detalii Generale */
+.details-column.left .glass-section:first-child .detail-row .detail-field:first-child {
+  flex: 2; /* Câmpurile nume ocupă mai mult spațiu doar în Detalii Generale */
+}
+
+/* Stiluri pentru semnul de circulație */
+.speed-sign-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+
+.speed-sign {
+  width: 45px; /* 75% din 60px */
+  height: 45px; /* 75% din 60px */
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #e74c3c; /* 75% din 3px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Redus proporțional */
+  position: relative;
+  overflow: hidden;
+}
+
+.speed-sign::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #ff6b6b 0%, #e74c3c 100%);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.speed-number {
+  position: relative;
+  z-index: 2;
+  font-size: 14px; /* Redus proporțional */
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1;
+}
+
+.speed-unit {
+  position: relative;
+  z-index: 2;
+  font-size: 8px; /* Redus proporțional */
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 1;
+  margin-top: 1px; /* Redus proporțional */
+}
+
+/* Stiluri pentru autocomplete locație */
+.location-autocomplete {
+  position: relative;
+  width: 100%;
+  z-index: 99999; /* Z-index pe container pentru a fi deasupra cardurilor */
+}
+
+/* Stiluri pentru autocomplete vehicule */
+.vehicle-type-autocomplete,
+.vehicle-model-autocomplete {
+  position: relative;
+  width: 100%;
+  z-index: 99999; /* Z-index pe container pentru a fi deasupra cardurilor */
+}
+
+/* Stiluri pentru autocomplete documente */
+.document-autocomplete {
+  position: relative;
+  width: 100%;
+  z-index: 99999; /* Z-index pe container pentru a fi deasupra cardurilor */
+}
+
+/* Stiluri pentru autocomplete autospecială */
+.autospeciala-autocomplete {
+  position: relative;
+  width: 100%;
+  z-index: 99999; /* Z-index pe container pentru a fi deasupra cardurilor */
+}
+
+/* Creăm un nou context de stacking pentru rândul cu autocomplete */
+.detail-row:has(.location-autocomplete) {
+  position: relative;
+  z-index: 99999;
+}
+
+/* Alternativă pentru browsere care nu suportă :has() */
+.detail-row {
+  position: relative;
+}
+
+.detail-row .location-autocomplete,
+.detail-row .vehicle-type-autocomplete,
+.detail-row .vehicle-model-autocomplete,
+.detail-row .document-autocomplete,
+.detail-row .autospeciala-autocomplete {
+  position: relative;
+  z-index: 99999;
+}
+
+.location-dropdown,
+.vehicle-type-dropdown,
+.vehicle-model-dropdown,
+.autocomplete-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background: rgba(30, 30, 40, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  z-index: 999999; /* Z-index extrem de mare pentru a fi deasupra tuturor cardurilor */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  margin-top: 4px;
+}
+
+.vehicle-type-dropdown,
+.vehicle-model-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 99999 !important;
+  background: rgba(10, 10, 20, 0.99);
+  border: 2px solid rgba(100, 150, 255, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-height: 200px;
+  overflow-y: auto;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.location-item,
+.vehicle-item {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.location-item:last-child,
+.vehicle-item:last-child {
+  border-bottom: none;
+}
+
+.location-item:hover,
+.vehicle-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 3px solid var(--primary-color);
+  padding-left: 13px;
+}
+
+.location-strada,
+.vehicle-name {
+  font-weight: 600;
+  color: white !important;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.location-localitate {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.location-limita {
+  color: var(--primary-color);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* Scrollbar pentru dropdown */
+.location-dropdown::-webkit-scrollbar,
+.vehicle-type-dropdown::-webkit-scrollbar,
+.vehicle-model-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.location-dropdown::-webkit-scrollbar-track,
+.vehicle-type-dropdown::-webkit-scrollbar-track,
+.vehicle-model-dropdown::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.location-dropdown::-webkit-scrollbar-thumb,
+.vehicle-type-dropdown::-webkit-scrollbar-thumb,
+.vehicle-model-dropdown::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 3px;
+}
+
+.location-dropdown::-webkit-scrollbar-thumb:hover,
+.vehicle-type-dropdown::-webkit-scrollbar-thumb:hover,
+.vehicle-model-dropdown::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+  opacity: 0.8;
+}
+
+/* Stiluri pentru seturile din cardul Incadrare Fapte */
+.incadrare-set {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Eliminăm hover-ul pentru cardurile Încadrare fapte */
+.incadrare-set:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  transform: none;
+}
+
+.incadrare-set:last-child {
+  margin-bottom: 0;
+}
+
+.incadrare-set-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.set-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 2px 8px rgba(var(--primary-color-rgb), 0.3);
+}
+
+.incadrare-set-header h4 {
+  margin: 0;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* Spacing între rândurile din seturi */
+.incadrare-set .detail-row {
+  margin-bottom: 15px;
+}
+
+.incadrare-set .detail-row:last-child {
+  margin-bottom: 0;
+}
+
+/* Stiluri pentru previzualizări */
+.preview-display {
+  font-family: 'Courier New', monospace !important;
+  line-height: 1.4 !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word !important;
+  transition: all 0.3s ease !important;
+}
+
+.preview-display:hover {
+  background: rgba(0, 0, 0, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Stiluri pentru placeholderi și date complete în previzualizări */
+.preview-placeholder {
+  color: #ff4444 !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  background: rgba(255, 68, 68, 0.1) !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+  animation: pulse-red 2s infinite !important;
+}
+
+.preview-data {
+  color: #44ff44 !important;
+  font-weight: bold !important;
+  background: rgba(68, 255, 68, 0.1) !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+  animation: pulse-green 2s infinite !important;
+}
+
+@keyframes pulse-red {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes pulse-green {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+/* Stiluri pentru containerul Detalii Constatare pe toată lățimea */
+.constatare-fapte-full-width {
+  width: 100%;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+.constatare-info-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-style: italic;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.constatare-fapte-full-width .glass-section {
+  width: 100%;
+  max-width: none;
+  min-height: auto;
+  height: auto;
+}
+
+.constatare-fapte-full-width .details-content {
+  padding: 5px;
+  min-height: auto;
+  height: auto;
+}
+
+/* Container pentru aranjament orizontal al butoanelor radio */
+.constatare-options-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.constatare-options-horizontal .radio-button-label {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 120px;
+  justify-content: center;
+}
+
+.constatare-options-horizontal .radio-button-label:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+.constatare-options-horizontal .radio-button-input {
+  display: none;
+}
+
+.constatare-options-horizontal .radio-button-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.constatare-options-horizontal .radio-button-input:checked + .radio-button-text {
+  color: var(--bg-color);
+}
+
+.constatare-options-horizontal .radio-button-input:checked ~ .radio-button-label {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+.constatare-options-horizontal .radio-button-label:has(input:checked) {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+/* Stiluri pentru containerul Sancțiuni & Descriere Caz pe toată lățimea */
+.sanciuni-descriere-full-width {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sanciuni-descriere-full-width .glass-section {
+  width: 100%;
+  max-width: none;
+}
+
+.sanciuni-descriere-full-width .details-content {
+  padding: 20px;
+}
+
+/* Secțiune Sancțiuni */
+.sanciuni-section {
+  margin-bottom: 25px;
+}
+
+.section-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sanciuni-section .detail-row {
+  display: flex;
+  gap: 20px;
+}
+
+.sanciuni-section .detail-field {
+  flex: 1 !important;
+  min-width: 200px;
+}
+
+.sanciuni-section .detail-field .checkbox-button-group {
+  gap: 20px;
+}
+
+/* Secțiune Descriere Caz */
+.descriere-caz-section {
+  margin-top: 25px;
+}
+
+.descriere-caz-section .detail-field.full-width {
+  width: 100%;
+}
+
+.textarea-large {
+  min-height: 100px;
+  resize: vertical;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+/* Butoane acțiune */
+.action-buttons-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding: 0 15px 15px 15px;
+}
+
+.action-button {
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 120px;
+}
+
+.action-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+}
+
+.action-button:active {
+  transform: translateY(0);
+}
+
+/* Stiluri pentru semnul de circulație rutieră - limită viteză */
+.speed-limit-circle {
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border: 3px solid #ff0000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.speed-limit-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  line-height: 1;
+}
+
+.speed-limit-text .speed-limit-placeholder {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Stiluri pentru containerul Încadrare Fapte pe toată lățimea */
+.incadrare-fapte-full-width {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.incadrare-fapte-full-width .glass-section {
+  width: 100%;
+  max-width: none;
+}
+
+.incadrare-fapte-full-width .details-content {
+  padding: 20px;
+}
+
+/* Container pentru aranjament orizontal al seturilor */
+.incadrare-sets-horizontal {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.incadrare-sets-horizontal .incadrare-set {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  position: relative;
+}
+
+.incadrare-sets-horizontal .incadrare-set-header {
+  position: absolute;
+  top: -10px;
+  left: 16px;
+  background: var(--primary-color);
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.incadrare-sets-horizontal .detail-row {
+  margin-bottom: 12px;
+}
+
+.incadrare-sets-horizontal .detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.incadrare-sets-horizontal .detail-field {
+  width: 100%;
+}
+
+.incadrare-sets-horizontal .detail-field label {
+  display: block;
+  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+}
+
+.incadrare-sets-horizontal .detail-input {
+  width: 100%;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+}
+
+.incadrare-sets-horizontal .detail-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Stiluri pentru dropdown-uri autocomplete */
+.vehicle-type-dropdown,
+.vehicle-model-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background: rgba(30, 30, 40, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  margin-top: 4px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Stiluri specifice pentru dropdown model vehicul */
+.vehicle-model-dropdown {
+  background: rgba(10, 10, 20, 0.99) !important;
+  border: 2px solid rgba(100, 150, 255, 0.5) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8) !important;
+}
+
+.vehicle-model-dropdown .vehicle-item {
+  background: rgba(20, 20, 30, 0.9) !important;
+  border-bottom: 1px solid rgba(100, 150, 255, 0.2) !important;
+}
+
+.vehicle-model-dropdown .vehicle-item:hover {
+  background: rgba(100, 150, 255, 0.3) !important;
+  border-left: 3px solid var(--primary-color) !important;
+  padding-left: 13px !important;
+}
+
+.vehicle-model-dropdown .vehicle-name {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9) !important;
+  background: transparent !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 1001 !important;
+  position: relative !important;
+}
+
+.vehicle-item {
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.vehicle-item:last-child {
+  border-bottom: none;
+}
+
+.vehicle-item:hover {
+  background: rgba(100, 150, 255, 0.2) !important;
+}
+
+.vehicle-name {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) !important;
+}
+
+.vehicle-item:hover .vehicle-name {
+  color: #ffffff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Asigurăm vizibilitate maximă pentru model dropdown */
+.vehicle-model-dropdown .vehicle-name {
+  color: #ffffff !important;
+  background: transparent !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Stiluri pentru butoanele radio din Tip Constatare - ca butoane checkbox */
+.constatare-options {
+  margin-top: 8px;
+}
+
+/* Stiluri pentru butonul toggle Substanțe */
+.substante-toggle-button {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.substante-toggle-button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.substante-toggle-button:active {
+  transform: translateY(0);
+}
+
+/* Secțiunea pentru substanțe */
+.substante-section {
+  margin-top: 12px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.substante-section .detail-row {
+  margin-bottom: 12px;
+}
+
+.substante-section .detail-row:last-child {
+  margin-bottom: 0;
+}
+
+.substante-section .detail-field {
+  margin-bottom: 0;
+}
+
+.substante-section label {
+  display: block;
+  margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.substante-section .detail-input {
+  width: 100%;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.substante-section .detail-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.substante-section .detail-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Stiluri pentru checkbox-urile din Percheziție */
+.checkbox-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+}
+
+/* Stiluri pentru aranjamentul câmp text + checkbox */
+.perchezitie-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.perchezitie-field .detail-input {
+  flex: 1;
+  min-width: 0;
+}
+
+.perchezitie-field .checkbox-input {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  position: relative;
+  appearance: none;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.checkbox-input:hover {
+  border-color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.checkbox-input:checked {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb), 0.3);
+}
+
+.checkbox-input:checked::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.checkbox-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb), 0.4);
+}
+
+/* Generated Output Section */
+.generated-output-section {
+  background: rgba(var(--success-color-rgb, 76, 175, 80), 0.1);
+  border: 1px solid rgba(var(--success-color-rgb, 76, 175, 80), 0.3);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  animation: slideInUp 0.3s ease-out;
+}
+
+.generated-title {
+  background: rgba(var(--primary-color-rgb, 102, 126, 234), 0.1);
+  border: 1px solid rgba(var(--primary-color-rgb, 102, 126, 234), 0.3);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.generated-description {
+  background: rgba(var(--surface-color-rgb, 255, 255, 255), 0.05);
+  border: 1px solid rgba(var(--border-color-rgb, 255, 255, 255), 0.2);
+  color: var(--text-color);
+  line-height: 1.5;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+}
+
+.generated-actions-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  justify-content: flex-end;
+}
+
+.generated-actions-row .action-button {
+  background: rgba(var(--success-color-rgb, 76, 175, 80), 0.2);
+  border-color: rgba(var(--success-color-rgb, 76, 175, 80), 0.4);
+  color: var(--success-color);
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.generated-actions-row .action-button:hover {
+  background: rgba(var(--success-color-rgb, 76, 175, 80), 0.3);
+  border-color: rgba(var(--success-color-rgb, 76, 175, 80), 0.6);
+  transform: translateY(-1px);
+}
+
+/* Autocomplete pentru Infracțiuni */
+.autocomplete-input-wrapper {
+  position: relative;
+  width: 100%;
+  /* Permite dropdown-ului să iasă din card */
+  overflow: visible;
+}
+
+.autocomplete-input {
+  width: 100%;
+  padding-right: 30px !important;
+}
+
+.autocomplete-clear-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.autocomplete-clear-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.autocomplete-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 99999 !important;
+  margin-top: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  /* Asigură că dropdown-ul nu este tăiat de container-ul părinte */
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.autocomplete-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.autocomplete-item:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.autocomplete-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.autocomplete-item-article {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 0.85rem;
+}
+
+.autocomplete-item-capitol {
+  color: #888;
+  font-size: 0.75rem;
+}
+
+.autocomplete-item-title {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+/* Fix pentru toate containerele de autocomplete */
+.detail-field:has(.autocomplete-input-wrapper) {
+  overflow: visible !important;
+}
+
+.detail-row:has(.autocomplete-input-wrapper) {
+  overflow: visible !important;
+}
+
+.glass-section:has(.autocomplete-input-wrapper) {
+  overflow: visible !important;
+}
+
+/* Alternativă pentru browsere care nu suportă :has() */
+.detail-field {
+  overflow: visible !important;
+}
+
+.detail-row {
+  overflow: visible !important;
+}
+
+/* Fix specific pentru location autocomplete */
+.location-autocomplete {
+  position: relative;
+  width: 100%;
+  overflow: visible !important;
+  z-index: 99999;
+}
+
+/* Fix specific pentru vehicle autocomplete */
+.vehicle-type-autocomplete,
+.vehicle-model-autocomplete {
+  position: relative;
+  width: 100%;
+  overflow: visible !important;
+  z-index: 99999;
+}
+
+/* Asigură că toate dropdown-urile sunt deasupra cardurilor și au z-index mai mare pentru stacking */
+.location-dropdown,
+.vehicle-type-dropdown,
+.vehicle-model-dropdown,
+.autocomplete-dropdown {
+  z-index: 100000 !important; /* Z-index mai mare pentru stacking */
+  position: absolute !important;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Z-index specific pentru fiecare tip de dropdown pentru a preveni suprapunerea */
+.location-dropdown {
+  z-index: 100001 !important;
+}
+
+.vehicle-type-dropdown {
+  z-index: 100002 !important;
+}
+
+.vehicle-model-dropdown {
+  z-index: 100003 !important;
+}
+
+.autocomplete-dropdown {
+  z-index: 100004 !important; /* Cel mai mare pentru infractiuni */
+}
+
+/* Asigură că dropdown-urile din același card nu se suprapun */
+.glass-section:has(.autocomplete-dropdown) {
+  z-index: 99998 !important;
+}
+
+/* Alternativă pentru browsere care nu suportă :has() */
+.glass-section {
+  position: relative !important;
+}
+
+/* Container specific pentru fiecare tip de autocomplete */
+.location-autocomplete {
+  z-index: 100001 !important;
+  position: relative !important;
+}
+
+.vehicle-type-autocomplete {
+  z-index: 100002 !important;
+  position: relative !important;
+}
+
+.vehicle-model-autocomplete {
+  z-index: 100003 !important;
+  position: relative !important;
+}
+
+/* Container pentru infractiuni autocomplete */
+.autocomplete-input-wrapper:has(.autocomplete-dropdown) {
+  z-index: 100004 !important;
+}
+
+/* Dropdown-uri pentru documente - moștenește z-index 4 din regulile generale */
+.document-dropdown {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: translateZ(0); /* Pentru stacking context */
+  will-change: transform; /* Pentru performanță */
+}
+
+/* Container pentru documente autocomplete */
+.document-autocomplete:has(.document-dropdown) {
+  position: relative !important;
+  overflow: visible !important; /* Forțăm dropdown-ul să iasă afară */
+}
+
+/* Forțăm glass-section care conține documente să aibă overflow visible */
+.glass-section:has(.document-autocomplete) {
+  overflow: visible !important;
+}
+
+.radio-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.radio-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0;
+  min-height: 50px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-image: linear-gradient(90deg, #fff 0px, #fff 1px, transparent 1px, transparent);
+  background-size: 150px 2px;
+  background-position: 0% 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+.radio-button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.radio-button input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+.radio-button input[type="radio"]:checked + .radio-text {
+  background: var(--primary-color);
+  color: var(--bg-color);
+  font-weight: 600;
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 16px rgba(var(--primary-color-rgb), 0.4);
+}
+
+.radio-text {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  padding: 8px 6px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Responsive pentru radio buttons - menținem dimensiuni egale */
+@media (max-width: 1200px) {
+  .radio-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .radio-text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 900px) {
+  .radio-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .radio-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .radio-group {
+    grid-template-columns: 1fr;
+  }
+  .radio-text {
+    font-size: 13px;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .details-cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .details-column.left {
+    grid-column: 1;
+  }
+  
+  .details-column.middle {
+    grid-column: 2;
+  }
+  
+  .details-column.right {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .details-cards-section.one-card .details-cards-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .details-cards-section.one-card .details-column {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .details-cards-section.two-cards .details-cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .details-cards-section.two-cards .details-column.left {
+    grid-column: 1;
+  }
+  
+  .details-cards-section.two-cards .details-column.middle {
+    grid-column: 2;
+  }
+  
+  .details-cards-section.two-cards .details-column.right {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .details-cards-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .details-column {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+  
+  .detail-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.card-header.content-visible::after {
+  content: '▲';
+}
+
+/* Conținut cardului */
+.card-content {
+  padding: 15px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* Permite flex să funcționeze corect */
+}
+.details-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.details-back-button {
+  background: rgba(52, 152, 219, 0.2);
+  border: 1px solid rgba(52, 152, 219, 0.3);
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.2s ease;
+}
+
+.details-back-button:hover {
+  background: rgba(52, 152, 219, 0.3);
+}
+
+/* Asigură că input-ul nu captureze drag events */
+.floating-card .search-form {
+  margin-top: 0; /* Eliminăm spațiul pentru header draggable */
+  margin-bottom: 1rem;
+  pointer-events: auto; /* Permite interacțiune cu input-ul */
+}
+
+.floating-card .search-input-wrapper {
+  pointer-events: auto;
+}
+
+.floating-card .search-results-scrollable {
+  pointer-events: auto;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Previne drag când se dă click pe input */
+.floating-card .search-input {
+  pointer-events: auto;
+  cursor: text !important;
+}
+
+.floating-card .search-clear-button {
+  pointer-events: auto;
+  cursor: pointer !important;
+}
+
+/* Când sunt rezultate, NU mai extinde la înălțime maximă pentru cardul floating */
+.search-section:has(.search-results-scrollable) {
+  height: auto !important;
+  max-height: 300px !important; /* Limităm înălțimea maximă a cardului */
+}
+
+.floating-card.search-section:has(.search-results-scrollable) {
+  height: auto !important;
+  max-height: 300px !important; /* Limităm înălțimea maximă a cardului */
+}
+
+.search-section .search-form {
+  margin-bottom: 1rem;
+}
+
+/* Wrapper pentru câmp de căutare cu buton X */
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centrează câmpul text */
+}
+
+.search-input-wrapper .search-input {
+  padding-right: 35px; /* Spațiu pentru buton X */
+  width: 100%; /* Câmpul text ocupă toată lățimea */
+  box-sizing: border-box; /* Include padding în lățime */
+}
+
+.search-clear-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #95a5a6;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.search-clear-button:hover {
+  background: rgba(231, 76, 60, 0.8);
+  border-color: rgba(231, 76, 60, 0.9);
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.search-results-scrollable {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 120px !important; /* Forțăm 2 rezultate vizibile */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+}
+
+.search-results-scrollable .results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.search-results-scrollable .result-item {
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.search-results-scrollable .result-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.search-results-scrollable .result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.search-results-scrollable .result-article {
+  font-weight: bold;
+  color: #3498db;
+  font-size: 0.9rem;
+}
+
+.search-results-scrollable .result-capitol {
+  font-size: 0.8rem;
+  color: #95a5a6;
+  background: rgba(52, 152, 219, 0.2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.search-results-scrollable .result-title {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #ecf0f1;
+}
+
+.search-results-scrollable .result-item.selected {
+  background: rgba(52, 152, 219, 0.2);
+  border-color: rgba(52, 152, 219, 0.5);
+  transform: translateY(-1px);
+}
+
+/* Detalii rezultat în interiorul cardului */
+.result-details {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(52, 152, 219, 0.1);
+  border: 1px solid rgba(52, 152, 219, 0.3);
+  border-radius: 8px;
+  animation: slideDown 0.3s ease;
+}
+
+.result-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+.result-details-header h4 {
+  margin: 0;
+  color: #3498db;
+  font-size: 1rem;
+}
+
+.details-close-button {
+  background: rgba(231, 76, 60, 0.8);
+  border: none;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.details-close-button:hover {
+  background: rgba(231, 76, 60, 1);
+  transform: scale(1.1);
+}
+
+.result-details-content h5 {
+  margin: 0 0 0.5rem 0;
+  color: #ecf0f1;
+  font-size: 0.95rem;
+}
+
+.result-details-content p {
+  margin: 0.25rem 0;
+  color: #bdc3c7;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.result-sanctions {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+.result-sanctions strong {
+  color: #3498db;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.result-sanctions p {
+  margin: 0.25rem 0;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.result-sanctions p:before {
+  content: "•";
+  position: absolute;
+  left: 0.5rem;
+  color: #3498db;
+}
+
+.result-details-hint {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(52, 152, 219, 0.2);
+  text-align: center;
+}
+
+.result-details-hint small {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stiluri pentru scrollbar personalizat */
+.search-results-scrollable::-webkit-scrollbar {
+  width: 6px;
+}
+
+.search-results-scrollable::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.search-results-scrollable::-webkit-scrollbar-thumb {
+  background: rgba(52, 152, 219, 0.5);
+  border-radius: 3px;
+}
+
+.search-results-scrollable::-webkit-scrollbar-thumb:hover {
+  background: rgba(52, 152, 219, 0.7);
+}
+
+/* Stiluri pentru mesajul de încărcare */
+.loading-message {
+  background: rgba(52, 152, 219, 0.1);
+  border: 1px solid rgba(52, 152, 219, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  color: #3498db;
+  margin: 2rem 0;
+}
+
+.loading-message p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Stiluri pentru mesajul de lipsă date */
+.no-data-message {
+  background: rgba(255, 193, 7, 0.1);
+  border: 1px solid rgba(255, 193, 7, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  color: #ffc107;
+  margin: 2rem 0;
+}
+
+.no-data-message p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.no-data-message strong {
+  color: #fff;
+  background: rgba(255, 193, 7, 0.2);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* Stiluri pentru rezultate căutare */
+.search-results {
+  margin-top: 2rem;
+}
+
+.search-results h3 {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.result-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.result-item:hover {
+  background: rgba(233, 69, 96, 0.2);
+  border-color: rgba(233, 69, 96, 0.4);
+  transform: translateX(5px);
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.result-article {
+  color: #e94560;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.result-capitol {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+}
+
+.result-title {
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.no-results {
+  margin-top: 2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+/* Stiluri pentru popup detalii */
+.detail-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.detail-popup-panel {
+  background: rgba(30, 30, 30, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  backdrop-filter: blur(10px);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.detail-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.detail-popup-header h2 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.close-button:hover {
+  background: rgba(233, 69, 96, 0.2);
+  color: #fff;
+}
+
+.detail-popup-content {
+  color: #fff;
+}
+
+.detail-popup-content h3 {
+  color: #e94560;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.detail-section {
+  margin-bottom: 1.5rem;
+}
+
+.detail-section h4 {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.detail-section p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .mdt-page {
+    padding: 1rem;
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  
+  .search-form {
+    flex-direction: column;
+  }
+  
+  .search-form input {
+    width: 100%;
+  }
+  
+  .result-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  
+  .detail-popup-panel {
+    width: 95%;
+    padding: 1.5rem;
+  }
+}
+
+/* Stiluri pentru sancțiuni în rezultatele căutării */
+.result-sanctions {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.result-sanctions strong {
+  color: #fff;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.result-sanctions p {
+  margin: 0.3rem 0;
+  color: #f39c12;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  background: rgba(243, 156, 18, 0.1);
+  border-radius: 3px;
+  border-left: 3px solid #f39c12;
+  font-weight: 500;
+}
+
+.sanction-item {
+  font-size: 0.8rem;
+  color: #f39c12;
+  margin-bottom: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  background: rgba(243, 156, 18, 0.1);
+  border-radius: 3px;
+  border-left: 3px solid #f39c12;
+  font-weight: 500;
+}
+
+/* Stiluri pentru câmpurile de sancțiuni în cardul MDT */
+.detail-input.sanctions-display {
+  transition: all 0.3s ease;
+}
+
+.detail-input.sanctions-display:hover {
+  background-color: rgba(243, 156, 18, 0.15);
+  border-color: rgba(243, 156, 18, 0.4);
+}
+
+.detail-input.sanctions-display span {
+  transition: all 0.2s ease;
+}
+
+.detail-input.sanctions-display span:hover {
+  background: rgba(243, 156, 18, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Stiluri pentru câmpurile de totaluri calculate */
+.detail-input[style*="rgba(46, 204, 113, 0.1)"] {
+  /* Amenda totală - verde */
+  transition: all 0.3s ease;
+}
+
+.detail-input[style*="rgba(46, 204, 113, 0.1)"]:hover {
+  background-color: rgba(46, 204, 113, 0.15) !important;
+  border-color: rgba(46, 204, 113, 0.4) !important;
+  box-shadow: 0 0 8px rgba(46, 204, 113, 0.2);
+}
+
+.detail-input[style*="rgba(231, 76, 60, 0.1)"] {
+  /* Arest total - roșu */
+  transition: all 0.3s ease;
+}
+
+.detail-input[style*="rgba(231, 76, 60, 0.1)"]:hover {
+  background-color: rgba(231, 76, 60, 0.15) !important;
+  border-color: rgba(231, 76, 60, 0.4) !important;
+  box-shadow: 0 0 8px rgba(231, 76, 60, 0.2);
+}
+
+.detail-input[style*="rgba(52, 152, 219, 0.1)"] {
+  /* Puncte permis - albastru */
+  transition: all 0.3s ease;
+}
+
+.detail-input[style*="rgba(52, 152, 219, 0.1)"]:hover {
+  background-color: rgba(52, 152, 219, 0.15) !important;
+  border-color: rgba(52, 152, 219, 0.4) !important;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.2);
+}
+
+/* Indicatore vizuale pentru câmpuri calculate */
+.detail-input[readonly] {
+  cursor: default;
+  position: relative;
+}
+
+.detail-input[readonly]::after {
+  content: '📊';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+/* Stiluri pentru butoanele checkbox automatizate */
+.automated-checkbox {
+  cursor: default !important;
+  position: relative;
+}
+
+.automated-checkbox:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  background: var(--button-bg) !important;
+  border-color: var(--button-border) !important;
+}
+
+.automated-checkbox.active:hover {
+  background: var(--active-color) !important;
+  border-color: var(--active-color) !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Tooltip pentru butoanele automatizate */
+.automated-checkbox[title]:hover::before {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-bottom: 4px;
+  max-width: 200px;
+  word-wrap: break-word;
+}
