@@ -4,10 +4,10 @@ const { exec } = require('child_process');
 
 // Build the launcher executable
 function buildLauncher() {
-  console.log('🔨 Building PoliceHelperEnhanced.exe (Launcher)...');
+  console.log('🔨 Building PDHEnhanced.exe (Launcher)...');
   
   const launcherPath = path.join(__dirname, 'Launcher.js');
-  const outputPath = path.join(__dirname, '../../build/PoliceHelperEnhanced.exe');
+  const outputPath = path.join(__dirname, '../../build/PDHEnhanced.exe');
   
   // Use pkg to create standalone executable
   const cmd = `npx pkg ${launcherPath} --target node18-win-x64 --output ${outputPath}`;
@@ -29,10 +29,10 @@ function buildLauncher() {
 
 // Build the updater executable
 function buildUpdater() {
-  console.log('🔨 Building PoliceUpdater.exe (Updater)...');
+  console.log('🔨 Building PDHUpdater.exe (Updater)...');
   
   const updaterPath = path.join(__dirname, 'Updater.js');
-  const outputPath = path.join(__dirname, '../../build/PoliceUpdater.exe');
+  const outputPath = path.join(__dirname, '../../build/PDHUpdater.exe');
   
   // Use pkg to create standalone executable
   const cmd = `npx pkg ${updaterPath} --target node18-win-x64 --output ${outputPath}`;

@@ -297,7 +297,7 @@ ipcMain.handle('trigger-update', async (event, targetVersion, downloadUrl, sha25
     const updaterPath = path.join(process.env.NODE_ENV === 'production' 
       ? path.dirname(process.execPath) 
       : path.join(__dirname, '../..'), 
-      'PoliceUpdater.exe');
+      'PDHUpdater.exe');
     
     console.log('🔄 Triggering update with:', updaterPath, targetVersion);
     
@@ -349,7 +349,7 @@ ipcMain.handle('check-for-updates', async () => {
     const updaterPath = path.join(process.env.NODE_ENV === 'production' 
       ? path.dirname(process.execPath) 
       : path.join(__dirname, '../..'), 
-      'PoliceUpdater.exe');
+      'PDHUpdater.exe');
     
     return new Promise((resolve, reject) => {
       const updaterProcess = spawn(updaterPath, ['check-latest'], {
@@ -398,7 +398,7 @@ ipcMain.handle('get-release-history', async () => {
     const updaterPath = path.join(process.env.NODE_ENV === 'production' 
       ? path.dirname(process.execPath) 
       : path.join(__dirname, '../..'), 
-      'PoliceUpdater.exe');
+      'PDHUpdater.exe');
     
     return new Promise((resolve, reject) => {
       const updaterProcess = spawn(updaterPath, ['history'], {

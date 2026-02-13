@@ -119,15 +119,24 @@ class SmartPublisher {
       fs.mkdirSync(versionDir, { recursive: true });
     }
     
-    // Copiem app.exe în folderul versiunii
-    const sourceExe = path.join(__dirname, 'build', 'Police Helper Enhanced.exe');
-    const targetExe = path.join(versionDir, 'app.exe');
+    // Copiem executabilele de actualizare
+    const sourceExe1 = path.join(__dirname, 'build', 'PDHEnhanced.exe');
+    const targetExe1 = path.join(versionDir, 'PDHEnhanced.exe');
+    const sourceExe2 = path.join(__dirname, 'build', 'PDHUpdater.exe');
+    const targetExe2 = path.join(versionDir, 'PDHUpdater.exe');
     
-    if (fs.existsSync(sourceExe)) {
-      fs.copyFileSync(sourceExe, targetExe);
-      console.log(`✅ app.exe copiat în versions/${newVersion}/`);
+    if (fs.existsSync(sourceExe1)) {
+      fs.copyFileSync(sourceExe1, targetExe1);
+      console.log(`✅ PDHEnhanced.exe copiat în versions/${newVersion}/`);
     } else {
-      console.log(`⚠️ Police Helper Enhanced.exe nu a fost găsit în build/`);
+      console.log(`⚠️ PDHEnhanced.exe nu a fost găsit în build/`);
+    }
+    
+    if (fs.existsSync(sourceExe2)) {
+      fs.copyFileSync(sourceExe2, targetExe2);
+      console.log(`✅ PDHUpdater.exe copiat în versions/${newVersion}/`);
+    } else {
+      console.log(`⚠️ PDHUpdater.exe nu a fost găsit în build/`);
     }
     
     return versionDir;
