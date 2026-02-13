@@ -1,6 +1,6 @@
 {
   "name": "police-helper-enhanced",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Police Helper - Advanced MDT Generator and RAGEMP Assistant",
   "main": "src/main/main.js",
   "homepage": "./",
@@ -20,7 +20,7 @@
     "build-updater": "node src/updater/build-launcher.js",
     "publish": "node smart-publish.js",
     "publish-manual": "node publish-manual.js",
-    "publish-version": "node -e \"const version = process.argv[2] || '0.0.3'; const SmartPublisher = require('./smart-publish.js'); const publisher = new SmartPublisher(); publisher.runAuto(version).catch(console.error);\"",
+    "publish-version": "node -e \"const version = process.argv[2] || '0.0.5'; const SmartPublisher = require('./smart-publish.js'); const publisher = new SmartPublisher(); publisher.runAuto(version).catch(console.error);\"",
     "publish-auto": "electron-builder --publish=always",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
