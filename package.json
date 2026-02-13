@@ -1,6 +1,6 @@
 {
   "name": "police-helper-enhanced",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Police Helper - Advanced MDT Generator and RAGEMP Assistant",
   "main": "src/main/main.js",
   "homepage": "./",
@@ -110,7 +110,7 @@
       "icon": "resources/politia_icon.ico",
       "publisherName": "Police Helper Enhanced",
       "verifyUpdateCodeSignature": false,
-      "requestedExecutionLevel": "asInvoker",
+      "requestedExecutionLevel": "requireAdministrator",
       "target": [
         {
           "target": "nsis",
