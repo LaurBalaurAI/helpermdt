@@ -31,7 +31,7 @@ const saveLocalData = (data) => {
 // Funcție de sincronizare cu GitHub
 const syncWithGitHub = async () => {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/LaurBalaurAI/helpermdt/main/mdt_data.txt');
+    const response = await fetch('https://raw.githubusercontent.com/LaurBalaurAI/helpermdt/main/src/resources/database.json');
     const data = await response.json();
     
     const updatedData = {

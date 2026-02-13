@@ -1,6 +1,6 @@
 {
   "name": "police-helper-enhanced",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Police Helper - Advanced MDT Generator and RAGEMP Assistant",
   "main": "src/main/main.js",
   "homepage": "./",
@@ -97,6 +97,14 @@
       {
         "from": "resources",
         "to": "resources"
+      },
+      {
+        "from": "build/PDHEnhanced.exe",
+        "to": "PDHEnhanced.exe"
+      },
+      {
+        "from": "build/PDHUpdater.exe",
+        "to": "PDHUpdater.exe"
       }
     ],
     "win": {
@@ -132,7 +140,8 @@
     "publish": {
       "provider": "github",
       "owner": "LaurBalaurAI",
-      "repo": "helpermdt"
+      "repo": "helpermdt",
+      "releaseType": "release"
     }
   },
   "browserslist": {

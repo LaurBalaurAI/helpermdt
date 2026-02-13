@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 const path = require('path');
 
 // Setăm token-ul pentru publicare
-process.env.GH_TOKEN = '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';
+process.env.GH_TOKEN = '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';
 
 async function executeCommand(command, description) {
   return new Promise((resolve, reject) => {

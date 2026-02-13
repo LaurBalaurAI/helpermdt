@@ -314,6 +314,16 @@ const SettingsPage = ({ policeLightsEnabled = false, setPoliceLightsEnabled = ()
     setUpdateError('');
     
     try {
+      // Verificăm dacă electronAPI este disponibil
+      if (!window.electronAPI) {
+        throw new Error('Electron API nu este disponibil');
+      }
+      
+      // Verificăm dacă funcțiile de update sunt disponibile
+      if (typeof window.electronAPI.checkForUpdates !== 'function') {
+        throw new Error('Funcțiile de update nu sunt disponibile');
+      }
+      
       // Use new updater system
       const releaseInfo = await window.electronAPI.checkForUpdates();
       
@@ -325,6 +335,7 @@ const SettingsPage = ({ policeLightsEnabled = false, setPoliceLightsEnabled = ()
       setReleaseHistory(history);
       
     } catch (err) {
+      console.error('❌ Eroare la verificare actualizări:', err);
       setUpdateError('Nu s-a putut verifica actualizările: ' + err.message);
     } finally {
       setIsCheckingUpdates(false);

@@ -79,12 +79,14 @@ function createWindow() {
       nodeIntegration: false,
       contextIsolation: true,
       enableRemoteModule: false,
-      preload: path.join(__dirname, '..', 'preload.js')
+      preload: path.join(__dirname, 'preload.js')
     },
     icon: path.join(__dirname, '..', '..', 'resources', 'politia_icon.ico'),
     show: false,
     autoHideMenuBar: true
   });
+  
+  console.log('🔍 Main: Preload path:', path.join(__dirname, 'preload.js'));
   
   // Verificăm dacă dimensiunea minimă a fost setată corect
   console.log('🔍 Main: Window minimum size:', mainWindow.getMinimumSize());
@@ -295,9 +297,8 @@ ipcMain.handle('trigger-update', async (event, targetVersion, downloadUrl, sha25
     const path = require('path');
     
     const updaterPath = path.join(process.env.NODE_ENV === 'production' 
-      ? path.dirname(process.execPath) 
-      : path.join(__dirname, '../..'), 
-      'PDHUpdater.exe');
+      ? path.join(path.dirname(process.execPath), 'resources', 'PDHUpdater.exe')
+      : path.join(__dirname, '../..', 'PDHUpdater.exe'));
     
     console.log('🔄 Triggering update with:', updaterPath, targetVersion);
     
@@ -346,10 +347,27 @@ ipcMain.handle('check-for-updates', async () => {
     const { spawn } = require('child_process');
     const path = require('path');
     
+    // În development mode, returnăm mock data
+    if (process.env.NODE_ENV === 'development') {
+      console.log('🔍 Development mode: Returning mock update data');
+      return {
+        tag_name: 'v0.0.6',
+        name: 'Police Helper Enhanced v0.0.6',
+        body: 'Development mock release',
+        published_at: new Date().toISOString(),
+        assets: [
+          {
+            name: 'Police-Helper-Enhanced-Setup-0.0.6.exe',
+            browser_download_url: 'https://github.com/LaurBalaurAI/helpermdt/releases/download/v0.0.6/Police-Helper-Enhanced-Setup-0.0.6.exe',
+            size: 274974539
+          }
+        ]
+      };
+    }
+    
     const updaterPath = path.join(process.env.NODE_ENV === 'production' 
-      ? path.dirname(process.execPath) 
-      : path.join(__dirname, '../..'), 
-      'PDHUpdater.exe');
+      ? path.join(path.dirname(process.execPath), 'resources', 'PDHUpdater.exe')
+      : path.join(__dirname, '../..', 'PDHUpdater.exe'));
     
     return new Promise((resolve, reject) => {
       const updaterProcess = spawn(updaterPath, ['check-latest'], {
@@ -363,29 +381,28 @@ ipcMain.handle('check-for-updates', async () => {
       });
       
       updaterProcess.stderr.on('data', (data) => {
-        console.error(`Updater stderr: ${data.toString().trim()}`);
+        console.error('Updater stderr:', data.toString());
+      });
+      
+      updaterProcess.on('close', (code) => {
+        if (code === 0) {
+          try {
+            const result = JSON.parse(output);
+            resolve(result);
+          } catch (e) {
+            reject(new Error('Failed to parse updater output'));
+          }
+        } else {
+          reject(new Error(`Updater process failed with code ${code}`));
+        }
       });
       
       updaterProcess.on('error', (error) => {
         reject(error);
       });
-      
-      updaterProcess.on('exit', (code) => {
-        if (code === 0) {
-          try {
-            const releaseInfo = JSON.parse(output);
-            resolve(releaseInfo);
-          } catch (error) {
-            reject(error);
-          }
-        } else {
-          reject(new Error(`Updater exited with code: ${code}`));
-        }
-      });
     });
-    
   } catch (error) {
-    console.error('Check updates error:', error);
+    console.error('❌ Error in check-for-updates handler:', error);
     throw error;
   }
 });
@@ -395,10 +412,28 @@ ipcMain.handle('get-release-history', async () => {
     const { spawn } = require('child_process');
     const path = require('path');
     
+    // În development mode, returnăm mock data
+    if (process.env.NODE_ENV === 'development') {
+      console.log('🔍 Development mode: Returning mock release history');
+      return [
+        {
+          tag_name: 'v0.0.6',
+          name: 'Police Helper Enhanced v0.0.6',
+          published_at: new Date().toISOString(),
+          body: 'Latest release with improved update system'
+        },
+        {
+          tag_name: 'v0.0.5',
+          name: 'Police Helper Enhanced v0.0.5',
+          published_at: new Date(Date.now() - 86400000).toISOString(),
+          body: 'Previous release with bug fixes'
+        }
+      ];
+    }
+    
     const updaterPath = path.join(process.env.NODE_ENV === 'production' 
-      ? path.dirname(process.execPath) 
-      : path.join(__dirname, '../..'), 
-      'PDHUpdater.exe');
+      ? path.join(path.dirname(process.execPath), 'resources', 'PDHUpdater.exe')
+      : path.join(__dirname, '../..', 'PDHUpdater.exe'));
     
     return new Promise((resolve, reject) => {
       const updaterProcess = spawn(updaterPath, ['history'], {
