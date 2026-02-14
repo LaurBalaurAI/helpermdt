@@ -5002,11 +5002,6 @@
       "limit": "100"
     },
     {
-      "id": "abattoir_ave",
-      "name": "Abattoir Ave",
-      "limit": "100"
-    },
-    {
       "id": "abe_milton_pkwy",
       "name": "Abe Milton Pkwy",
       "limit": "100"
