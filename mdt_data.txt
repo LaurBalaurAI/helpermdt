@@ -3,7 +3,7 @@
     {
       "cap": "Cap. 1",
       "numarArticol": "1.1",
-      "titlu": "Limitele de viteză (<2x)",
+      "titlu": "Limitele de viteză (sub dublu)",
       "definitie": "Orice cetățean care conduce un vehicul, are obligația de a conduce cu viteza maximă de:\nOra - 100\nDrum Național - 150\nAutostradă - 250\n\nÎncălcarea limitelor de viteze se sancționează, în acest caz, pentru depășiri sub dublul vitezei legale.",
       "amendaMin": 3000,
       "amendaMax": 3000,
@@ -41,7 +41,7 @@
     {
       "cap": "Cap. 1",
       "numarArticol": "1.1",
-      "titlu": "Limitele de viteză (>2x)",
+      "titlu": "Limitele de viteză (peste dublu)",
       "definitie": "Orice cetățean care conduce un vehicul, are obligația de a conduce cu viteza maximă de:\nOraș - 100\nDrum Național - 150\nAutostradă - 250\n\nÎncălcarea limitelor de viteze se sancționează, în acest caz, pentru depășiri peste dublul vitezei legale.",
       "amendaMin": 7000,
       "amendaMax": 7000,
