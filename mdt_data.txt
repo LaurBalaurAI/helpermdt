@@ -3,7 +3,7 @@
     {
       "cap": "Cap. 1",
       "numarArticol": "1.1",
-      "titlu": "Limitele de viteză (sub dublul vitezei legale permise)",
+      "titlu": "Limitele de viteză (sub dublu)",
       "definitie": "Orice cetățean care conduce un vehicul, are obligația de a conduce cu viteza maximă de:\nOra - 100\nDrum Național - 150\nAutostradă - 250\n\nÎncălcarea limitelor de viteze se sancționează, în acest caz, pentru depășiri sub dublul vitezei legale.",
       "amendaMin": 3000,
       "amendaMax": 3000,
