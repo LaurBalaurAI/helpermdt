@@ -3031,9 +3031,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) a agresat fizic {victima}, provocându-i leziuni care nu necesită îngrijiri medicale imediate și de lungă durată.",
-      "descriere2": " În plus, a agresat fizic {victima}, provocându-i leziuni care nu necesită îngrijiri medicale imediate și de lungă durată.",
-      "descriere3": " Mai mult, a agresat fizic  {victima}, provocându-i leziuni care nu necesită îngrijiri medicale imediate și de lungă durată.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) a agresat fizic {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), provocându-i leziuni care nu necesită îngrijiri medicale imediate și de lungă durată.",
+      "descriere2": " În plus, a agresat fizic {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), provocându-i leziuni care nu necesită îngrijiri medicale imediate și de lungă durată.",
+      "descriere3": " Mai mult, a agresat fizic  {nume_parte_vatamata} (CNP {cnp_parte_vatamata}), provocându-i leziuni care nu necesită îngrijiri medicale imediate și de lungă durată.",
       "incompatibilitati": [
         "cap.1_1.9_acoperirea_fetei_la_volan",
         "cap.1_1.2_conducere_imprudenta",
