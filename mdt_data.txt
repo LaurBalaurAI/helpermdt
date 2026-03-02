@@ -2053,11 +2053,7 @@
       "descriere3": " Mai mult, a proferat insulte și amenințări la adresa agentului de poliție în zona {zona_input}, în timp ce agentul își exercita atribuțiile de serviciu.",
       "incompatibilitati": [
         "cap.6_6.1_amenintari_criminale",
-        "cap.8_8.10_coruptie",
-        "cap.3_3.12_jaf",
-        "cap.3_3.12.1_jaf_armat",
-        "cap.3_3.12.3_jaf_bancar",
-        "cap.3_3.12.2_jaf_imobile"
+        "cap.8_8.10_coruptie"
       ],
       "id": "cap.4_4.3_ultraj"
     },
