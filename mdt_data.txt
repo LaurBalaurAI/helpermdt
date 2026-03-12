@@ -1207,7 +1207,7 @@
       "perchezitie": true,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, s-a dovedit că {perchezitie_text}.",
+      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, s-a dovedit că {perchezitie_text}.{agresiv}",
       "descriere2": "! Selectează această infracțiune în Infracțiune 1 !",
       "descriere3": "! Selectează această infracțiune în Infracțiune 1 !",
       "incompatibilitati": [
@@ -1333,7 +1333,7 @@
       "perchezitie": true,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, s-a dovedit că {perchezitie_text}.",
+      "descriere1": "a fost identificat cetățeanul {nume} (CNP {cnp}). În urma perchezițiilor, s-a dovedit că {perchezitie_text}.{agresiv}",
       "descriere2": "! Selectează această infracțiune în Infracțiune 1 !",
       "descriere3": "! Selectează această infracțiune în Infracțiune 1 !",
       "incompatibilitati": [
