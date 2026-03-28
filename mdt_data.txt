@@ -5468,18 +5468,33 @@
       "limit": "100"
     },
     {
-      "id": "insulei_cayo",
-      "name": "Insulei Cayo",
+      "id": "insula_cayo",
+      "name": "Insula Cayo",
       "limit": "0"
     },
     {
-      "id": "insulei_maldive",
-      "name": "Insulei Maldive",
+      "id": "insula_maldive",
+      "name": "Insula Maldive",
+      "limit": "0"
+    },
+ {
+      "id": "ocean_paleto",
+      "name": "Oceanul Paleto",
+      "limit": "0"
+    },
+{
+      "id": "mare_alamo",
+      "name": "Marea Alamo",
+      "limit": "0"
+    },
+{
+      "id": "ocean_",
+      "name": "Marea Alamo",
       "limit": "0"
     },
     {
       "id": "topi",
-      "name": "topitoriei",
+      "name": "topitorie",
       "limit": "0"
     },
     {
