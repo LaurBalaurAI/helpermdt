@@ -5478,17 +5478,17 @@
       "limit": "0"
     },
  {
-      "id": "ocean_paleto",
+      "id": "oceanul_paleto",
       "name": "Oceanul Paleto",
       "limit": "0"
     },
 {
-      "id": "mare_alamo",
+      "id": "marea_alamo",
       "name": "Marea Alamo",
       "limit": "0"
     },
 {
-      "id": "oceanu_great_ocean",
+      "id": "oceanul_great_ocean",
       "name": "Great Ocean",
       "limit": "0"
     },
