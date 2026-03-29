@@ -6101,7 +6101,7 @@
     "intro_furt_auto": "În data de {data_procesare}, la ora {ora_procesare}, a fost declanșată alarma unui vehicul în zona {zona_input}. Ajuns la fața locului, echipajul de poliție a constatat că ",
     "intro_mineriada": "În data de {data_procesare}, în jurul orei {ora_procesare} a avut loc o acțiune de tip „Mineriadă” a echipajelor de poliție. În urma controalelor, s-a descoperit că ",
     "intro_rutiera": "În urma unui filtru de control rutier organizat de autorități pentru prevenirea și combaterea neconformităților participanților la traficul rutier și asigurarea siguranței rutiere conform reglementărilor în vigoare din Codul Penal, în data de {data_procesare}, la ora {ora_procesare}, în zona {zona_input}, s-a constatat că ",
-    "intro_razie_sas": "În urma unei razii S.A.S. ce a avut loc pe {zona_input} în data de {data_procesare}, la ora {ora_procesare}, au fost arestați mai mulți suspecți. Printre aceștia, ",
+    "intro_razie_sas": "În urma unei razii {subdep} ce a avut loc în zona {zona_input} în data de {data_procesare}, la ora {ora_procesare}, au fost arestați mai mulți suspecți. Printre aceștia, ",
     "sanctions": "{sanctions_block}"
   },
   "aiSettings": {
