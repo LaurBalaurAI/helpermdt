@@ -279,37 +279,7 @@
       ],
       "id": "cap.1_1.16_nerespectarea_culorii_a_semaforului"
     }, 
-    {
-      "cap": "Cap. 1",
-      "numarArticol": "1.17",
-      "titlu": "Condusul pe contra-sens",
-      "definitie": "Conducere pe contrasens înseamnă operarea unui vehicul pe sensul opus de mers, circularea pe benzi destinate traficului din direcția contrară sau pătrunderea pe drumuri marcate cu sens unic în direcția interzisă, punând în pericol siguranța traficului și a celorlalți participanți.",
-      "amendaMin": 10000,
-      "amendaMax": 10000,
-      "arestMin": 0,
-      "arestMax": 0,
-      "punctePermis": 0,
-      "anularePermis": true,
-      "ridicareVehicul": false,
-      "perchezitie": false,
-      "dosarPenal": false,
-      "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) conducea {tip_vehicul_procesator}, marca {model_vehicul_input} de culoare {culoare_vehicul}, {nr_inmatriculare}, conducea pe contra-sens, punând în pericol siguranța traficului și a celorlalți participanți. ",
-      "descriere2": "\n În plus, conducea pe contra-sens, punând în pericol siguranța traficului și a celorlalți participanți. ",
-      "descriere3": "\n Mai mult, conducea pe contra-sens, punând în pericol siguranța traficului și a celorlalți participanți. ",
-      "incompatibilitati": [
-        "cap.3_3.12_jaf",
-        "cap.3_3.12.1_jaf_armat",
-        "cap.3_3.12.2_jaf_imobile",
-        "cap.3_3.12.3_jaf_bancar",
-        "cap.6_6.1_amenintari_criminale",
-        "cap.8_8.9_constituire_grup_infractional_organizat",
-        "cap.8_8.10_coruptie",
-        "cap.1_1.7_parcare_ilegala",
-        "cap.1_1.8_traversarea_interzisa",
-      ],
-      "id": "cap.1_1.17_condusul_pe_contra-sens"
-    },
+    
     {
       "cap": "Cap. 1",
       "numarArticol": "1.2",
