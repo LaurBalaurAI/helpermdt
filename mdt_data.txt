@@ -5075,8 +5075,8 @@
     "id": "benefactor_kls_63s_autoturism",
     "name": "Benefactor KLS 63s",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "ubermacht_e30_touring_autoturism",
     "name": "Ubermacht e30 Touring",
     "type": "autoturism"
@@ -5250,8 +5250,8 @@
     "id": "vapid_cruiser_mai_autoturism",
     "name": "Vapid Cruiser MAI",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "ubermacht_cypher_mai_autoturism",
     "name": "Ubermacht Cypher MAI",
     "type": "autoturism"
@@ -5355,183 +5355,183 @@
     "id": "enus_paragon_mai_autoturism",
     "name": "Enus Paragon MAI",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "dinka_verus_ems_autoturism",
     "name": "Dinka Verus EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "obey_tailgater_ems_autoturism",
     "name": "Obey Tailgater EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "vapid_caracara_ems_autoturism",
     "name": "Vapid Caracara Ems",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "lampadati_komoda_ems_autoturism",
     "name": "Lampadati Komoda EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "vapid_sadler_ems_autoturism",
     "name": "Vapid Sadler EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "enus_paragon_ems_autoturism",
     "name": "Enus Paragon EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "gallivanter_baller_ems_autoturism",
     "name": "Gallivanter Baller Ems",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "buffalo_stx_ems_autoturism",
     "name": "Buffalo STX EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "brute_smurd_autoturism",
     "name": "Brute SMURD",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "brute_ambulanta_autoturism",
     "name": "Brute Ambulanta",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "canis_terminus_ems_autoturism",
     "name": "Canis Terminus EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "nagasaki_bf400_ems_autoturism",
     "name": "Nagasaki Bf400 EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "ubermacht_rhinehart_ems_autoturism",
     "name": "Ubermacht Rhinehart EMS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "pegassi_sto_autoturism",
     "name": "Pegassi STO",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "progen_720_autoturism",
     "name": "Progen 720",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "overflod_mera_turbo_autoturism",
     "name": "Overflod Mera Turbo",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "grotti_itali_r_autoturism",
     "name": "Grotti Itali R",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "truffade_puro_autoturism",
     "name": "Truffade Puro",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "obey_avant_rs_autoturism",
     "name": "Obey Avant RS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "obey_rss_autoturism",
     "name": "Obey RSS",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "ocelot_vija_autoturism",
     "name": "Ocelot Vija",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "benefactor_vision_neon_autoturism",
     "name": "Benefactor Vision Neon",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "enus_bakalar_autoturism",
     "name": "Enus Bakalar",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "ubermacht_g99_autoturism",
     "name": "Ubermacht G99",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "ubermacht_g70_edrive_autoturism",
     "name": "Ubermacht G70-eDrive",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "bravado_bison_utility_autoturism",
     "name": "Bravado Bison Utility",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "canis_griffon_autoturism",
     "name": "Canis Griffon",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "karin_tunder_autoturism",
     "name": "Karin Tunder",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "vapid_raptor_autoturism",
     "name": "Vapid Raptor",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "maibatsu_mule_autoturism",
     "name": "Maibatsu Mule",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "hvy_sturdy_autoturism",
     "name": "HVY Sturdy",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "mtl_brickade_autoturism",
     "name": "MTL Brickade",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "mtl_oldboy_autoturism",
     "name": "MTL OldBoy",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "mtl_bigboy_autoturism",
     "name": "MTL BigBoy",
     "type": "autoturism"
-  },
-  {
+    },
+    {
     "id": "mtl_haulking_autoturism",
     "name": "MTL Haulking",
     "type": "autoturism"
-  }  
-]
+    }  
+],
   "limiteViteza": [
     {
       "id": "abattoir_ave",
