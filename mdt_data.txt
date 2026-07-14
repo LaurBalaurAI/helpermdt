@@ -5531,7 +5531,7 @@
     "name": "MTL Haulking",
     "type": "autoturism"
   }  
-],
+]
   "limiteViteza": [
     {
       "id": "abattoir_ave",
