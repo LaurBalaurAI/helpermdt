@@ -3857,454 +3857,454 @@
   ],
   "vehicule": [
     {
-      "id": "enus_jubilee_ghost_autoturism",
+      "id": "enus_jubilee_ghost_vehicul",
       "name": "Enus Jubilee Ghost",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "obey_rs7_autoturism",
+      "id": "obey_rs7_vehicul",
       "name": "Obey RS7",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizan_350_autoturism",
+      "id": "bizan_350_vehicul",
       "name": "Bizan 350",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_600_autoturism",
+      "id": "mercies_600_vehicul",
       "name": "Mercies 600",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "beloren_675_autoturism",
+      "id": "beloren_675_vehicul",
       "name": "BeLoren 675",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ubermacht_760_autoturism",
+      "id": "ubermacht_760_vehicul",
       "name": "Ubermacht 760",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "decebal_1310_sport_autoturism",
+      "id": "decebal_1310_sport_vehicul",
       "name": "Decebal 1310 Sport",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "overflod_argon_rs_autoturism",
+      "id": "overflod_argon_rs_vehicul",
       "name": "Overflod Argon RS",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_mgtr_autoturism",
+      "id": "benefactor_mgtr_vehicul",
       "name": "Benefactor M-GTR",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "apollo_merlin_vanguard_autoturism",
+      "id": "apollo_merlin_vanguard_vehicul",
       "name": "Apollo Merlin Vanguard",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "obey_q7_autoturism",
+      "id": "obey_q7_vehicul",
       "name": "Obey Q7",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "balkan_fazan_b6_autoturism",
+      "id": "balkan_fazan_b6_vehicul",
       "name": "Balkan Fazan B6",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "enus_huntley_bayga_autoturism",
+      "id": "enus_huntley_bayga_vehicul",
       "name": "Enus Huntley Bayga",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "betty_ss_autoturism",
+      "id": "betty_ss_vehicul",
       "name": "Betty SS",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_bzg_ls_63_autoturism",
+      "id": "mercies_bzg_ls_63_vehicul",
       "name": "Mercies BZG LS 63",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_ex38_autoturism",
+      "id": "bizon_ex38_vehicul",
       "name": "Bizon EX-38",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ubermacht_f90_autoturism",
+      "id": "ubermacht_f90_vehicul",
       "name": "Ubermacht F-90",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_m8_autoturism",
+      "id": "bizon_m8_vehicul",
       "name": "Bizon M8",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_turbo_sport_autoturism",
+      "id": "buddy_turbo_sport_vehicul",
       "name": "Buddy Turbo Sport",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_vision_autoturism",
+      "id": "buddy_vision_vehicul",
       "name": "Buddy Vision",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_bzg_cx63_sedan_autoturism",
+      "id": "mercies_bzg_cx63_sedan_vehicul",
       "name": "Mercies BZG CX-63 Sedan",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "pfister_comet_callista_autoturism",
+      "id": "pfister_comet_callista_vehicul",
       "name": "Pfister Comet Callista",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "paradise_pursuit_autoturism",
+      "id": "paradise_pursuit_vehicul",
       "name": "Paradise Pursuit",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bondar_brs_650_autoturism",
+      "id": "bondar_brs_650_vehicul",
       "name": "Bondar BRS 650",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_zion_autoturism",
+      "id": "buddy_zion_vehicul",
       "name": "Buddy Zion",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_bls_63_autoturism",
+      "id": "mercies_bls_63_vehicul",
       "name": "Mercies BLS 63",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_c_500_autoturism",
+      "id": "benefactor_c_500_vehicul",
       "name": "Benefactor C 500",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_e_55_autoturism",
+      "id": "benefactor_e_55_vehicul",
       "name": "Benefactor E 55",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "maidubizi_epsilon_9_autoturism",
+      "id": "maidubizi_epsilon_9_vehicul",
       "name": "Maidubizi Epsilon 9",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "taurus_bms_classic_autoturism",
+      "id": "taurus_bms_classic_vehicul",
       "name": "Taurus BMS Classic",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "grotti_rxxs_autoturism",
+      "id": "grotti_rxxs_vehicul",
       "name": "Grotti RXX-S",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_gx63_autoturism",
+      "id": "mercies_gx63_vehicul",
       "name": "Mercies GX-63",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "pejos_508_bms_autoturism",
+      "id": "pejos_508_bms_vehicul",
       "name": "Pejos 508 BMS",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "dagger_canion_autoturism",
+      "id": "dagger_canion_vehicul",
       "name": "Dagger Canion",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "budi_bs3_sedan_autoturism",
+      "id": "budi_bs3_sedan_vehicul",
       "name": "Budi BS-3 Sedan",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_bx3_autoturism",
+      "id": "bizon_bx3_vehicul",
       "name": "Bizon BX-3",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "corvus_charlotte_zx6_autoturism",
+      "id": "corvus_charlotte_zx6_vehicul",
       "name": "Corvus Charlotte ZX-6",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_bzg_bls_autoturism",
+      "id": "mercies_bzg_bls_vehicul",
       "name": "Mercies BZG BLS",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_b8_autoturism",
+      "id": "bizon_b8_vehicul",
       "name": "Bizon B8",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "dinka_nexus_autoturism",
+      "id": "dinka_nexus_vehicul",
       "name": "Dinka Nexus",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_mx6_autoturism",
+      "id": "bizon_mx6_vehicul",
       "name": "Bizon MX-6",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lambada_uraganu_autoturism",
+      "id": "lambada_uraganu_vehicul",
       "name": "Lambada Uraganu",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_ex36_autoturism",
+      "id": "bizon_ex36_vehicul",
       "name": "Bizon EX-36",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ubermacht_w4_cabrio_autoturism",
+      "id": "ubermacht_w4_cabrio_vehicul",
       "name": "Ubermacht W4 Cabrio",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_mx4_contest_autoturism",
+      "id": "bizon_mx4_contest_vehicul",
       "name": "Bizon MX-4 Contest",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_mx5_ex60_autoturism",
+      "id": "bizon_mx5_ex60_vehicul",
       "name": "Bizon MX-5 EX-60",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "taurus_mushtar_bms_autoturism",
+      "id": "taurus_mushtar_bms_vehicul",
       "name": "Taurus Mushtar BMS",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_w164_autoturism",
+      "id": "benefactor_w164_vehicul",
       "name": "Benefactor W164",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "baza_bx5_miza_autoturism",
+      "id": "baza_bx5_miza_vehicul",
       "name": "Baza BX-5 Miza",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "annis_roxanne_autoturism",
+      "id": "annis_roxanne_vehicul",
       "name": "Annis Roxanne",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizan_tau_fighter_autoturism",
+      "id": "bizan_tau_fighter_vehicul",
       "name": "Bizan Tau Fighter",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "marley_david_sunset_autoturism",
+      "id": "marley_david_sunset_vehicul",
       "name": "Marley David Sunset",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "vapid_speedo_express_autoturism",
+      "id": "vapid_speedo_express_vehicul",
       "name": "Vapid Speedo Express",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "paradise_panama_autoturism",
+      "id": "paradise_panama_vehicul",
       "name": "Paradise Panama",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "maibatsu_penumbra_retro_autoturism",
+      "id": "maibatsu_penumbra_retro_vehicul",
       "name": "Maibatsu Penumbra Retro",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ferentari_portenzo_autoturism",
+      "id": "ferentari_portenzo_vehicul",
       "name": "Ferentari Portenzo",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "balkan_terra_autoturism",
+      "id": "balkan_terra_vehicul",
       "name": "Balkan Terra",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_bzg_bms63_coupe_autoturism",
+      "id": "mercies_bzg_bms63_coupe_vehicul",
       "name": "Mercies BZG BMS-63 Coupe",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "gallivanter_gladiator_autoturism",
+      "id": "gallivanter_gladiator_vehicul",
       "name": "Gallivanter Gladiator",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lambada_tornado_autoturism",
+      "id": "lambada_tornado_vehicul",
       "name": "Lambada Tornado",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "pelicia_haira_autoturism",
+      "id": "pelicia_haira_vehicul",
       "name": "Pelicia Haira",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "obey_rs5_autoturism",
+      "id": "obey_rs5_vehicul",
       "name": "Obey RS5",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "obey_itron_gt_autoturism",
+      "id": "obey_itron_gt_vehicul",
       "name": "Obey I-tron GT",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "baza_rxb7_autoturism",
+      "id": "baza_rxb7_vehicul",
       "name": "Baza RXB-7",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "budi_sx8_1998_autoturism",
+      "id": "budi_sx8_1998_vehicul",
       "name": "Budi SX-8 1998",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_bzg_sx63_coupe_autoturism",
+      "id": "mercies_bzg_sx63_coupe_vehicul",
       "name": "Mercies BZG SX-63 Coupe",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_r1000_autoturism",
+      "id": "bizon_r1000_vehicul",
       "name": "Bizon R1000",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "dinka_lione_autoturism",
+      "id": "dinka_lione_vehicul",
       "name": "Dinka Lione",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizan_horizon_bms_rx34_autoturism",
+      "id": "bizan_horizon_bms_rx34_vehicul",
       "name": "Bizan Horizon BMS RX-34",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "coil_savanna_autoturism",
+      "id": "coil_savanna_vehicul",
       "name": "Coil Savanna",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "beyoza_super_v4_autoturism",
+      "id": "beyoza_super_v4_vehicul",
       "name": "Beyoza Super v4",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "vapid_sandstorm_autoturism",
+      "id": "vapid_sandstorm_vehicul",
       "name": "Vapid Sandstorm",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "beyoza_prime_autoturism",
+      "id": "beyoza_prime_vehicul",
       "name": "Beyoza Prime",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_bx6_autoturism",
+      "id": "bizon_bx6_vehicul",
       "name": "Bizon BX-6",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_diva_autoturism",
+      "id": "buddy_diva_vehicul",
       "name": "Buddy Diva",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "beyoza_trail_pro_autoturism",
+      "id": "beyoza_trail_pro_vehicul",
       "name": "Beyoza Trail Pro",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_schlagen_ar_autoturism",
+      "id": "benefactor_schlagen_ar_vehicul",
       "name": "Benefactor Schlagen AR",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "pfister_911_autoturism",
+      "id": "pfister_911_vehicul",
       "name": "Pfister 911",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_mx2_coupe_autoturism",
+      "id": "bizon_mx2_coupe_vehicul",
       "name": "Bizon MX-2 Coupe",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "budi_8r_coupe_autoturism",
+      "id": "budi_8r_coupe_vehicul",
       "name": "Budi 8R Coupe",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "soda_octavian_iii_autoturism",
+      "id": "soda_octavian_iii_vehicul",
       "name": "Soda Octavian III",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_6xw_autoturism",
+      "id": "bizon_6xw_vehicul",
       "name": "Bizon 6XW",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ubermacht_x5_autoturism",
+      "id": "ubermacht_x5_vehicul",
       "name": "Ubermacht X5",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_cs5_i330_autoturism",
+      "id": "bizon_cs5_i330_vehicul",
       "name": "Bizon CS5 i330",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lambada_san_autoturism",
+      "id": "lambada_san_vehicul",
       "name": "Lambada SAN",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_black_autoturism",
+      "id": "buddy_black_vehicul",
       "name": "Buddy Black",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_brutus_racheta_autoturism",
+      "id": "mercies_brutus_racheta_vehicul",
       "name": "Mercies Brutus Racheta",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lambada_ultimate_autoturism",
+      "id": "lambada_ultimate_vehicul",
       "name": "Lambada Ultimate",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_w3_46e_autoturism",
+      "id": "bizon_w3_46e_vehicul",
       "name": "Bizon W3 46E",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "cnair_winter_autoturism",
+      "id": "cnair_winter_vehicul",
       "name": "C.N.A.I.R Winter",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
       "id": "bizon_w5_competition_f90_autospeciala_de_poliție",
@@ -4312,304 +4312,304 @@
       "type": "autospeciala de poliție"
     },
     {
-      "id": "bizon_7xw_sandstorm_autoturism",
+      "id": "bizon_7xw_sandstorm_vehicul",
       "name": "Bizon 7X-W Sandstorm",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lambada_avantero_svj_autoturism",
+      "id": "lambada_avantero_svj_vehicul",
       "name": "Lambada Avantero SVJ",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "paradise_991_s_turbo_autoturism",
+      "id": "paradise_991_s_turbo_vehicul",
       "name": "Paradise 991 S Turbo",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_w5_performance_autoturism",
+      "id": "bizon_w5_performance_vehicul",
       "name": "Bizon W5 Performance",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "pegassi_rovente_autoturism",
+      "id": "pegassi_rovente_vehicul",
       "name": "Pegassi Rovente",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_spyder_autoturism",
+      "id": "buddy_spyder_vehicul",
       "name": "Buddy Spyder",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "koenigsberg_mera_autoturism",
+      "id": "koenigsberg_mera_vehicul",
       "name": "Koenigsberg Mera",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_mag_autoturism",
+      "id": "mercies_mag_vehicul",
       "name": "Mercies MAG",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lampadati_gta_autoturism",
+      "id": "lampadati_gta_vehicul",
       "name": "Lampadati GTA",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_zt4_autoturism",
+      "id": "bizon_zt4_vehicul",
       "name": "Bizon ZT4",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_diamond_autoturism",
+      "id": "buddy_diamond_vehicul",
       "name": "Buddy Diamond",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "super_range_evotra_autoturism",
+      "id": "super_range_evotra_vehicul",
       "name": "Super Range Evotra",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_xm_autoturism",
+      "id": "bizon_xm_vehicul",
       "name": "Bizon XM",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_f10_autoturism",
+      "id": "bizon_f10_vehicul",
       "name": "Bizon F10",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_speedo_xl_autoturism",
+      "id": "benefactor_speedo_xl_vehicul",
       "name": "Benefactor Speedo XL",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_transit_autoturism",
+      "id": "benefactor_transit_vehicul",
       "name": "Benefactor Transit",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "dagger_fire_autoturism",
+      "id": "dagger_fire_vehicul",
       "name": "Dagger Fire",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "syan_ss_autoturism",
+      "id": "syan_ss_vehicul",
       "name": "Syan SS",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_imperial_autoturism",
+      "id": "benefactor_imperial_vehicul",
       "name": "Benefactor Imperial",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "grotti_spider_r_autoturism",
+      "id": "grotti_spider_r_vehicul",
       "name": "Grotti Spider R",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizan_saitamo_r34_autoturism",
+      "id": "bizan_saitamo_r34_vehicul",
       "name": "Bizan Saitamo R-34",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "paradise_991_s_turbo_cabrio_autoturism",
+      "id": "paradise_991_s_turbo_cabrio_vehicul",
       "name": "Paradise 991 S Turbo Cabrio",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "white_dragon_gtr_autoturism",
+      "id": "white_dragon_gtr_vehicul",
       "name": "White Dragon GTR",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_bolid_autoturism",
+      "id": "buddy_bolid_vehicul",
       "name": "Buddy Bolid",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_e92_cabrio_autoturism",
+      "id": "bizon_e92_cabrio_vehicul",
       "name": "Bizon E92 Cabrio",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "dinka_sugoi_autoturism",
+      "id": "dinka_sugoi_vehicul",
       "name": "Dinka Sugoi",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bravado_gauntlet_hemi_autoturism",
+      "id": "bravado_gauntlet_hemi_vehicul",
       "name": "Bravado Gauntlet Hemi",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bf_club_8_r_autoturism",
+      "id": "bf_club_8_r_vehicul",
       "name": "BF Club 8 R",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_i7_autoturism",
+      "id": "bizon_i7_vehicul",
       "name": "Bizon i7",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_w5_g60_autoturism",
+      "id": "bizon_w5_g60_vehicul",
       "name": "Bizon W5 G60",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "buddy_centomille_autoturism",
+      "id": "buddy_centomille_vehicul",
       "name": "Buddy Centomille",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lambada_urs_autoturism",
+      "id": "lambada_urs_vehicul",
       "name": "Lambada Urs",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "progen_ayrton_autoturism",
+      "id": "progen_ayrton_vehicul",
       "name": "Progen Ayrton",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_batiz_autoturism",
+      "id": "benefactor_batiz_vehicul",
       "name": "Benefactor Batiz",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bravado_cx9_autoturism",
+      "id": "bravado_cx9_vehicul",
       "name": "Bravado CX-9",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "grotti_spider_autoturism",
+      "id": "grotti_spider_vehicul",
       "name": "Grotti Spider",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "vapid_riata_autoturism",
+      "id": "vapid_riata_vehicul",
       "name": "Vapid Riata",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "vapid_rocco_autoturism",
+      "id": "vapid_rocco_vehicul",
       "name": "Vapid Rocco",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_grande_autoturism",
+      "id": "benefactor_grande_vehicul",
       "name": "Benefactor Grande",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bizon_w36_autoturism",
+      "id": "bizon_w36_vehicul",
       "name": "Bizon W36",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lambada_spark_autoturism",
+      "id": "lambada_spark_vehicul",
       "name": "Lambada Spark",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "overflod_toatara_autoturism",
+      "id": "overflod_toatara_vehicul",
       "name": "Overflod Toatara",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mercies_xtreme_6x6_autoturism",
+      "id": "mercies_xtreme_6x6_vehicul",
       "name": "Mercies Xtreme 6x6",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "enus_spectrum_autoturism",
+      "id": "enus_spectrum_vehicul",
       "name": "Enus Spectrum",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "enus_jubilee_royal_autoturism",
+      "id": "enus_jubilee_royal_vehicul",
       "name": "Enus Jubilee Royal",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "mushtar_cobra_autoturism",
+      "id": "mushtar_cobra_vehicul",
       "name": "Mushtar Cobra",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_club_r7_autoturism",
+      "id": "benefactor_club_r7_vehicul",
       "name": "Benefactor Club R7",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "lambada_black_autoturism",
+      "id": "lambada_black_vehicul",
       "name": "Lambada Black",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "paradise_snowflake_autoturism",
+      "id": "paradise_snowflake_vehicul",
       "name": "Paradise Snowflake",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ubermacht_m5_autoturism",
+      "id": "ubermacht_m5_vehicul",
       "name": "Ubermacht M5",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "apollo_intensa_emozione_autoturism",
+      "id": "apollo_intensa_emozione_vehicul",
       "name": "Apollo Intensa Emozione",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ferentari_dracula_autoturism",
+      "id": "ferentari_dracula_vehicul",
       "name": "Ferentari Dracula",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "paradise_911_gt3sr_autoturism",
+      "id": "paradise_911_gt3sr_vehicul",
       "name": "Paradise 911 GT-3SR",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bondar_kr1200_autoturism",
+      "id": "bondar_kr1200_vehicul",
       "name": "Bondar KR-1200",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "koenigsberg_jeska_autoturism",
+      "id": "koenigsberg_jeska_vehicul",
       "name": "Koenigsberg Jeska",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "nightfury_rr_autoturism",
+      "id": "nightfury_rr_vehicul",
       "name": "NightFury RR",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "syan_ss_hypersport_autoturism",
+      "id": "syan_ss_hypersport_vehicul",
       "name": "Syan SS Hypersport",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "sakura_festival_autoturism",
+      "id": "sakura_festival_vehicul",
       "name": "Sakura Festival",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "balkan_galactic_5_autoturism",
+      "id": "balkan_galactic_5_vehicul",
       "name": "Balkan Galactic 5",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
       "id": "bullet_eater_raven_mai_autospeciala_de_poliție",
       "name": "Bullet Eater Raven MAI",
-      "type": "autospeciala de poliție"
+      "type": "blindata de poliție"
     },
     {
       "id": "bizon_mx52_mai_autospeciala_de_poliție",
@@ -4644,7 +4644,7 @@
     {
       "id": "frogger_hs_mai_autospeciala_de_poliție",
       "name": "Frogger HS MAI",
-      "type": "autospeciala de poliție"
+      "type": "elicopter de poliție"
     },
     {
       "id": "gtr_mai_autospeciala_de_poliție",
@@ -4712,9 +4712,9 @@
       "type": "autospeciala de poliție"
     },
     {
-      "id": "volt_s_performance_autoturism",
+      "id": "volt_s_performance_vehicul",
       "name": "Volt S Performance",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
       "id": "bizon_mx5_mai_autospeciala_de_poliție",
@@ -4727,19 +4727,19 @@
       "type": "autospeciala de poliție"
     },
     {
-      "id": "prison_bus2_autoturism",
+      "id": "prison_bus2_vehicul",
       "name": "Prison Bus2",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "marisati_ghilli_autoturism",
+      "id": "marisati_ghilli_vehicul",
       "name": "Marisati Ghilli",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "hyante_zenafey_autoturism",
+      "id": "hyante_zenafey_vehicul",
       "name": "Hyante Zenafey",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
       "id": "bizon_w4_competition_autospeciala_de_poliție",
@@ -4757,9 +4757,9 @@
       "type": "autospeciala de poliție"
     },
     {
-      "id": "super_range_rsv_autoturism",
+      "id": "super_range_rsv_vehicul",
       "name": "Super Range RSV",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
       "id": "atv_ems_autospeciala_smurd",
@@ -4769,7 +4769,7 @@
     {
       "id": "maverick_service_autospeciala_de_poliție",
       "name": "Maverick Service",
-      "type": "autospeciala de poliție"
+      "type": "elicopter de poliție"
     },
     {
       "id": "vapid_transporter_ems_autospeciala_smurd",
@@ -4782,9 +4782,9 @@
       "type": "autospeciala S.M.U.R.D."
     },
     {
-      "id": "vapid_avalanche_autoturism",
+      "id": "vapid_avalanche_vehicul",
       "name": "Vapid Avalanche",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
       "id": "benefactor_63c_ems_autospeciala_smurd",
@@ -4844,172 +4844,172 @@
     {
       "id": "frogger_ems_autospeciala_smurd",
       "name": "Frogger EMS",
-      "type": "autospeciala S.M.U.R.D."
+      "type": "elicopter S.M.U.R.D."
     },
     {
-      "id": "raven_gt_autoturism",
+      "id": "raven_gt_vehicul",
       "name": "Raven GT",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "albany_cavalvade_iii_autoturism",
+      "id": "albany_cavalvade_iii_vehicul",
       "name": "Albany Cavalvade III",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_visione_autoturism",
+      "id": "benefactor_visione_vehicul",
       "name": "Benefactor Visione",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "maibatsu_evolution_autoturism",
+      "id": "maibatsu_evolution_vehicul",
       "name": "Maibatsu Evolution",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "enus_expert_gt_autoturism",
+      "id": "enus_expert_gt_vehicul",
       "name": "Enus Expert GT",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "grotti_la_grotti_autoturism",
+      "id": "grotti_la_grotti_vehicul",
       "name": "Grotti La Grotti",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bf_club_4_autoturism",
+      "id": "bf_club_4_vehicul",
       "name": "BF Club 4",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "annis_elegy_gtr_autoturism",
+      "id": "annis_elegy_gtr_vehicul",
       "name": "Annis Elegy GTR",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_opulent_autoturism",
+      "id": "benefactor_opulent_vehicul",
       "name": "Benefactor Opulent",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "coil_type_s_autoturism",
+      "id": "coil_type_s_vehicul",
       "name": "Coil Type S",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "benefactor_opulent_limo_autoturism",
+      "id": "benefactor_opulent_limo_vehicul",
       "name": "Benefactor Opulent Limo",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "grotti_sangue_autoturism",
+      "id": "grotti_sangue_vehicul",
       "name": "Grotti Sangue",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bravado_colossus_autoturism",
+      "id": "bravado_colossus_vehicul",
       "name": "Bravado Colossus",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "coil_velocity_autoturism",
+      "id": "coil_velocity_vehicul",
       "name": "Coil Velocity",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ubermacht_strasse_6x_autoturism",
+      "id": "ubermacht_strasse_6x_vehicul",
       "name": "Ubermacht Strasse 6X",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "truffade_transform_autoturism",
+      "id": "truffade_transform_vehicul",
       "name": "Truffade Transform",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "pegassi_veleno_autoturism",
+      "id": "pegassi_veleno_vehicul",
       "name": "Pegassi Veleno",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "truffade_astral_autoturism",
+      "id": "truffade_astral_vehicul",
       "name": "Truffade Astral",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "grotti_spada_autoturism",
+      "id": "grotti_spada_vehicul",
       "name": "Grotti Spada",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "vapid_steed_autoturism",
+      "id": "vapid_steed_vehicul",
       "name": "Vapid Steed",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "truffade_zion_halloween_autoturism",
+      "id": "truffade_zion_halloween_vehicul",
       "name": "Truffade Zion Halloween",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "sentinel_gts_autoturism",
+      "id": "sentinel_gts_vehicul",
       "name": "Sentinel GTS",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "zentorno_autoturism",
+      "id": "zentorno_vehicul",
       "name": "Zentorno",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "thrax_autoturism",
+      "id": "thrax_vehicul",
       "name": "Thrax",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "x80_proto_autoturism",
+      "id": "x80_proto_vehicul",
       "name": "X80 Proto",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "virtue_autoturism",
+      "id": "virtue_vehicul",
       "name": "Virtue",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "obey_tts_autoturism",
+      "id": "obey_tts_vehicul",
       "name": "Obey TTs",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "ubermacht_e30_autoturism",
+      "id": "ubermacht_e30_vehicul",
       "name": "Ubermacht e30",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "karin_kuruma_drift_autoturism",
+      "id": "karin_kuruma_drift_vehicul",
       "name": "Karin Kuruma Drift",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "bravado_hellfire_autoturism",
+      "id": "bravado_hellfire_vehicul",
       "name": "Bravado Hellfire",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "dinka_jester_ss_autoturism",
+      "id": "dinka_jester_ss_vehicul",
       "name": "Dinka Jester SS",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "decebal_1310_xmas_autoturism",
+      "id": "decebal_1310_xmas_vehicul",
       "name": "Decebal 1310 Xmas",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
-      "id": "progen_p1_xmas_autoturism",
+      "id": "progen_p1_xmas_vehicul",
       "name": "Progen P1 Xmas",
-      "type": "autoturism"
+      "type": "vehicul"
     },
     {
       "id": "benefactor_dubsta_ems_autospeciala_smurd",
@@ -5022,514 +5022,514 @@
       "type": "autospeciala S.M.U.R.D."
     },
     {
-    "id": "annis_350z_autoturism",
+    "id": "annis_350z_vehicul",
     "name": "Annis 350z",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "benefactor_w140_autoturism",
+    "id": "benefactor_w140_vehicul",
     "name": "Benefactor W140",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "progen_675_autoturism",
+    "id": "progen_675_vehicul",
     "name": "Progen 675",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "dewbauchee_vantage_autoturism",
+    "id": "dewbauchee_vantage_vehicul",
     "name": "Dewbauchee Vantage",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "bf_club_variant_2020_autoturism",
+    "id": "bf_club_variant_2020_vehicul",
     "name": "BF Club Variant 2020",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "enus_paragon_gts_autoturism",
+    "id": "enus_paragon_gts_vehicul",
     "name": "Enus Paragon GTS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_e38_autoturism",
+    "id": "ubermacht_e38_vehicul",
     "name": "Ubermacht e38",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_f90_autoturism",
+    "id": "ubermacht_f90_vehicul",
     "name": "Ubermacht F90",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_m8_autoturism",
+    "id": "ubermacht_m8_vehicul",
     "name": "Ubermacht M8",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "truffade_legacy_autoturism",
+    "id": "truffade_legacy_vehicul",
     "name": "Truffade Legacy",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "benefactor_kls_63s_autoturism",
+    "id": "benefactor_kls_63s_vehicul",
     "name": "Benefactor KLS 63s",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_e30_touring_autoturism",
+    "id": "ubermacht_e30_touring_vehicul",
     "name": "Ubermacht e30 Touring",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "bravado_buffalo_supercharge_autoturism",
+    "id": "bravado_buffalo_supercharge_vehicul",
     "name": "Bravado Buffalo Supercharge",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "obey_rs3_autoturism",
+    "id": "obey_rs3_vehicul",
     "name": "Obey RS3",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_e70_autoturism",
+    "id": "ubermacht_e70_vehicul",
     "name": "Ubermacht e70",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "invetero_coquette_c8_autoturism",
+    "id": "invetero_coquette_c8_vehicul",
     "name": "Invetero Coquette C8",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "benefactor_xls_autoturism",
+    "id": "benefactor_xls_vehicul",
     "name": "Benefactor XLS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_i8_autoturism",
+    "id": "ubermacht_i8_vehicul",
     "name": "Ubermacht i8",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_m6_autoturism",
+    "id": "ubermacht_m6_vehicul",
     "name": "Ubermacht M6",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_e36_autoturism",
+    "id": "ubermacht_e36_vehicul",
     "name": "Ubermacht e36",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_m4_autoturism",
+    "id": "ubermacht_m4_vehicul",
     "name": "Ubermacht M4",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_e60_autoturism",
+    "id": "ubermacht_e60_vehicul",
     "name": "Ubermacht e60",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "annis_miata_autoturism",
+    "id": "annis_miata_vehicul",
     "name": "Annis Miata",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "benefactor_schafter_gtr_autoturism",
+    "id": "benefactor_schafter_gtr_vehicul",
     "name": "Benefactor Schafter GTR",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "benefactor_schafter_gtr_coupe_autoturism",
+    "id": "benefactor_schafter_gtr_coupe_vehicul",
     "name": "Benefactor Schafter GTR Coupe",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_f86_autoturism",
+    "id": "ubermacht_f86_vehicul",
     "name": "Ubermacht F86",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "truffade_vivo_autoturism",
+    "id": "truffade_vivo_vehicul",
     "name": "Truffade Vivo",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_g42_autoturism",
+    "id": "ubermacht_g42_vehicul",
     "name": "Ubermacht G42",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "bf_oktavia_rs_autoturism",
+    "id": "bf_oktavia_rs_vehicul",
     "name": "BF Oktavia RS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "truffade_obsidian_autoturism",
+    "id": "truffade_obsidian_vehicul",
     "name": "Truffade Obsidian",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_e46_autoturism",
+    "id": "ubermacht_e46_vehicul",
     "name": "Ubermacht e46",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "pegassi_svj_autoturism",
+    "id": "pegassi_svj_vehicul",
     "name": "Pegassi SVJ",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "overflod_mera_autoturism",
+    "id": "overflod_mera_vehicul",
     "name": "Overflod Mera",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_xm_autoturism",
+    "id": "ubermacht_xm_vehicul",
     "name": "Ubermacht XM",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_f10_autoturism",
+    "id": "ubermacht_f10_vehicul",
     "name": "Ubermacht F10",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "sakura_gtr_autoturism",
+    "id": "sakura_gtr_vehicul",
     "name": "Sakura GTR",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_g70_autoturism",
+    "id": "ubermacht_g70_vehicul",
     "name": "Ubermacht G70",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_g90_autoturism",
+    "id": "ubermacht_g90_vehicul",
     "name": "Ubermacht G90",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "overflod_emozione_autoturism",
+    "id": "overflod_emozione_vehicul",
     "name": "Overflod Emozione",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "gallivanter_baller_mai_autoturism",
+    "id": "gallivanter_baller_mai_vehicul",
     "name": "Gallivanter Baller MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "bf400_mai_autoturism",
+    "id": "bf400_mai_vehicul",
     "name": "BF400 MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "bravado_bison_mai_autoturism",
+    "id": "bravado_bison_mai_vehicul",
     "name": "Bravado Bison MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "vapid_caracara_mai_autoturism",
+    "id": "vapid_caracara_mai_vehicul",
     "name": "Vapid CaraCara MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "pfister_comet_mai_autoturism",
+    "id": "pfister_comet_mai_vehicul",
     "name": "Pfister Comet MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "invetero_coquette_mai_autoturism",
+    "id": "invetero_coquette_mai_vehicul",
     "name": "Invetero Coquette MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "vapid_cruiser_mai_autoturism",
+    "id": "vapid_cruiser_mai_vehicul",
     "name": "Vapid Cruiser MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_cypher_mai_autoturism",
+    "id": "ubermacht_cypher_mai_vehicul",
     "name": "Ubermacht Cypher MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "vapid_dominator_mai_autoturism",
+    "id": "vapid_dominator_mai_vehicul",
     "name": "Vapid Dominator MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "cheval_fugitive_mai_autoturism",
+    "id": "cheval_fugitive_mai_vehicul",
     "name": "Cheval Fugitive MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "bravado_gauntlet_mai_autoturism",
+    "id": "bravado_gauntlet_mai_vehicul",
     "name": "Bravado Gauntlet MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "declasse_granger_mai_autoturism",
+    "id": "declasse_granger_mai_vehicul",
     "name": "Declasse Granger MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "truffade_apex_mai_autoturism",
+    "id": "truffade_apex_mai_vehicul",
     "name": "Truffade Apex MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "dinka_jester_mai_autoturism",
+    "id": "dinka_jester_mai_vehicul",
     "name": "Dinka Jester MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ocelot_jugular_mai_autoturism",
+    "id": "ocelot_jugular_mai_vehicul",
     "name": "Ocelot Jugular MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "lampadati_komoda_mai_autoturism",
+    "id": "lampadati_komoda_mai_vehicul",
     "name": "Lampadati Komoda MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_rhinehart_mai_autoturism",
+    "id": "ubermacht_rhinehart_mai_vehicul",
     "name": "Ubermacht Rhinehart MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "nagasaki_shinobi_mai_autoturism",
+    "id": "nagasaki_shinobi_mai_vehicul",
     "name": "Nagasaki Shinobi MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "grotti_stinger_mai_autoturism",
+    "id": "grotti_stinger_mai_vehicul",
     "name": "Grotti Stinger MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "buffalo_stx_mai_autoturism",
+    "id": "buffalo_stx_mai_vehicul",
     "name": "Buffalo STX MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "dinka_sugoi_mai_autoturism",
+    "id": "dinka_sugoi_mai_vehicul",
     "name": "Dinka Sugoi MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "obey_tailgater_s_mai_autoturism",
+    "id": "obey_tailgater_s_mai_vehicul",
     "name": "Obey Tailgater S MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "obey_10f_mai_autoturism",
+    "id": "obey_10f_mai_vehicul",
     "name": "Obey 10F MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "gallivanter_terminus_mai_autoturism",
+    "id": "gallivanter_terminus_mai_vehicul",
     "name": "Gallivanter Terminus MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "declasse_transporter_mai_autoturism",
+    "id": "declasse_transporter_mai_vehicul",
     "name": "Declasse Transporter MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "declasse_vigero_mai_autoturism",
+    "id": "declasse_vigero_mai_vehicul",
     "name": "Declasse Vigero MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "albany_v_str_mai_autoturism",
+    "id": "albany_v_str_mai_vehicul",
     "name": "Albany V-STR MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "enus_paragon_mai_autoturism",
+    "id": "enus_paragon_mai_vehicul",
     "name": "Enus Paragon MAI",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "dinka_verus_ems_autoturism",
+    "id": "dinka_verus_ems_vehicul",
     "name": "Dinka Verus EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "obey_tailgater_ems_autoturism",
+    "id": "obey_tailgater_ems_vehicul",
     "name": "Obey Tailgater EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "vapid_caracara_ems_autoturism",
+    "id": "vapid_caracara_ems_vehicul",
     "name": "Vapid Caracara Ems",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "lampadati_komoda_ems_autoturism",
+    "id": "lampadati_komoda_ems_vehicul",
     "name": "Lampadati Komoda EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "vapid_sadler_ems_autoturism",
+    "id": "vapid_sadler_ems_vehicul",
     "name": "Vapid Sadler EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "enus_paragon_ems_autoturism",
+    "id": "enus_paragon_ems_vehicul",
     "name": "Enus Paragon EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "gallivanter_baller_ems_autoturism",
+    "id": "gallivanter_baller_ems_vehicul",
     "name": "Gallivanter Baller Ems",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "buffalo_stx_ems_autoturism",
+    "id": "buffalo_stx_ems_vehicul",
     "name": "Buffalo STX EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "brute_smurd_autoturism",
+    "id": "brute_smurd_vehicul",
     "name": "Brute SMURD",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "brute_ambulanta_autoturism",
+    "id": "brute_ambulanta_vehicul",
     "name": "Brute Ambulanta",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "canis_terminus_ems_autoturism",
+    "id": "canis_terminus_ems_vehicul",
     "name": "Canis Terminus EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "nagasaki_bf400_ems_autoturism",
+    "id": "nagasaki_bf400_ems_vehicul",
     "name": "Nagasaki Bf400 EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_rhinehart_ems_autoturism",
+    "id": "ubermacht_rhinehart_ems_vehicul",
     "name": "Ubermacht Rhinehart EMS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "pegassi_sto_autoturism",
+    "id": "pegassi_sto_vehicul",
     "name": "Pegassi STO",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "progen_720_autoturism",
+    "id": "progen_720_vehicul",
     "name": "Progen 720",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "overflod_mera_turbo_autoturism",
+    "id": "overflod_mera_turbo_vehicul",
     "name": "Overflod Mera Turbo",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "grotti_itali_r_autoturism",
+    "id": "grotti_itali_r_vehicul",
     "name": "Grotti Itali R",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "truffade_puro_autoturism",
+    "id": "truffade_puro_vehicul",
     "name": "Truffade Puro",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "obey_avant_rs_autoturism",
+    "id": "obey_avant_rs_vehicul",
     "name": "Obey Avant RS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "obey_rss_autoturism",
+    "id": "obey_rss_vehicul",
     "name": "Obey RSS",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ocelot_vija_autoturism",
+    "id": "ocelot_vija_vehicul",
     "name": "Ocelot Vija",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "benefactor_vision_neon_autoturism",
+    "id": "benefactor_vision_neon_vehicul",
     "name": "Benefactor Vision Neon",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "enus_bakalar_autoturism",
+    "id": "enus_bakalar_vehicul",
     "name": "Enus Bakalar",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_g99_autoturism",
+    "id": "ubermacht_g99_vehicul",
     "name": "Ubermacht G99",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "ubermacht_g70_edrive_autoturism",
+    "id": "ubermacht_g70_edrive_vehicul",
     "name": "Ubermacht G70-eDrive",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "bravado_bison_utility_autoturism",
+    "id": "bravado_bison_utility_vehicul",
     "name": "Bravado Bison Utility",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "canis_griffon_autoturism",
+    "id": "canis_griffon_vehicul",
     "name": "Canis Griffon",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "karin_tunder_autoturism",
+    "id": "karin_tunder_vehicul",
     "name": "Karin Tunder",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "vapid_raptor_autoturism",
+    "id": "vapid_raptor_vehicul",
     "name": "Vapid Raptor",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "maibatsu_mule_autoturism",
+    "id": "maibatsu_mule_vehicul",
     "name": "Maibatsu Mule",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "hvy_sturdy_autoturism",
+    "id": "hvy_sturdy_vehicul",
     "name": "HVY Sturdy",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "mtl_brickade_autoturism",
+    "id": "mtl_brickade_vehicul",
     "name": "MTL Brickade",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "mtl_oldboy_autoturism",
+    "id": "mtl_oldboy_vehicul",
     "name": "MTL OldBoy",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "mtl_bigboy_autoturism",
+    "id": "mtl_bigboy_vehicul",
     "name": "MTL BigBoy",
-    "type": "autoturism"
+    "type": "vehicul"
     },
     {
-    "id": "mtl_haulking_autoturism",
+    "id": "mtl_haulking_vehicul",
     "name": "MTL Haulking",
-    "type": "autoturism"
+    "type": "vehicul"
     }  
   ],
   "limiteViteza": [
