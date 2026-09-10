@@ -3366,7 +3366,7 @@
     {
       "cap": "Cap. 7",
       "numarArticol": "7.2",
-      "titlu": "Posesia unei arme de foc de calibru mic‚",
+      "titlu": "Posesia unei arme de foc de calibru mic",
       "definitie": "Deținerea sau portul al unei arme de foc de calibru mic (Pistol 9mm, Combat Pistol, SNS Pistol, Machine Pistol / TEC-9, Vintage Pistol) sau a muniției aferente (9mm sau calibru .22).\n Arma este considerată în posesie chiar dacă se află asupra persoanei, în interiorul autovehiculului sau într-o proprietate privată ce-i aparține.",
       "amendaMin": 10000,
       "amendaMax": 10000,
