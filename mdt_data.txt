@@ -2503,7 +2503,7 @@
       "dosarPenal": true,
       "arestPeViata": false,
       "descriere1": "cetățeanul {nume} (CNP {cnp}) deținea semințe sau frunze de plante ce conțin substanțe ilegale: {perchezitie_buzunare_continut}.",
-      "descriere2": " În plus, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {perchezitie_torpdo_continut}.",
+      "descriere2": " În plus, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {perchezitie_torpedo_continut}.",
       "descriere3": " Mai mult, deținea semințe sau frunze de plante ce conțin substanțe ilegale: {perchezitie_portbagaj_continut}.",
       "incompatibilitati": [
         "cap.5_5.2_i",
