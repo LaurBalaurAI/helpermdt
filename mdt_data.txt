@@ -771,9 +771,9 @@
       "perchezitie": false,
       "dosarPenal": true,
       "arestPeViata": false,
-      "descriere1": "cetățeanul {nume} (CNP {cnp}) se afla în procesul de sustragere fără drept de proprietate a vehiculului cu numerele de înmatriculare {nr_inmatriculare}.",
-      "descriere2": " În plus, a sustras fără drept de proprietate a vehiculului cu numerele de înmatriculare {nr_inmatriculare}.",
-      "descriere3": " Mai mult, a sustras fără drept de proprietate a vehiculului cu numerele de înmatriculare {nr_inmatriculare}.",
+      "descriere1": "cetățeanul {nume} (CNP {cnp}) se afla în procesul de sustragere fără drept de proprietate a vehiculului {nr_inmatriculare}.",
+      "descriere2": " În plus, a sustras fără drept de proprietate a vehiculului {nr_inmatriculare}.",
+      "descriere3": " Mai mult, a sustras fără drept de proprietate a vehiculului {nr_inmatriculare}.",
       "incompatibilitati": [
         "3.12",
         "3.12.1",
